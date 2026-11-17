@@ -1,7 +1,7 @@
 # Stranger Things NUNCA foi sobre o Mundo Invertido
 
 **Canal:** Luiz Telico · **Formato:** híbrido (🎥 = Luiz na câmera · 🎞️ = narração por cima de cenas/artes)
-**Tamanho:** ~820 palavras · ~5,5 a 6 min falados (a ~145 palavras/min), mais as pausas e cenas
+**Tamanho:** ~1000 palavras · ~7 min falados (a ~145 palavras/min), mais as pausas e cenas
 **Molde:** padrão do kit (o molde próprio do canal sai do estudo dos vídeos de referência)
 
 ---
@@ -87,6 +87,39 @@ O que morre ali é a infância do Will.
 🎥 E é aqui que a série te mostra a regra do jogo:
 o Mundo Invertido tenta levar as crianças à força.
 Mas crescer leva todo mundo… sem pedir licença.
+
+---
+
+## [BLOCO 2B – A carta do Hopper, ~1min30]
+
+🎞️ E não são só as crianças que sentem isso.
+Na mesma temporada, o adulto mais durão da série tenta segurar o tempo.
+
+O Hopper.
+O xerife que adotou a Eleven.
+
+🎥 Durante a temporada inteira, ele briga com o namoro dela com o Mike.
+Fecha porta, inventa regra, ameaça.
+Parece só um pai ciumento.
+
+🎞️ Mas, no final, a gente descobre o que ele sentia de verdade.
+Ele tinha escrito uma carta pra ela.
+E quem lê a carta é a Joyce, quando a Eleven acha que perdeu o Hopper.
+
+🎥 Na carta, ele admite.
+Ele não estava com raiva do Mike.
+Ele estava com medo de ela crescer.
+Medo de que tudo mudasse.
+
+E, mesmo assim, o pedido dele é o contrário do que ele fez a temporada toda:
+que ela não pare de mudar.
+
+🎞️ O Hopper enfrentou russos, monstros e o Devorador de Mentes.
+Mas o único inimigo que ele não conseguia vencer… era o tempo.
+
+🎥 E é por isso que essa carta faz tanta gente chorar.
+Porque todo mundo já foi a Eleven.
+E, um dia, quase todo mundo vai ser o Hopper.
 
 ---
 
@@ -190,5 +223,5 @@ FONTES (fora da fala) – conferido em 17/11/2026
 - Final no porão dos Wheeler com a última campanha de D&D; Mike fecha a porta; "nossa história termina quando ele fecha aquela porta"; Eleven nunca terminaria com o grupo e não quiseram tirar os poderes dela: Netflix Tudum, entrevista dos Duffer sobre o episódio final – https://www.netflix.com/tudum/features/stranger-things-series-finale-duffer-brothers-interview
 - Criadores sabiam a cena final desde a 2ª temporada; série como "carta de amor à infância": Hollywood Reporter – https://www.hollywoodreporter.com/tv/tv-features/stranger-things-series-finale-eleven-fate-duffers-interview-1236462569/ e Emmy Magazine – https://www.televisionacademy.com/features/emmy-magazine/articles/netflix-stranger-things-final-season
 - "Quase dez anos": estreia em julho de 2016 → 2026.
-CONFERIR ANTES DE GRAVAR (memória, não checado em fonte): frase do Mike na briga da T3; destruição do Castelo Byers na chuva (T3); Max e a culpa pela morte do Billy (T4); música salvando a Max (T4).
+CONFERIR ANTES DE GRAVAR (memória, não checado em fonte): carta do Hopper lida pela Joyce no fim da T3 e o pedido para ela não parar de mudar; frase do Mike na briga da T3; destruição do Castelo Byers na chuva (T3); Max e a culpa pela morte do Billy (T4); música salvando a Max (T4).
 -->
