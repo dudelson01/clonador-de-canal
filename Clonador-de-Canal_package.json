@@ -1,0 +1,10 @@
+{
+  "name": "clonador-de-canal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kit para o Claude Code clonar a fórmula de um canal e editar vídeos sozinho",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
