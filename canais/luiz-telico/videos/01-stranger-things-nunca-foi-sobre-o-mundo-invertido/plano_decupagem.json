@@ -1,0 +1,60 @@
+{
+ "tomadas": {"1": "bruto/gravacao1.mp4", "2": "bruto/gravacao2.mp4"},
+ "transcricoes": {"1": "build/gravacao1.json", "2": "build/gravacao2.json"},
+ "trechos": [
+  {"t": "1", "de": "durante quase", "ate": "nao era", "perto": 5.5, "bloco": "gancho"},
+  {"t": "1", "de": "o demogorgon o devorador", "ate": "vilao da serie", "perto": 17.9, "bloco": "gancho"},
+  {"t": "1", "de": "o verdadeiro vilao", "ate": "pegou voce tambem", "perto": 25.2, "bloco": "gancho"},
+  {"t": "1", "de": "e a prova", "ate": "segunda temporada", "perto": 39.8, "bloco": "gancho"},
+  {"t": "2", "de": "mas pra entender", "ate": "dos wheeler", "perto": 66.1, "bloco": "gancho"},
+
+  {"t": "1", "de": "repara como", "ate": "monstro do jogo", "perto": 59.1, "bloco": "1-porao"},
+  {"t": "1", "de": "pensa nisso", "ate": "atraves da brincadeira", "perto": 89.6, "bloco": "1-porao"},
+  {"t": "1", "de": "pra elas o monstro", "ate": "ainda sao criancas", "perto": 103.6, "bloco": "1-porao"},
+  {"t": "1", "de": "e a primeira vitima", "ate": "depois do jogo", "perto": 108.5, "bloco": "1-porao"},
+  {"t": "1", "de": "o mundo invertido leva", "ate": "pronto para crescer", "perto": 122.5, "bloco": "1-porao"},
+
+  {"t": "1", "de": "ate aqui parece", "ate": "nenhum monstro", "perto": 153.7, "bloco": "ponte"},
+
+  {"t": "1", "de": "terceira temporada", "ate": "gosta de garotas", "perto": 166.7, "bloco": "2-castelo"},
+  {"t": "2", "de": "caramba eu ficaria", "ate": "se fosse eu mano", "perto": 187.6, "bloco": "2-castelo", "obs": "comentario do Luiz"},
+  {"t": "1", "de": "olha o que will", "ate": "na chuva sozinho", "perto": 191.7, "bloco": "2-castelo"},
+  {"t": "1", "de": "essa e a cena mais triste", "ate": "pedir licenca", "perto": 203.9, "bloco": "2-castelo"},
+  {"t": "2", "de": "olha eu que tenho 18", "ate": "pisquei 18", "perto": 258.3, "bloco": "2-castelo", "obs": "comentario do Luiz"},
+
+  {"t": "1", "de": "e nao so as criancas", "ate": "segurar o tempo", "perto": 232.6, "bloco": "2b-hopper"},
+  {"t": "1", "de": "o hopper o xerife", "ate": "adotou a eleven", "perto": 240.2, "bloco": "2b-hopper"},
+  {"t": "1", "de": "durante a temporada inteira", "ate": "pai ciumento", "perto": 246.4, "bloco": "2b-hopper"},
+  {"t": "1", "de": "mas no final a gente", "ate": "uma carta pra ela", "perto": 268.0, "bloco": "2b-hopper", "obs": "corta 'quem le a carta e a Joyce' (errado: quem le e a Eleven)"},
+  {"t": "2", "de": "nossa essa carta", "ate": "lendo essa carta", "perto": 307.5, "bloco": "2b-hopper", "obs": "comentario do Luiz"},
+  {"t": "1", "de": "na carta ele admite", "ate": "que tudo mudasse", "perto": 300.1, "bloco": "2b-hopper"},
+  {"t": "1", "de": "e mesmo assim", "ate": "pare de mudar", "perto": 328.8, "bloco": "2b-hopper"},
+  {"t": "1", "de": "o hopper enfrentou", "ate": "era o tempo", "perto": 337.3, "bloco": "2b-hopper"},
+  {"t": "1", "de": "e rapaz", "ate": "inimigo invencivel", "perto": 348.6, "bloco": "2b-hopper", "obs": "comentario do Luiz"},
+  {"t": "1", "de": "e e por isso que essa carta", "ate": "ser o hopper", "perto": 352.7, "bloco": "2b-hopper"},
+
+  {"t": "1", "de": "se voce tambem cresceu", "ate": "querem dizer", "perto": 380.7, "bloco": "cta"},
+
+  {"t": "2", "de": "e ai chega a quarta", "ate": "ficou fake so", "perto": 403.0, "bloco": "3-vecna", "obs": "comentario do Luiz"},
+  {"t": "1", "de": "o vecna nao ataca", "ate": "estar sozinho", "perto": 415.9, "bloco": "3-vecna"},
+  {"t": "1", "de": "pensa em quem ele escolhe", "ate": "a gente cresce", "perto": 436.8, "bloco": "3-vecna"},
+  {"t": "1", "de": "e como a max", "ate": "chamando por ela", "perto": 448.1, "bloco": "3-vecna"},
+  {"t": "2", "de": "nossa essa cena", "ate": "numa cena boa", "perto": 447.5, "bloco": "3-vecna", "obs": "comentario do Luiz"},
+  {"t": "1", "de": "na primeira temporada o que salvava", "ate": "enfrentar sozinho", "perto": 467.0, "bloco": "3-vecna"},
+  {"t": "1", "de": "a serie cresceu", "ate": "de um adolescente", "perto": 476.1, "bloco": "3-vecna"},
+
+  {"t": "1", "de": "e isso explica", "ate": "vamos com calma", "perto": 486.0, "bloco": "ponte", "obs": "inclui 'que despedida ruim' (opiniao do Luiz)"},
+
+  {"t": "2", "de": "agora volta", "ate": "segunda temporada", "perto": 504.8, "bloco": "4-porta"},
+  {"t": "2", "de": "onde termina", "ate": "e o ultimo", "perto": 513.5, "bloco": "4-porta"},
+  {"t": "2", "de": "e a ultima imagem", "ate": "fecha a porta", "perto": 549.1, "bloco": "4-porta"},
+  {"t": "1", "de": "e isso que o mundo invertido", "ate": "sempre acaba", "perto": 595.0, "bloco": "4-porta"},
+
+  {"t": "1", "de": "e a eleven", "ate": "poderes dela", "perto": 614.7, "bloco": "5-eleven"},
+  {"t": "1", "de": "porque a eleven e a parte", "ate": "no porao", "perto": 627.9, "bloco": "5-eleven"},
+
+  {"t": "2", "de": "entao nao", "ate": "era a ultima", "perto": 681.3, "bloco": "final"},
+  {"t": "2", "ini": 659.62, "fim": 668.55, "exato": true, "bloco": "final", "obs": "Um futebol na rua? ... A gente nunca sabe qual foi a última vez. (corta a gagueira do 1o 'um futebol')"},
+  {"t": "2", "de": "me conta nos comentarios", "ate": "fui e tchau", "perto": 699.9, "bloco": "final"}
+ ]
+}

@@ -104,7 +104,7 @@ Parece só um pai ciumento.
 
 🎞️ Mas, no final, a gente descobre o que ele sentia de verdade.
 Ele tinha escrito uma carta pra ela.
-E quem lê a carta é a Joyce, quando a Eleven acha que perdeu o Hopper.
+A Joyce entrega a carta pra Eleven, depois que ela acha que perdeu o Hopper. E quem lê é ela.
 
 🎥 Na carta, ele admite.
 Ele não estava com raiva do Mike.
@@ -223,5 +223,6 @@ FONTES (fora da fala) – conferido em 17/11/2026
 - Final no porão dos Wheeler com a última campanha de D&D; Mike fecha a porta; "nossa história termina quando ele fecha aquela porta"; Eleven nunca terminaria com o grupo e não quiseram tirar os poderes dela: Netflix Tudum, entrevista dos Duffer sobre o episódio final – https://www.netflix.com/tudum/features/stranger-things-series-finale-duffer-brothers-interview
 - Criadores sabiam a cena final desde a 2ª temporada; série como "carta de amor à infância": Hollywood Reporter – https://www.hollywoodreporter.com/tv/tv-features/stranger-things-series-finale-eleven-fate-duffers-interview-1236462569/ e Emmy Magazine – https://www.televisionacademy.com/features/emmy-magazine/articles/netflix-stranger-things-final-season
 - "Quase dez anos": estreia em julho de 2016 → 2026.
-CONFERIR ANTES DE GRAVAR (memória, não checado em fonte): carta do Hopper lida pela Joyce no fim da T3 e o pedido para ela não parar de mudar; frase do Mike na briga da T3; destruição do Castelo Byers na chuva (T3); Max e a culpa pela morte do Billy (T4); música salvando a Max (T4).
+- Carta do Hopper: Joyce acha no bolso do uniforme e entrega à Eleven, que lê (TV Guide, The Ringer, Stranger Things Wiki). Corrigido em 18/11/2026 (antes dizia que a Joyce lia).
+CONFERIR ANTES DE GRAVAR (memória, não checado em fonte): frase do Mike na briga da T3; destruição do Castelo Byers na chuva (T3); Max e a culpa pela morte do Billy (T4); música salvando a Max (T4).
 -->
