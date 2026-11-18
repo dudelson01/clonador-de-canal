@@ -32,6 +32,73 @@ def acha(palavras, frase, perto, depois_de=None, janela=40):
     if not cands: return None
     return sorted(cands)[0][1:]
 
+# --- corte fino pela energia do audio (o tempo das palavras do Whisper erra ~0,1-0,3 s) ---
+QUADRO = 0.010          # 10 ms
+SIL_MIN = 0.15          # silencio interno maior que isso e cortado
+FOLGA_ANTES = 0.035     # antes da voz comecar (ataque de consoante)
+FOLGA_DEPOIS = 0.060    # depois da voz acabar (fim de "s", "r", respiro curto)
+BUSCA = 0.35            # quanto o corte pode andar para fora do trecho pedido, procurando o fim real da voz
+
+def envelope(arq):
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", arq, "-map", "0:a:0", "-ac", "1", "-ar", "16000",
+                          "-af", "highpass=f=80", "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    a = np.frombuffer(raw, np.float32); n = int(16000 * QUADRO)
+    a = a[: len(a) // n * n].reshape(-1, n)
+    db = 20 * np.log10(np.sqrt((a ** 2).mean(1)) + 1e-9)
+    piso = np.percentile(db, 10); voz = np.percentile(db, 70)
+    lim = max(piso + 9, voz - 28)
+    return db, lim
+
+def apertar(pedacos, tomadas):
+    import numpy as np
+    env = {k: envelope(v) for k, v in tomadas.items()}
+    novos = []
+    for p in pedacos:
+        if p.get("e") is None: continue
+        db, lim = env[p["t"]]
+        i0 = max(0, int((p["s"] - BUSCA) / QUADRO)); i1 = min(len(db), int((p["e"] + BUSCA) / QUADRO))
+        a, b = int(p["s"] / QUADRO), int(p["e"] / QUADRO)
+        fala = db[i0:i1] > lim
+        # suaviza: preenche buracos < 40 ms (oclusivas) e ignora estalos < 30 ms
+        f = fala.copy()
+        for k in range(len(f)):
+            if not f[k] and k > 0 and f[k - 1]:
+                j = k
+                while j < len(f) and not f[j] and j - k < 4: j += 1
+                if j < len(f) and f[j] and j - k < 4: f[k:j] = True
+        trechos, ini = [], None
+        for k, v in enumerate(list(f) + [False]):
+            if v and ini is None: ini = k
+            if not v and ini is not None:
+                if k - ini >= 3: trechos.append([ini + i0, k + i0])
+                ini = None
+        # so os blocos de voz que tocam a janela pedida [a, b]
+        trechos = [t for t in trechos if t[1] > a and t[0] < b]
+        if not trechos:
+            novos.append(p); continue
+        # so estende para fora do pedido se a voz termina/comeca logo ali (ate 0,15 s);
+        # se a voz continua (emenda na palavra seguinte/anterior que NAO queremos), corta no limite pedido
+        ext = int(0.15 / QUADRO)
+        if trechos[0][0] < a - ext: trechos[0][0] = a
+        if trechos[-1][1] > b + ext: trechos[-1][1] = b
+        # junta blocos com silencio <= SIL_MIN
+        junt = [trechos[0]]
+        for t in trechos[1:]:
+            if (t[0] - junt[-1][1]) * QUADRO <= SIL_MIN: junt[-1][1] = t[1]
+            else: junt.append(t)
+        for t in junt:
+            q = dict(p)
+            q["s"] = round(max(0, t[0] * QUADRO - FOLGA_ANTES), 3)
+            q["e"] = round(t[1] * QUADRO + FOLGA_DEPOIS, 3)
+            if q is not p and t is not junt[-1]: q.pop("texto", None)
+            novos.append(q)
+    # evita sobreposicao dentro da mesma tomada
+    for x, y in zip(novos, novos[1:]):
+        if x["t"] == y["t"] and y["s"] < x["e"] and y["s"] > x["s"]:
+            meio = round((x["e"] + y["s"]) / 2, 3); x["e"] = meio; y["s"] = meio
+    return novos
+
 def main():
     plano = json.load(open(sys.argv[1])); out = sys.argv[2]; preview = "--preview" in sys.argv
     os.makedirs(out, exist_ok=True)
@@ -67,6 +134,7 @@ def main():
                         "texto": " ".join(w["w"] for w in ws)})
     if erros:
         print("\n".join(erros)); sys.exit(1)
+    pedacos = apertar(pedacos, plano["tomadas"])
     # tempos no video final
     t = 0.0
     for p in pedacos:
