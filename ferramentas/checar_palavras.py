@@ -12,6 +12,8 @@ sys.argv = sys.argv_bak
 plano = json.load(open(sys.argv[1])); D = json.load(open(os.path.join(sys.argv[2], "decupagem.json")))
 trans = {k: json.load(open(v))["palavras"] for k, v in plano["transcricoes"].items()}
 E = {k: dec["envelopes"](v) for k, v in plano["tomadas"].items()}
+# usa o grave BRUTO (sem filtro de tom): pega tambem voz soprada/rouca perdida
+E = {k: (e[0], dec["BRUTO"][plano["tomadas"][k]], e[2], e[3]) for k, e in E.items()}
 Q = dec["QUADRO"]; ruins = 0
 for n in sorted(set(p["n"] for p in D)):
     ps = [p for p in D if p["n"] == n]; t = ps[0]["t"]; tot, low, lt, ll = E[t]

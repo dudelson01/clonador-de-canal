@@ -202,7 +202,7 @@ AJ.update({
     106.00: [v(105.00, 106.30, "t1", 36.9, 1.10, 1.16), v(106.30, 107.40, "t2", 78.2, 1.12, 1.18, [])],
     108.05: [r(107.40, 110.80)],
     137.80: [v(137.60, 139.80, "t1", 46.3)],
-    139.80: [v(139.80, 141.00, "t2", 116.2)],
+    139.80: [v(139.80, 141.00, "t2", 115.75)],
     162.15: [v(162.15, 163.60, "t2", 97.0), r(163.60, 165.20)],
     165.20: [v(165.20, 166.30, "t1", 116.3), r(166.30, 168.55)],
     172.85: [v(172.85, 173.90, "t3", 28.2), r(173.90, 174.50)],
@@ -239,6 +239,10 @@ AJ.update({   # pedido do aluno: em 3:45 era a Nancy, nao a Max. Max = t3 4,3-8,
     219.42: [r(219.42, 223.80)],
     223.80: [v(223.80, 225.10, "t3", 7.55, 1.10, 1.14), v(225.10, 227.40, "t3", 4.6, 1.10, 1.16, [])],
     226.00: [r(227.40, 228.85)],
+})
+AJ.update({   # planos exatos (cortes reais filtrados): Mike t1 73,7-74,6 / casa t1 ~72,9-73,7
+    289.20: [v(289.20, 290.05, "t1", 73.75, 1.10, 1.13), v(290.05, 290.75, "t1", 72.95, 1.08, 1.10, []), r(290.75, 291.65)],
+    296.30: [v(296.30, 297.00, "t1", 72.95, 1.08, 1.10), r(297.00, 299.05)],
 })
 novo = []
 for c in resto:
@@ -306,7 +310,7 @@ artes += [
     arte("spoiler2", 275.70, 2.2, "carimbo", texto="SPOILER", x=1480, y=230),
     arte("ultima", 280.00, 3.8, "chave", texto="a <b>última</b> campanha"),
     arte("ultimo", 286.90, 2.2, "chave", texto="agora eles sabem que é o <b>último</b>"),
-    arte("porta", 289.30, 1.25, "etiqueta", texto="Mike", x=1250, y=230, sx=1300, sy=330, ax=1020, ay=470, sfx="pop"),
+    arte("porta", 289.25, 0.75, "etiqueta", texto="Mike", x=1250, y=230, sx=1300, sy=330, ax=1020, ay=470, sfx="pop"),
     arte("fase", 301.45, 1.8, "chave", texto="não foi um lugar, foi uma <b>fase</b>"),
     arte("sempre", 309.50, 2.1, "chave", texto="o pra sempre <b>sempre acaba</b>"),
     arte("poderes", 317.60, 2.0, "chave", texto="eles não quiseram tirar os <b>poderes</b> dela"),
@@ -357,6 +361,9 @@ for a in artes:
         avisos.append(f"{a['id']}: etiqueta fora de cena de video"); continue
     if c["ini"] > a["ini"] - 0.02: a["ini"] = round(c["ini"] + 0.03, 3)
     tt = c["t"] + (a["ini"] - c["ini"])
+    perto = [x for x in CORTES.get(c["src"], []) if tt - 0.02 < x <= tt + 0.25]
+    if perto:   # o personagem so entra depois desse corte: a etiqueta espera
+        a["ini"] = round(c["ini"] + (perto[-1] - c["t"]) + 0.03, 3); tt = c["t"] + (a["ini"] - c["ini"])
     prox = [x for x in CORTES.get(c["src"], []) if x > tt + 0.02]
     fim_plano = c["ini"] + (prox[0] - c["t"]) if prox else c["fim"]
     limite = min(fim_plano, c["fim"]) - 0.04

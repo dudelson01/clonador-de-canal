@@ -37,6 +37,8 @@ def acha(palavras, frase, perto, depois_de=None, janela=40):
 # (ruido sem vibracao). Mantem consoantes surdas (s, f, ch, t) so encostadas na voz, ate CONSOANTE s.
 QUADRO = 0.010          # 10 ms
 SIL_MIN = 0.08          # buraco sem voz maior que isso, dentro da fala, e cortado
+BRUTO = {}
+PALAVRA_MAX = 0.55      # dentro de uma palavra (ate 0,55 s do inicio dela) nada e cortado, mesmo voz soprada
 PER_MIN = 0.38          # periodicidade minima para contar como voz (respiracao fica abaixo)
 CONSOANTE = 0.10        # quanto de som sem vibracao pode ficar grudado antes/depois da voz ("s" final, "f" inicial)
 FOLGA = 0.025           # respiro minimo de cada lado do corte
@@ -63,6 +65,7 @@ def envelopes(arq):
     import sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from vozeamento import periodicidade
     per = periodicidade(arq); per = np.concatenate([per, np.zeros(max(0, m - len(per)))])[:m]
+    BRUTO[arq] = low.copy()          # grave sem o filtro de tom (usado dentro das palavras)
     low = np.where(per >= PER_MIN, low, -200.0)
     return tot, low, lim_tot, lim_low
 
@@ -75,7 +78,7 @@ def blocos(mask, min_len=1):
             ini = None
     return out
 
-def apertar(pedacos, tomadas):
+def apertar(pedacos, tomadas, trans=None):
     import numpy as np
     E = {k: envelopes(v) for k, v in tomadas.items()}
     novos = []
@@ -84,7 +87,14 @@ def apertar(pedacos, tomadas):
         tot, low, lt, ll = E[p["t"]]
         a, b = int(p["s"] / QUADRO), int(p["e"] / QUADRO)
         i0 = max(0, a - int(BUSCA / QUADRO)); i1 = min(len(tot), b + int(BUSCA / QUADRO))
-        voz = low[i0:i1] > ll          # vibracao de voz
+        voz = low[i0:i1] > ll          # vibracao de voz (com tom regular)
+        if trans:                      # protege as palavras: voz soprada/rouca dentro de palavra fica
+            bruto = BRUTO[tomadas[p["t"]]]
+            for w in trans[p["t"]]:
+                if w["e"] < i0 * QUADRO or w["s"] > i1 * QUADRO: continue
+                k0 = max(i0, int(w["s"] / QUADRO)); k1 = min(i1, int(min(w["e"], w["s"] + PALAVRA_MAX) / QUADRO) + 1)
+                for k in range(k0, k1):
+                    if bruto[k] > ll: voz[k - i0] = True
         som = tot[i0:i1] > lt          # qualquer som (voz, consoante, respiracao)
         vb = [[x + i0, y + i0] for x, y in blocos(voz, 2)]          # >= 20 ms de voz
         vb = [t for t in vb if t[1] > a and t[0] < b]
@@ -163,7 +173,7 @@ def main():
                         "texto": " ".join(w["w"] for w in ws)})
     if erros:
         print("\n".join(erros)); sys.exit(1)
-    pedacos = apertar(pedacos, plano["tomadas"])
+    pedacos = apertar(pedacos, plano["tomadas"], trans)
     # encaixa cada corte na borda de um quadro (1/30 s): imagem e som com a MESMA duracao, sem atraso acumulado
     FPS = 30
     for p in pedacos:
