@@ -1,5 +1,6 @@
 {
  "tomadas": {"1": "bruto/gravacao1.mp4", "2": "bruto/gravacao2.mp4"},
+ "render": {"1": "build/cfr1.mov", "2": "build/cfr2.mov"},
  "transcricoes": {"1": "build/gravacao1.json", "2": "build/gravacao2.json"},
  "trechos": [
   {"t": "1", "de": "durante quase", "ate": "nao era", "perto": 5.5, "bloco": "gancho"},

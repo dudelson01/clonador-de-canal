@@ -158,6 +158,15 @@ def main():
     if erros:
         print("\n".join(erros)); sys.exit(1)
     pedacos = apertar(pedacos, plano["tomadas"])
+    # encaixa cada corte na borda de um quadro (1/30 s): imagem e som com a MESMA duracao, sem atraso acumulado
+    FPS = 30
+    for p in pedacos:
+        p["s"] = round(int(p["s"] * FPS + 1e-6) / FPS, 4)
+        p["e"] = round(-(-p["e"] * FPS // 1) / FPS, 4)
+    pedacos = [p for p in pedacos if p["e"] - p["s"] >= 1 / FPS]
+    for x, y in zip(pedacos, pedacos[1:]):   # sem repetir quadro entre pedacos vizinhos da mesma tomada
+        if x["t"] == y["t"] and y["s"] < x["e"]: y["s"] = x["e"]
+    pedacos = [p for p in pedacos if p["e"] - p["s"] >= 1 / FPS]
     # tempos no video final
     t = 0.0
     for p in pedacos:
@@ -175,9 +184,12 @@ def main():
     lista = []
     for i, p in enumerate(pedacos):
         arq = os.path.join(pasta, f"{i:04d}.mp4"); d = p["e"] - p["s"]
-        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", f"{p['s']:.3f}", "-i", plano["tomadas"][p["t"]],
-                        "-t", f"{d:.3f}", "-vf", f"{escala}fps=30,format=yuv420p",
-                        "-af", f"aresample=48000,afade=t=in:d=0.012,afade=t=out:st={max(0, d - 0.015):.3f}:d=0.015",
+        # corta da copia em 30 quadros fixos e so-quadros-chave (render), entao o -ss e exato no quadro
+        fonte = plano.get("render", plano["tomadas"])[p["t"]]
+        nq = round(d * FPS)
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", f"{p['s']:.4f}", "-i", fonte,
+                        "-t", f"{nq / FPS + 0.1:.4f}", "-vf", f"trim=end_frame={nq},setpts=PTS-STARTPTS,{escala}format=yuv420p",
+                        "-af", f"asetpts=PTS-STARTPTS,aresample=48000,apad=whole_dur={nq / FPS:.4f},atrim=end={nq / FPS:.4f},afade=t=in:d=0.012,afade=t=out:st={max(0, nq / FPS - 0.015):.4f}:d=0.015",
                         "-c:v", "libx264", "-preset", "ultrafast" if preview else "fast", "-crf", "20",
                         "-c:a", "pcm_s16le", "-ac", "1", "-ar", "48000", arq.replace(".mp4", ".mov")], check=True)
         lista.append(f"file '{os.path.abspath(arq.replace('.mp4', '.mov'))}'")
