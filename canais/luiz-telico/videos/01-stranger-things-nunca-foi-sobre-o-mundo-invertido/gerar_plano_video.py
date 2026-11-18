@@ -229,6 +229,12 @@ AJ.update({   # 2a conferencia: trechos pretos encontrados com blackdetect no vi
     317.50: [v(317.50, 318.70, "t1", 117.1), v(318.70, 319.25, "t1", 122.05, 1.12, 1.15)],
     319.70: [r(319.25, 323.25)],
 })
+AJ.update({   # 3a conferencia: planos curtos do trailer (Will 5,5-6,0 / mapa 96,0-96,5 / Eleven 92,0-92,6)
+    58.92: [v(58.92, 59.50, "t1", 5.45)],
+    61.00: [r(59.50, 64.18)],
+    84.34: [v(84.34, 84.85, "t2", 95.95), r(84.85, 86.90)],
+    189.30: [v(189.30, 189.90, "t1", 92.0), r(189.90, 192.20)],
+})
 novo = []
 for c in resto:
     k = round(c["ini"], 2)
@@ -259,10 +265,10 @@ artes += [
     arte("sem_nome", 42.60, 2.6, "chave", texto="o primeiro monstro <b>não tem nome</b>"),
     arte("demo_jogo", 46.80, 2.3, "chave", texto="Demogorgon: um monstro do <b>jogo</b>"),
     arte("criancas", 56.20, 2.6, "chave", texto="porque elas ainda são <b>crianças</b>"),
-    arte("will", 59.10, 1.25, "etiqueta", texto="Will", x=1250, y=260, sx=1300, sy=370, ax=1010, ay=480, sfx="pop"),
+    arte("will", 58.97, 0.53, "etiqueta", texto="Will", x=1250, y=260, sx=1300, sy=370, ax=1010, ay=480, sfx="pop"),
     arte("desaparecido", 64.70, 1.8, "carimbo", texto="DESAPARECIDO", x=1250, y=260),
     arte("t3", 74.10, 1.6, "canto", texto="Temporada 3", sfx="pop"),
-    arte("mapa", 84.80, 1.9, "etiqueta", texto="o mapa da campanha", x=1000, y=760, sx=1080, sy=740, ax=900, ay=480, rot=2, sfx="pop"),
+    arte("mapa", 84.38, 0.47, "etiqueta", texto="o mapa da campanha", x=1000, y=760, sx=1080, sy=740, ax=900, ay=480, rot=2, sfx="pop"),
     arte("frase_dor", 93.30, 2.6, "chave", texto="a frase que dói mais que <b>qualquer monstro</b>"),
     arte("castelo", 103.90, 1.05, "etiqueta", texto="Castelo Byers", x=1150, y=220, sx=1230, sy=330, ax=980, ay=500, sfx="pop"),
     arte("infancia", 115.20, 2.2, "chave", texto="o que morre ali é a <b>infância</b>"),
