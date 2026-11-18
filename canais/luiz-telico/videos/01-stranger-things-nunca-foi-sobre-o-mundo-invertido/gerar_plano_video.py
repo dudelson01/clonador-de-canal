@@ -237,7 +237,7 @@ AJ.update({   # 3a conferencia: planos curtos do trailer (Will 5,5-6,0 / mapa 96
 })
 AJ.update({   # pedido do aluno: em 3:45 era a Nancy, nao a Max. Max = t3 4,3-8,4 (mundo do Vecna)
     219.42: [r(219.42, 223.80)],
-    223.80: [v(223.80, 225.10, "t3", 7.55, 1.10, 1.14), v(225.10, 227.40, "t3", 5.1, 1.10, 1.16, [])],
+    223.80: [v(223.80, 225.10, "t3", 7.55, 1.10, 1.14), v(225.10, 227.40, "t3", 5.55, 1.10, 1.16, [])],
     226.00: [r(227.40, 228.85)],
 })
 AJ.update({   # planos exatos (cortes reais filtrados): Mike t1 73,7-74,6 / casa t1 ~72,9-73,7
@@ -245,7 +245,7 @@ AJ.update({   # planos exatos (cortes reais filtrados): Mike t1 73,7-74,6 / casa
     296.30: [v(296.30, 297.00, "t1", 72.95, 1.08, 1.10), r(297.00, 299.05)],
 })
 AJ.update({   # trechos escuros: ceu antes do raio (Devorador) e comeco do plano aberto da Max
-    225.10: [v(225.10, 227.40, "t3", 5.1, 1.10, 1.16, [])],
+    225.10: [v(225.10, 227.40, "t3", 5.55, 1.10, 1.16, [])],
 })
 novo = []
 for c in resto:

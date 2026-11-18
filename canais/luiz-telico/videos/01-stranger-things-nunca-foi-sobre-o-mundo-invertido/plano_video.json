@@ -88,7 +88,7 @@
    "fim": 7.0667,
    "tipo": "video",
    "src": "t2",
-   "t": 43.05,
+   "t": 43.2,
    "zoom": [
     1.12,
     1.18
@@ -1346,7 +1346,7 @@
    "fim": 224.2,
    "tipo": "video",
    "src": "t3",
-   "t": 5.1,
+   "t": 5.55,
    "zoom": [
     1.1,
     1.16
@@ -2153,7 +2153,7 @@
   {
    "id": "devorador",
    "ini": 6.06,
-   "dur": 0.811,
+   "dur": 0.661,
    "tipo": "etiqueta",
    "texto": "Devorador de Mentes",
    "x": 980,
