@@ -265,7 +265,7 @@ artes += [
     arte("sem_nome", 42.60, 2.6, "chave", texto="o primeiro monstro <b>não tem nome</b>"),
     arte("demo_jogo", 46.80, 2.3, "chave", texto="Demogorgon: um monstro do <b>jogo</b>"),
     arte("criancas", 56.20, 2.6, "chave", texto="porque elas ainda são <b>crianças</b>"),
-    arte("will", 58.97, 0.53, "etiqueta", texto="Will", x=1250, y=260, sx=1300, sy=370, ax=1010, ay=480, sfx="pop"),
+    arte("will", 58.97, 0.53, "etiqueta", texto="Will", x=820, y=200, sx=830, sy=310, ax=560, ay=420, sfx="pop"),
     arte("desaparecido", 64.70, 1.8, "carimbo", texto="DESAPARECIDO", x=1250, y=260),
     arte("t3", 74.10, 1.6, "canto", texto="Temporada 3", sfx="pop"),
     arte("mapa", 84.38, 0.47, "etiqueta", texto="o mapa da campanha", x=1000, y=760, sx=1080, sy=740, ax=900, ay=480, rot=2, sfx="pop"),

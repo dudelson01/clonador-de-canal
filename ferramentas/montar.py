@@ -111,7 +111,7 @@ def main():
                 "-map", "[aout]", "-f", "null", "-"])
     m = json.loads(re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", medir.stderr).group(0))
     ln = (f"loudnorm=I=-14:TP=-2.0:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:"
-          f"measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true,aresample=48000")
+          f"measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true,aresample=48000,alimiter=limit=0.70:level=disabled:attack=2:release=60")
     vmap = ult if artes else "[0:v]"
     sh(["ffmpeg", "-loglevel", "error", "-y", *ent, "-filter_complex", ";".join(fv + [graf]) + f";[pre]{ln}[aout]",
         "-map", vmap, "-map", "[aout]", "-t", f"{i1 - i0:.4f}", "-r", str(FPS),
