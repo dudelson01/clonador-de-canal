@@ -34,7 +34,8 @@ A voz do próprio Luiz, gravada em vídeo. Etapa E = decupar o VÍDEO gravado (c
 Ferramentas: ferramentas/decupar.py, montar.py, artes/, som.py, checar_palavras.py, checar_respiracao.py.
 
 ## Títulos e thumbs (padrões)
-Ver `referencia/titulos.md`. Resumo: obra famosa no começo; contradiz o que o público acha ("não é sobre", "te ENGANOU", "FURO"); uma palavra em CAIXA ALTA no máximo; fala com "você"; 4 a 9 palavras.
+Thumbs SEM o rosto do Luiz (decisão de 18/11/2026): ver `referencia/thumbs.md`.
+Títulos: ver `referencia/titulos.md`. Resumo: obra famosa no começo; contradiz o que o público acha ("não é sobre", "te ENGANOU", "FURO"); uma palavra em CAIXA ALTA no máximo; fala com "você"; 4 a 9 palavras.
 
 ## O que vamos fazer MELHOR que a referência
 - Rosto e opinião de fã (as referências que mais crescem são dark ou quase dark).
@@ -54,3 +55,4 @@ Ver `referencia/titulos.md`. Resumo: obra famosa no começo; contradiz o que o p
 - 2026-11-18: Vídeo final: nenhum trecho preto, nenhuma respiração/estalo de boca/rosto parado (repetido pelo aluno como "muito importante"). Conferir com blackdetect + checar_respiracao.py antes de entregar.
 - 2026-11-18: Imagens de trailer: conferir o 1º e o último quadro de cada cena (trailer tem transição preta e troca de plano rápida).
 - 2026-11-18 (correções do aluno no vídeo 01): (1) zoom no rosto SEGUE o rosto (ferramentas/achar_rosto.py) e deixa o boné inteiro com folga em cima — nunca rosto baixo/cortado; (2) etiqueta com seta só dentro do plano do personagem: usar os cortes reais do trailer (filtrar raio/luz piscando) e conferir com ferramentas/conferir_setas.py; (3) zero respiração: voz = grave + tom regular (ferramentas/vozeamento.py), mas nunca cortar dentro de palavra transcrita (voz soprada do "Mike"); (4) conferir a IDENTIDADE do personagem antes de usar o plano (a "Max" de 3:45 era a Nancy).
+- 2026-11-18: Thumbs SEM o rosto do Luiz por enquanto (início do canal). Padrão: personagem da obra em close + 2-4 palavras minúsculas brancas que contradizem + 1 destaque (sublinhado vermelho ou seta à mão). Ref.: Brett's Thoughts e SB Cinema (referencia/thumbs.md).
