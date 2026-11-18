@@ -235,6 +235,11 @@ AJ.update({   # 3a conferencia: planos curtos do trailer (Will 5,5-6,0 / mapa 96
     84.34: [v(84.34, 84.85, "t2", 95.95), r(84.85, 86.90)],
     189.30: [v(189.30, 189.90, "t1", 92.0), r(189.90, 192.20)],
 })
+AJ.update({   # pedido do aluno: em 3:45 era a Nancy, nao a Max. Max = t3 4,3-8,4 (mundo do Vecna)
+    219.42: [r(219.42, 223.80)],
+    223.80: [v(223.80, 225.10, "t3", 7.55, 1.10, 1.14), v(225.10, 227.40, "t3", 4.6, 1.10, 1.16, [])],
+    226.00: [r(227.40, 228.85)],
+})
 novo = []
 for c in resto:
     k = round(c["ini"], 2)
@@ -257,6 +262,7 @@ cenas = cenas + resto
 # sanidade: sem buraco nem sobreposicao
 for x, y in zip(cenas, cenas[1:]):
     assert abs(x["fim"] - y["ini"]) < 1e-6, (x, y)
+
 
 arte = lambda i, a, d, tipo, **k: dict(id=i, ini=a, dur=d, tipo=tipo, **k)
 artes += [
@@ -288,7 +294,7 @@ artes += [
     arte("t4", 206.00, 1.6, "canto", texto="Temporada 4", sfx="pop"),
     arte("feio", 213.95, 1.6, "etiqueta", texto="o \"bonito\"", x=1250, y=230, sx=1300, sy=330, ax=1000, ay=440, sfx="pop"),
     arte("culpa", 219.80, 3.9, "chave", texto="com <b>culpa</b>, com <b>trauma</b> e <b>sozinho</b>"),
-    arte("max", 223.90, 1.9, "etiqueta", texto="Max", x=1250, y=240, sx=1290, sy=340, ax=1000, ay=480, sfx="pop"),
+    arte("max", 223.85, 1.2, "etiqueta", texto="Max", x=1250, y=160, sx=1290, sy=270, ax=1065, ay=390, sfx="pop"),
     arte("cresce", 229.40, 3.8, "chave", texto="o monstro que aparece <b>quando a gente cresce</b>"),
     arte("t1b", 242.70, 1.4, "canto", texto="Temporada 1", sfx="pop"),
     arte("t4b", 245.55, 1.4, "canto", texto="Temporada 4", sfx="pop"),
@@ -311,7 +317,55 @@ artes += [
     arte("comenta", 350.30, 3.3, "chave", texto="qual foi o seu <b>último jogo</b>? comenta aí"),
     arte("inscrever2", 357.20, 2.8, "inscrever"),
 ]
-plano = dict(A, cenas=cenas, artes=artes, fim=362.04)
+# ---- remapeia os tempos (o plano foi escrito sobre a decupagem v3; a v4 tirou respiracoes) ----
+import os
+def carregar_mapa():
+    if not os.path.exists("build/decupagem_v3.json"): return None
+    velho = json.load(open("build/decupagem_v3.json")); novo_ = json.load(open("build/decupagem/decupagem.json"))
+    if [round(p["dst_e"], 3) for p in velho] == [round(p["dst_e"], 3) for p in novo_]: return None
+    def mapa(t):
+        p = next((p for p in velho if p["dst_s"] - 1e-6 <= t < p["dst_e"]), velho[-1] if t >= velho[-1]["dst_e"] else velho[0])
+        src = p["s"] + min(max(0, t - p["dst_s"]), p["e"] - p["s"])
+        cands = [q for q in novo_ if q["t"] == p["t"] and q["e"] > src]
+        if not cands: return novo_[-1]["dst_e"]
+        q = next((q for q in cands if q["s"] - 1e-6 <= src < q["e"]), min(cands, key=lambda q: q["s"]))
+        return q["dst_s"] + max(0, src - q["s"])
+    return mapa
+mapa = carregar_mapa()
+if mapa:
+    fim_novo = json.load(open("build/decupagem/decupagem.json"))[-1]["dst_e"]
+    q30 = lambda x: round(round(x * 30) / 30, 4)
+    for c in cenas:
+        c["ini"] = q30(mapa(c["ini"])) if c["ini"] > 0 else 0.0
+    for x, y in zip(cenas, cenas[1:]): x["fim"] = y["ini"]
+    cenas[-1]["fim"] = q30(fim_novo)
+    cenas = [c for c in cenas if c["fim"] - c["ini"] >= 0.2]
+    for x, y in zip(cenas, cenas[1:]): x["fim"] = y["ini"]
+    for a in artes:
+        ini2 = mapa(a["ini"]); fim2 = mapa(a["ini"] + a["dur"])
+        a["ini"] = round(ini2, 3); a["dur"] = round(max(0.3, fim2 - ini2), 3)
+    FIM = q30(fim_novo)
+else:
+    FIM = 362.04
+# ---- setas presas ao plano: a etiqueta sai antes de o trailer trocar de plano (cortes medidos com scdet) ----
+CORTES = {f"t{i}": [float(x) for x in open(f"build/cortes_t{i}.txt").read().split()] for i in (1, 2, 3) if os.path.exists(f"build/cortes_t{i}.txt")}
+avisos = []
+for a in artes:
+    if a["tipo"] != "etiqueta": continue
+    c = next((c for c in cenas if c["ini"] - 1e-6 <= a["ini"] < c["fim"]), None)
+    if not c or c["tipo"] != V:
+        avisos.append(f"{a['id']}: etiqueta fora de cena de video"); continue
+    if c["ini"] > a["ini"] - 0.02: a["ini"] = round(c["ini"] + 0.03, 3)
+    tt = c["t"] + (a["ini"] - c["ini"])
+    prox = [x for x in CORTES.get(c["src"], []) if x > tt + 0.02]
+    fim_plano = c["ini"] + (prox[0] - c["t"]) if prox else c["fim"]
+    limite = min(fim_plano, c["fim"]) - 0.04
+    if a["ini"] + a["dur"] > limite:
+        avisos.append(f"{a['id']}: {a['dur']:.2f}s -> {max(0.3, limite - a['ini']):.2f}s (troca de plano)")
+        a["dur"] = round(max(0.3, limite - a["ini"]), 3)
+print("\n".join(avisos))
+
+plano = dict(A, cenas=cenas, artes=artes, fim=FIM)
 plano["fontes"] = dict(A["fontes"], **{k: f"midia/pixabay/{k}.mp4" for k in ["px147704", "px997", "px24711", "px85339"]})
 plano["trilha"] = {"arquivo": "midia/som/trilha_video.wav", "volume_db": -21}
 json.dump(plano, open("plano_video.json", "w"), ensure_ascii=False, indent=1)

@@ -37,6 +37,24 @@ def main():
     i0, i1 = plano["inicio"], plano["fim"]
     # 1) cenas
     lista = []
+    # zoom no rosto segue o rosto: acha o rosto em cada cena e centraliza (boné inteiro, rosto um pouco acima do meio)
+    sys.path.insert(0, FERR); from achar_rosto import rosto as achar
+    cache_f = os.path.join(tmp, "rostos.json")
+    cache = json.load(open(cache_f)) if os.path.exists(cache_f) else {}
+    for c in plano["cenas"]:
+        if c["tipo"] != "rosto" or "foco" in c: continue
+        k = f"{c['ini']:.3f}-{c['fim']:.3f}"
+        if k not in cache:
+            r = achar(P(plano["fala"]), c["ini"], c["fim"])
+            cache[k] = r
+        r = cache[k]
+        if not r: c["foco"] = list(FOCO_ROSTO); continue
+        cx, cy, alto = r
+        z = max(c.get("zoom", [1, 1]))
+        # rosto (do topo do bone ao queixo) ocupa no maximo 70% da altura do quadro com zoom
+        if alto * z > 0.70: c["zoom"] = [min(zz, 0.70 / alto) for zz in c["zoom"]]
+        c["foco"] = [round(cx, 3), round(cy + 0.04, 3)]   # centro do recorte um pouco abaixo do rosto => rosto um pouco acima do meio
+    json.dump(cache, open(cache_f, "w"))
     for k, c in enumerate(plano["cenas"]):
         dur = c["fim"] - c["ini"]; nq = round(dur * FPS)
         z0, z1 = c.get("zoom", [1, 1])
@@ -46,7 +64,7 @@ def main():
             lista.append(f"file '{arq}'"); continue
         if c["tipo"] == "rosto":
             ent = ["-ss", f"{c['ini']:.4f}", "-i", P(plano["fala"])]
-            vf = f"{zoom_filtro(z0, z1, dur, tuple(c.get('foco', FOCO_ROSTO)))},{GRADE_ROSTO}"
+            vf = f"{zoom_filtro(z0, z1, dur, c['foco'])},{GRADE_ROSTO}"
         else:
             ent = ["-ss", f"{c['t']:.4f}", "-i", P(plano["fontes"][c["src"]])]
             logo = plano.get("tapa_logo", {}).get(c["src"])

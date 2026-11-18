@@ -37,7 +37,8 @@ def acha(palavras, frase, perto, depois_de=None, janela=40):
 # (ruido sem vibracao). Mantem consoantes surdas (s, f, ch, t) so encostadas na voz, ate CONSOANTE s.
 QUADRO = 0.010          # 10 ms
 SIL_MIN = 0.08          # buraco sem voz maior que isso, dentro da fala, e cortado
-CONSOANTE = 0.12        # quanto de som sem vibracao pode ficar grudado antes/depois da voz ("s" final, "f" inicial)
+PER_MIN = 0.38          # periodicidade minima para contar como voz (respiracao fica abaixo)
+CONSOANTE = 0.10        # quanto de som sem vibracao pode ficar grudado antes/depois da voz ("s" final, "f" inicial)
 FOLGA = 0.025           # respiro minimo de cada lado do corte
 BUSCA = 0.35            # janela extra para achar o fim real da voz fora do trecho pedido
 
@@ -58,6 +59,11 @@ def envelopes(arq):
     tot = np.where(hf > lim_hf, tot, -200.0)   # so conta como som o que tem chiado de consoante
     lim_tot = np.percentile(tot[tot > -200], 5) if (tot > -200).any() else -60
     lim_low = max(np.percentile(low, 10) + 12, np.percentile(low, 70) - 20)
+    # VOZ = grave forte E com tom regular (periodicidade). Respiracao forte faz o grave vibrar, mas nao tem tom.
+    import sys as _s; _s.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from vozeamento import periodicidade
+    per = periodicidade(arq); per = np.concatenate([per, np.zeros(max(0, m - len(per)))])[:m]
+    low = np.where(per >= PER_MIN, low, -200.0)
     return tot, low, lim_tot, lim_low
 
 def blocos(mask, min_len=1):

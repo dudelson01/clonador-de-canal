@@ -7,7 +7,7 @@ sys.argv_bak = sys.argv; sys.argv = [sys.argv[0], "x", "x"]
 import importlib.util
 spec = importlib.util.spec_from_file_location("dec", os.path.join(os.path.dirname(__file__), "decupar.py"))
 src = open(spec.origin).read().replace("\nmain()", "\n")
-dec = {}; exec(compile(src, "decupar", "exec"), dec)
+dec = {"__file__": os.path.join(os.path.dirname(os.path.abspath(__file__)), "decupar.py")}; exec(compile(src, "decupar", "exec"), dec)
 sys.argv = sys.argv_bak
 plano = json.load(open(sys.argv[1])); D = json.load(open(os.path.join(sys.argv[2], "decupagem.json")))
 trans = {k: json.load(open(v))["palavras"] for k, v in plano["transcricoes"].items()}

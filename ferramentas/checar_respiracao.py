@@ -5,7 +5,7 @@ Regra do canal: nada disso acima de ~0,15 s. Consoante surda ("s", "x", "t") col
 Uso: python3 checar_respiracao.py plano_decupagem.json pasta_decupagem [limite_s=0.15]"""
 import json, os, sys
 src = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "decupar.py")).read().replace("\nmain()", "\n")
-dec = {}; exec(compile(src, "decupar", "exec"), dec)
+dec = {"__file__": os.path.join(os.path.dirname(os.path.abspath(__file__)), "decupar.py")}; exec(compile(src, "decupar", "exec"), dec)
 plano = json.load(open(sys.argv[1])); D = json.load(open(os.path.join(sys.argv[2], "decupagem.json")))
 LIM = float(sys.argv[3]) if len(sys.argv) > 3 else 0.15
 E = {k: dec["envelopes"](v) for k, v in plano["tomadas"].items()}
