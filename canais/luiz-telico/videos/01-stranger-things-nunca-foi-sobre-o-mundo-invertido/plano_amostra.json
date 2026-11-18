@@ -1,0 +1,428 @@
+{
+ "fala": "build/decupagem/decupado.mp4",
+ "fontes": {
+  "t1": "midia/trailers/t1.mp4",
+  "t2": "midia/trailers/t2.mp4",
+  "t3": "midia/trailers/t3.mp4"
+ },
+ "tapa_logo": {
+  "t2": "x=1600:y=890:w=250:h=110",
+  "t3": "x=1600:y=95:w=250:h=90"
+ },
+ "inicio": 0.0,
+ "fim": 31.62,
+ "trilha": {
+  "arquivo": "midia/som/trilha_amostra.wav",
+  "volume_db": -21
+ },
+ "efeitos_dir": "midia/som/efeitos",
+ "cenas": [
+  {
+   "ini": 0.0,
+   "fim": 2.26,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ],
+   "fala": "Durante quase 10 anos, você achou que Stranger Things"
+  },
+  {
+   "ini": 2.26,
+   "fim": 4.24,
+   "tipo": "video",
+   "src": "t3",
+   "t": 45.0,
+   "zoom": [
+    1.14,
+    1.24
+   ],
+   "fala": "era sobre monstros?",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 4.24,
+   "fim": 5.06,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.22
+   ],
+   "fala": "Não era.",
+   "sfx": [
+    [
+     "impacto",
+     0.06
+    ]
+   ]
+  },
+  {
+   "ini": 5.06,
+   "fim": 6.0,
+   "tipo": "video",
+   "src": "t1",
+   "t": 7.05,
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "fala": "O Demogorgon",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 6.0,
+   "fim": 7.06,
+   "tipo": "video",
+   "src": "t2",
+   "t": 43.35,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "fala": "o devorador de mentes",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 7.06,
+   "fim": 7.95,
+   "tipo": "video",
+   "src": "t3",
+   "t": 37.0,
+   "zoom": [
+    1.14,
+    1.2
+   ],
+   "fala": "o Vecna",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 7.95,
+   "fim": 10.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "fala": "nenhum deles era o verdadeiro vilão da série."
+  },
+  {
+   "ini": 10.2,
+   "fim": 11.35,
+   "tipo": "video",
+   "src": "t1",
+   "t": 5.0,
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "fala": "O verdadeiro vilão",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 11.35,
+   "fim": 12.5,
+   "tipo": "video",
+   "src": "t2",
+   "t": 73.8,
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "fala": "aparece em todas"
+  },
+  {
+   "ini": 12.5,
+   "fim": 13.6,
+   "tipo": "video",
+   "src": "t3",
+   "t": 12.8,
+   "zoom": [
+    1.14,
+    1.19
+   ],
+   "fala": "as temporadas"
+  },
+  {
+   "ini": 13.6,
+   "fim": 14.05,
+   "tipo": "video",
+   "src": "t1",
+   "t": 49.0,
+   "zoom": [
+    1.12,
+    1.14
+   ],
+   "fala": "ele pegou"
+  },
+  {
+   "ini": 14.05,
+   "fim": 14.5,
+   "tipo": "video",
+   "src": "t1",
+   "t": 46.2,
+   "zoom": [
+    1.12,
+    1.14
+   ],
+   "fala": "cada um"
+  },
+  {
+   "ini": 14.5,
+   "fim": 14.95,
+   "tipo": "video",
+   "src": "t2",
+   "t": 78.0,
+   "zoom": [
+    1.14,
+    1.16
+   ],
+   "fala": "dos"
+  },
+  {
+   "ini": 14.95,
+   "fim": 15.42,
+   "tipo": "video",
+   "src": "t3",
+   "t": 16.0,
+   "zoom": [
+    1.14,
+    1.16
+   ],
+   "fala": "personagens."
+  },
+  {
+   "ini": 15.42,
+   "fim": 17.38,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "fala": "E se você está vendo este vídeo,"
+  },
+  {
+   "ini": 17.38,
+   "fim": 18.95,
+   "tipo": "rosto",
+   "zoom": [
+    1.24,
+    1.27
+   ],
+   "fala": "ele já pegou você também.",
+   "sfx": [
+    [
+     "impacto",
+     0.4
+    ]
+   ]
+  },
+  {
+   "ini": 18.95,
+   "fim": 21.9,
+   "tipo": "video",
+   "src": "t1",
+   "t": 7.9,
+   "zoom": [
+    1.1,
+    1.2
+   ],
+   "fala": "E a prova está na última cena da série,",
+   "sfx": [
+    [
+     "subida",
+     0.0
+    ],
+    [
+     "carimbo",
+     0.95
+    ]
+   ]
+  },
+  {
+   "ini": 21.9,
+   "fim": 25.02,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "fala": "uma cena que os criadores sabiam desde a segunda temporada."
+  },
+  {
+   "ini": 25.02,
+   "fim": 28.22,
+   "tipo": "video",
+   "src": "t1",
+   "t": 12.4,
+   "zoom": [
+    1.1,
+    1.18
+   ],
+   "fala": "Mas pra entender essa cena, a gente precisa voltar pro começo,",
+   "sfx": [
+    [
+     "rebobinar",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 28.22,
+   "fim": 29.75,
+   "tipo": "video",
+   "src": "t1",
+   "t": 3.0,
+   "zoom": [
+    1.1,
+    1.14
+   ],
+   "fala": "pro porão dos Wheeler.",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 29.75,
+   "fim": 31.62,
+   "tipo": "video",
+   "src": "t1",
+   "t": 9.0,
+   "zoom": [
+    1.12,
+    1.16
+   ],
+   "fala": "Repara como Stranger Things começa."
+  }
+ ],
+ "artes": [
+  {
+   "id": "dez_anos",
+   "ini": 0.55,
+   "dur": 1.6,
+   "tipo": "contador",
+   "de": 0,
+   "ate": 10,
+   "rotulo": "ANOS",
+   "x": 1500,
+   "y": 330,
+   "tam": 170,
+   "tc": 0.55,
+   "sfx": "pop"
+  },
+  {
+   "id": "demogorgon",
+   "ini": 5.12,
+   "dur": 0.88,
+   "tipo": "etiqueta",
+   "texto": "Demogorgon",
+   "x": 1060,
+   "y": 200,
+   "sx": 1150,
+   "sy": 300,
+   "ax": 740,
+   "ay": 450,
+   "sfx": "pop"
+  },
+  {
+   "id": "devorador",
+   "ini": 6.06,
+   "dur": 1.0,
+   "tipo": "etiqueta",
+   "texto": "Devorador de Mentes",
+   "x": 980,
+   "y": 720,
+   "sx": 1100,
+   "sy": 700,
+   "ax": 880,
+   "ay": 330,
+   "rot": 2,
+   "sfx": "pop"
+  },
+  {
+   "id": "vecna",
+   "ini": 7.1,
+   "dur": 0.85,
+   "tipo": "etiqueta",
+   "texto": "Vecna",
+   "x": 300,
+   "y": 300,
+   "sx": 500,
+   "sy": 400,
+   "ax": 820,
+   "ay": 560,
+   "sfx": "pop"
+  },
+  {
+   "id": "vilao",
+   "ini": 8.4,
+   "dur": 1.8,
+   "tipo": "chave",
+   "texto": "nenhum deles era o <b>verdadeiro vilão</b>",
+   "y": 930
+  },
+  {
+   "id": "voce",
+   "ini": 17.76,
+   "dur": 1.19,
+   "tipo": "perigo",
+   "texto": "VOCÊ",
+   "y": 420,
+   "x": 330
+  },
+  {
+   "id": "spoiler",
+   "ini": 19.9,
+   "dur": 2.0,
+   "tipo": "carimbo",
+   "texto": "SPOILER",
+   "x": 1480,
+   "y": 230
+  },
+  {
+   "id": "segunda",
+   "ini": 23.3,
+   "dur": 1.72,
+   "tipo": "chave",
+   "texto": "sabiam desde a <b>2ª temporada</b>",
+   "y": 930
+  },
+  {
+   "id": "porao",
+   "ini": 28.3,
+   "dur": 3.32,
+   "tipo": "maquina",
+   "texto": "Porão dos Wheeler · Hawkins, 1983",
+   "x": 110,
+   "y": 900,
+   "sfx": "teclas"
+  }
+ ]
+}
