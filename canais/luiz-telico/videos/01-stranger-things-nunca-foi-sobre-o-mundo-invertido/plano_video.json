@@ -1,0 +1,2671 @@
+{
+ "fala": "build/decupagem/decupado.mp4",
+ "fontes": {
+  "t1": "midia/trailers/t1.mp4",
+  "t2": "midia/trailers/t2.mp4",
+  "t3": "midia/trailers/t3.mp4",
+  "px147704": "midia/pixabay/px147704.mp4",
+  "px997": "midia/pixabay/px997.mp4",
+  "px24711": "midia/pixabay/px24711.mp4",
+  "px85339": "midia/pixabay/px85339.mp4"
+ },
+ "tapa_logo": {
+  "t2": "x=1600:y=890:w=250:h=110",
+  "t3": "x=1600:y=95:w=250:h=90"
+ },
+ "inicio": 0.0,
+ "fim": 362.04,
+ "trilha": {
+  "arquivo": "midia/som/trilha_video.wav",
+  "volume_db": -21
+ },
+ "efeitos_dir": "midia/som/efeitos",
+ "cenas": [
+  {
+   "ini": 0.0,
+   "fim": 2.26,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ],
+   "fala": "Durante quase 10 anos, você achou que Stranger Things"
+  },
+  {
+   "ini": 2.26,
+   "fim": 4.24,
+   "tipo": "video",
+   "src": "t3",
+   "t": 45.0,
+   "zoom": [
+    1.14,
+    1.24
+   ],
+   "fala": "era sobre monstros?",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 4.24,
+   "fim": 5.06,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.22
+   ],
+   "fala": "Não era.",
+   "sfx": [
+    [
+     "impacto",
+     0.06
+    ]
+   ]
+  },
+  {
+   "ini": 5.06,
+   "fim": 6.0,
+   "tipo": "video",
+   "src": "t1",
+   "t": 7.05,
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "fala": "O Demogorgon",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 6.0,
+   "fim": 7.06,
+   "tipo": "video",
+   "src": "t2",
+   "t": 43.35,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "fala": "o devorador de mentes",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 7.06,
+   "fim": 7.95,
+   "tipo": "video",
+   "src": "t3",
+   "t": 37.0,
+   "zoom": [
+    1.14,
+    1.2
+   ],
+   "fala": "o Vecna",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 7.95,
+   "fim": 10.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "fala": "nenhum deles era o verdadeiro vilão da série."
+  },
+  {
+   "ini": 10.2,
+   "fim": 11.35,
+   "tipo": "video",
+   "src": "t1",
+   "t": 16.4,
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "fala": "O verdadeiro vilão",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 11.35,
+   "fim": 12.5,
+   "tipo": "video",
+   "src": "t2",
+   "t": 73.8,
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "fala": "aparece em todas"
+  },
+  {
+   "ini": 12.5,
+   "fim": 13.6,
+   "tipo": "video",
+   "src": "t3",
+   "t": 12.8,
+   "zoom": [
+    1.14,
+    1.19
+   ],
+   "fala": "as temporadas"
+  },
+  {
+   "ini": 13.6,
+   "fim": 14.05,
+   "tipo": "video",
+   "src": "t1",
+   "t": 49.0,
+   "zoom": [
+    1.12,
+    1.14
+   ],
+   "fala": "ele pegou"
+  },
+  {
+   "ini": 14.05,
+   "fim": 14.5,
+   "tipo": "video",
+   "src": "t1",
+   "t": 46.2,
+   "zoom": [
+    1.12,
+    1.14
+   ],
+   "fala": "cada um"
+  },
+  {
+   "ini": 14.5,
+   "fim": 14.95,
+   "tipo": "video",
+   "src": "t2",
+   "t": 78.0,
+   "zoom": [
+    1.14,
+    1.16
+   ],
+   "fala": "dos"
+  },
+  {
+   "ini": 14.95,
+   "fim": 15.42,
+   "tipo": "video",
+   "src": "t3",
+   "t": 16.0,
+   "zoom": [
+    1.14,
+    1.16
+   ],
+   "fala": "personagens."
+  },
+  {
+   "ini": 15.42,
+   "fim": 17.38,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "fala": "E se você está vendo este vídeo,"
+  },
+  {
+   "ini": 17.38,
+   "fim": 18.95,
+   "tipo": "rosto",
+   "zoom": [
+    1.24,
+    1.27
+   ],
+   "fala": "ele já pegou você também.",
+   "sfx": [
+    [
+     "impacto",
+     0.4
+    ]
+   ]
+  },
+  {
+   "ini": 18.95,
+   "fim": 20.85,
+   "tipo": "video",
+   "src": "t1",
+   "t": 3.6,
+   "zoom": [
+    1.1,
+    1.16
+   ],
+   "fala": "E a prova está na última cena da série,",
+   "sfx": [
+    [
+     "subida",
+     0.0
+    ],
+    [
+     "carimbo",
+     0.95
+    ]
+   ]
+  },
+  {
+   "ini": 20.85,
+   "fim": 21.9,
+   "tipo": "video",
+   "src": "t1",
+   "t": 11.0,
+   "zoom": [
+    1.12,
+    1.16
+   ],
+   "fala": "da serie,"
+  },
+  {
+   "ini": 21.9,
+   "fim": 25.02,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "fala": "uma cena que os criadores sabiam desde a segunda temporada."
+  },
+  {
+   "ini": 25.02,
+   "fim": 28.22,
+   "tipo": "video",
+   "src": "t1",
+   "t": 12.4,
+   "zoom": [
+    1.1,
+    1.18
+   ],
+   "fala": "Mas pra entender essa cena, a gente precisa voltar pro começo,",
+   "sfx": [
+    [
+     "rebobinar",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 28.22,
+   "fim": 29.75,
+   "tipo": "video",
+   "src": "t1",
+   "t": 8.0,
+   "zoom": [
+    1.1,
+    1.14
+   ],
+   "fala": "pro porão dos Wheeler.",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 29.75,
+   "fim": 32.0,
+   "tipo": "video",
+   "src": "t1",
+   "t": 9.1,
+   "zoom": [
+    1.12,
+    1.16
+   ],
+   "fala": "Repara como Stranger Things começa."
+  },
+  {
+   "ini": 32.0,
+   "fim": 34.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 34.3,
+   "fim": 36.7,
+   "tipo": "video",
+   "src": "t2",
+   "t": 13.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 36.7,
+   "fim": 38.86,
+   "tipo": "video",
+   "src": "t1",
+   "t": 13.3,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 38.86,
+   "fim": 42.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 42.2,
+   "fim": 45.3,
+   "tipo": "video",
+   "src": "t1",
+   "t": 59.6,
+   "zoom": [
+    1.12,
+    1.22
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 45.3,
+   "fim": 49.24,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 49.24,
+   "fim": 52.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 52.2,
+   "fim": 55.3,
+   "tipo": "video",
+   "src": "t2",
+   "t": 15.4,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 55.3,
+   "fim": 58.92,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.25
+   ]
+  },
+  {
+   "ini": 58.92,
+   "fim": 60.4,
+   "tipo": "video",
+   "src": "t1",
+   "t": 5.4,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 60.4,
+   "fim": 62.0,
+   "tipo": "video",
+   "src": "t1",
+   "t": 26.2,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": []
+  },
+  {
+   "ini": 62.0,
+   "fim": 64.18,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 64.18,
+   "fim": 66.6,
+   "tipo": "video",
+   "src": "t1",
+   "t": 39.5,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 66.6,
+   "fim": 68.6,
+   "tipo": "video",
+   "src": "t3",
+   "t": 5.0,
+   "zoom": [
+    1.14,
+    1.2
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 68.6,
+   "fim": 70.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 70.7,
+   "fim": 73.1,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "sfx": [
+    [
+     "subida",
+     3.8
+    ]
+   ]
+  },
+  {
+   "ini": 73.1,
+   "fim": 75.5,
+   "tipo": "rosto",
+   "zoom": [
+    1.17,
+    1.2
+   ]
+  },
+  {
+   "ini": 75.5,
+   "fim": 78.12,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.25
+   ]
+  },
+  {
+   "ini": 78.12,
+   "fim": 79.9,
+   "tipo": "video",
+   "src": "t2",
+   "t": 60.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 79.9,
+   "fim": 82.05,
+   "tipo": "video",
+   "src": "t2",
+   "t": 117.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 82.05,
+   "fim": 84.34,
+   "tipo": "video",
+   "src": "t2",
+   "t": 29.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 84.34,
+   "fim": 86.9,
+   "tipo": "video",
+   "src": "t2",
+   "t": 96.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 86.9,
+   "fim": 90.4,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 90.4,
+   "fim": 91.4,
+   "tipo": "video",
+   "src": "t1",
+   "t": 91.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 91.4,
+   "fim": 92.8,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 92.8,
+   "fim": 95.26666666666667,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 95.26666666666667,
+   "fim": 97.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.17,
+    1.2
+   ]
+  },
+  {
+   "ini": 97.7,
+   "fim": 101.8,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.25
+   ]
+  },
+  {
+   "ini": 101.8,
+   "fim": 103.8,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 103.8,
+   "fim": 105.0,
+   "tipo": "video",
+   "src": "t1",
+   "t": 51.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 105.0,
+   "fim": 106.3,
+   "tipo": "video",
+   "src": "t1",
+   "t": 36.9,
+   "zoom": [
+    1.1,
+    1.16
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 106.3,
+   "fim": 107.4,
+   "tipo": "video",
+   "src": "t2",
+   "t": 78.2,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": []
+  },
+  {
+   "ini": 107.4,
+   "fim": 110.8,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 110.8,
+   "fim": 114.9,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 114.9,
+   "fim": 116.4,
+   "tipo": "video",
+   "src": "t1",
+   "t": 10.1,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 116.4,
+   "fim": 117.6,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 117.6,
+   "fim": 120.85,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 120.85,
+   "fim": 123.75,
+   "tipo": "video",
+   "src": "t2",
+   "t": 138.0,
+   "zoom": [
+    1.12,
+    1.2
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 123.75,
+   "fim": 126.85,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 126.85,
+   "fim": 130.13333333333333,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.25
+   ]
+  },
+  {
+   "ini": 130.13333333333333,
+   "fim": 133.45,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 133.45,
+   "fim": 135.9,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 135.9,
+   "fim": 137.6,
+   "tipo": "video",
+   "src": "t1",
+   "t": 53.4,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 137.6,
+   "fim": 139.8,
+   "tipo": "video",
+   "src": "t1",
+   "t": 46.3,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 139.8,
+   "fim": 141.0,
+   "tipo": "video",
+   "src": "t2",
+   "t": 116.2,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 141.0,
+   "fim": 142.85,
+   "tipo": "video",
+   "src": "t1",
+   "t": 67.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 142.85,
+   "fim": 146.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 146.3,
+   "fim": 149.75,
+   "tipo": "rosto",
+   "zoom": [
+    1.17,
+    1.2
+   ]
+  },
+  {
+   "ini": 149.75,
+   "fim": 151.85,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.25
+   ]
+  },
+  {
+   "ini": 151.85,
+   "fim": 155.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 155.3,
+   "fim": 157.4,
+   "tipo": "video",
+   "src": "t1",
+   "t": 53.4,
+   "zoom": [
+    1.1,
+    1.14
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 157.4,
+   "fim": 159.76666666666668,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.25
+   ]
+  },
+  {
+   "ini": 159.76666666666668,
+   "fim": 162.15,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 162.15,
+   "fim": 163.6,
+   "tipo": "video",
+   "src": "t2",
+   "t": 97.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 163.6,
+   "fim": 165.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 165.2,
+   "fim": 166.3,
+   "tipo": "video",
+   "src": "t1",
+   "t": 116.3,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 166.3,
+   "fim": 168.55,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 168.55,
+   "fim": 172.85,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 172.85,
+   "fim": 173.9,
+   "tipo": "video",
+   "src": "t3",
+   "t": 28.2,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 173.9,
+   "fim": 174.5,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 174.5,
+   "fim": 176.0,
+   "tipo": "video",
+   "src": "t3",
+   "t": 52.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 176.0,
+   "fim": 177.8,
+   "tipo": "video",
+   "src": "t2",
+   "t": 125.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 177.8,
+   "fim": 178.7,
+   "tipo": "video",
+   "src": "t2",
+   "t": 43.35,
+   "zoom": [
+    1.12,
+    1.16
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 178.7,
+   "fim": 181.05,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 181.05,
+   "fim": 183.73333333333332,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.25
+   ]
+  },
+  {
+   "ini": 183.73333333333332,
+   "fim": 186.4,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 186.4,
+   "fim": 189.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 189.3,
+   "fim": 190.6,
+   "tipo": "video",
+   "src": "t1",
+   "t": 92.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 190.6,
+   "fim": 192.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 192.2,
+   "fim": 193.9,
+   "tipo": "video",
+   "src": "t1",
+   "t": 46.6,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 193.9,
+   "fim": 195.0,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 195.0,
+   "fim": 199.33333333333334,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 199.33333333333334,
+   "fim": 203.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.17,
+    1.2
+   ]
+  },
+  {
+   "ini": 203.7,
+   "fim": 205.9,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 205.9,
+   "fim": 207.0,
+   "tipo": "video",
+   "src": "t3",
+   "t": 37.6,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 207.0,
+   "fim": 210.43333333333334,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.25
+   ]
+  },
+  {
+   "ini": 210.43333333333334,
+   "fim": 213.85,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 213.85,
+   "fim": 215.65,
+   "tipo": "video",
+   "src": "t3",
+   "t": 37.0,
+   "zoom": [
+    1.16,
+    1.24
+   ],
+   "sfx": [
+    [
+     "impacto",
+     0.05
+    ]
+   ]
+  },
+  {
+   "ini": 215.65,
+   "fim": 219.42,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 219.42,
+   "fim": 221.4,
+   "tipo": "video",
+   "src": "t3",
+   "t": 15.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 221.4,
+   "fim": 223.8,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 223.8,
+   "fim": 226.0,
+   "tipo": "video",
+   "src": "t3",
+   "t": 14.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 226.0,
+   "fim": 228.85,
+   "tipo": "video",
+   "src": "t3",
+   "t": 7.0,
+   "zoom": [
+    1.14,
+    1.2
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 228.85,
+   "fim": 231.13333333333333,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 231.13333333333333,
+   "fim": 233.4,
+   "tipo": "rosto",
+   "zoom": [
+    1.17,
+    1.2
+   ]
+  },
+  {
+   "ini": 233.4,
+   "fim": 234.9,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 234.9,
+   "fim": 238.88,
+   "tipo": "video",
+   "src": "t3",
+   "t": 64.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 238.88,
+   "fim": 242.6,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.25
+   ]
+  },
+  {
+   "ini": 242.6,
+   "fim": 244.0,
+   "tipo": "video",
+   "src": "t1",
+   "t": 87.3,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 244.0,
+   "fim": 245.45,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 245.45,
+   "fim": 247.62,
+   "tipo": "video",
+   "src": "t3",
+   "t": 58.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 247.62,
+   "fim": 251.15,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 251.15,
+   "fim": 253.3,
+   "tipo": "video",
+   "src": "t1",
+   "t": 7.1,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 253.3,
+   "fim": 255.62,
+   "tipo": "video",
+   "src": "t3",
+   "t": 37.0,
+   "zoom": [
+    1.14,
+    1.2
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 255.62,
+   "fim": 259.4,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 259.4,
+   "fim": 262.0,
+   "tipo": "video",
+   "src": "t3",
+   "t": 103.0,
+   "zoom": [
+    1.04,
+    1.1
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 262.0,
+   "fim": 264.5,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 264.5,
+   "fim": 268.4,
+   "tipo": "rosto",
+   "zoom": [
+    1.22,
+    1.25
+   ]
+  },
+  {
+   "ini": 268.4,
+   "fim": 270.4,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "sfx": [
+    [
+     "rebobinar",
+     0.1
+    ]
+   ]
+  },
+  {
+   "ini": 270.4,
+   "fim": 272.93333333333334,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 272.93333333333334,
+   "fim": 275.5,
+   "tipo": "rosto",
+   "zoom": [
+    1.17,
+    1.2
+   ]
+  },
+  {
+   "ini": 275.5,
+   "fim": 277.1,
+   "tipo": "video",
+   "src": "t1",
+   "t": 3.6,
+   "zoom": [
+    1.1,
+    1.16
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 277.1,
+   "fim": 279.0,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 279.0,
+   "fim": 281.0,
+   "tipo": "video",
+   "src": "t1",
+   "t": 8.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 281.0,
+   "fim": 284.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 284.2,
+   "fim": 286.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 286.7,
+   "fim": 289.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.17,
+    1.2
+   ]
+  },
+  {
+   "ini": 289.2,
+   "fim": 290.6,
+   "tipo": "video",
+   "src": "t1",
+   "t": 74.2,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 290.6,
+   "fim": 291.65,
+   "tipo": "video",
+   "src": "t1",
+   "t": 73.5,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 291.65,
+   "fim": 293.45,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 293.45,
+   "fim": 295.2,
+   "tipo": "video",
+   "src": "t1",
+   "t": 115.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 295.2,
+   "fim": 296.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 296.3,
+   "fim": 297.1,
+   "tipo": "video",
+   "src": "t1",
+   "t": 73.0,
+   "zoom": [
+    1.08,
+    1.12
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 297.1,
+   "fim": 299.05,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 299.05,
+   "fim": 301.35,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 301.35,
+   "fim": 303.3,
+   "tipo": "video",
+   "src": "t3",
+   "t": 5.6,
+   "zoom": [
+    1.14,
+    1.2
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 303.3,
+   "fim": 306.25,
+   "tipo": "video",
+   "src": "t2",
+   "t": 10.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 306.25,
+   "fim": 308.93333333333334,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 308.93333333333334,
+   "fim": 311.65,
+   "tipo": "rosto",
+   "zoom": [
+    1.17,
+    1.2
+   ]
+  },
+  {
+   "ini": 311.65,
+   "fim": 314.0,
+   "tipo": "video",
+   "src": "t3",
+   "t": 29.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 314.0,
+   "fim": 317.5,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 317.5,
+   "fim": 318.7,
+   "tipo": "video",
+   "src": "t1",
+   "t": 117.1,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 318.7,
+   "fim": 319.55,
+   "tipo": "video",
+   "src": "t1",
+   "t": 122.05,
+   "zoom": [
+    1.12,
+    1.15
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 319.55,
+   "fim": 323.25,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 323.25,
+   "fim": 324.4,
+   "tipo": "video",
+   "src": "t1",
+   "t": 118.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 324.4,
+   "fim": 326.8,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 326.8,
+   "fim": 330.1,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 330.1,
+   "fim": 331.3,
+   "tipo": "video",
+   "src": "t1",
+   "t": 10.9,
+   "zoom": [
+    1.1,
+    1.14
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 331.3,
+   "fim": 331.9,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 331.9,
+   "fim": 335.6,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 335.6,
+   "fim": 338.0,
+   "tipo": "video",
+   "src": "t2",
+   "t": 25.5,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 338.0,
+   "fim": 339.4,
+   "tipo": "video",
+   "src": "t2",
+   "t": 28.0,
+   "zoom": [
+    1.12,
+    1.18
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 339.4,
+   "fim": 341.45,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 341.45,
+   "fim": 343.1,
+   "tipo": "video",
+   "src": "px147704",
+   "t": 1.0,
+   "zoom": [
+    1.02,
+    1.0799999999999998
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 343.1,
+   "fim": 344.4,
+   "tipo": "video",
+   "src": "px997",
+   "t": 4.0,
+   "zoom": [
+    1.02,
+    1.0799999999999998
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 344.4,
+   "fim": 345.4,
+   "tipo": "video",
+   "src": "px24711",
+   "t": 3.0,
+   "zoom": [
+    1.02,
+    1.0799999999999998
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 345.4,
+   "fim": 346.45,
+   "tipo": "video",
+   "src": "px85339",
+   "t": 2.0,
+   "zoom": [
+    1.02,
+    1.0799999999999998
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 346.45,
+   "fim": 347.7,
+   "tipo": "video",
+   "src": "px24711",
+   "t": 12.0,
+   "zoom": [
+    1.02,
+    1.0799999999999998
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 347.7,
+   "fim": 350.05,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 350.05,
+   "fim": 353.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 353.7,
+   "fim": 357.8666666666667,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 357.8666666666667,
+   "fim": 362.04,
+   "tipo": "rosto",
+   "zoom": [
+    1.17,
+    1.2
+   ]
+  }
+ ],
+ "artes": [
+  {
+   "id": "dez_anos",
+   "ini": 0.55,
+   "dur": 1.6,
+   "tipo": "contador",
+   "de": 0,
+   "ate": 10,
+   "rotulo": "ANOS",
+   "x": 1500,
+   "y": 330,
+   "tam": 170,
+   "tc": 0.55,
+   "sfx": "pop"
+  },
+  {
+   "id": "demogorgon",
+   "ini": 5.12,
+   "dur": 0.88,
+   "tipo": "etiqueta",
+   "texto": "Demogorgon",
+   "x": 1060,
+   "y": 200,
+   "sx": 1150,
+   "sy": 300,
+   "ax": 740,
+   "ay": 450,
+   "sfx": "pop"
+  },
+  {
+   "id": "devorador",
+   "ini": 6.06,
+   "dur": 1.0,
+   "tipo": "etiqueta",
+   "texto": "Devorador de Mentes",
+   "x": 980,
+   "y": 720,
+   "sx": 1100,
+   "sy": 700,
+   "ax": 880,
+   "ay": 330,
+   "rot": 2,
+   "sfx": "pop"
+  },
+  {
+   "id": "vecna",
+   "ini": 7.1,
+   "dur": 0.85,
+   "tipo": "etiqueta",
+   "texto": "Vecna",
+   "x": 300,
+   "y": 300,
+   "sx": 500,
+   "sy": 400,
+   "ax": 820,
+   "ay": 560,
+   "sfx": "pop"
+  },
+  {
+   "id": "vilao",
+   "ini": 8.4,
+   "dur": 1.8,
+   "tipo": "chave",
+   "texto": "nenhum deles era o <b>verdadeiro vilão</b>",
+   "y": 930
+  },
+  {
+   "id": "voce",
+   "ini": 17.76,
+   "dur": 1.19,
+   "tipo": "perigo",
+   "texto": "VOCÊ",
+   "y": 420,
+   "x": 330
+  },
+  {
+   "id": "spoiler",
+   "ini": 19.9,
+   "dur": 2.0,
+   "tipo": "carimbo",
+   "texto": "SPOILER",
+   "x": 1480,
+   "y": 230
+  },
+  {
+   "id": "segunda",
+   "ini": 23.3,
+   "dur": 1.72,
+   "tipo": "chave",
+   "texto": "sabiam desde a <b>2ª temporada</b>",
+   "y": 930
+  },
+  {
+   "id": "porao",
+   "ini": 28.3,
+   "dur": 3.32,
+   "tipo": "maquina",
+   "texto": "Porão dos Wheeler · Hawkins, 1983",
+   "x": 110,
+   "y": 900,
+   "sfx": "teclas"
+  },
+  {
+   "id": "nomes",
+   "ini": 36.8,
+   "dur": 2.05,
+   "tipo": "maquina",
+   "texto": "Mike · Dustin · Lucas · Will",
+   "x": 110,
+   "y": 900,
+   "sfx": "teclas"
+  },
+  {
+   "id": "dados",
+   "ini": 39.1,
+   "dur": 2.9,
+   "tipo": "chave",
+   "texto": "mesa cheia de <b>dados</b>, salgadinho..."
+  },
+  {
+   "id": "demo_jogo",
+   "ini": 46.8,
+   "dur": 2.3,
+   "tipo": "chave",
+   "texto": "Demogorgon: um monstro do <b>jogo</b>"
+  },
+  {
+   "id": "criancas",
+   "ini": 56.2,
+   "dur": 2.6,
+   "tipo": "chave",
+   "texto": "porque elas ainda são <b>crianças</b>"
+  },
+  {
+   "id": "will",
+   "ini": 59.1,
+   "dur": 1.25,
+   "tipo": "etiqueta",
+   "texto": "Will",
+   "x": 1250,
+   "y": 260,
+   "sx": 1300,
+   "sy": 370,
+   "ax": 1010,
+   "ay": 480,
+   "sfx": "pop"
+  },
+  {
+   "id": "desaparecido",
+   "ini": 64.7,
+   "dur": 1.8,
+   "tipo": "carimbo",
+   "texto": "DESAPARECIDO",
+   "x": 1250,
+   "y": 260
+  },
+  {
+   "id": "t3",
+   "ini": 74.1,
+   "dur": 1.6,
+   "tipo": "canto",
+   "texto": "Temporada 3",
+   "sfx": "pop"
+  },
+  {
+   "id": "mapa",
+   "ini": 84.8,
+   "dur": 1.9,
+   "tipo": "etiqueta",
+   "texto": "o mapa da campanha",
+   "x": 1000,
+   "y": 760,
+   "sx": 1080,
+   "sy": 740,
+   "ax": 900,
+   "ay": 480,
+   "rot": 2,
+   "sfx": "pop"
+  },
+  {
+   "id": "frase_dor",
+   "ini": 93.3,
+   "dur": 2.6,
+   "tipo": "chave",
+   "texto": "a frase que dói mais que <b>qualquer monstro</b>"
+  },
+  {
+   "id": "castelo",
+   "ini": 103.9,
+   "dur": 1.05,
+   "tipo": "etiqueta",
+   "texto": "Castelo Byers",
+   "x": 1150,
+   "y": 220,
+   "sx": 1230,
+   "sy": 330,
+   "ax": 980,
+   "ay": 500,
+   "sfx": "pop"
+  },
+  {
+   "id": "infancia",
+   "ini": 115.2,
+   "dur": 2.2,
+   "tipo": "chave",
+   "texto": "o que morre ali é a <b>infância</b>"
+  },
+  {
+   "id": "licenca",
+   "ini": 124.1,
+   "dur": 2.6,
+   "tipo": "chave",
+   "texto": "crescer leva todo mundo <b>sem pedir licença</b>"
+  },
+  {
+   "id": "anos",
+   "ini": 131.95,
+   "dur": 1.45,
+   "tipo": "contador",
+   "de": 15,
+   "ate": 18,
+   "rotulo": "ANOS",
+   "x": 1480,
+   "y": 380,
+   "tam": 160,
+   "tc": 0.6,
+   "sfx": "pop"
+  },
+  {
+   "id": "hopper",
+   "ini": 139.9,
+   "dur": 1.1,
+   "tipo": "etiqueta",
+   "texto": "Hopper",
+   "x": 1200,
+   "y": 200,
+   "sx": 1270,
+   "sy": 310,
+   "ax": 1020,
+   "ay": 430,
+   "sfx": "pop"
+  },
+  {
+   "id": "eleven",
+   "ini": 141.05,
+   "dur": 1.75,
+   "tipo": "etiqueta",
+   "texto": "Eleven",
+   "x": 1200,
+   "y": 220,
+   "sx": 1260,
+   "sy": 330,
+   "ax": 1000,
+   "ay": 480,
+   "sfx": "pop"
+  },
+  {
+   "id": "regras",
+   "ini": 147.1,
+   "dur": 2.6,
+   "tipo": "chave",
+   "texto": "fecha a porta, inventa regra e até <b>ameaça</b>"
+  },
+  {
+   "id": "carta",
+   "ini": 155.35,
+   "dur": 2.0,
+   "tipo": "carta",
+   "linhas": [
+    "El,",
+    "eu sei que você",
+    "está crescendo..."
+   ],
+   "vel": 0.035
+  },
+  {
+   "id": "crescer",
+   "ini": 165.4,
+   "dur": 3.0,
+   "tipo": "chave",
+   "texto": "medo de ela <b>crescer</b>"
+  },
+  {
+   "id": "mudar",
+   "ini": 172.95,
+   "dur": 1.5,
+   "tipo": "chave",
+   "texto": "que ela <b>não pare de mudar</b>"
+  },
+  {
+   "id": "russos",
+   "ini": 174.6,
+   "dur": 1.3,
+   "tipo": "etiqueta",
+   "texto": "russos",
+   "x": 1250,
+   "y": 230,
+   "sx": 1300,
+   "sy": 330,
+   "ax": 1060,
+   "ay": 480,
+   "sfx": "pop"
+  },
+  {
+   "id": "tempo",
+   "ini": 179.2,
+   "dur": 1.8,
+   "tipo": "perigo",
+   "texto": "O TEMPO",
+   "x": 470,
+   "y": 430
+  },
+  {
+   "id": "ja_foi",
+   "ini": 190.1,
+   "dur": 2.0,
+   "tipo": "chave",
+   "texto": "todo mundo já foi a <b>Eleven</b>"
+  },
+  {
+   "id": "sera",
+   "ini": 192.6,
+   "dur": 2.3,
+   "tipo": "chave",
+   "texto": "um dia, quase todo mundo vai ser o <b>Hopper</b>"
+  },
+  {
+   "id": "inscrever1",
+   "ini": 195.4,
+   "dur": 3.2,
+   "tipo": "inscrever"
+  },
+  {
+   "id": "t4",
+   "ini": 206.0,
+   "dur": 1.6,
+   "tipo": "canto",
+   "texto": "Temporada 4",
+   "sfx": "pop"
+  },
+  {
+   "id": "feio",
+   "ini": 213.95,
+   "dur": 1.6,
+   "tipo": "etiqueta",
+   "texto": "o \"bonito\"",
+   "x": 1250,
+   "y": 230,
+   "sx": 1300,
+   "sy": 330,
+   "ax": 1000,
+   "ay": 440,
+   "sfx": "pop"
+  },
+  {
+   "id": "culpa",
+   "ini": 219.8,
+   "dur": 3.9,
+   "tipo": "chave",
+   "texto": "com <b>culpa</b>, com <b>trauma</b> e <b>sozinho</b>"
+  },
+  {
+   "id": "max",
+   "ini": 223.9,
+   "dur": 1.9,
+   "tipo": "etiqueta",
+   "texto": "Max",
+   "x": 1250,
+   "y": 240,
+   "sx": 1290,
+   "sy": 340,
+   "ax": 1000,
+   "ay": 480,
+   "sfx": "pop"
+  },
+  {
+   "id": "cresce",
+   "ini": 229.4,
+   "dur": 3.8,
+   "tipo": "chave",
+   "texto": "o monstro que aparece <b>quando a gente cresce</b>"
+  },
+  {
+   "id": "t1b",
+   "ini": 242.7,
+   "dur": 1.4,
+   "tipo": "canto",
+   "texto": "Temporada 1",
+   "sfx": "pop"
+  },
+  {
+   "id": "t4b",
+   "ini": 245.55,
+   "dur": 1.4,
+   "tipo": "canto",
+   "texto": "Temporada 4",
+   "sfx": "pop"
+  },
+  {
+   "id": "demo2",
+   "ini": 251.3,
+   "dur": 1.8,
+   "tipo": "etiqueta",
+   "texto": "medo de criança",
+   "x": 1050,
+   "y": 200,
+   "sx": 1150,
+   "sy": 300,
+   "ax": 760,
+   "ay": 450,
+   "sfx": "pop"
+  },
+  {
+   "id": "vecna2",
+   "ini": 253.4,
+   "dur": 2.1,
+   "tipo": "etiqueta",
+   "texto": "medo de adolescente",
+   "x": 180,
+   "y": 280,
+   "sx": 520,
+   "sy": 380,
+   "ax": 820,
+   "ay": 560,
+   "sfx": "pop"
+  },
+  {
+   "id": "despedindo",
+   "ini": 261.9,
+   "dur": 2.5,
+   "tipo": "chave",
+   "texto": "ela estava <b>se despedindo de você</b>"
+  },
+  {
+   "id": "duffer",
+   "ini": 271.2,
+   "dur": 2.6,
+   "tipo": "maquina",
+   "texto": "Matt e Ross Duffer · os criadores",
+   "x": 110,
+   "y": 900,
+   "sfx": "teclas"
+  },
+  {
+   "id": "segunda2",
+   "ini": 273.3,
+   "dur": 2.0,
+   "tipo": "chave",
+   "texto": "sabiam desde a <b>2ª temporada</b>",
+   "y": 800
+  },
+  {
+   "id": "spoiler2",
+   "ini": 275.7,
+   "dur": 2.2,
+   "tipo": "carimbo",
+   "texto": "SPOILER",
+   "x": 1480,
+   "y": 230
+  },
+  {
+   "id": "ultima",
+   "ini": 280.0,
+   "dur": 3.8,
+   "tipo": "chave",
+   "texto": "a <b>última</b> campanha"
+  },
+  {
+   "id": "ultimo",
+   "ini": 286.9,
+   "dur": 2.2,
+   "tipo": "chave",
+   "texto": "agora eles sabem que é o <b>último</b>"
+  },
+  {
+   "id": "porta",
+   "ini": 289.3,
+   "dur": 1.25,
+   "tipo": "etiqueta",
+   "texto": "Mike",
+   "x": 1250,
+   "y": 230,
+   "sx": 1300,
+   "sy": 330,
+   "ax": 1020,
+   "ay": 470,
+   "sfx": "pop"
+  },
+  {
+   "id": "fase",
+   "ini": 301.45,
+   "dur": 1.8,
+   "tipo": "chave",
+   "texto": "não foi um lugar, foi uma <b>fase</b>"
+  },
+  {
+   "id": "sempre",
+   "ini": 309.5,
+   "dur": 2.1,
+   "tipo": "chave",
+   "texto": "o pra sempre <b>sempre acaba</b>"
+  },
+  {
+   "id": "poderes",
+   "ini": 317.6,
+   "dur": 2.0,
+   "tipo": "chave",
+   "texto": "eles não quiseram tirar os <b>poderes</b> dela"
+  },
+  {
+   "id": "magica",
+   "ini": 321.0,
+   "dur": 2.2,
+   "tipo": "chave",
+   "texto": "a parte <b>mágica</b> de ser criança"
+  },
+  {
+   "id": "porao2",
+   "ini": 330.2,
+   "dur": 1.65,
+   "tipo": "maquina",
+   "texto": "no porão.",
+   "x": 110,
+   "y": 900,
+   "sfx": "teclas"
+  },
+  {
+   "id": "nunca",
+   "ini": 332.9,
+   "dur": 2.7,
+   "tipo": "chave",
+   "texto": "nunca foi sobre o <b>Mundo Invertido</b>"
+  },
+  {
+   "id": "ultima_vez",
+   "ini": 347.9,
+   "dur": 1.95,
+   "tipo": "chave",
+   "texto": "a gente nunca sabe qual foi a <b>última vez</b>"
+  },
+  {
+   "id": "comenta",
+   "ini": 350.3,
+   "dur": 3.3,
+   "tipo": "chave",
+   "texto": "qual foi o seu <b>último jogo</b>? comenta aí"
+  },
+  {
+   "id": "inscrever2",
+   "ini": 357.2,
+   "dur": 2.8,
+   "tipo": "inscrever"
+  }
+ ]
+}

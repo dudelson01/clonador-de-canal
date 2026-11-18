@@ -165,7 +165,7 @@ def main():
         p["e"] = round(-(-p["e"] * FPS // 1) / FPS, 4)
     pedacos = [p for p in pedacos if p["e"] - p["s"] >= 1 / FPS]
     for x, y in zip(pedacos, pedacos[1:]):   # sem repetir quadro entre pedacos vizinhos da mesma tomada
-        if x["t"] == y["t"] and y["s"] < x["e"]: y["s"] = x["e"]
+        if x["t"] == y["t"] and x["s"] < y["s"] < x["e"]: y["s"] = x["e"]
     pedacos = [p for p in pedacos if p["e"] - p["s"] >= 1 / FPS]
     # tempos no video final
     t = 0.0

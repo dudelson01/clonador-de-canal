@@ -8,9 +8,12 @@ const [,, arq, saida, fpsArg] = process.argv;
 const fps = Number(fpsArg || 30);
 const artes = JSON.parse(fs.readFileSync(arq, 'utf8'));
 const pagina = url.pathToFileURL(path.join(path.dirname(url.fileURLToPath(import.meta.url)), 'artes.html')).href;
-const browser = await chromium.launch();
+// usa o Chromium ja instalado na maquina se a versao do Playwright do projeto nao achar o seu
+const exe = '/opt/pw-browsers/chromium';
+const browser = await chromium.launch(fs.existsSync(exe) ? { executablePath: exe } : {});
 const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
 await page.goto(pagina);
+await page.evaluate(() => Promise.all(['700 60px Caveat', '60px "Special Elite"', '60px Anton'].map(f => document.fonts.load(f))));
 await page.evaluate(() => document.fonts.ready);
 for (const a of artes) {
   const dir = path.join(saida, a.id); fs.mkdirSync(dir, { recursive: true });

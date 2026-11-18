@@ -1,6 +1,9 @@
 <!doctype html>
 <html><head><meta charset="utf-8">
 <style>
+  @font-face{font-family:"Caveat";font-weight:700;src:url("../../node_modules/@fontsource/caveat/files/caveat-latin-700-normal.woff2") format("woff2")}
+  @font-face{font-family:"Special Elite";font-weight:400;src:url("../../node_modules/@fontsource/special-elite/files/special-elite-latin-400-normal.woff2") format("woff2")}
+  @font-face{font-family:"Anton";font-weight:400;src:url("../../node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2") format("woff2")}
   html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hidden}
   #palco{position:absolute;inset:0}
   .el{position:absolute;white-space:nowrap}
@@ -9,11 +12,11 @@
   .chave{font-family:"Inter",sans-serif;font-weight:700;color:#fff;font-size:64px;
          text-shadow:0 3px 16px rgba(0,0,0,.85),0 0 3px #000}
   .chave b{color:#ff2b2b}
-  .mao{font-family:"Inter",sans-serif;font-style:italic;font-weight:800;color:#fff;font-size:84px;
+  .mao{font-family:"Caveat",cursive;font-weight:700;color:#fff;font-size:104px;
        text-shadow:0 3px 14px rgba(0,0,0,.85)}
-  .maq{font-family:"Courier 10 Pitch","FreeMono","Courier New",monospace;font-weight:700;color:#f4efe2;font-size:46px;
+  .maq{font-family:"Special Elite","Courier 10 Pitch",monospace;font-weight:400;color:#f4efe2;font-size:50px;
        background:rgba(0,0,0,.55);padding:10px 22px;letter-spacing:1px}
-  .carimbo{font-family:"Inter Display",sans-serif;font-weight:900;color:#e0141e;font-size:120px;letter-spacing:4px;
+  .carimbo{font-family:"Anton","Inter Display",sans-serif;font-weight:400;color:#e0141e;font-size:120px;letter-spacing:4px;
            border:12px solid #e0141e;padding:4px 30px;border-radius:14px;mix-blend-mode:normal;
            text-shadow:none;filter:drop-shadow(0 6px 18px rgba(0,0,0,.6))}
   .perigo{font-family:"Inter Display",sans-serif;font-weight:900;color:#ff1a1a;font-size:190px;letter-spacing:2px;
@@ -72,6 +75,25 @@ window.quadro = function(a, t, dur){
     const p = ease(t/0.2);
     h += `<div class="el titulo" style="left:${a.x||70}px;top:${a.y||70}px;font-size:${a.tam||44}px;opacity:${p*out};transform:translateX(${(1-p)*-30}px);
           background:#e0141e;padding:6px 18px;text-shadow:none">${a.texto}</div>`;
+  } else if (a.tipo === 'inscrever'){   // botao "Inscrever-se" com cursor clicando
+    const p = back(t/0.3), clk = t > 0.9, fim = saida(t, dur, 0.25);
+    const cx = 1500 + (1 - ease((t-0.3)/0.55)) * 260, cy = 900 + (1 - ease((t-0.3)/0.55)) * 140 - (clk && t < 1.05 ? 4 : 0);
+    h += `<div class="el" style="left:${a.x||1180}px;top:${a.y||820}px;transform:scale(${0.6+0.4*p}) ${clk&&t<1.05?'scale(.94)':''};opacity:${Math.min(1,t/0.12)*fim};
+          display:flex;align-items:center;gap:22px;background:rgba(15,15,15,.92);padding:18px 26px 18px 18px;border-radius:60px;box-shadow:0 8px 30px rgba(0,0,0,.6)">
+          <div style="width:74px;height:74px;border-radius:50%;background:#e0141e;display:flex;align-items:center;justify-content:center;font:900 34px Inter;color:#fff">LT</div>
+          <div style="font:800 38px Inter;color:#fff">${a.canal||'Luiz Telico'}</div>
+          <div style="font:800 32px Inter;color:#fff;background:${clk?'#3a3a3a':'#e0141e'};padding:14px 30px;border-radius:40px">${clk?'Inscrito ✓':'Inscrever-se'}</div></div>`;
+    h += `<svg width="60" height="70" style="position:absolute;left:${cx}px;top:${cy}px;opacity:${Math.min(1,(t-0.25)/0.1)*fim};filter:drop-shadow(0 3px 5px rgba(0,0,0,.6))">
+          <path d="M5 3 L5 55 L18 43 L28 66 L37 62 L27 40 L45 40 Z" fill="#fff" stroke="#000" stroke-width="3"/></svg>`;
+  } else if (a.tipo === 'carta'){       // carta escrita a mao sobre papel, linhas aparecendo
+    const p = ease(t/0.35), out2 = saida(t, dur, 0.3);
+    const linhas = a.linhas || [];
+    let txt = '', tot = 0, vis = Math.max(0, (t - 0.35) / (a.vel || 0.045));
+    for (const l of linhas){ const n = Math.max(0, Math.min(l.length, Math.floor(vis - tot))); txt += `<div style="min-height:70px">${l.slice(0,n)}</div>`; tot += l.length + 6; }
+    h += `<div class="el" style="left:50%;top:50%;width:1100px;height:760px;transform:translate(-50%,calc(-50% + ${(1-p)*80}px)) rotate(-2.5deg);opacity:${p*out2};
+          background:linear-gradient(#f3ead6,#e9dcbc);border-radius:6px;box-shadow:0 20px 60px rgba(0,0,0,.7);padding:70px 90px;box-sizing:border-box;white-space:normal;
+          font-family:Caveat,cursive;font-weight:700;font-size:66px;color:#2b2a3a;line-height:1.05;
+          background-image:repeating-linear-gradient(transparent,transparent 69px,rgba(80,110,160,.35) 70px),linear-gradient(#f3ead6,#e9dcbc)">${txt}</div>`;
   }
   palco.innerHTML = h;
 };

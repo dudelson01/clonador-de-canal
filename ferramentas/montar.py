@@ -5,7 +5,10 @@ Uso: python3 montar.py plano.json saida.mp4 [--preview]
 - cenas "video": trecho de fonte (trailer etc.), sem o som da fonte, com zoom lento e tapa-logo opcional.
 - artes: PNG transparentes renderizados por ferramentas/artes/render_artes.mjs, sobrepostos no tempo.
 - som: voz (da fala decupada) + trilha com ducking + efeitos; mix final -14 LUFS, pico -1.5 dBTP (loudnorm 2 passadas)."""
-import json, os, subprocess, sys, re
+import json, os, subprocess, sys, re, hashlib
+
+def chave(*objs):
+    return hashlib.md5(json.dumps(objs, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:10]
 
 FERR = os.path.dirname(os.path.abspath(__file__))
 FPS = 30
@@ -36,8 +39,11 @@ def main():
     lista = []
     for k, c in enumerate(plano["cenas"]):
         dur = c["fim"] - c["ini"]; nq = round(dur * FPS)
-        arq = os.path.join(tmp, f"cena{k:03d}.mp4")
         z0, z1 = c.get("zoom", [1, 1])
+        arq = os.path.join(tmp, "cenas", f"{chave(c, plano.get('tapa_logo', {}).get(c.get('src')), GRADE_ROSTO, GRADE_VIDEO, preview)}.mp4")
+        os.makedirs(os.path.dirname(arq), exist_ok=True)
+        if os.path.exists(arq):   # cena igual ja renderizada: reaproveita
+            lista.append(f"file '{arq}'"); continue
         if c["tipo"] == "rosto":
             ent = ["-ss", f"{c['ini']:.4f}", "-i", P(plano["fala"])]
             vf = f"{zoom_filtro(z0, z1, dur, tuple(c.get('foco', FOCO_ROSTO)))},{GRADE_ROSTO}"
@@ -53,12 +59,17 @@ def main():
     sh(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", os.path.join(tmp, "cenas.txt"), "-c", "copy", os.path.join(tmp, "base.mp4")])
     # 2) artes
     artes = plano.get("artes", [])
-    if artes:
-        json.dump(artes, open(os.path.join(tmp, "artes.json"), "w"), ensure_ascii=False)
+    html = open(os.path.join(FERR, "artes", "artes.html")).read()
+    for a in artes:   # pasta da arte = id + assinatura (muda se a arte ou o desenho mudarem)
+        a["_dir"] = os.path.join(tmp, "artes", a["id"] + "_" + chave({k: v for k, v in a.items() if k not in ("ini", "sfx", "_dir")}, html))
+    falta = [dict(a, id=os.path.basename(a["_dir"])) for a in artes if not os.path.exists(os.path.join(a["_dir"], "0000.png"))]
+    if falta:
+        falta = [{k: v for k, v in a.items() if k != "_dir"} for a in falta]
+        json.dump(falta, open(os.path.join(tmp, "artes.json"), "w"), ensure_ascii=False)
         sh(["node", os.path.join(FERR, "artes", "render_artes.mjs"), os.path.join(tmp, "artes.json"), os.path.join(tmp, "artes")])
     ent = ["-i", os.path.join(tmp, "base.mp4")]; fv = []; fc = []; ult = "[0:v]"
     for j, a in enumerate(artes):
-        ent += ["-framerate", str(FPS), "-itsoffset", f"{a['ini'] - i0:.4f}", "-i", os.path.join(tmp, "artes", a["id"], "%04d.png")]
+        ent += ["-framerate", str(FPS), "-itsoffset", f"{a['ini'] - i0:.4f}", "-i", os.path.join(a["_dir"], "%04d.png")]
         fv.append(f"{ult}[{j+1}:v]overlay=eof_action=pass:format=auto[v{j}]"); ult = f"[v{j}]"
     # 3) som: voz + trilha (ducking) + efeitos
     na = len(artes) + 1
