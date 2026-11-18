@@ -107,10 +107,10 @@ def main():
     fc.append(f"{''.join(mix)}amix=inputs={len(mix)}:normalize=0:duration=first,atrim=0:{i1 - i0:.4f}[pre]")
     graf = ";".join(fc)
     # loudnorm 2 passadas
-    medir = sh(["ffmpeg", "-hide_banner", "-y", *ent, "-filter_complex", graf + ";[pre]loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json[aout]",
+    medir = sh(["ffmpeg", "-hide_banner", "-y", *ent, "-filter_complex", graf + ";[pre]loudnorm=I=-14:TP=-2.0:LRA=11:print_format=json[aout]",
                 "-map", "[aout]", "-f", "null", "-"])
     m = json.loads(re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", medir.stderr).group(0))
-    ln = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:"
+    ln = (f"loudnorm=I=-14:TP=-2.0:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}:"
           f"measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true,aresample=48000")
     vmap = ult if artes else "[0:v]"
     sh(["ffmpeg", "-loglevel", "error", "-y", *ent, "-filter_complex", ";".join(fv + [graf]) + f";[pre]{ln}[aout]",

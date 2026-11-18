@@ -216,6 +216,19 @@ AJ.update({
     330.10: [v(330.10, 331.30, "t1", 10.9, 1.10, 1.14), r(331.30, 331.90)],
     338.00: [v(338.00, 339.40, "t2", 28.0), r(339.40, 341.45)],
 })
+AJ.update({   # 2a conferencia: trechos pretos encontrados com blackdetect no video montado
+    42.20: [r(42.20, 45.30)],
+    61.00: [r(60.40, 64.18)],
+    137.80: [v(137.60, 139.20, "t1", 47.2), r(139.20, 139.80)],
+    192.20: [v(192.20, 193.10, "t1", 50.0), r(193.10, 195.00)],
+    213.85: [v(213.85, 215.40, "t3", 37.0, 1.16, 1.24, [["impacto", 0.05]])],
+    215.65: [r(215.40, 219.42)],
+    226.00: [v(226.00, 227.40, "t3", 7.0, 1.14, 1.20), r(227.40, 228.85)],
+    253.30: [v(253.30, 254.80, "t3", 37.0, 1.14, 1.20), r(254.80, 255.62)],
+    259.40: [v(259.40, 262.00, "t3", 104.8, 1.04, 1.10)],
+    317.50: [v(317.50, 318.70, "t1", 117.1), v(318.70, 319.25, "t1", 122.05, 1.12, 1.15)],
+    319.70: [r(319.25, 323.25)],
+})
 novo = []
 for c in resto:
     k = round(c["ini"], 2)
@@ -243,6 +256,7 @@ arte = lambda i, a, d, tipo, **k: dict(id=i, ini=a, dur=d, tipo=tipo, **k)
 artes += [
     arte("nomes", 36.80, 2.05, "maquina", texto="Mike · Dustin · Lucas · Will", x=110, y=900, sfx="teclas"),
     arte("dados", 39.10, 2.9, "chave", texto="mesa cheia de <b>dados</b>, salgadinho..."),
+    arte("sem_nome", 42.60, 2.6, "chave", texto="o primeiro monstro <b>não tem nome</b>"),
     arte("demo_jogo", 46.80, 2.3, "chave", texto="Demogorgon: um monstro do <b>jogo</b>"),
     arte("criancas", 56.20, 2.6, "chave", texto="porque elas ainda são <b>crianças</b>"),
     arte("will", 59.10, 1.25, "etiqueta", texto="Will", x=1250, y=260, sx=1300, sy=370, ax=1010, ay=480, sfx="pop"),
