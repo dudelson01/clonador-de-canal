@@ -237,12 +237,15 @@ AJ.update({   # 3a conferencia: planos curtos do trailer (Will 5,5-6,0 / mapa 96
 })
 AJ.update({   # pedido do aluno: em 3:45 era a Nancy, nao a Max. Max = t3 4,3-8,4 (mundo do Vecna)
     219.42: [r(219.42, 223.80)],
-    223.80: [v(223.80, 225.10, "t3", 7.55, 1.10, 1.14), v(225.10, 227.40, "t3", 4.6, 1.10, 1.16, [])],
+    223.80: [v(223.80, 225.10, "t3", 7.55, 1.10, 1.14), v(225.10, 227.40, "t3", 5.1, 1.10, 1.16, [])],
     226.00: [r(227.40, 228.85)],
 })
 AJ.update({   # planos exatos (cortes reais filtrados): Mike t1 73,7-74,6 / casa t1 ~72,9-73,7
     289.20: [v(289.20, 290.05, "t1", 73.75, 1.10, 1.13), v(290.05, 290.75, "t1", 72.95, 1.08, 1.10, []), r(290.75, 291.65)],
     296.30: [v(296.30, 297.00, "t1", 72.95, 1.08, 1.10), r(297.00, 299.05)],
+})
+AJ.update({   # trechos escuros: ceu antes do raio (Devorador) e comeco do plano aberto da Max
+    225.10: [v(225.10, 227.40, "t3", 5.1, 1.10, 1.16, [])],
 })
 novo = []
 for c in resto:
@@ -280,17 +283,17 @@ artes += [
     arte("t3", 74.10, 1.6, "canto", texto="Temporada 3", sfx="pop"),
     arte("mapa", 84.38, 0.47, "etiqueta", texto="o mapa da campanha", x=1000, y=760, sx=1080, sy=740, ax=900, ay=480, rot=2, sfx="pop"),
     arte("frase_dor", 93.30, 2.6, "chave", texto="a frase que dói mais que <b>qualquer monstro</b>"),
-    arte("castelo", 103.90, 1.05, "etiqueta", texto="Castelo Byers", x=1150, y=220, sx=1230, sy=330, ax=980, ay=500, sfx="pop"),
+    arte("castelo", 103.90, 1.05, "etiqueta", texto="Castelo Byers", x=560, y=160, sx=640, sy=280, ax=330, ay=430, sfx="pop"),
     arte("infancia", 115.20, 2.2, "chave", texto="o que morre ali é a <b>infância</b>"),
     arte("licenca", 124.10, 2.6, "chave", texto="crescer leva todo mundo <b>sem pedir licença</b>"),
     arte("anos", 131.95, 1.45, "contador", de=15, ate=18, rotulo="ANOS", x=1480, y=380, tam=160, tc=0.6, sfx="pop"),
-    arte("hopper", 139.90, 1.1, "etiqueta", texto="Hopper", x=1200, y=200, sx=1270, sy=310, ax=1020, ay=430, sfx="pop"),
+    arte("hopper", 139.90, 1.1, "etiqueta", texto="Hopper", x=1420, y=140, sx=1470, sy=250, ax=1250, ay=420, sfx="pop"),
     arte("eleven", 141.05, 1.75, "etiqueta", texto="Eleven", x=1200, y=220, sx=1260, sy=330, ax=1000, ay=480, sfx="pop"),
     arte("regras", 147.10, 2.6, "chave", texto="fecha a porta, inventa regra e até <b>ameaça</b>"),
     arte("carta", 155.35, 2.0, "carta", linhas=["El,", "eu sei que você", "está crescendo..."], vel=0.035),
     arte("crescer", 165.40, 3.0, "chave", texto="medo de ela <b>crescer</b>"),
     arte("mudar", 172.95, 1.5, "chave", texto="que ela <b>não pare de mudar</b>"),
-    arte("russos", 174.60, 1.3, "etiqueta", texto="russos", x=1250, y=230, sx=1300, sy=330, ax=1060, ay=480, sfx="pop"),
+    arte("russos", 174.60, 1.3, "maquina", texto="Prisão em Kamchatka · Rússia", x=110, y=900, sfx="teclas"),
     arte("tempo", 179.20, 1.8, "perigo", texto="O TEMPO", x=470, y=430),
     arte("ja_foi", 190.10, 2.0, "chave", texto="todo mundo já foi a <b>Eleven</b>"),
     arte("sera", 192.60, 2.3, "chave", texto="um dia, quase todo mundo vai ser o <b>Hopper</b>"),

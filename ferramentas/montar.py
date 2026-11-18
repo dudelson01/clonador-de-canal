@@ -52,8 +52,13 @@ def main():
         cx, cy, alto = r
         z = max(c.get("zoom", [1, 1]))
         # rosto (do topo do bone ao queixo) ocupa no maximo 70% da altura do quadro com zoom
-        if alto * z > 0.70: c["zoom"] = [min(zz, 0.70 / alto) for zz in c["zoom"]]
-        c["foco"] = [round(cx, 3), round(cy + 0.04, 3)]   # centro do recorte um pouco abaixo do rosto => rosto um pouco acima do meio
+        # a deteccao comeca na abertura do bone; o topo do bone fica ~0,09 acima. Cabeca inteira = alto + 0,09
+        cabeca = alto + 0.09
+        if cabeca * z > 0.80: c["zoom"] = [min(zz, 0.80 / cabeca) for zz in c["zoom"]]
+        z = max(c["zoom"])
+        topo = cy - alto / 2 - 0.09                      # topo do bone
+        centro = topo - 0.06 / z + 0.5 / z               # deixa 6% de folga acima do bone
+        c["foco"] = [round(cx, 3), round(centro, 3)]
     json.dump(cache, open(cache_f, "w"))
     for k, c in enumerate(plano["cenas"]):
         dur = c["fim"] - c["ini"]; nq = round(dur * FPS)

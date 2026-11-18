@@ -88,7 +88,7 @@
    "fim": 7.0667,
    "tipo": "video",
    "src": "t2",
-   "t": 42.85,
+   "t": 43.05,
    "zoom": [
     1.12,
     1.18
@@ -1346,7 +1346,7 @@
    "fim": 224.2,
    "tipo": "video",
    "src": "t3",
-   "t": 4.6,
+   "t": 5.1,
    "zoom": [
     1.1,
     1.16
@@ -2153,7 +2153,7 @@
   {
    "id": "devorador",
    "ini": 6.06,
-   "dur": 0.967,
+   "dur": 0.811,
    "tipo": "etiqueta",
    "texto": "Devorador de Mentes",
    "x": 980,
@@ -2320,12 +2320,12 @@
    "dur": 0.912,
    "tipo": "etiqueta",
    "texto": "Castelo Byers",
-   "x": 1150,
-   "y": 220,
-   "sx": 1230,
-   "sy": 330,
-   "ax": 980,
-   "ay": 500,
+   "x": 560,
+   "y": 160,
+   "sx": 640,
+   "sy": 280,
+   "ax": 330,
+   "ay": 430,
    "sfx": "pop"
   },
   {
@@ -2362,12 +2362,12 @@
    "dur": 1.017,
    "tipo": "etiqueta",
    "texto": "Hopper",
-   "x": 1200,
-   "y": 200,
-   "sx": 1270,
-   "sy": 310,
-   "ax": 1020,
-   "ay": 430,
+   "x": 1420,
+   "y": 140,
+   "sx": 1470,
+   "sy": 250,
+   "ax": 1250,
+   "ay": 420,
    "sfx": "pop"
   },
   {
@@ -2421,15 +2421,11 @@
    "id": "russos",
    "ini": 172.5,
    "dur": 1.3,
-   "tipo": "etiqueta",
-   "texto": "russos",
-   "x": 1250,
-   "y": 230,
-   "sx": 1300,
-   "sy": 330,
-   "ax": 1060,
-   "ay": 480,
-   "sfx": "pop"
+   "tipo": "maquina",
+   "texto": "Prisão em Kamchatka · Rússia",
+   "x": 110,
+   "y": 900,
+   "sfx": "teclas"
   },
   {
    "id": "tempo",
