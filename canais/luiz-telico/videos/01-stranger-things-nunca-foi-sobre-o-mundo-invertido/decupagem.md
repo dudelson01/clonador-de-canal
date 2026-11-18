@@ -1,6 +1,6 @@
 # Decupagem – vídeo 01 (para aprovar)
 
-Duração após a decupagem: **6:18** (v2, cortes pela energia do áudio: nenhum silêncio interno acima de 0,15 s) (gravação 1: 11:22 · gravação 2: 11:56).
+Duração após a decupagem: **5:56** (v3: corte pela vibração da voz; respiração, estalo de boca e rosto parado sem fala removidos; "s", "x", "t" no fim das palavras preservados).
 
 Regra: de cada frase fica a última versão boa, escolhida entre as duas gravações. Pausas longas foram encurtadas.
 

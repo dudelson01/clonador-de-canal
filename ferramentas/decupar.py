@@ -32,70 +32,93 @@ def acha(palavras, frase, perto, depois_de=None, janela=40):
     if not cands: return None
     return sorted(cands)[0][1:]
 
-# --- corte fino pela energia do audio (o tempo das palavras do Whisper erra ~0,1-0,3 s) ---
+# --- corte fino pela VOZ (o tempo das palavras do Whisper erra ~0,1-0,3 s) ---
+# Separa voz (vibracao das cordas vocais: energia forte em 100-900 Hz) de respiracao/estalo de boca
+# (ruido sem vibracao). Mantem consoantes surdas (s, f, ch, t) so encostadas na voz, ate CONSOANTE s.
 QUADRO = 0.010          # 10 ms
-SIL_MIN = 0.15          # silencio interno maior que isso e cortado
-FOLGA_ANTES = 0.035     # antes da voz comecar (ataque de consoante)
-FOLGA_DEPOIS = 0.060    # depois da voz acabar (fim de "s", "r", respiro curto)
-BUSCA = 0.35            # quanto o corte pode andar para fora do trecho pedido, procurando o fim real da voz
+SIL_MIN = 0.08          # buraco sem voz maior que isso, dentro da fala, e cortado
+CONSOANTE = 0.12        # quanto de som sem vibracao pode ficar grudado antes/depois da voz ("s" final, "f" inicial)
+FOLGA = 0.025           # respiro minimo de cada lado do corte
+BUSCA = 0.35            # janela extra para achar o fim real da voz fora do trecho pedido
 
-def envelope(arq):
+def envelopes(arq):
     import numpy as np
-    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", arq, "-map", "0:a:0", "-ac", "1", "-ar", "16000",
-                          "-af", "highpass=f=80", "-f", "f32le", "-"], capture_output=True, check=True).stdout
-    a = np.frombuffer(raw, np.float32); n = int(16000 * QUADRO)
-    a = a[: len(a) // n * n].reshape(-1, n)
-    db = 20 * np.log10(np.sqrt((a ** 2).mean(1)) + 1e-9)
-    piso = np.percentile(db, 10); voz = np.percentile(db, 70)
-    lim = max(piso + 9, voz - 28)
-    return db, lim
+    def env(filtro):
+        raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", arq, "-map", "0:a:0", "-ac", "1", "-ar", "16000",
+                              "-af", filtro, "-f", "f32le", "-"], capture_output=True, check=True).stdout
+        a = np.frombuffer(raw, np.float32); n = int(16000 * QUADRO)
+        a = a[: len(a) // n * n].reshape(-1, n)
+        return 20 * np.log10(np.sqrt((a ** 2).mean(1)) + 1e-9)
+    tot = env("highpass=f=80")
+    low = env("highpass=f=100,lowpass=f=900")
+    hf = env("highpass=f=3500")      # chiado de "s", "x", "ch", estouro de "t"
+    m = min(len(tot), len(low), len(hf)); tot, low, hf = tot[:m], low[:m], hf[:m]
+    # "som" util fora da voz = consoante: agudo forte. Respiracao tem agudo bem mais fraco.
+    lim_hf = max(np.percentile(hf, 10) + 12, np.percentile(hf, 90) - 22)
+    tot = np.where(hf > lim_hf, tot, -200.0)   # so conta como som o que tem chiado de consoante
+    lim_tot = np.percentile(tot[tot > -200], 5) if (tot > -200).any() else -60
+    lim_low = max(np.percentile(low, 10) + 12, np.percentile(low, 70) - 20)
+    return tot, low, lim_tot, lim_low
+
+def blocos(mask, min_len=1):
+    out, ini = [], None
+    for k, v in enumerate(list(mask) + [False]):
+        if v and ini is None: ini = k
+        if not v and ini is not None:
+            if k - ini >= min_len: out.append([ini, k])
+            ini = None
+    return out
 
 def apertar(pedacos, tomadas):
     import numpy as np
-    env = {k: envelope(v) for k, v in tomadas.items()}
+    E = {k: envelopes(v) for k, v in tomadas.items()}
     novos = []
+    gmin, cmax = int(round(SIL_MIN / QUADRO)), int(round(CONSOANTE / QUADRO))
     for p in pedacos:
-        if p.get("e") is None: continue
-        db, lim = env[p["t"]]
-        i0 = max(0, int((p["s"] - BUSCA) / QUADRO)); i1 = min(len(db), int((p["e"] + BUSCA) / QUADRO))
+        tot, low, lt, ll = E[p["t"]]
         a, b = int(p["s"] / QUADRO), int(p["e"] / QUADRO)
-        fala = db[i0:i1] > lim
-        # suaviza: preenche buracos < 40 ms (oclusivas) e ignora estalos < 30 ms
-        f = fala.copy()
-        for k in range(len(f)):
-            if not f[k] and k > 0 and f[k - 1]:
-                j = k
-                while j < len(f) and not f[j] and j - k < 4: j += 1
-                if j < len(f) and f[j] and j - k < 4: f[k:j] = True
-        trechos, ini = [], None
-        for k, v in enumerate(list(f) + [False]):
-            if v and ini is None: ini = k
-            if not v and ini is not None:
-                if k - ini >= 3: trechos.append([ini + i0, k + i0])
-                ini = None
-        # so os blocos de voz que tocam a janela pedida [a, b]
-        trechos = [t for t in trechos if t[1] > a and t[0] < b]
-        if not trechos:
+        i0 = max(0, a - int(BUSCA / QUADRO)); i1 = min(len(tot), b + int(BUSCA / QUADRO))
+        voz = low[i0:i1] > ll          # vibracao de voz
+        som = tot[i0:i1] > lt          # qualquer som (voz, consoante, respiracao)
+        vb = [[x + i0, y + i0] for x, y in blocos(voz, 2)]          # >= 20 ms de voz
+        vb = [t for t in vb if t[1] > a and t[0] < b]
+        if not vb:
             novos.append(p); continue
-        # so estende para fora do pedido se a voz termina/comeca logo ali (ate 0,15 s);
-        # se a voz continua (emenda na palavra seguinte/anterior que NAO queremos), corta no limite pedido
         ext = int(0.15 / QUADRO)
-        if trechos[0][0] < a - ext: trechos[0][0] = a
-        if trechos[-1][1] > b + ext: trechos[-1][1] = b
-        # junta blocos com silencio <= SIL_MIN
-        junt = [trechos[0]]
-        for t in trechos[1:]:
-            if (t[0] - junt[-1][1]) * QUADRO <= SIL_MIN: junt[-1][1] = t[1]
+        if vb[0][0] < a - ext: vb[0][0] = a
+        if vb[-1][1] > b + ext: vb[-1][1] = b
+        # junta voz separada por buraco curto (oclusivas, silabas)
+        junt = [vb[0]]
+        for t in vb[1:]:
+            if t[0] - junt[-1][1] <= gmin: junt[-1][1] = t[1]
             else: junt.append(t)
-        for t in junt:
+        for s_, e_ in junt:
+            # gruda consoante surda encostada (som continuo sem vibracao), no maximo CONSOANTE
+            # atravessa pausas de ate 60 ms (fechamento de "t", "p", "k") desde que volte a ter som
+            def tem(k): return 0 <= k - i0 < len(som) and som[k - i0]
+            lim_ini = max(a - ext if s_ >= a - ext else s_, s_ - cmax)
+            s2 = k = s_
+            while k - 1 >= lim_ini:
+                if tem(k - 1): k -= 1; s2 = k; continue
+                j = k - 1
+                while j >= lim_ini and not tem(j) and k - j <= 6: j -= 1
+                if j >= lim_ini and tem(j) and k - j <= 6: k = j + 1; continue
+                break
+            lim_fim = min(b + ext, e_ + cmax)
+            e2 = k = e_
+            while k < lim_fim:
+                if tem(k): k += 1; e2 = k; continue
+                j = k
+                while j < lim_fim and not tem(j) and j - k < 6: j += 1
+                if j < lim_fim and tem(j) and j - k < 6: k = j; continue
+                break
             q = dict(p)
-            q["s"] = round(max(0, t[0] * QUADRO - FOLGA_ANTES), 3)
-            q["e"] = round(t[1] * QUADRO + FOLGA_DEPOIS, 3)
-            if q is not p and t is not junt[-1]: q.pop("texto", None)
+            q["s"] = round(max(0, s2 * QUADRO - FOLGA), 3)
+            q["e"] = round(e2 * QUADRO + FOLGA, 3)
+            if [s_, e_] != junt[-1]: q.pop("texto", None)
             novos.append(q)
-    # evita sobreposicao dentro da mesma tomada
     for x, y in zip(novos, novos[1:]):
-        if x["t"] == y["t"] and y["s"] < x["e"] and y["s"] > x["s"]:
+        if x["t"] == y["t"] and x["s"] < y["s"] < x["e"]:
             meio = round((x["e"] + y["s"]) / 2, 3); x["e"] = meio; y["s"] = meio
     return novos
 

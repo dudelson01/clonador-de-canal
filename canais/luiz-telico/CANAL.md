@@ -32,3 +32,4 @@ Ver `referencia/titulos.md`. Resumo: obra famosa no começo; contradiz o que o p
 - 2026-11-17: Nome do canal: **Luiz Telico**.
 - 2026-11-18: Decupagem com o MÍNIMO de silêncio: cortes pela energia do áudio (não pelo tempo do Whisper), nenhuma pausa acima de ~0,15 s, folga de 35 ms antes e 60 ms depois da voz, sem cortar palavra. O aluno achou a 1ª versão (pausas de até 0,3 s) lenta demais.
 - 2026-11-18: Manter os comentários pessoais curtos do Luiz (opinião de fã, humor); cortar os longos, os que têm palavrão pesado e os que afirmam fato errado ou não confirmado.
+- 2026-11-18: v3 da decupagem aprovada como padrão de corte: tirar também respiração e estalo de boca (o aluno não quer o rosto na tela sem fala). Corte pela vibração da voz (100-900 Hz); só fica som sem vibração se for chiado de consoante ("s", "x", "t") grudado na palavra, até 0,12 s. Conferir sempre com ferramentas/checar_palavras.py + nova transcrição.
