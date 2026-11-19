@@ -1,56 +1,314 @@
 {
- "tomadas": {"1": "gravacao/g1.mp4", "2": "gravacao/g2.mp4"},
- "render": {"1": "build/cfr1.mov", "2": "build/cfr2.mov"},
- "transcricoes": {"1": "build/g1.json", "2": "build/g2.json"},
+ "tomadas": {
+  "1": "gravacao/g1.mp4",
+  "2": "gravacao/g2.mp4"
+ },
+ "render": {
+  "1": "build/cfr1.mov",
+  "2": "build/cfr2.mov"
+ },
+ "transcricoes": {
+  "1": "build/g1.json",
+  "2": "build/g2.json"
+ },
  "trechos": [
-  {"t": "2", "de": "faz anos", "ate": "heroi igual", "perto": 3.3, "bloco": "gancho"},
-  {"t": "1", "de": "so que em 2026", "ate": "carreira do nolan", "perto": 22.0, "bloco": "gancho"},
-  {"t": "1", "de": "os filmes voltaram", "ate": "qual e", "perto": 50.8, "bloco": "gancho"},
-
-  {"t": "2", "de": "repara numa coisa", "ate": "lembra depois", "perto": 68.8, "bloco": "1-visual"},
-  {"t": "2", "de": "tem gente", "ate": "uma escolha", "perto": 88.3, "bloco": "1-visual"},
-  {"t": "1", "de": "e o filme feito", "ate": "fundo da sala", "perto": 112.0, "bloco": "1-visual"},
-  {"t": "2", "de": "se funciona", "ate": "lugar nenhum", "perto": 115.6, "bloco": "1-visual"},
-  {"t": "1", "de": "e e o famoso", "ate": "tudo e pronto", "perto": 131.4, "bloco": "1-visual"},
-  {"t": "1", "de": "agora pensa em duna", "ate": "muito bom", "perto": 139.3, "bloco": "1-visual", "obs": "inclui comentario 'cara esse filme e muito bom'"},
-  {"t": "2", "de": "pensa em a odisseia", "ate": "qualquer fala", "perto": 154.9, "bloco": "1-visual"},
-  {"t": "2", "de": "nenhuma dessas", "ate": "lembra delas", "perto": 174.4, "bloco": "1-visual"},
-  {"t": "1", "de": "a diferenca", "ate": "cada quadro", "perto": 185.9, "bloco": "1-visual"},
-
-  {"t": "1", "de": "ate aqui parece", "ate": "outra coisa", "perto": 214.9, "bloco": "ponte"},
-
-  {"t": "1", "de": "em 2020 no fim", "ate": "soltado no mundo", "perto": 233.0, "bloco": "2-paixao"},
-  {"t": "1", "de": "tres anos depois", "ate": "bilhao de dolares", "perto": 264.4, "bloco": "2-paixao"},
-  {"t": "2", "de": "agora pensa no", "ate": "eles quiseram", "perto": 275.9, "bloco": "2-paixao"},
-  {"t": "1", "de": "agora olhe", "ate": "outra coisa", "perto": 315.7, "bloco": "2-paixao"},
-  {"t": "1", "de": "pra salvar", "ate": "20 anos atras", "perto": 331.9, "bloco": "2-paixao"},
-  {"t": "1", "de": "eu vou ver", "ate": "de uma planilha", "perto": 347.1, "bloco": "2-paixao", "obs": "inclui comentario 'so pra dar aquele lucruzinho'"},
-
-  {"t": "1", "de": "se voce tambem", "ate": "querem dizer", "perto": 377.3, "bloco": "cta"},
-
-  {"t": "2", "de": "ai vem a pergunta", "ate": "nao da dinheiro", "perto": 434.0, "bloco": "3-dinheiro"},
-  {"t": "2", "de": "a resposta", "ate": "que da", "perto": 440.0, "bloco": "3-dinheiro"},
-  {"t": "2", "de": "obsession custou", "ate": "toda a historia", "perto": 469.8, "bloco": "3-dinheiro"},
-  {"t": "1", "de": "a odisseia", "ate": "fim de semana", "perto": 429.2, "bloco": "3-dinheiro"},
-  {"t": "2", "de": "as pessoas", "ate": "um mes", "perto": 495.2, "bloco": "3-dinheiro"},
-  {"t": "1", "de": "da pra ver", "ate": "cabe no sofa", "perto": 454.1, "bloco": "3-dinheiro"},
-
-  {"t": "2", "de": "e nao e so la fora", "ate": "explosao nenhuma", "perto": 563.6, "bloco": "4-brasil"},
-  {"t": "2", "de": "e logo depois", "ate": "de daqui", "perto": 595.0, "bloco": "4-brasil"},
-  {"t": "1", "de": "saiu sem", "ate": "com vontade", "perto": 490.2, "bloco": "4-brasil", "obs": "inclui 'infelizmente sim'"},
-  {"t": "2", "de": "e a mesma regra", "ate": "assen", "perto": 636.1, "bloco": "4-brasil"},
-
-  {"t": "2", "de": "entao esta tudo", "ate": "de pe", "perto": 651.1, "bloco": "virada"},
-  {"t": "2", "de": "quando dois", "ate": "marca conhecida", "perto": 670.7, "bloco": "virada"},
-  {"t": "2", "de": "so que ate isso", "ate": "de volta", "perto": 685.6, "bloco": "virada"},
-
-  {"t": "2", "de": "e e aqui que", "ate": "nem de ator", "perto": 701.2, "bloco": "final"},
-  {"t": "2", "de": "um filme montado", "ate": "para ninguem", "perto": 715.8, "bloco": "final"},
-  {"t": "2", "de": "esse e o final ruim", "ate": "sendo testadas", "perto": 730.1, "bloco": "final"},
-  {"t": "2", "de": "o final bom", "ate": "aquela historia", "perto": 737.9, "bloco": "final"},
-  {"t": "2", "de": "entao nao", "ate": "final vai ter", "perto": 750.0, "bloco": "final"},
-  {"t": "2", "de": "me conta", "ate": "voce entrou", "perto": 759.7, "bloco": "final"},
-  {"t": "2", "de": "se inscreve", "ate": "destrinchar", "perto": 769.2, "bloco": "final"},
-  {"t": "2", "de": "e isso galera", "ate": "tchau", "perto": 775.9, "bloco": "final"}
+  {
+   "t": "2",
+   "de": "faz anos",
+   "ate": "heroi igual",
+   "perto": 3.3,
+   "bloco": "gancho"
+  },
+  {
+   "t": "1",
+   "de": "so que em 2026",
+   "ate": "carreira do nolan",
+   "perto": 22.0,
+   "bloco": "gancho"
+  },
+  {
+   "t": "1",
+   "de": "os filmes voltaram",
+   "ate": "qual e",
+   "perto": 50.8,
+   "bloco": "gancho"
+  },
+  {
+   "t": "2",
+   "de": "repara numa coisa",
+   "ate": "lembra depois",
+   "perto": 68.8,
+   "bloco": "1-visual"
+  },
+  {
+   "t": "2",
+   "de": "tem gente",
+   "ate": "uma escolha",
+   "perto": 88.3,
+   "bloco": "1-visual"
+  },
+  {
+   "t": "1",
+   "de": "e o filme feito",
+   "ate": "fundo da sala",
+   "perto": 112.0,
+   "bloco": "1-visual"
+  },
+  {
+   "t": "2",
+   "de": "se funciona",
+   "ate": "lugar nenhum",
+   "perto": 115.6,
+   "bloco": "1-visual"
+  },
+  {
+   "t": "1",
+   "de": "e e o famoso",
+   "ate": "tudo e pronto",
+   "perto": 131.4,
+   "bloco": "1-visual"
+  },
+  {
+   "t": "1",
+   "de": "agora pensa em duna",
+   "ate": "muito bom",
+   "perto": 139.3,
+   "bloco": "1-visual",
+   "obs": "inclui comentario 'cara esse filme e muito bom'"
+  },
+  {
+   "t": "2",
+   "de": "pensa em a odisseia",
+   "ate": "qualquer fala",
+   "perto": 154.9,
+   "bloco": "1-visual"
+  },
+  {
+   "t": "2",
+   "de": "nenhuma dessas",
+   "ate": "lembra delas",
+   "perto": 174.4,
+   "bloco": "1-visual"
+  },
+  {
+   "t": "1",
+   "de": "a diferenca",
+   "ate": "cada quadro",
+   "perto": 185.9,
+   "bloco": "1-visual"
+  },
+  {
+   "t": "1",
+   "de": "ate aqui parece",
+   "ate": "outra coisa",
+   "perto": 214.9,
+   "bloco": "ponte"
+  },
+  {
+   "t": "1",
+   "de": "em 2020 no fim",
+   "ate": "soltado no mundo",
+   "perto": 233.0,
+   "bloco": "2-paixao"
+  },
+  {
+   "t": "1",
+   "de": "tres anos depois",
+   "ate": "bilhao de dolares",
+   "perto": 264.4,
+   "bloco": "2-paixao"
+  },
+  {
+   "t": "2",
+   "de": "agora pensa no",
+   "ate": "eles quiseram",
+   "perto": 275.9,
+   "bloco": "2-paixao"
+  },
+  {
+   "t": "1",
+   "de": "agora olhe",
+   "ate": "outra coisa",
+   "perto": 315.7,
+   "bloco": "2-paixao"
+  },
+  {
+   "t": "1",
+   "de": "pra salvar",
+   "ate": "20 anos atras",
+   "perto": 331.9,
+   "bloco": "2-paixao"
+  },
+  {
+   "t": "1",
+   "de": "eu vou ver",
+   "ate": "de uma planilha",
+   "perto": 347.1,
+   "bloco": "2-paixao",
+   "obs": "inclui comentario 'so pra dar aquele lucruzinho'"
+  },
+  {
+   "t": "1",
+   "de": "se voce tambem",
+   "ate": "querem dizer",
+   "perto": 377.3,
+   "bloco": "cta"
+  },
+  {
+   "t": "2",
+   "de": "ai vem a pergunta",
+   "ate": "nao da dinheiro",
+   "perto": 434.0,
+   "bloco": "3-dinheiro"
+  },
+  {
+   "t": "2",
+   "de": "a resposta",
+   "ate": "que da",
+   "perto": 440.0,
+   "bloco": "3-dinheiro"
+  },
+  {
+   "t": "2",
+   "de": "obsession custou",
+   "ate": "toda a historia",
+   "perto": 469.8,
+   "bloco": "3-dinheiro"
+  },
+  {
+   "t": "1",
+   "de": "a odisseia",
+   "ate": "fim de semana",
+   "perto": 429.2,
+   "bloco": "3-dinheiro"
+  },
+  {
+   "t": "2",
+   "de": "as pessoas",
+   "ate": "um mes",
+   "perto": 495.2,
+   "bloco": "3-dinheiro"
+  },
+  {
+   "t": "1",
+   "de": "da pra ver",
+   "ate": "cabe no sofa",
+   "perto": 454.1,
+   "bloco": "3-dinheiro"
+  },
+  {
+   "t": "2",
+   "de": "e nao e so la fora",
+   "ate": "explosao nenhuma",
+   "perto": 563.6,
+   "bloco": "4-brasil"
+  },
+  {
+   "t": "2",
+   "de": "e logo depois",
+   "ate": "de daqui",
+   "perto": 595.0,
+   "bloco": "4-brasil"
+  },
+  {
+   "t": "1",
+   "de": "saiu sem",
+   "ate": "com vontade",
+   "perto": 490.2,
+   "bloco": "4-brasil",
+   "obs": "inclui 'infelizmente sim'"
+  },
+  {
+   "t": "2",
+   "de": "e a mesma regra",
+   "ate": "foi feito no",
+   "perto": 636.1,
+   "bloco": "4-brasil"
+  },
+  {
+   "t": "2",
+   "exato": true,
+   "ini": 644.3,
+   "fim": 645.95,
+   "bloco": "4-brasil",
+   "obs": "ta bom assim (Whisper errou o tempo; medido pela energia do audio)"
+  },
+  {
+   "t": "2",
+   "de": "entao esta tudo",
+   "ate": "de pe",
+   "perto": 651.1,
+   "bloco": "virada"
+  },
+  {
+   "t": "2",
+   "de": "quando dois",
+   "ate": "marca conhecida",
+   "perto": 670.7,
+   "bloco": "virada"
+  },
+  {
+   "t": "2",
+   "de": "so que ate isso",
+   "ate": "de volta",
+   "perto": 685.6,
+   "bloco": "virada"
+  },
+  {
+   "t": "2",
+   "de": "e e aqui que",
+   "ate": "nem de ator",
+   "perto": 701.2,
+   "bloco": "final"
+  },
+  {
+   "t": "2",
+   "de": "um filme montado",
+   "ate": "para ninguem",
+   "perto": 715.8,
+   "bloco": "final"
+  },
+  {
+   "t": "2",
+   "de": "esse e o final ruim",
+   "ate": "sendo testadas",
+   "perto": 730.1,
+   "bloco": "final"
+  },
+  {
+   "t": "2",
+   "de": "o final bom",
+   "ate": "aquela historia",
+   "perto": 737.9,
+   "bloco": "final"
+  },
+  {
+   "t": "2",
+   "de": "entao nao",
+   "ate": "final vai ter",
+   "perto": 750.0,
+   "bloco": "final"
+  },
+  {
+   "t": "2",
+   "de": "me conta",
+   "ate": "voce entrou",
+   "perto": 759.7,
+   "bloco": "final"
+  },
+  {
+   "t": "2",
+   "de": "se inscreve",
+   "ate": "destrinchar",
+   "perto": 769.2,
+   "bloco": "final"
+  },
+  {
+   "t": "2",
+   "de": "e isso galera",
+   "ate": "tchau",
+   "perto": 775.9,
+   "bloco": "final"
+  }
  ]
 }
