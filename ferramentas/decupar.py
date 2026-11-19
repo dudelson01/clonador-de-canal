@@ -38,9 +38,21 @@ def acha(palavras, frase, perto, depois_de=None, janela=40):
 QUADRO = 0.010          # 10 ms
 SIL_MIN = 0.08          # buraco sem voz maior que isso, dentro da fala, e cortado
 BRUTO = {}
-PALAVRA_MAX = 0.55      # dentro de uma palavra (ate 0,55 s do inicio dela) nada e cortado, mesmo voz soprada
+PALAVRA_MAX = 1.20      # dentro de uma palavra (ate 1,2 s do inicio dela) a voz soprada/fraca nao e cortada (antes 0,55: comia o fim de "quiseram", "algoritmo")
 PER_MIN = 0.38          # periodicidade minima para contar como voz (respiracao fica abaixo)
 CONSOANTE = 0.10        # quanto de som sem vibracao pode ficar grudado antes/depois da voz ("s" final, "f" inicial)
+# So gruda som sem vibracao quando a palavra da borda COMECA/TERMINA com consoante surda. Senao esse som e respiracao.
+FRIC_INI, PLOS_INI = ("s", "f", "x", "ch", "z", "j", "ce", "ci"), ("t", "p", "c", "k", "q")
+FRIC_FIM = ("s", "z", "x")
+
+def borda(trans_t, t0, t1):
+    """(quadros de consoante permitidos antes, depois) do bloco de voz t0-t1, pela 1a e ultima palavra."""
+    ws = [w for w in trans_t if w["e"] > t0 - 0.05 and w["s"] < t1 + 0.05]
+    if not ws: return 0, 0
+    w0 = (norm(ws[0]["w"]) or [""])[0]; w1 = (norm(ws[-1]["w"]) or [""])[-1]
+    ini = CONSOANTE if w0.startswith(FRIC_INI) else 0.04 if w0.startswith(PLOS_INI) else 0.0
+    fim = CONSOANTE if w1.endswith(FRIC_FIM) else 0.05 if w1.endswith(("r", "t")) else 0.0
+    return int(round(ini / QUADRO)), int(round(fim / QUADRO))
 FOLGA = 0.025           # respiro minimo de cada lado do corte
 BUSCA = 0.35            # janela extra para achar o fim real da voz fora do trecho pedido
 
@@ -112,7 +124,8 @@ def apertar(pedacos, tomadas, trans=None):
             # gruda consoante surda encostada (som continuo sem vibracao), no maximo CONSOANTE
             # atravessa pausas de ate 60 ms (fechamento de "t", "p", "k") desde que volte a ter som
             def tem(k): return 0 <= k - i0 < len(som) and som[k - i0]
-            lim_ini = max(a - ext if s_ >= a - ext else s_, s_ - cmax)
+            ci, cf = borda(trans[p["t"]], s_ * QUADRO, e_ * QUADRO) if trans else (cmax, cmax)
+            lim_ini = max(a - ext if s_ >= a - ext else s_, s_ - ci)
             s2 = k = s_
             while k - 1 >= lim_ini:
                 if tem(k - 1): k -= 1; s2 = k; continue
@@ -120,7 +133,7 @@ def apertar(pedacos, tomadas, trans=None):
                 while j >= lim_ini and not tem(j) and k - j <= 6: j -= 1
                 if j >= lim_ini and tem(j) and k - j <= 6: k = j + 1; continue
                 break
-            lim_fim = min(b + ext, e_ + cmax)
+            lim_fim = min(b + ext, e_ + cf)
             e2 = k = e_
             while k < lim_fim:
                 if tem(k): k += 1; e2 = k; continue
