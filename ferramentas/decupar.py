@@ -72,7 +72,9 @@ def envelopes(arq):
     m = min(len(tot), len(low), len(hf)); tot, low, hf = tot[:m], low[:m], hf[:m]
     # "som" util fora da voz = consoante: agudo forte. Respiracao tem agudo bem mais fraco.
     lim_hf = max(np.percentile(hf, 10) + 12, np.percentile(hf, 90) - 22)
-    tot = np.where(hf > lim_hf, tot, -200.0)   # so conta como som o que tem chiado de consoante
+    # so conta como som o que tem chiado de consoante: agudo forte E mais forte que o grave ("s", "x", "t");
+    # o sopro depois do "s" (expiracao) tem grave ~ agudo e fica de fora
+    tot = np.where((hf > lim_hf) & (hf - low > 3), tot, -200.0)
     lim_tot = np.percentile(tot[tot > -200], 5) if (tot > -200).any() else -60
     lim_low = max(np.percentile(low, 10) + 12, np.percentile(low, 70) - 20)
     # VOZ = grave forte E com tom regular (periodicidade). Respiracao forte faz o grave vibrar, mas nao tem tom.

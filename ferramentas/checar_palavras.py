@@ -14,13 +14,14 @@ trans = {k: json.load(open(v))["palavras"] for k, v in plano["transcricoes"].ite
 E = {k: dec["envelopes"](v) for k, v in plano["tomadas"].items()}
 # usa o grave BRUTO (sem filtro de tom): pega tambem voz soprada/rouca perdida
 E = {k: (e[0], dec["BRUTO"][plano["tomadas"][k]], e[2], e[3]) for k, e in E.items()}
+I = {k: dec["INCL"][plano["tomadas"][k]] for k in E}   # so conta som com cara de voz (grave >> agudo), nao respiracao
 Q = dec["QUADRO"]; ruins = 0
 for n in sorted(set(p["n"] for p in D)):
     ps = [p for p in D if p["n"] == n]; t = ps[0]["t"]; tot, low, lt, ll = E[t]
     lo, hi = min(p["s"] for p in ps), max(p["e"] for p in ps)
     for w in trans[t]:
         if w["e"] < lo + 0.02 or w["s"] > hi - 0.02: continue
-        frames = [k for k in range(int(w["s"] / Q), int(w["e"] / Q)) if k < len(tot) and low[k] > ll]  # so VOZ (vibracao)
+        frames = [k for k in range(int(w["s"] / Q), int(w["e"] / Q)) if k < len(tot) and low[k] > ll and I[t][k] >= dec["INCL_VOZ"]]  # so VOZ (vibracao)
         perd = [k for k in frames if not any(p["s"] <= k * Q + Q / 2 <= p["e"] for p in ps)]
         if len(perd) * Q >= 0.03:
             ruins += 1; print(f"trecho {n} grav {t} '{w['w']}' {w['s']:.2f}-{w['e']:.2f}: perdeu {len(perd)*Q*1000:.0f} ms de voz (de {len(frames)*Q*1000:.0f})")
