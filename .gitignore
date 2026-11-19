@@ -6,3 +6,4 @@ canais/*/videos/*/build/
 canais/*/videos/*/midia/
 *.wav
 *.mp4
+__pycache__/
