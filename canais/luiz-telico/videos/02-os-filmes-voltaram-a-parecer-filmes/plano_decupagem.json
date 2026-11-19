@@ -119,10 +119,11 @@
   },
   {
    "t": "1",
-   "de": "um cientista",
-   "ate": "no mundo",
-   "perto": 250.3,
-   "bloco": "2-paixao"
+   "exato": true,
+   "ini": 257.62,
+   "fim": 261.95,
+   "bloco": "2-paixao",
+   "obs": "so a ultima tentativa de 'um cientista tentando viver...' (a transcricao juntou as 3 tentativas)"
   },
   {
    "t": "1",

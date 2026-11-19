@@ -49,7 +49,8 @@ FRIC_FIM = ("s", "z", "x")
 
 def borda(trans_t, t0, t1):
     """(quadros de consoante permitidos antes, depois) do bloco de voz t0-t1, pela 1a e ultima palavra."""
-    ws = [w for w in trans_t if w["e"] > t0 - 0.05 and w["s"] < t1 + 0.05]
+    # palavras que estao de fato neste bloco (pelo menos 30% dentro), nao o rabo da anterior nem o inicio da proxima
+    ws = [w for w in trans_t if min(w["e"], t1 + 0.05) - max(w["s"], t0 - 0.05) > 0.3 * max(w["e"] - w["s"], 0.05)]
     if not ws: return 0, 0
     w0 = (norm(ws[0]["w"]) or [""])[0]; w1 = (norm(ws[-1]["w"]) or [""])[-1]
     ini = CONSOANTE if w0.startswith(FRIC_INI) else 0.04 if w0.startswith(PLOS_INI) else 0.0

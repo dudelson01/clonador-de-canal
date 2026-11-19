@@ -1,640 +1,640 @@
 {
 "idioma": "pt",
-"duracao": 370.752,
+"duracao": 362.176,
 "segmentos": [
 {
 "s": 0.0,
-"e": 5.14,
-"texto": "Faz anos que a gente fala que o cinema morreu, que é tudo continuação, remake e filme de"
+"e": 2.32,
+"texto": "Faz anos que a gente fala que o cinema morreu,"
 },
 {
-"s": 5.14,
-"e": 5.66,
-"texto": "herói igual."
+"s": 2.36,
+"e": 5.52,
+"texto": "que é tudo continuação, remake e filme de herói igual."
 },
 {
-"s": 6.1,
-"e": 9.0,
+"s": 5.7,
+"e": 8.54,
 "texto": "Só que em 2026 aconteceu uma coisa muito estranha."
 },
 {
-"s": 9.12,
-"e": 14.04,
-"texto": "Um filme de terror que custou menos que um apartamento fez mais de meio bilhão de dólares."
+"s": 8.64,
+"e": 11.06,
+"texto": "Um filme de terror que custou menos que um apartamento"
 },
 {
-"s": 14.16,
-"e": 19.04,
-"texto": "Um garoto de 20 anos que começou no YouTube teve a maior estreia da história do estúdio"
+"s": 11.06,
+"e": 13.58,
+"texto": "fez mais de meio bilhão de dólares."
 },
 {
-"s": 19.04,
-"e": 19.44,
-"texto": "dele."
+"s": 13.7,
+"e": 15.88,
+"texto": "Um garoto de 20 anos que começou no YouTube"
 },
 {
-"s": 19.64,
-"e": 23.64,
-"texto": "E um poema de quase 3 mil anos virou o maior lançamento da carreira do Nolan."
+"s": 15.88,
+"e": 18.7,
+"texto": "teve a maior estreia da história do estúdio dele."
 },
 {
-"s": 23.78,
-"e": 28.28,
-"texto": "Os filmes voltaram a aparecer filmes, mas eu não vim aqui só comemorar, porque"
+"s": 18.92,
+"e": 20.66,
+"texto": "E um poema de quase 3 mil anos"
 },
 {
-"s": 28.28,
-"e": 30.22,
-"texto": "Hollywood está numa encruzilhada."
+"s": 20.66,
+"e": 22.92,
+"texto": "virou o maior lançamento da carreira do Nolan."
 },
 {
-"s": 30.34,
-"e": 32.08,
-"texto": "Tem o final bom e tem o final ruim."
+"s": 23.08,
+"e": 25.7,
+"texto": "Os filmes voltaram a parecer filmes,"
 },
 {
-"s": 32.18,
-"e": 33.92,
+"s": 25.72,
+"e": 27.28,
+"texto": "mas eu não vim aqui só comemorar,"
+},
+{
+"s": 27.34,
+"e": 29.4,
+"texto": "porque Hollywood está numa encruzilhada."
+},
+{
+"s": 29.4,
+"e": 31.34,
+"texto": "Tem um final bom e tem um final ruim."
+},
+{
+"s": 31.5,
+"e": 33.22,
 "texto": "E o final ruim já começou."
 },
 {
-"s": 34.16,
-"e": 35.96,
+"s": 33.46,
+"e": 35.24,
 "texto": "No fim do vídeo eu te mostro qual é."
 },
 {
-"s": 36.06,
-"e": 37.1,
+"s": 35.34,
+"e": 36.38,
 "texto": "Repara numa coisa."
 },
 {
-"s": 37.18,
-"e": 39.78,
-"texto": "Pensa nos filmes que você viu no stream nos últimos anos."
+"s": 36.48,
+"e": 39.1,
+"texto": "Pensa nos filmes que você viu no streaming nos últimos anos."
 },
 {
-"s": 39.94,
-"e": 42.9,
+"s": 39.32,
+"e": 42.28,
 "texto": "Cor meio apagada, tudo cinza, tudo muito bege."
 },
 {
-"s": 43.2,
-"e": 46.18,
+"s": 42.54,
+"e": 45.54,
 "texto": "O rosto do autor nítido e o fundo todo borrado."
 },
 {
-"s": 46.48,
-"e": 48.66,
+"s": 45.84,
+"e": 48.0,
 "texto": "Nenhuma imagem que você lembra depois."
 },
 {
-"s": 48.8,
-"e": 51.5,
+"s": 48.14,
+"e": 50.86,
 "texto": "Tem gente que chama isso de visual Netflix."
 },
 {
-"s": 51.62,
-"e": 54.12,
+"s": 51.02,
+"e": 53.5,
 "texto": "Mas não é culpa da Netflix nem da câmera digital."
 },
 {
-"s": 54.36,
-"e": 55.36,
+"s": 53.62,
+"e": 54.64,
 "texto": "É uma escolha."
 },
 {
-"s": 55.44,
-"e": 57.56,
+"s": 54.74,
+"e": 56.86,
 "texto": "É um filme feito pra funcionar em qualquer tela."
 },
 {
-"s": 57.56,
-"e": 60.34,
+"s": 56.86,
+"e": 59.64,
 "texto": "no celular, no ônibus e na TV velha do fundo da sala."
 },
 {
-"s": 60.72,
-"e": 63.98,
+"s": 59.8,
+"e": 63.04,
 "texto": "Se funciona em qualquer lugar, não precisa ser bonito em lugar nenhum."
 },
 {
-"s": 64.16,
-"e": 68.6,
-"texto": "E ao famoso, tá bom assim, enquadra, foca, ilumina tudo e pronto."
+"s": 63.18,
+"e": 64.94,
+"texto": "E ao famoso, tá bom assim."
 },
 {
-"s": 68.9,
-"e": 73.96,
-"texto": "Agora pensa em Duna, naquele deserto alaranjado, naquela cena do gladiador em preto e branco"
+"s": 65.3,
+"e": 67.32,
+"texto": "Enquadra, foca, ilumina tudo e pronto."
 },
 {
-"s": 73.96,
-"e": 76.96,
-"texto": "no sol negro, tudo isso muito legal né cara, esse filme é muito bom."
+"s": 67.62,
+"e": 70.8,
+"texto": "Agora pensa em Duna, naquele deserto alaranjado,"
 },
 {
-"s": 77.0,
-"e": 81.82,
-"texto": "Pensa em A Odisseia, que o Nolan filmou com a câmera IMAX, aquele trambolho do tamanho"
+"s": 70.94,
+"e": 73.36,
+"texto": "naquela cena do gladiador em preto e branco no sol negro."
 },
 {
-"s": 81.82,
-"e": 84.38,
-"texto": "de uma geladeira até nas cenas de diálogo."
+"s": 73.56,
+"e": 75.72,
+"texto": "Tudo isso, muito legal, né? Cara, esse filme é muito bom."
 },
 {
-"s": 84.38,
-"e": 87.54,
-"texto": "Pense em Batman, onde a chuva e o vermelho do farol do carro"
+"s": 75.88,
+"e": 79.04,
+"texto": "Pensa em A Odisseia, que o Nolan filmou com a câmera IMAX,"
 },
 {
-"s": 87.54,
-"e": 90.2,
+"s": 79.26,
+"e": 83.06,
+"texto": "aquele trambolho do tamanho de uma geladeira até nas cenas de diálogo."
+},
+{
+"s": 83.28,
+"e": 86.18,
+"texto": "Pensa em Batman, onde a chuva e o vermelho do farol do carro"
+},
+{
+"s": 86.18,
+"e": 88.74,
 "texto": "contam uma história antes de qualquer fala."
 },
 {
-"s": 90.56,
-"e": 92.66,
+"s": 89.04,
+"e": 91.26,
 "texto": "Nenhuma dessas escolhas era segura."
 },
 {
-"s": 92.9,
-"e": 94.46,
+"s": 91.36,
+"e": 93.06,
 "texto": "Cada uma podia dar errado."
 },
 {
-"s": 94.82,
-"e": 97.1,
+"s": 93.34,
+"e": 95.6,
 "texto": "E é justamente por isso que você lembra delas."
 },
 {
-"s": 97.34,
-"e": 98.62,
+"s": 95.78,
+"e": 97.12,
 "texto": "A diferença não é o dinheiro."
 },
 {
-"s": 98.78,
-"e": 101.24,
+"s": 97.3,
+"e": 99.72,
 "texto": "É gente que se importa com cada quadro."
 },
 {
-"s": 101.44,
-"e": 103.42,
-"texto": "Até aqui parece só papo de imagem bonita,"
+"s": 99.9,
+"e": 101.9,
+"texto": "Até aqui parece só papo de imagem bonita."
 },
 {
-"s": 103.48,
-"e": 106.26,
-"texto": "mas imagem bonita não explica porque um garoto do YouTube"
+"s": 101.96,
+"e": 104.72,
+"texto": "Mas imagem bonita não explica porque um garoto do YouTube"
 },
 {
-"s": 106.26,
-"e": 108.5,
+"s": 104.72,
+"e": 106.9,
 "texto": "derrubou o Hollywood no fim de semana."
 },
 {
-"s": 108.62,
-"e": 110.52,
+"s": 107.06,
+"e": 108.98,
 "texto": "Isso tem a ver com outra coisa."
 },
 {
-"s": 110.62,
-"e": 113.02,
-"texto": "Em 2020, no fim das filmagens de Tenet,"
+"s": 109.08,
+"e": 111.72,
+"texto": "Em 2020, no final das filmagens de Tenet,"
 },
 {
-"s": 113.02,
-"e": 118.28,
-"texto": "O Robert Pattinson deu um presente para o Nolan, um livro com discursos de Oppenheimer."
+"s": 111.88,
+"e": 114.16,
+"texto": "o Robert Pattinson deu um presente para o Nolan."
 },
 {
-"s": 118.68,
-"e": 120.86,
+"s": 114.16,
+"e": 116.6,
+"texto": "Um livro com discursos de Oppenheimer."
+},
+{
+"s": 116.92,
+"e": 119.28,
 "texto": "O Nolan leu e não conseguiu largar."
 },
 {
-"s": 121.12,
-"e": 128.9,
-"texto": "Um cientista tentando viver com o que ele mesmo tinha soltado no mundo."
+"s": 119.48,
+"e": 120.92,
+"texto": "Um cientista tentando viver,"
 },
 {
-"s": 129.02,
-"e": 131.52,
+"s": 121.04,
+"e": 123.4,
+"texto": "um cientista tentando viver com aquele mesmo,"
+},
+{
+"s": 123.44,
+"e": 127.24,
+"texto": "um cientista tentando viver com o que ele mesmo tinha soltado no mundo."
+},
+{
+"s": 127.36,
+"e": 129.86,
 "texto": "Três anos depois, saiu Oppenheimer."
 },
 {
-"s": 131.64,
-"e": 134.54,
+"s": 130.0,
+"e": 132.8,
 "texto": "Três horas de gente sentada numa sala falando de física."
 },
 {
-"s": 134.76,
-"e": 137.5,
+"s": 133.02,
+"e": 135.74,
 "texto": "E chegou perto de um bilhão de dólares."
 },
 {
-"s": 137.72,
-"e": 139.3,
+"s": 135.84,
+"e": 137.38,
 "texto": "Agora pensa no Back Rooms."
 },
 {
-"s": 139.3,
-"e": 142.7,
-"texto": "O Kenny Pearsons começou postando vídeos curtos no YouTube"
+"s": 137.52,
+"e": 140.74,
+"texto": "O Kenny Parsons começou postando vídeos curtos no YouTube"
 },
 {
-"s": 142.7,
-"e": 145.08,
-"texto": "sobre aqueles corredores amarelos infinitos,"
+"s": 140.74,
+"e": 143.02,
+"texto": "sobre aqueles corredores amarelos infinitos."
 },
 {
-"s": 145.3,
-"e": 147.92,
-"texto": "adolescentes sozinhos no computador de casa."
+"s": 143.02,
+"e": 145.94,
+"texto": "Adolescente sozinho no computador de casa."
 },
 {
-"s": 148.08,
-"e": 153.2,
+"s": 146.08,
+"e": 151.04,
 "texto": "Em 2026, ele virou o diretor mais jovem a ficar em primeiro lugar nas bilheterias."
 },
 {
-"s": 153.32,
-"e": 156.72,
-"texto": "E Backrooms teve a maior estreia da história da Avent."
+"s": 151.18,
+"e": 154.72,
+"texto": "E Backrooms teve a maior estreia da história da A24."
 },
 {
-"s": 156.88,
-"e": 158.56,
+"s": 154.94,
+"e": 156.56,
 "texto": "O que eles dois têm em comum?"
 },
 {
-"s": 158.86,
-"e": 160.58,
+"s": 156.86,
+"e": 158.6,
 "texto": "Ninguém mandou eles fazerem esses filmes."
 },
 {
-"s": 160.66,
-"e": 161.62,
+"s": 158.7,
+"e": 159.74,
 "texto": "Eles quiseram."
 },
 {
-"s": 161.66,
-"e": 163.68,
+"s": 159.82,
+"e": 161.64,
 "texto": "Agora, olha o caminho contrário."
 },
 {
-"s": 163.78,
-"e": 167.26,
+"s": 161.7,
+"e": 165.16,
 "texto": "A Marvel anunciou um filme dos Vingadores com Kang como vilão."
 },
 {
-"s": 167.26,
-"e": 170.98,
+"s": 165.26,
+"e": 168.88,
 "texto": "O ator saiu, o plano desmoronou e o filme virou outra coisa."
 },
 {
-"s": 171.06,
-"e": 174.86,
-"texto": "Pra salvar, chamaram de volta o Robert Downey Jr., o nosso Homem de Ferro,"
+"s": 168.98,
+"e": 171.82,
+"texto": "Para salvar, chamaram de volta o Robert Downey Jr.,"
 },
 {
-"s": 174.92,
-"e": 177.0,
-"texto": "que agora virou o Doutor Destino."
+"s": 171.82,
+"e": 174.76,
+"texto": "nosso Homem de Ferro, que agora virou o Doutor Destino."
 },
 {
-"s": 177.14,
-"e": 179.5,
+"s": 174.9,
+"e": 177.24,
 "texto": "Chamaram de volta os mesmos diretores também."
 },
 {
-"s": 179.68,
-"e": 183.56,
-"texto": "E além de tudo isso, também chamaram de volta o Zé que se mente 20 anos atrás."
+"s": 177.42,
+"e": 181.38,
+"texto": "E além de tudo isso também chamaram de volta o X-Men de 20 anos atrás."
 },
 {
-"s": 183.68,
-"e": 186.5,
-"texto": "Eu vou ver? Vou! Porque eu sou fã e não consigo evitar."
+"s": 181.48,
+"e": 182.46,
+"texto": "Eu vou ver? Vou!"
 },
 {
-"s": 186.62,
-"e": 190.18,
-"texto": "Mas me diz uma coisa, alguém ali queria muito contar essa história?"
+"s": 182.54,
+"e": 184.28,
+"texto": "Porque eu sou fã e não consigo evitar."
 },
 {
-"s": 190.38,
-"e": 193.82,
+"s": 184.4,
+"e": 185.54,
+"texto": "Mas me diz uma coisa."
+},
+{
+"s": 185.8,
+"e": 187.92,
+"texto": "Alguém ali queria muito contar essa história?"
+},
+{
+"s": 188.14,
+"e": 191.56,
 "texto": "Ou alguém numa sala de reunião queria muito mais um filme dos Vingadores?"
 },
 {
-"s": 193.82,
-"e": 197.9,
-"texto": "Só para dar aquele lucruzinho, aquela granazinha nos finais de semana lá do cinema."
+"s": 191.74,
+"e": 193.24,
+"texto": "Só para dar aquele lucruzinho, né?"
 },
 {
-"s": 198.06,
-"e": 201.58,
+"s": 193.28,
+"e": 195.48,
+"texto": "Aquela granazinha nos finais de semana lá do cinema."
+},
+{
+"s": 195.62,
+"e": 199.14,
 "texto": "Um filme nasce de uma ideia, o outro nasce de uma planilha."
 },
 {
-"s": 201.74,
-"e": 206.5,
+"s": 199.14,
+"e": 204.14,
 "texto": "Se você também sente falta de sair do cinema meio atordoado, se inscreve no canal."
 },
 {
-"s": 206.6,
-"e": 210.46,
+"s": 204.3,
+"e": 208.14,
 "texto": "Aqui a gente fala do que os filmes e as séries que você tanto ama realmente querem dizer."
 },
 {
-"s": 210.58,
-"e": 212.38,
+"s": 208.4,
+"e": 210.18,
 "texto": "Aí vem a pergunta de sempre."
 },
 {
-"s": 212.92,
-"e": 215.32,
-"texto": "Ah Luis, mas filme de autor não dá dinheiro?"
+"s": 210.48,
+"e": 213.1,
+"texto": "Ah, Luiz, mas filme de autor não dá dinheiro?"
 },
 {
-"s": 215.4,
-"e": 216.7,
+"s": 213.26,
+"e": 214.56,
 "texto": "A resposta é que dá."
 },
 {
-"s": 216.94,
-"e": 222.34,
-"texto": "Obsession custou por volta de 750 mil dólares e fez mais de 500 milhões no mundo inteiro."
+"s": 214.7,
+"e": 219.82,
+"texto": "Sechan custou por volta de 750 mil dólares e fez mais de 500 milhões no mundo inteiro."
 },
 {
-"s": 222.34,
-"e": 226.52,
+"s": 219.92,
+"e": 223.86,
 "texto": "É o filme que mais lucrou em relação ao que custou em toda a história."
 },
 {
-"s": 226.66,
-"e": 229.68,
-"texto": "A Odysseyia, um poema grego de quase 3 mil anos,"
+"s": 223.86,
+"e": 229.16,
+"texto": "A Odisséia, um poema grego de quase 3 mil anos, teve a maior estreia da carreira do Nolan."
 },
 {
-"s": 229.86,
-"e": 231.84,
-"texto": "teve a maior estreia da carreira do Nolan."
-},
-{
-"s": 232.24,
-"e": 235.86,
+"s": 229.36,
+"e": 233.0,
 "texto": "Mais de 260 milhões de dólares no primeiro fim de semana."
 },
 {
-"s": 236.02,
-"e": 238.36,
+"s": 233.26,
+"e": 235.52,
 "texto": "As pessoas não pararam de ir ao cinema."
 },
 {
-"s": 238.5,
-"e": 239.96,
-"texto": "Elas só pararam de ir ao cinema"
+"s": 235.68,
+"e": 239.7,
+"texto": "Elas só pararam de ir ao cinema pra ver o que vai estar no streaming daqui a um mês."
 },
 {
-"s": 239.96,
-"e": 242.62,
-"texto": "pra ver o que vai estar no streaming daqui a um mês."
-},
-{
-"s": 242.74,
-"e": 244.78,
+"s": 239.8,
+"e": 241.84,
 "texto": "Dá pra ver um filme qualquer no sofá."
 },
 {
-"s": 244.86,
-"e": 247.32,
+"s": 241.94,
+"e": 244.38,
 "texto": "Você só sai de casa pelo que não cabe no sofá."
 },
 {
-"s": 247.38,
-"e": 248.58,
+"s": 244.42,
+"e": 245.64,
 "texto": "E não é só lá fora."
 },
 {
-"s": 248.58,
-"e": 253.08,
-"texto": "Em 2025, ainda estou aqui e ganhou o primeiro Oscar de filme brasileiro."
+"s": 245.78,
+"e": 249.34,
+"texto": "Em 2025, ainda estou aqui e ganho o primeiro Oscar de filme brasileiro."
 },
 {
-"s": 253.18,
-"e": 256.7,
+"s": 249.44,
+"e": 252.38,
 "texto": "Um filme sobre uma família, uma casa e uma ausência."
 },
 {
-"s": 256.82,
-"e": 258.3,
+"s": 252.52,
+"e": 253.7,
 "texto": "Sem explosão nenhuma."
 },
 {
-"s": 258.54,
-"e": 260.58,
-"texto": "E logo depois veio O Agente Secreto."
+"s": 253.7,
+"e": 258.76,
+"texto": "E logo depois veio o Agente Secreto, virou o filme brasileiro mais indicado da história do Oscar"
 },
 {
-"s": 260.94,
-"e": 263.86,
-"texto": "Virou o filme brasileiro mais indicado da história do Oscar."
+"s": 258.76,
+"e": 261.74,
+"texto": "e levou mais de 2 milhões de pessoas aos cinemas de daqui."
 },
 {
-"s": 264.1,
-"e": 266.92,
-"texto": "E levou mais de 2 milhões de pessoas ao cinema de daqui."
+"s": 261.92,
+"e": 264.1,
+"texto": "Saiu sem estatueta? Infelizmente sim."
 },
 {
-"s": 267.2,
-"e": 268.36,
-"texto": "Saiu sem estatueta?"
-},
-{
-"s": 268.66,
-"e": 269.36,
-"texto": "Infelizmente sim."
-},
-{
-"s": 269.5,
-"e": 270.98,
+"s": 264.26,
+"e": 265.74,
 "texto": "Mas olha o que ele provou."
 },
 {
-"s": 271.12,
-"e": 273.36,
-"texto": "O brasileiro vai ao cinema ver filme brasileiro?"
+"s": 265.88,
+"e": 268.42,
+"texto": "O brasileiro vai ao cinema ver filme brasileiro? Sim."
 },
 {
-"s": 273.46,
-"e": 275.42,
-"texto": "Sim, quando alguém faz com vontade."
+"s": 268.54,
+"e": 270.16,
+"texto": "Quando alguém faz com vontade."
 },
 {
-"s": 275.54,
-"e": 277.98,
-"texto": "É a mesma regra do Nola e do Kenny Pearsons."
+"s": 270.28,
+"e": 272.74,
+"texto": "É a mesma regra do Nolan e do Kenny Pearsons."
 },
 {
-"s": 277.98,
-"e": 281.04,
-"texto": "Ninguém entra dessa cidade e paga ingresso caro"
+"s": 273.06,
+"e": 277.6,
+"texto": "Ninguém atravessa a cidade e paga ingresso caro para ver um filme feito no tabom assim."
 },
 {
-"s": 281.04,
-"e": 284.24,
-"texto": "para ver um filme que parece que foi feito no tabom, assim."
-},
-{
-"s": 284.36,
-"e": 285.72,
+"s": 277.86,
+"e": 279.1,
 "texto": "Então tá tudo resolvido, né?"
 },
 {
+"s": 279.16,
+"e": 281.22,
+"texto": "O cinema voltou ao final feliz."
+},
+{
+"s": 281.22,
+"e": 285.8,
+"texto": "Só que em fevereiro deste ano, a Paramount fechou um acordo para comprar Warner, o estúdio"
+},
+{
 "s": 285.8,
-"e": 287.86,
-"texto": "O cinema voltou o final feliz."
+"e": 288.74,
+"texto": "que bancou Duna, Batman, Barbie e Pecadores."
 },
 {
-"s": 287.9,
-"e": 291.88,
-"texto": "Só que em fevereiro deste ano, a Paramount fechou um acordo para comparar Warner,"
-},
-{
-"s": 292.08,
-"e": 295.46,
-"texto": "o estúdio que bancou Duna, Batman, Barbie e Pecadores."
-},
-{
-"s": 295.66,
-"e": 300.1,
+"s": 288.94,
+"e": 293.26,
 "texto": "O negócio está travado na justiça americana, mas o plano continua de pé."
 },
 {
-"s": 300.18,
-"e": 305.48,
+"s": 293.36,
+"e": 298.62,
 "texto": "Quando dois gigantes viram um só, o primeiro corte costuma ser o filme arriscado."
 },
 {
-"s": 305.48,
-"e": 310.32,
+"s": 298.78,
+"e": 303.34,
 "texto": "Fica o que é garantido, a continuação, o remake, a marca conhecida."
 },
 {
-"s": 310.44,
-"e": 312.02,
+"s": 303.42,
+"e": 305.04,
 "texto": "Só que até isso acaba."
 },
 {
-"s": 312.16,
-"e": 314.54,
-"texto": "Uma hora não sobra desenho pra virar live action."
+"s": 305.18,
+"e": 308.66,
+"texto": "Uma hora não sobra desenho para virar live action, não sobra jogo para virar"
 },
 {
-"s": 314.68,
-"e": 316.18,
-"texto": "Não sobra jogo pra virar filme."
+"s": 308.78,
+"e": 311.68,
+"texto": "Não sobra anos 80s para trazer de volta."
 },
 {
-"s": 316.28,
-"e": 318.84,
-"texto": "Não sobra anos 80s pra trazer de volta."
-},
-{
-"s": 318.98,
-"e": 322.92,
+"s": 311.94,
+"e": 315.72,
 "texto": "E é aqui que chega o final ruim que eu te prometi lá no começo."
 },
 {
-"s": 323.24,
-"e": 325.34,
-"texto": "Quando acabarem as ideias velhas,"
+"s": 316.12,
+"e": 321.08,
+"texto": "Quando acabarem as ideias velhas, alguém vai sugerir que não precisa mais de ideia."
 },
 {
-"s": 325.72,
-"e": 328.44,
-"texto": "alguém vai sugerir que não precisa mais de ideia,"
+"s": 321.18,
+"e": 323.78,
+"texto": "Nem de diretor, nem de fotógrafo, nem de ator."
 },
 {
-"s": 328.52,
-"e": 331.16,
-"texto": "nem de diretor, nem de fotógrafo, nem de ator."
+"s": 323.9,
+"e": 328.42,
+"texto": "Um filme montado por algoritmo, gerado por inteligência artificial."
 },
 {
-"s": 331.28,
-"e": 333.36,
-"texto": "Um filme montado por algoritmo,"
+"s": 328.72,
+"e": 332.58,
+"texto": "Calculado para agradar todo mundo e não dizer nada para ninguém."
 },
 {
-"s": 333.36,
-"e": 335.84,
-"texto": "gerado por inteligência artificial,"
+"s": 332.72,
+"e": 336.4,
+"texto": "Esse é o final ruim. E as primeiras peças dele já estão sendo testadas."
 },
 {
-"s": 336.14,
-"e": 338.16,
-"texto": "calculado para agradar todo mundo"
+"s": 336.4,
+"e": 342.04,
+"texto": "O final bom é o outro, é Obsessions, é Back Rooms, é a Odisseia, é o Agente Secreto."
 },
 {
-"s": 338.16,
-"e": 339.96,
-"texto": "e não dizer nada para ninguém."
-},
-{
-"s": 340.28,
-"e": 341.52,
-"texto": "Esse é o final ruim."
-},
-{
-"s": 341.68,
-"e": 344.98,
-"texto": "E as primeiras peças deles já estão sendo testadas."
-},
-{
-"s": 345.08,
-"e": 348.36,
-"texto": "O final bom é o outro, é Obsessions, é Backrooms,"
-},
-{
-"s": 348.54,
-"e": 350.5,
-"texto": "é a Odisseia, é o Agente Secreto."
-},
-{
-"s": 350.6,
-"e": 354.14,
+"s": 342.2,
+"e": 345.62,
 "texto": "Filme que existe porque alguém precisava contar aquela história."
 },
 {
-"s": 354.36,
-"e": 356.16,
+"s": 345.92,
+"e": 347.7,
 "texto": "Então não, o cinema não morreu."
 },
 {
-"s": 356.28,
-"e": 359.38,
-"texto": "Ele só está esperando a gente escolher qual final vai ter."
+"s": 347.84,
+"e": 350.88,
+"texto": "Ele só tá esperando a gente escolher qual final vai ter."
 },
 {
-"s": 359.48,
-"e": 360.7,
-"texto": "Me conta aqui nos comentários,"
+"s": 351.02,
+"e": 352.14,
+"texto": "Me conta aqui nos comentários."
 },
 {
-"s": 360.7,
-"e": 365.0,
-"texto": "Qual foi o último filme que te fez sair do cinema diferente de como você entrou?"
+"s": 352.46,
+"e": 356.36,
+"texto": "Qual foi o último filme que te fez sair do cinema diferente de Como Você Entrou?"
 },
 {
-"s": 365.18,
-"e": 368.4,
+"s": 356.56,
+"e": 359.74,
 "texto": "Se inscreve que aqui tem muito filme pra gente destrinchar."
 },
 {
-"s": 368.66,
-"e": 370.72,
+"s": 359.94,
+"e": 362.04,
 "texto": "É isso galera, valeu, fui e tchau."
 }
 ],
@@ -643,7 +643,7 @@
 "w": "Faz",
 "s": 0.0,
 "e": 0.42,
-"p": 0.85
+"p": 0.71
 },
 {
 "w": "anos",
@@ -661,7 +661,7 @@
 "w": "a",
 "s": 0.82,
 "e": 0.84,
-"p": 0.97
+"p": 0.96
 },
 {
 "w": "gente",
@@ -696,6907 +696,6943 @@
 {
 "w": "morreu,",
 "s": 1.84,
-"e": 2.44,
-"p": 0.98
+"e": 2.32,
+"p": 0.97
 },
 {
 "w": "que",
-"s": 2.54,
-"e": 2.68,
-"p": 0.94
+"s": 2.36,
+"e": 2.56,
+"p": 0.92
 },
 {
 "w": "é",
-"s": 2.68,
-"e": 2.78,
-"p": 0.86
+"s": 2.56,
+"e": 2.66,
+"p": 0.85
 },
 {
 "w": "tudo",
-"s": 2.78,
-"e": 3.0,
-"p": 1.0
+"s": 2.66,
+"e": 2.88,
+"p": 0.99
 },
 {
 "w": "continuação,",
-"s": 3.0,
-"e": 3.74,
+"s": 2.88,
+"e": 3.6,
 "p": 0.99
 },
 {
 "w": "remake",
-"s": 4.02,
-"e": 4.36,
-"p": 0.92
+"s": 3.9,
+"e": 4.22,
+"p": 0.94
 },
 {
 "w": "e",
-"s": 4.36,
-"e": 4.64,
-"p": 0.97
+"s": 4.22,
+"e": 4.52,
+"p": 0.98
 },
 {
 "w": "filme",
-"s": 4.64,
-"e": 4.98,
+"s": 4.52,
+"e": 4.84,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 4.98,
-"e": 5.14,
+"s": 4.84,
+"e": 5.0,
 "p": 1.0
 },
 {
 "w": "herói",
-"s": 5.14,
-"e": 5.4,
-"p": 0.92
+"s": 5.0,
+"e": 5.24,
+"p": 0.96
 },
 {
 "w": "igual.",
-"s": 5.4,
-"e": 5.66,
-"p": 0.97
-},
-{
-"w": "Só",
-"s": 6.1,
-"e": 6.26,
+"s": 5.24,
+"e": 5.52,
 "p": 0.98
 },
 {
+"w": "Só",
+"s": 5.7,
+"e": 5.84,
+"p": 0.97
+},
+{
 "w": "que",
-"s": 6.26,
-"e": 6.36,
+"s": 5.84,
+"e": 5.96,
 "p": 1.0
 },
 {
 "w": "em",
-"s": 6.36,
-"e": 6.48,
-"p": 0.83
-},
-{
-"w": "2026",
-"s": 6.48,
-"e": 7.08,
-"p": 0.96
-},
-{
-"w": "aconteceu",
-"s": 7.08,
-"e": 7.42,
+"s": 5.96,
+"e": 6.08,
 "p": 0.89
 },
 {
+"w": "2026",
+"s": 6.08,
+"e": 6.68,
+"p": 0.97
+},
+{
+"w": "aconteceu",
+"s": 6.68,
+"e": 7.02,
+"p": 0.85
+},
+{
 "w": "uma",
-"s": 7.42,
-"e": 7.62,
+"s": 7.02,
+"e": 7.2,
 "p": 0.99
 },
 {
 "w": "coisa",
-"s": 7.62,
-"e": 7.96,
+"s": 7.2,
+"e": 7.54,
 "p": 1.0
 },
 {
 "w": "muito",
-"s": 7.96,
-"e": 8.46,
-"p": 0.96
+"s": 7.54,
+"e": 8.06,
+"p": 0.94
 },
 {
 "w": "estranha.",
-"s": 8.46,
-"e": 9.0,
+"s": 8.06,
+"e": 8.54,
 "p": 1.0
 },
 {
 "w": "Um",
-"s": 9.12,
-"e": 9.2,
-"p": 0.98
+"s": 8.64,
+"e": 8.72,
+"p": 0.97
 },
 {
 "w": "filme",
-"s": 9.2,
-"e": 9.44,
+"s": 8.72,
+"e": 8.96,
 "p": 1.0
 },
 {
 "w": "de",
-"s": 9.44,
-"e": 9.58,
+"s": 8.96,
+"e": 9.14,
 "p": 0.97
 },
 {
 "w": "terror",
-"s": 9.58,
-"e": 9.8,
-"p": 0.99
+"s": 9.14,
+"e": 9.34,
+"p": 0.98
 },
 {
 "w": "que",
-"s": 9.8,
-"e": 10.08,
-"p": 0.96
+"s": 9.34,
+"e": 9.6,
+"p": 0.97
 },
 {
 "w": "custou",
-"s": 10.08,
-"e": 10.3,
+"s": 9.6,
+"e": 9.82,
 "p": 1.0
 },
 {
 "w": "menos",
-"s": 10.3,
-"e": 10.6,
+"s": 9.82,
+"e": 10.14,
 "p": 1.0
 },
 {
 "w": "que",
-"s": 10.6,
-"e": 10.74,
+"s": 10.14,
+"e": 10.26,
 "p": 0.96
 },
 {
 "w": "um",
-"s": 10.74,
-"e": 10.94,
-"p": 0.98
+"s": 10.26,
+"e": 10.48,
+"p": 0.97
 },
 {
 "w": "apartamento",
-"s": 10.94,
-"e": 11.54,
+"s": 10.48,
+"e": 11.06,
 "p": 1.0
 },
 {
 "w": "fez",
-"s": 11.54,
-"e": 11.8,
-"p": 0.66
+"s": 11.06,
+"e": 11.34,
+"p": 0.6
 },
 {
 "w": "mais",
-"s": 11.8,
-"e": 12.24,
+"s": 11.34,
+"e": 11.8,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 12.24,
-"e": 12.84,
+"s": 11.8,
+"e": 12.36,
 "p": 0.93
 },
 {
 "w": "meio",
-"s": 12.84,
-"e": 12.86,
-"p": 0.91
+"s": 12.36,
+"e": 12.4,
+"p": 0.88
 },
 {
 "w": "bilhão",
-"s": 12.86,
-"e": 13.44,
+"s": 12.4,
+"e": 12.98,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 13.44,
-"e": 13.72,
+"s": 12.98,
+"e": 13.28,
 "p": 1.0
 },
 {
 "w": "dólares.",
-"s": 13.72,
-"e": 14.04,
-"p": 0.85
+"s": 13.28,
+"e": 13.58,
+"p": 0.82
 },
 {
 "w": "Um",
+"s": 13.7,
+"e": 13.86,
+"p": 0.98
+},
+{
+"w": "garoto",
+"s": 13.86,
+"e": 14.16,
+"p": 1.0
+},
+{
+"w": "de",
 "s": 14.16,
 "e": 14.34,
 "p": 0.99
 },
 {
-"w": "garoto",
-"s": 14.34,
-"e": 14.62,
-"p": 1.0
-},
-{
-"w": "de",
-"s": 14.62,
-"e": 14.82,
-"p": 1.0
-},
-{
 "w": "20",
-"s": 14.82,
-"e": 15.12,
-"p": 0.96
+"s": 14.34,
+"e": 14.66,
+"p": 0.97
 },
 {
 "w": "anos",
-"s": 15.12,
-"e": 15.38,
+"s": 14.66,
+"e": 14.92,
 "p": 1.0
 },
 {
 "w": "que",
-"s": 15.38,
-"e": 15.58,
-"p": 0.94
+"s": 14.92,
+"e": 15.1,
+"p": 0.93
 },
 {
 "w": "começou",
-"s": 15.58,
-"e": 15.82,
+"s": 15.1,
+"e": 15.34,
 "p": 1.0
 },
 {
 "w": "no",
-"s": 15.82,
-"e": 16.02,
+"s": 15.34,
+"e": 15.52,
 "p": 0.99
 },
 {
 "w": "YouTube",
-"s": 16.02,
-"e": 16.36,
-"p": 0.75
+"s": 15.52,
+"e": 15.88,
+"p": 0.78
 },
 {
 "w": "teve",
-"s": 16.36,
-"e": 16.6,
-"p": 0.95
+"s": 15.88,
+"e": 16.14,
+"p": 0.9
 },
 {
 "w": "a",
-"s": 16.6,
-"e": 16.74,
+"s": 16.14,
+"e": 16.3,
 "p": 1.0
 },
 {
 "w": "maior",
-"s": 16.74,
-"e": 17.1,
+"s": 16.3,
+"e": 16.66,
 "p": 1.0
 },
 {
 "w": "estreia",
-"s": 17.1,
-"e": 17.56,
+"s": 16.66,
+"e": 17.02,
 "p": 0.94
 },
 {
 "w": "da",
-"s": 17.56,
-"e": 17.76,
+"s": 17.02,
+"e": 17.22,
 "p": 0.99
 },
 {
 "w": "história",
-"s": 17.76,
-"e": 18.08,
-"p": 1.0
+"s": 17.22,
+"e": 17.5,
+"p": 0.99
 },
 {
 "w": "do",
-"s": 18.08,
-"e": 18.42,
-"p": 0.99
+"s": 17.5,
+"e": 17.72,
+"p": 0.98
 },
 {
 "w": "estúdio",
-"s": 18.42,
-"e": 19.04,
-"p": 0.97
+"s": 17.72,
+"e": 18.3,
+"p": 0.92
 },
 {
 "w": "dele.",
-"s": 19.04,
-"e": 19.44,
-"p": 0.99
+"s": 18.3,
+"e": 18.7,
+"p": 0.97
 },
 {
 "w": "E",
-"s": 19.64,
-"e": 19.82,
-"p": 0.99
+"s": 18.92,
+"e": 19.08,
+"p": 0.98
 },
 {
 "w": "um",
-"s": 19.82,
-"e": 20.0,
+"s": 19.08,
+"e": 19.26,
 "p": 0.99
 },
 {
 "w": "poema",
-"s": 20.0,
-"e": 20.26,
+"s": 19.26,
+"e": 19.52,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 20.26,
-"e": 20.46,
+"s": 19.52,
+"e": 19.72,
 "p": 0.99
 },
 {
 "w": "quase",
-"s": 20.46,
-"e": 20.8,
+"s": 19.72,
+"e": 20.06,
 "p": 0.99
 },
 {
 "w": "3",
-"s": 20.8,
-"e": 21.0,
+"s": 20.06,
+"e": 20.26,
 "p": 0.75
 },
 {
 "w": "mil",
-"s": 21.0,
-"e": 21.12,
-"p": 0.85
+"s": 20.26,
+"e": 20.4,
+"p": 0.82
 },
 {
 "w": "anos",
-"s": 21.12,
-"e": 21.4,
+"s": 20.4,
+"e": 20.66,
 "p": 1.0
 },
 {
 "w": "virou",
-"s": 21.4,
-"e": 21.66,
-"p": 0.99
+"s": 20.66,
+"e": 20.92,
+"p": 0.98
 },
 {
 "w": "o",
-"s": 21.66,
-"e": 21.86,
-"p": 0.96
+"s": 20.92,
+"e": 21.1,
+"p": 0.97
 },
 {
 "w": "maior",
-"s": 21.86,
-"e": 22.04,
+"s": 21.1,
+"e": 21.3,
 "p": 1.0
 },
 {
 "w": "lançamento",
-"s": 22.04,
-"e": 22.52,
+"s": 21.3,
+"e": 21.78,
 "p": 1.0
 },
 {
 "w": "da",
-"s": 22.52,
-"e": 22.72,
+"s": 21.78,
+"e": 21.98,
 "p": 0.99
 },
 {
 "w": "carreira",
-"s": 22.72,
-"e": 23.06,
+"s": 21.98,
+"e": 22.32,
 "p": 0.99
 },
 {
 "w": "do",
-"s": 23.06,
-"e": 23.28,
-"p": 0.96
+"s": 22.32,
+"e": 22.54,
+"p": 0.92
 },
 {
 "w": "Nolan.",
-"s": 23.28,
-"e": 23.64,
+"s": 22.54,
+"e": 22.92,
 "p": 0.99
 },
 {
 "w": "Os",
-"s": 23.78,
-"e": 24.06,
+"s": 23.08,
+"e": 23.34,
 "p": 0.99
 },
 {
 "w": "filmes",
-"s": 24.06,
-"e": 24.38,
+"s": 23.34,
+"e": 23.68,
 "p": 1.0
 },
 {
 "w": "voltaram",
-"s": 24.38,
-"e": 24.92,
+"s": 23.68,
+"e": 24.22,
 "p": 0.98
 },
 {
 "w": "a",
-"s": 24.92,
-"e": 25.12,
-"p": 0.97
+"s": 24.22,
+"e": 24.42,
+"p": 0.98
 },
 {
-"w": "aparecer",
-"s": 25.12,
-"e": 25.7,
-"p": 0.46
+"w": "parecer",
+"s": 24.42,
+"e": 25.0,
+"p": 0.65
 },
 {
 "w": "filmes,",
-"s": 25.7,
-"e": 26.4,
+"s": 25.0,
+"e": 25.7,
 "p": 0.99
 },
 {
 "w": "mas",
-"s": 26.42,
-"e": 26.6,
+"s": 25.72,
+"e": 25.9,
 "p": 0.99
 },
 {
 "w": "eu",
-"s": 26.6,
-"e": 26.74,
-"p": 0.96
+"s": 25.9,
+"e": 26.04,
+"p": 0.95
 },
 {
 "w": "não",
-"s": 26.74,
-"e": 26.82,
-"p": 0.98
+"s": 26.04,
+"e": 26.14,
+"p": 0.99
 },
 {
 "w": "vim",
-"s": 26.82,
-"e": 27.0,
+"s": 26.14,
+"e": 26.3,
 "p": 0.99
 },
 {
 "w": "aqui",
-"s": 27.0,
-"e": 27.26,
-"p": 0.98
+"s": 26.3,
+"e": 26.58,
+"p": 0.97
 },
 {
 "w": "só",
-"s": 27.26,
-"e": 27.46,
+"s": 26.58,
+"e": 26.76,
 "p": 0.99
 },
 {
 "w": "comemorar,",
-"s": 27.46,
-"e": 27.98,
-"p": 0.91
+"s": 26.76,
+"e": 27.28,
+"p": 0.92
 },
 {
 "w": "porque",
-"s": 28.04,
-"e": 28.28,
+"s": 27.34,
+"e": 27.6,
 "p": 0.99
 },
 {
 "w": "Hollywood",
-"s": 28.28,
-"e": 28.74,
-"p": 0.2
-},
-{
-"w": "está",
-"s": 28.74,
-"e": 28.96,
+"s": 27.6,
+"e": 28.02,
 "p": 0.9
 },
 {
+"w": "está",
+"s": 28.02,
+"e": 28.22,
+"p": 0.96
+},
+{
 "w": "numa",
-"s": 28.96,
-"e": 29.18,
-"p": 0.93
+"s": 28.22,
+"e": 28.44,
+"p": 0.97
 },
 {
 "w": "encruzilhada.",
-"s": 29.18,
-"e": 30.22,
+"s": 28.44,
+"e": 29.4,
 "p": 0.98
 },
 {
 "w": "Tem",
-"s": 30.34,
-"e": 30.42,
-"p": 0.75
+"s": 29.4,
+"e": 29.66,
+"p": 0.66
 },
 {
-"w": "o",
-"s": 30.42,
-"e": 30.66,
-"p": 0.7
+"w": "um",
+"s": 29.66,
+"e": 29.82,
+"p": 0.58
 },
 {
 "w": "final",
-"s": 30.66,
-"e": 30.74,
+"s": 29.82,
+"e": 29.96,
 "p": 0.99
 },
 {
 "w": "bom",
-"s": 30.74,
+"s": 29.96,
+"e": 30.24,
+"p": 1.0
+},
+{
+"w": "e",
+"s": 30.24,
+"e": 30.48,
+"p": 0.9
+},
+{
+"w": "tem",
+"s": 30.48,
+"e": 30.64,
+"p": 0.8
+},
+{
+"w": "um",
+"s": 30.64,
+"e": 30.78,
+"p": 0.8
+},
+{
+"w": "final",
+"s": 30.78,
 "e": 31.02,
 "p": 1.0
 },
 {
-"w": "e",
-"s": 31.02,
-"e": 31.26,
-"p": 0.87
-},
-{
-"w": "tem",
-"s": 31.26,
-"e": 31.42,
-"p": 0.67
-},
-{
-"w": "o",
-"s": 31.42,
-"e": 31.56,
-"p": 0.98
-},
-{
-"w": "final",
-"s": 31.56,
-"e": 31.8,
-"p": 1.0
-},
-{
 "w": "ruim.",
-"s": 31.8,
-"e": 32.08,
+"s": 31.02,
+"e": 31.34,
 "p": 1.0
 },
 {
 "w": "E",
-"s": 32.18,
-"e": 32.32,
-"p": 0.96
+"s": 31.5,
+"e": 31.6,
+"p": 0.98
 },
 {
 "w": "o",
-"s": 32.32,
-"e": 32.46,
-"p": 0.99
+"s": 31.6,
+"e": 31.78,
+"p": 0.95
 },
 {
 "w": "final",
-"s": 32.46,
-"e": 32.72,
+"s": 31.78,
+"e": 32.02,
 "p": 0.99
 },
 {
 "w": "ruim",
-"s": 32.72,
-"e": 33.02,
+"s": 32.02,
+"e": 32.42,
 "p": 0.99
 },
 {
 "w": "já",
-"s": 33.02,
-"e": 33.46,
-"p": 0.91
+"s": 32.42,
+"e": 32.8,
+"p": 0.9
 },
 {
 "w": "começou.",
-"s": 33.46,
-"e": 33.92,
-"p": 0.99
+"s": 32.8,
+"e": 33.22,
+"p": 1.0
 },
 {
 "w": "No",
-"s": 34.16,
-"e": 34.24,
-"p": 0.96
+"s": 33.46,
+"e": 33.54,
+"p": 0.94
 },
 {
 "w": "fim",
-"s": 34.24,
-"e": 34.44,
-"p": 0.98
+"s": 33.54,
+"e": 33.74,
+"p": 0.99
 },
 {
 "w": "do",
-"s": 34.44,
-"e": 34.64,
+"s": 33.74,
+"e": 33.94,
 "p": 1.0
 },
 {
 "w": "vídeo",
-"s": 34.64,
-"e": 34.86,
+"s": 33.94,
+"e": 34.18,
 "p": 0.99
 },
 {
 "w": "eu",
-"s": 34.86,
-"e": 35.04,
-"p": 0.62
+"s": 34.18,
+"e": 34.34,
+"p": 0.53
 },
 {
 "w": "te",
-"s": 35.04,
-"e": 35.22,
+"s": 34.34,
+"e": 34.5,
 "p": 0.99
 },
 {
 "w": "mostro",
-"s": 35.22,
-"e": 35.54,
-"p": 0.99
+"s": 34.5,
+"e": 34.84,
+"p": 1.0
 },
 {
 "w": "qual",
-"s": 35.54,
-"e": 35.76,
+"s": 34.84,
+"e": 35.06,
 "p": 0.92
 },
 {
 "w": "é.",
-"s": 35.76,
-"e": 35.96,
-"p": 0.98
+"s": 35.06,
+"e": 35.24,
+"p": 0.99
 },
 {
 "w": "Repara",
-"s": 36.06,
-"e": 36.54,
-"p": 0.87
+"s": 35.34,
+"e": 35.8,
+"p": 0.9
 },
 {
 "w": "numa",
-"s": 36.54,
-"e": 36.76,
+"s": 35.8,
+"e": 36.0,
 "p": 0.97
 },
 {
 "w": "coisa.",
-"s": 36.76,
-"e": 37.1,
+"s": 36.0,
+"e": 36.38,
 "p": 1.0
 },
 {
 "w": "Pensa",
-"s": 37.18,
-"e": 37.44,
-"p": 0.96
+"s": 36.48,
+"e": 36.74,
+"p": 0.97
 },
 {
 "w": "nos",
-"s": 37.44,
-"e": 37.62,
+"s": 36.74,
+"e": 36.92,
 "p": 0.98
 },
 {
 "w": "filmes",
-"s": 37.62,
-"e": 37.9,
-"p": 0.99
+"s": 36.92,
+"e": 37.18,
+"p": 1.0
 },
 {
 "w": "que",
-"s": 37.9,
-"e": 38.08,
+"s": 37.18,
+"e": 37.38,
 "p": 0.99
 },
 {
 "w": "você",
-"s": 38.08,
-"e": 38.34,
+"s": 37.38,
+"e": 37.64,
 "p": 0.99
 },
 {
 "w": "viu",
-"s": 38.34,
-"e": 38.4,
+"s": 37.64,
+"e": 37.7,
 "p": 1.0
 },
 {
 "w": "no",
-"s": 38.4,
-"e": 38.62,
-"p": 0.95
+"s": 37.7,
+"e": 37.9,
+"p": 0.96
 },
 {
-"w": "stream",
-"s": 38.62,
-"e": 38.9,
-"p": 0.3
+"w": "streaming",
+"s": 37.9,
+"e": 38.22,
+"p": 0.32
 },
 {
 "w": "nos",
-"s": 38.9,
-"e": 39.1,
-"p": 0.8
+"s": 38.22,
+"e": 38.44,
+"p": 0.9
 },
 {
 "w": "últimos",
-"s": 39.1,
-"e": 39.38,
-"p": 1.0
+"s": 38.44,
+"e": 38.68,
+"p": 0.99
 },
 {
 "w": "anos.",
-"s": 39.38,
-"e": 39.78,
+"s": 38.68,
+"e": 39.1,
 "p": 1.0
 },
 {
 "w": "Cor",
-"s": 39.94,
-"e": 40.08,
-"p": 0.92
+"s": 39.32,
+"e": 39.46,
+"p": 0.9
 },
 {
 "w": "meio",
-"s": 40.08,
-"e": 40.34,
+"s": 39.46,
+"e": 39.7,
 "p": 0.99
 },
 {
 "w": "apagada,",
-"s": 40.34,
-"e": 40.96,
+"s": 39.7,
+"e": 40.32,
 "p": 1.0
 },
 {
 "w": "tudo",
-"s": 41.08,
-"e": 41.36,
-"p": 0.93
+"s": 40.44,
+"e": 40.72,
+"p": 0.94
 },
 {
 "w": "cinza,",
-"s": 41.36,
-"e": 41.76,
+"s": 40.72,
+"e": 41.12,
 "p": 1.0
 },
 {
 "w": "tudo",
-"s": 41.88,
-"e": 41.98,
-"p": 0.92
+"s": 41.22,
+"e": 41.36,
+"p": 0.96
 },
 {
 "w": "muito",
-"s": 41.98,
-"e": 42.4,
+"s": 41.36,
+"e": 41.78,
 "p": 0.99
 },
 {
 "w": "bege.",
-"s": 42.4,
-"e": 42.9,
+"s": 41.78,
+"e": 42.28,
 "p": 0.59
 },
 {
 "w": "O",
-"s": 43.2,
-"e": 43.32,
+"s": 42.54,
+"e": 42.68,
 "p": 0.99
 },
 {
 "w": "rosto",
-"s": 43.32,
-"e": 43.7,
+"s": 42.68,
+"e": 43.08,
 "p": 1.0
 },
 {
 "w": "do",
-"s": 43.7,
-"e": 43.92,
+"s": 43.08,
+"e": 43.3,
 "p": 0.99
 },
 {
 "w": "autor",
-"s": 43.92,
-"e": 44.28,
-"p": 0.47
+"s": 43.3,
+"e": 43.64,
+"p": 0.65
 },
 {
 "w": "nítido",
-"s": 44.28,
-"e": 44.86,
+"s": 43.64,
+"e": 44.24,
 "p": 1.0
 },
 {
 "w": "e",
-"s": 44.86,
-"e": 45.08,
-"p": 0.92
+"s": 44.24,
+"e": 44.42,
+"p": 0.96
 },
 {
 "w": "o",
-"s": 45.08,
-"e": 45.26,
-"p": 0.93
+"s": 44.42,
+"e": 44.62,
+"p": 0.96
 },
 {
 "w": "fundo",
-"s": 45.26,
-"e": 45.44,
+"s": 44.62,
+"e": 44.8,
 "p": 1.0
 },
 {
 "w": "todo",
-"s": 45.44,
-"e": 45.7,
+"s": 44.8,
+"e": 45.06,
 "p": 0.98
 },
 {
 "w": "borrado.",
-"s": 45.7,
-"e": 46.18,
+"s": 45.06,
+"e": 45.54,
 "p": 0.99
 },
 {
 "w": "Nenhuma",
-"s": 46.48,
-"e": 46.8,
+"s": 45.84,
+"e": 46.16,
 "p": 0.99
 },
 {
 "w": "imagem",
-"s": 46.8,
-"e": 47.2,
+"s": 46.16,
+"e": 46.58,
 "p": 1.0
 },
 {
 "w": "que",
-"s": 47.2,
-"e": 47.44,
+"s": 46.58,
+"e": 46.82,
 "p": 0.99
 },
 {
 "w": "você",
-"s": 47.44,
-"e": 47.8,
+"s": 46.82,
+"e": 47.18,
 "p": 1.0
 },
 {
 "w": "lembra",
-"s": 47.8,
-"e": 48.12,
-"p": 0.98
+"s": 47.18,
+"e": 47.5,
+"p": 0.97
 },
 {
 "w": "depois.",
-"s": 48.12,
-"e": 48.66,
+"s": 47.5,
+"e": 48.0,
 "p": 0.99
 },
 {
 "w": "Tem",
-"s": 48.8,
-"e": 49.0,
+"s": 48.14,
+"e": 48.34,
 "p": 0.99
 },
 {
 "w": "gente",
-"s": 49.0,
-"e": 49.26,
+"s": 48.34,
+"e": 48.62,
 "p": 1.0
 },
 {
 "w": "que",
-"s": 49.26,
-"e": 49.48,
+"s": 48.62,
+"e": 48.84,
 "p": 1.0
 },
 {
 "w": "chama",
-"s": 49.48,
-"e": 49.64,
-"p": 1.0
+"s": 48.84,
+"e": 49.0,
+"p": 0.99
 },
 {
 "w": "isso",
-"s": 49.64,
-"e": 49.9,
+"s": 49.0,
+"e": 49.28,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 49.9,
-"e": 50.32,
-"p": 0.95
+"s": 49.28,
+"e": 49.7,
+"p": 0.9
 },
 {
 "w": "visual",
-"s": 50.32,
-"e": 50.96,
-"p": 0.72
+"s": 49.7,
+"e": 50.32,
+"p": 0.64
 },
 {
 "w": "Netflix.",
-"s": 50.96,
-"e": 51.5,
-"p": 0.8
+"s": 50.32,
+"e": 50.86,
+"p": 0.76
 },
 {
 "w": "Mas",
-"s": 51.62,
-"e": 51.8,
+"s": 51.02,
+"e": 51.2,
 "p": 0.99
 },
 {
 "w": "não",
-"s": 51.8,
-"e": 52.0,
-"p": 0.98
-},
-{
-"w": "é",
-"s": 52.0,
-"e": 52.16,
+"s": 51.2,
+"e": 51.38,
 "p": 0.99
 },
 {
+"w": "é",
+"s": 51.38,
+"e": 51.56,
+"p": 1.0
+},
+{
 "w": "culpa",
-"s": 52.16,
-"e": 52.3,
+"s": 51.56,
+"e": 51.7,
 "p": 0.99
 },
 {
 "w": "da",
-"s": 52.3,
-"e": 52.44,
-"p": 0.45
+"s": 51.7,
+"e": 51.82,
+"p": 0.54
 },
 {
 "w": "Netflix",
-"s": 52.44,
-"e": 52.88,
+"s": 51.82,
+"e": 52.32,
 "p": 0.99
 },
 {
 "w": "nem",
-"s": 52.88,
-"e": 53.14,
-"p": 0.54
+"s": 52.32,
+"e": 52.56,
+"p": 0.7
 },
 {
 "w": "da",
-"s": 53.14,
-"e": 53.38,
+"s": 52.56,
+"e": 52.78,
 "p": 0.99
 },
 {
 "w": "câmera",
-"s": 53.38,
-"e": 53.72,
+"s": 52.78,
+"e": 53.1,
 "p": 0.99
 },
 {
 "w": "digital.",
-"s": 53.72,
-"e": 54.12,
+"s": 53.1,
+"e": 53.5,
 "p": 1.0
 },
 {
 "w": "É",
-"s": 54.36,
-"e": 54.54,
-"p": 0.99
+"s": 53.62,
+"e": 53.8,
+"p": 1.0
 },
 {
 "w": "uma",
-"s": 54.54,
-"e": 54.88,
+"s": 53.8,
+"e": 54.16,
 "p": 1.0
 },
 {
 "w": "escolha.",
-"s": 54.88,
-"e": 55.36,
+"s": 54.16,
+"e": 54.64,
 "p": 1.0
 },
 {
 "w": "É",
-"s": 55.44,
-"e": 55.66,
+"s": 54.74,
+"e": 54.96,
 "p": 0.98
 },
 {
 "w": "um",
-"s": 55.66,
-"e": 55.82,
-"p": 0.55
+"s": 54.96,
+"e": 55.1,
+"p": 0.53
 },
 {
 "w": "filme",
-"s": 55.82,
-"e": 55.98,
+"s": 55.1,
+"e": 55.28,
 "p": 1.0
 },
 {
 "w": "feito",
-"s": 55.98,
-"e": 56.2,
+"s": 55.28,
+"e": 55.5,
 "p": 1.0
 },
 {
 "w": "pra",
-"s": 56.2,
-"e": 56.38,
-"p": 0.21
+"s": 55.5,
+"e": 55.68,
+"p": 0.49
 },
 {
 "w": "funcionar",
-"s": 56.38,
-"e": 56.74,
+"s": 55.68,
+"e": 56.02,
 "p": 1.0
 },
 {
 "w": "em",
-"s": 56.74,
-"e": 56.98,
+"s": 56.02,
+"e": 56.22,
 "p": 1.0
 },
 {
 "w": "qualquer",
-"s": 56.98,
-"e": 57.24,
+"s": 56.22,
+"e": 56.56,
 "p": 1.0
 },
 {
 "w": "tela.",
-"s": 57.24,
-"e": 57.56,
+"s": 56.56,
+"e": 56.86,
 "p": 1.0
 },
 {
 "w": "no",
-"s": 57.56,
-"e": 57.78,
-"p": 0.28
+"s": 56.86,
+"e": 57.04,
+"p": 0.19
 },
 {
 "w": "celular,",
-"s": 57.78,
-"e": 58.18,
-"p": 0.99
+"s": 57.04,
+"e": 57.48,
+"p": 0.98
 },
 {
 "w": "no",
-"s": 58.36,
-"e": 58.46,
-"p": 0.94
+"s": 57.66,
+"e": 57.78,
+"p": 0.88
 },
 {
 "w": "ônibus",
-"s": 58.46,
-"e": 58.8,
+"s": 57.78,
+"e": 58.1,
 "p": 1.0
 },
 {
 "w": "e",
-"s": 58.8,
-"e": 58.92,
+"s": 58.1,
+"e": 58.24,
 "p": 0.91
 },
 {
 "w": "na",
-"s": 58.92,
-"e": 59.04,
+"s": 58.24,
+"e": 58.34,
 "p": 0.99
 },
 {
 "w": "TV",
-"s": 59.04,
-"e": 59.32,
-"p": 0.77
+"s": 58.34,
+"e": 58.62,
+"p": 0.74
 },
 {
 "w": "velha",
-"s": 59.32,
-"e": 59.54,
-"p": 0.97
+"s": 58.62,
+"e": 58.86,
+"p": 0.95
 },
 {
 "w": "do",
-"s": 59.54,
-"e": 59.68,
-"p": 0.94
+"s": 58.86,
+"e": 58.98,
+"p": 0.92
 },
 {
 "w": "fundo",
-"s": 59.68,
-"e": 59.82,
+"s": 58.98,
+"e": 59.12,
 "p": 1.0
 },
 {
 "w": "da",
-"s": 59.82,
-"e": 60.1,
+"s": 59.12,
+"e": 59.38,
 "p": 0.99
 },
 {
 "w": "sala.",
-"s": 60.1,
-"e": 60.34,
+"s": 59.38,
+"e": 59.64,
 "p": 1.0
 },
 {
 "w": "Se",
-"s": 60.72,
-"e": 60.86,
-"p": 0.81
+"s": 59.8,
+"e": 59.92,
+"p": 0.79
 },
 {
 "w": "funciona",
-"s": 60.86,
-"e": 61.22,
-"p": 0.98
+"s": 59.92,
+"e": 60.28,
+"p": 0.96
 },
 {
 "w": "em",
-"s": 61.22,
-"e": 61.36,
-"p": 1.0
+"s": 60.28,
+"e": 60.42,
+"p": 0.99
 },
 {
 "w": "qualquer",
-"s": 61.36,
-"e": 61.56,
+"s": 60.42,
+"e": 60.64,
 "p": 1.0
 },
 {
 "w": "lugar,",
-"s": 61.56,
-"e": 61.9,
+"s": 60.64,
+"e": 60.96,
 "p": 1.0
 },
 {
 "w": "não",
-"s": 62.02,
-"e": 62.16,
+"s": 61.1,
+"e": 61.22,
 "p": 0.98
 },
 {
 "w": "precisa",
-"s": 62.16,
-"e": 62.4,
+"s": 61.22,
+"e": 61.46,
 "p": 0.99
 },
 {
 "w": "ser",
-"s": 62.4,
-"e": 62.6,
+"s": 61.46,
+"e": 61.66,
 "p": 0.99
 },
 {
 "w": "bonito",
-"s": 62.6,
-"e": 63.0,
-"p": 0.99
-},
-{
-"w": "em",
-"s": 63.0,
-"e": 63.24,
+"s": 61.66,
+"e": 62.08,
 "p": 0.98
 },
 {
+"w": "em",
+"s": 62.08,
+"e": 62.32,
+"p": 0.97
+},
+{
 "w": "lugar",
-"s": 63.24,
-"e": 63.54,
-"p": 1.0
+"s": 62.32,
+"e": 62.62,
+"p": 0.99
 },
 {
 "w": "nenhum.",
-"s": 63.54,
-"e": 63.98,
+"s": 62.62,
+"e": 63.04,
 "p": 1.0
 },
 {
 "w": "E",
-"s": 64.16,
-"e": 64.24,
-"p": 0.91
+"s": 63.18,
+"e": 63.28,
+"p": 0.88
 },
 {
 "w": "ao",
-"s": 64.24,
-"e": 64.46,
-"p": 0.52
+"s": 63.28,
+"e": 63.46,
+"p": 0.59
 },
 {
 "w": "famoso,",
-"s": 64.46,
-"e": 64.92,
-"p": 1.0
+"s": 63.46,
+"e": 63.96,
+"p": 0.99
 },
 {
 "w": "tá",
-"s": 65.12,
-"e": 65.34,
-"p": 0.54
+"s": 64.18,
+"e": 64.38,
+"p": 0.65
 },
 {
 "w": "bom",
-"s": 65.34,
-"e": 65.56,
+"s": 64.38,
+"e": 64.58,
 "p": 0.98
 },
 {
-"w": "assim,",
-"s": 65.56,
-"e": 66.02,
-"p": 0.87
+"w": "assim.",
+"s": 64.58,
+"e": 64.94,
+"p": 0.72
 },
 {
-"w": "enquadra,",
-"s": 66.46,
-"e": 66.94,
-"p": 0.95
+"w": "Enquadra,",
+"s": 65.3,
+"e": 65.7,
+"p": 0.98
 },
 {
 "w": "foca,",
-"s": 67.14,
-"e": 67.38,
+"s": 65.86,
+"e": 66.12,
 "p": 0.99
 },
 {
 "w": "ilumina",
-"s": 67.6,
-"e": 67.84,
+"s": 66.3,
+"e": 66.58,
 "p": 1.0
 },
 {
 "w": "tudo",
-"s": 67.84,
-"e": 68.16,
-"p": 1.0
+"s": 66.58,
+"e": 66.92,
+"p": 0.99
 },
 {
 "w": "e",
-"s": 68.16,
-"e": 68.46,
-"p": 0.91
+"s": 66.92,
+"e": 67.2,
+"p": 0.92
 },
 {
 "w": "pronto.",
-"s": 68.46,
-"e": 68.6,
+"s": 67.2,
+"e": 67.32,
 "p": 0.99
 },
 {
 "w": "Agora",
-"s": 68.9,
-"e": 69.14,
-"p": 1.0
+"s": 67.62,
+"e": 67.88,
+"p": 0.99
 },
 {
 "w": "pensa",
-"s": 69.14,
-"e": 69.52,
+"s": 67.88,
+"e": 68.26,
 "p": 0.73
 },
 {
 "w": "em",
-"s": 69.52,
-"e": 69.92,
-"p": 1.0
+"s": 68.26,
+"e": 68.64,
+"p": 0.99
 },
 {
 "w": "Duna,",
-"s": 69.92,
-"e": 70.42,
+"s": 68.64,
+"e": 69.16,
 "p": 0.81
 },
 {
 "w": "naquele",
-"s": 70.7,
-"e": 71.04,
+"s": 69.42,
+"e": 69.76,
 "p": 0.98
 },
 {
 "w": "deserto",
-"s": 71.04,
-"e": 71.44,
+"s": 69.76,
+"e": 70.18,
 "p": 0.99
 },
 {
 "w": "alaranjado,",
-"s": 71.44,
-"e": 72.06,
-"p": 0.95
+"s": 70.18,
+"e": 70.8,
+"p": 0.93
 },
 {
 "w": "naquela",
-"s": 72.22,
-"e": 72.46,
+"s": 70.94,
+"e": 71.2,
 "p": 0.97
 },
 {
 "w": "cena",
-"s": 72.46,
-"e": 72.6,
+"s": 71.2,
+"e": 71.34,
 "p": 1.0
 },
 {
 "w": "do",
-"s": 72.6,
-"e": 72.76,
+"s": 71.34,
+"e": 71.5,
 "p": 0.96
 },
 {
 "w": "gladiador",
-"s": 72.76,
-"e": 73.18,
+"s": 71.5,
+"e": 71.9,
 "p": 0.98
 },
 {
 "w": "em",
-"s": 73.18,
-"e": 73.42,
-"p": 0.9
+"s": 71.9,
+"e": 72.14,
+"p": 0.92
 },
 {
 "w": "preto",
-"s": 73.42,
-"e": 73.66,
+"s": 72.14,
+"e": 72.4,
 "p": 1.0
 },
 {
 "w": "e",
-"s": 73.66,
-"e": 73.78,
+"s": 72.4,
+"e": 72.48,
 "p": 0.99
 },
 {
 "w": "branco",
-"s": 73.78,
-"e": 73.96,
+"s": 72.48,
+"e": 72.68,
 "p": 1.0
 },
 {
 "w": "no",
-"s": 73.96,
-"e": 74.08,
-"p": 0.61
+"s": 72.68,
+"e": 72.82,
+"p": 0.6
 },
 {
 "w": "sol",
-"s": 74.08,
-"e": 74.24,
-"p": 0.81
+"s": 72.82,
+"e": 72.98,
+"p": 0.83
 },
 {
-"w": "negro,",
-"s": 74.24,
-"e": 74.62,
+"w": "negro.",
+"s": 72.98,
+"e": 73.36,
 "p": 0.99
 },
 {
-"w": "tudo",
-"s": 74.82,
-"e": 75.02,
-"p": 0.97
+"w": "Tudo",
+"s": 73.56,
+"e": 73.76,
+"p": 0.98
 },
 {
-"w": "isso",
-"s": 75.02,
-"e": 75.3,
+"w": "isso,",
+"s": 73.76,
+"e": 74.04,
 "p": 1.0
 },
 {
 "w": "muito",
-"s": 75.3,
-"e": 75.52,
-"p": 0.46
-},
-{
-"w": "legal",
-"s": 75.52,
-"e": 75.82,
-"p": 1.0
-},
-{
-"w": "né",
-"s": 75.82,
-"e": 76.0,
-"p": 0.55
-},
-{
-"w": "cara,",
-"s": 76.0,
-"e": 76.2,
-"p": 0.55
-},
-{
-"w": "esse",
-"s": 76.32,
-"e": 76.34,
+"s": 74.08,
+"e": 74.24,
 "p": 0.99
 },
 {
+"w": "legal,",
+"s": 74.24,
+"e": 74.56,
+"p": 1.0
+},
+{
+"w": "né?",
+"s": 74.66,
+"e": 74.72,
+"p": 0.96
+},
+{
+"w": "Cara,",
+"s": 74.76,
+"e": 74.9,
+"p": 0.96
+},
+{
+"w": "esse",
+"s": 74.92,
+"e": 75.04,
+"p": 1.0
+},
+{
 "w": "filme",
-"s": 76.34,
-"e": 76.5,
+"s": 75.04,
+"e": 75.2,
 "p": 0.99
 },
 {
 "w": "é",
-"s": 76.5,
-"e": 76.66,
-"p": 0.98
+"s": 75.2,
+"e": 75.34,
+"p": 0.99
 },
 {
 "w": "muito",
-"s": 76.66,
-"e": 76.88,
+"s": 75.34,
+"e": 75.58,
 "p": 1.0
 },
 {
 "w": "bom.",
-"s": 76.88,
-"e": 76.96,
+"s": 75.58,
+"e": 75.72,
 "p": 1.0
 },
 {
 "w": "Pensa",
-"s": 77.0,
-"e": 77.32,
-"p": 0.97
+"s": 75.88,
+"e": 76.18,
+"p": 0.98
 },
 {
 "w": "em",
-"s": 77.32,
-"e": 77.52,
+"s": 76.18,
+"e": 76.38,
 "p": 0.99
 },
 {
 "w": "A",
-"s": 77.52,
-"e": 77.68,
-"p": 0.52
+"s": 76.38,
+"e": 76.52,
+"p": 0.61
 },
 {
 "w": "Odisseia,",
-"s": 77.68,
-"e": 78.34,
-"p": 0.71
+"s": 76.52,
+"e": 77.14,
+"p": 0.7
 },
 {
 "w": "que",
-"s": 78.42,
-"e": 78.58,
-"p": 0.97
+"s": 77.18,
+"e": 77.36,
+"p": 0.93
 },
 {
 "w": "o",
-"s": 78.58,
-"e": 78.74,
-"p": 0.96
+"s": 77.36,
+"e": 77.5,
+"p": 0.97
 },
 {
 "w": "Nolan",
-"s": 78.74,
-"e": 78.88,
-"p": 0.52
+"s": 77.5,
+"e": 77.64,
+"p": 0.78
 },
 {
 "w": "filmou",
-"s": 78.88,
-"e": 79.14,
-"p": 0.88
+"s": 77.64,
+"e": 77.9,
+"p": 0.95
 },
 {
 "w": "com",
-"s": 79.14,
-"e": 79.28,
+"s": 77.9,
+"e": 78.06,
 "p": 1.0
 },
 {
 "w": "a",
-"s": 79.28,
-"e": 79.38,
-"p": 0.99
+"s": 78.06,
+"e": 78.14,
+"p": 1.0
 },
 {
 "w": "câmera",
-"s": 79.38,
-"e": 79.66,
-"p": 0.95
+"s": 78.14,
+"e": 78.4,
+"p": 0.97
 },
 {
 "w": "IMAX,",
-"s": 79.66,
-"e": 80.28,
-"p": 0.79
+"s": 78.4,
+"e": 79.04,
+"p": 0.8
 },
 {
 "w": "aquele",
-"s": 80.52,
-"e": 80.88,
-"p": 0.98
+"s": 79.26,
+"e": 79.56,
+"p": 0.97
 },
 {
 "w": "trambolho",
-"s": 80.88,
-"e": 81.46,
-"p": 0.64
+"s": 79.56,
+"e": 80.18,
+"p": 0.54
 },
 {
 "w": "do",
-"s": 81.46,
-"e": 81.62,
+"s": 80.18,
+"e": 80.3,
 "p": 0.96
 },
 {
 "w": "tamanho",
-"s": 81.62,
-"e": 81.82,
+"s": 80.3,
+"e": 80.52,
 "p": 1.0
 },
 {
 "w": "de",
-"s": 81.82,
-"e": 81.98,
+"s": 80.52,
+"e": 80.68,
 "p": 1.0
 },
 {
 "w": "uma",
-"s": 81.98,
-"e": 82.14,
+"s": 80.68,
+"e": 80.84,
 "p": 1.0
 },
 {
 "w": "geladeira",
-"s": 82.14,
-"e": 82.7,
+"s": 80.84,
+"e": 81.4,
 "p": 1.0
 },
 {
 "w": "até",
-"s": 82.7,
-"e": 83.02,
-"p": 0.83
+"s": 81.4,
+"e": 81.72,
+"p": 0.84
 },
 {
 "w": "nas",
-"s": 83.02,
-"e": 83.26,
-"p": 0.95
+"s": 81.72,
+"e": 81.96,
+"p": 0.91
 },
 {
 "w": "cenas",
-"s": 83.26,
-"e": 83.54,
-"p": 0.99
-},
-{
-"w": "de",
-"s": 83.54,
-"e": 83.9,
+"s": 81.96,
+"e": 82.24,
 "p": 1.0
 },
 {
-"w": "diálogo.",
-"s": 83.9,
-"e": 84.38,
+"w": "de",
+"s": 82.24,
+"e": 82.6,
 "p": 0.99
 },
 {
-"w": "Pense",
-"s": 84.38,
-"e": 84.8,
-"p": 0.33
+"w": "diálogo.",
+"s": 82.6,
+"e": 83.06,
+"p": 0.99
+},
+{
+"w": "Pensa",
+"s": 83.28,
+"e": 83.52,
+"p": 0.97
 },
 {
 "w": "em",
-"s": 84.8,
-"e": 85.0,
-"p": 0.93
+"s": 83.52,
+"e": 83.68,
+"p": 1.0
 },
 {
 "w": "Batman,",
-"s": 85.0,
-"e": 85.52,
-"p": 0.69
+"s": 83.68,
+"e": 84.2,
+"p": 0.82
 },
 {
 "w": "onde",
-"s": 85.62,
-"e": 85.82,
-"p": 0.99
+"s": 84.28,
+"e": 84.52,
+"p": 1.0
 },
 {
 "w": "a",
-"s": 85.82,
-"e": 86.04,
+"s": 84.52,
+"e": 84.7,
 "p": 0.99
 },
 {
 "w": "chuva",
-"s": 86.04,
-"e": 86.3,
+"s": 84.7,
+"e": 84.9,
 "p": 1.0
 },
 {
 "w": "e",
-"s": 86.3,
-"e": 86.32,
+"s": 84.9,
+"e": 85.0,
 "p": 0.99
 },
 {
 "w": "o",
-"s": 86.32,
-"e": 86.48,
+"s": 85.0,
+"e": 85.12,
 "p": 1.0
 },
 {
 "w": "vermelho",
-"s": 86.48,
-"e": 86.76,
-"p": 0.99
+"s": 85.12,
+"e": 85.4,
+"p": 0.98
 },
 {
 "w": "do",
-"s": 86.76,
-"e": 86.94,
+"s": 85.4,
+"e": 85.54,
 "p": 0.98
 },
 {
 "w": "farol",
-"s": 86.94,
-"e": 87.1,
+"s": 85.54,
+"e": 85.74,
 "p": 0.98
 },
 {
 "w": "do",
-"s": 87.1,
-"e": 87.34,
+"s": 85.74,
+"e": 85.94,
 "p": 0.99
 },
 {
 "w": "carro",
-"s": 87.34,
-"e": 87.54,
+"s": 85.94,
+"e": 86.18,
 "p": 1.0
 },
 {
 "w": "contam",
-"s": 87.54,
-"e": 87.88,
-"p": 0.71
+"s": 86.18,
+"e": 86.54,
+"p": 0.28
 },
 {
 "w": "uma",
-"s": 87.88,
-"e": 88.08,
-"p": 0.98
+"s": 86.54,
+"e": 86.7,
+"p": 0.95
 },
 {
 "w": "história",
-"s": 88.08,
-"e": 88.4,
-"p": 0.98
+"s": 86.7,
+"e": 86.96,
+"p": 0.97
 },
 {
 "w": "antes",
-"s": 88.4,
-"e": 88.96,
-"p": 0.94
+"s": 86.96,
+"e": 87.54,
+"p": 0.97
 },
 {
 "w": "de",
-"s": 88.96,
-"e": 89.26,
+"s": 87.54,
+"e": 87.82,
 "p": 0.99
 },
 {
 "w": "qualquer",
-"s": 89.26,
-"e": 89.76,
-"p": 0.99
+"s": 87.82,
+"e": 88.34,
+"p": 0.98
 },
 {
 "w": "fala.",
-"s": 89.76,
-"e": 90.2,
-"p": 0.99
+"s": 88.34,
+"e": 88.74,
+"p": 0.98
 },
 {
 "w": "Nenhuma",
-"s": 90.56,
-"e": 90.92,
+"s": 89.04,
+"e": 89.5,
 "p": 0.97
 },
 {
 "w": "dessas",
-"s": 90.92,
-"e": 91.18,
-"p": 0.97
+"s": 89.5,
+"e": 89.76,
+"p": 0.95
 },
 {
 "w": "escolhas",
-"s": 91.18,
-"e": 91.88,
+"s": 89.76,
+"e": 90.44,
 "p": 1.0
 },
 {
 "w": "era",
-"s": 91.88,
-"e": 92.18,
+"s": 90.44,
+"e": 90.76,
 "p": 0.99
 },
 {
 "w": "segura.",
-"s": 92.18,
-"e": 92.66,
+"s": 90.76,
+"e": 91.26,
 "p": 1.0
 },
 {
 "w": "Cada",
-"s": 92.9,
-"e": 93.08,
-"p": 0.98
+"s": 91.36,
+"e": 91.68,
+"p": 0.99
 },
 {
 "w": "uma",
-"s": 93.08,
-"e": 93.38,
+"s": 91.68,
+"e": 91.98,
 "p": 0.98
 },
 {
 "w": "podia",
-"s": 93.38,
-"e": 93.8,
-"p": 0.97
+"s": 91.98,
+"e": 92.4,
+"p": 0.96
 },
 {
 "w": "dar",
-"s": 93.8,
-"e": 94.02,
+"s": 92.4,
+"e": 92.64,
 "p": 1.0
 },
 {
 "w": "errado.",
-"s": 94.02,
-"e": 94.46,
+"s": 92.64,
+"e": 93.06,
 "p": 1.0
 },
 {
 "w": "E",
-"s": 94.82,
-"e": 94.92,
-"p": 0.95
+"s": 93.34,
+"e": 93.46,
+"p": 0.87
 },
 {
 "w": "é",
-"s": 94.92,
-"e": 95.06,
-"p": 0.99
+"s": 93.46,
+"e": 93.58,
+"p": 0.97
 },
 {
 "w": "justamente",
-"s": 95.06,
-"e": 95.44,
+"s": 93.58,
+"e": 93.96,
 "p": 0.99
 },
 {
 "w": "por",
-"s": 95.44,
-"e": 95.74,
+"s": 93.96,
+"e": 94.26,
 "p": 1.0
 },
 {
 "w": "isso",
-"s": 95.74,
-"e": 95.94,
+"s": 94.26,
+"e": 94.48,
 "p": 1.0
 },
 {
 "w": "que",
-"s": 95.94,
-"e": 96.08,
+"s": 94.48,
+"e": 94.6,
 "p": 0.98
 },
 {
 "w": "você",
-"s": 96.08,
-"e": 96.32,
-"p": 0.99
+"s": 94.6,
+"e": 94.88,
+"p": 0.98
 },
 {
 "w": "lembra",
-"s": 96.32,
-"e": 96.6,
+"s": 94.88,
+"e": 95.14,
 "p": 0.98
 },
 {
 "w": "delas.",
-"s": 96.6,
-"e": 97.1,
-"p": 1.0
+"s": 95.14,
+"e": 95.6,
+"p": 0.99
 },
 {
 "w": "A",
-"s": 97.34,
-"e": 97.36,
-"p": 0.67
+"s": 95.78,
+"e": 95.88,
+"p": 0.9
 },
 {
 "w": "diferença",
-"s": 97.36,
-"e": 97.82,
+"s": 95.88,
+"e": 96.32,
 "p": 1.0
 },
 {
 "w": "não",
-"s": 97.82,
-"e": 98.08,
+"s": 96.32,
+"e": 96.58,
 "p": 0.99
 },
 {
 "w": "é",
-"s": 98.08,
-"e": 98.16,
+"s": 96.58,
+"e": 96.66,
 "p": 1.0
 },
 {
 "w": "o",
-"s": 98.16,
-"e": 98.3,
-"p": 1.0
+"s": 96.66,
+"e": 96.8,
+"p": 0.99
 },
 {
 "w": "dinheiro.",
-"s": 98.3,
-"e": 98.62,
+"s": 96.8,
+"e": 97.12,
 "p": 1.0
 },
 {
 "w": "É",
-"s": 98.78,
-"e": 98.96,
+"s": 97.3,
+"e": 97.46,
 "p": 0.99
 },
 {
 "w": "gente",
-"s": 98.96,
-"e": 99.18,
-"p": 0.95
+"s": 97.46,
+"e": 97.68,
+"p": 0.97
 },
 {
 "w": "que",
-"s": 99.18,
-"e": 99.36,
+"s": 97.68,
+"e": 97.86,
 "p": 1.0
 },
 {
 "w": "se",
-"s": 99.36,
-"e": 99.58,
+"s": 97.86,
+"e": 98.08,
 "p": 1.0
 },
 {
 "w": "importa",
-"s": 99.58,
-"e": 99.84,
-"p": 0.99
+"s": 98.08,
+"e": 98.34,
+"p": 0.98
 },
 {
 "w": "com",
-"s": 99.84,
-"e": 100.18,
+"s": 98.34,
+"e": 98.7,
 "p": 1.0
 },
 {
 "w": "cada",
-"s": 100.18,
-"e": 100.62,
+"s": 98.7,
+"e": 99.12,
 "p": 0.98
 },
 {
 "w": "quadro.",
-"s": 100.62,
-"e": 101.24,
+"s": 99.12,
+"e": 99.72,
 "p": 1.0
 },
 {
 "w": "Até",
-"s": 101.44,
-"e": 101.6,
-"p": 0.99
+"s": 99.9,
+"e": 100.1,
+"p": 1.0
 },
 {
 "w": "aqui",
-"s": 101.6,
-"e": 101.82,
+"s": 100.1,
+"e": 100.3,
 "p": 0.98
 },
 {
 "w": "parece",
-"s": 101.82,
-"e": 102.06,
+"s": 100.3,
+"e": 100.52,
 "p": 0.96
 },
 {
 "w": "só",
-"s": 102.06,
-"e": 102.2,
-"p": 0.92
+"s": 100.52,
+"e": 100.68,
+"p": 0.83
 },
 {
 "w": "papo",
-"s": 102.2,
-"e": 102.46,
-"p": 0.97
+"s": 100.68,
+"e": 100.92,
+"p": 0.98
 },
 {
 "w": "de",
+"s": 100.92,
+"e": 101.2,
+"p": 1.0
+},
+{
+"w": "imagem",
+"s": 101.2,
+"e": 101.5,
+"p": 0.75
+},
+{
+"w": "bonita.",
+"s": 101.5,
+"e": 101.9,
+"p": 0.99
+},
+{
+"w": "Mas",
+"s": 101.96,
+"e": 102.12,
+"p": 0.99
+},
+{
+"w": "imagem",
+"s": 102.12,
+"e": 102.46,
+"p": 0.86
+},
+{
+"w": "bonita",
 "s": 102.46,
 "e": 102.74,
 "p": 1.0
 },
 {
-"w": "imagem",
-"s": 102.74,
-"e": 103.04,
-"p": 0.82
-},
-{
-"w": "bonita,",
-"s": 103.04,
-"e": 103.42,
-"p": 0.99
-},
-{
-"w": "mas",
-"s": 103.48,
-"e": 103.66,
-"p": 0.99
-},
-{
-"w": "imagem",
-"s": 103.66,
-"e": 103.98,
-"p": 0.88
-},
-{
-"w": "bonita",
-"s": 103.98,
-"e": 104.28,
-"p": 1.0
-},
-{
 "w": "não",
-"s": 104.28,
-"e": 104.46,
+"s": 102.74,
+"e": 102.94,
 "p": 0.99
 },
 {
 "w": "explica",
-"s": 104.46,
-"e": 104.84,
-"p": 0.99
+"s": 102.94,
+"e": 103.3,
+"p": 1.0
 },
 {
 "w": "porque",
-"s": 104.84,
-"e": 105.12,
-"p": 0.59
+"s": 103.3,
+"e": 103.58,
+"p": 0.6
 },
 {
 "w": "um",
-"s": 105.12,
-"e": 105.36,
+"s": 103.58,
+"e": 103.84,
 "p": 0.96
 },
 {
 "w": "garoto",
-"s": 105.36,
-"e": 105.64,
+"s": 103.84,
+"e": 104.1,
 "p": 1.0
 },
 {
 "w": "do",
-"s": 105.64,
-"e": 105.82,
+"s": 104.1,
+"e": 104.28,
 "p": 0.99
 },
 {
 "w": "YouTube",
-"s": 105.82,
-"e": 106.26,
-"p": 0.71
+"s": 104.28,
+"e": 104.72,
+"p": 0.77
 },
 {
 "w": "derrubou",
-"s": 106.26,
-"e": 107.02,
+"s": 104.72,
+"e": 105.42,
 "p": 0.99
 },
 {
 "w": "o",
-"s": 107.02,
-"e": 107.16,
-"p": 0.67
-},
-{
-"w": "Hollywood",
-"s": 107.16,
-"e": 107.5,
-"p": 0.98
-},
-{
-"w": "no",
-"s": 107.5,
-"e": 107.74,
+"s": 105.42,
+"e": 105.56,
 "p": 0.79
 },
 {
+"w": "Hollywood",
+"s": 105.56,
+"e": 105.88,
+"p": 0.97
+},
+{
+"w": "no",
+"s": 105.88,
+"e": 106.14,
+"p": 0.91
+},
+{
 "w": "fim",
-"s": 107.74,
-"e": 107.94,
+"s": 106.14,
+"e": 106.34,
 "p": 1.0
 },
 {
 "w": "de",
-"s": 107.94,
-"e": 108.12,
+"s": 106.34,
+"e": 106.52,
 "p": 0.99
 },
 {
 "w": "semana.",
-"s": 108.12,
-"e": 108.5,
+"s": 106.52,
+"e": 106.9,
 "p": 1.0
 },
 {
 "w": "Isso",
-"s": 108.62,
-"e": 108.86,
-"p": 0.85
+"s": 107.06,
+"e": 107.28,
+"p": 0.86
 },
 {
 "w": "tem",
-"s": 108.86,
-"e": 109.06,
+"s": 107.28,
+"e": 107.5,
 "p": 1.0
 },
 {
 "w": "a",
-"s": 109.06,
-"e": 109.2,
+"s": 107.5,
+"e": 107.62,
 "p": 0.99
 },
 {
 "w": "ver",
-"s": 109.2,
-"e": 109.28,
+"s": 107.62,
+"e": 107.7,
 "p": 1.0
 },
 {
 "w": "com",
-"s": 109.28,
-"e": 109.62,
+"s": 107.7,
+"e": 108.04,
 "p": 1.0
 },
 {
 "w": "outra",
-"s": 109.62,
-"e": 110.06,
-"p": 0.98
+"s": 108.04,
+"e": 108.5,
+"p": 0.99
 },
 {
 "w": "coisa.",
-"s": 110.06,
-"e": 110.52,
+"s": 108.5,
+"e": 108.98,
 "p": 1.0
 },
 {
 "w": "Em",
-"s": 110.62,
-"e": 110.78,
-"p": 0.96
+"s": 109.08,
+"e": 109.24,
+"p": 0.89
 },
 {
 "w": "2020,",
-"s": 110.78,
-"e": 111.44,
+"s": 109.24,
+"e": 109.9,
 "p": 0.99
 },
 {
 "w": "no",
-"s": 111.64,
-"e": 111.72,
+"s": 110.02,
+"e": 110.14,
 "p": 0.99
 },
 {
-"w": "fim",
-"s": 111.72,
-"e": 111.86,
+"w": "final",
+"s": 110.14,
+"e": 110.4,
 "p": 1.0
 },
 {
 "w": "das",
-"s": 111.86,
-"e": 112.06,
-"p": 0.99
-},
-{
-"w": "filmagens",
-"s": 112.06,
-"e": 112.38,
-"p": 0.99
-},
-{
-"w": "de",
-"s": 112.38,
-"e": 112.7,
-"p": 0.98
-},
-{
-"w": "Tenet,",
-"s": 112.7,
-"e": 113.02,
-"p": 0.6
-},
-{
-"w": "O",
-"s": 113.02,
-"e": 113.24,
-"p": 0.35
-},
-{
-"w": "Robert",
-"s": 113.24,
-"e": 113.58,
-"p": 0.98
-},
-{
-"w": "Pattinson",
-"s": 113.58,
-"e": 114.08,
-"p": 0.83
-},
-{
-"w": "deu",
-"s": 114.08,
-"e": 114.26,
-"p": 0.95
-},
-{
-"w": "um",
-"s": 114.26,
-"e": 114.52,
-"p": 0.98
-},
-{
-"w": "presente",
-"s": 114.52,
-"e": 114.86,
-"p": 0.99
-},
-{
-"w": "para",
-"s": 114.86,
-"e": 115.04,
-"p": 0.33
-},
-{
-"w": "o",
-"s": 115.04,
-"e": 115.18,
-"p": 0.8
-},
-{
-"w": "Nolan,",
-"s": 115.18,
-"e": 115.32,
-"p": 0.99
-},
-{
-"w": "um",
-"s": 115.6,
-"e": 116.38,
+"s": 110.4,
+"e": 110.64,
 "p": 0.96
 },
 {
-"w": "livro",
-"s": 116.38,
-"e": 116.6,
-"p": 0.99
-},
-{
-"w": "com",
-"s": 116.6,
-"e": 116.84,
-"p": 0.88
-},
-{
-"w": "discursos",
-"s": 116.84,
-"e": 117.3,
-"p": 0.91
+"w": "filmagens",
+"s": 110.64,
+"e": 111.08,
+"p": 1.0
 },
 {
 "w": "de",
-"s": 117.3,
-"e": 117.56,
+"s": 111.08,
+"e": 111.42,
+"p": 0.97
+},
+{
+"w": "Tenet,",
+"s": 111.42,
+"e": 111.72,
+"p": 0.76
+},
+{
+"w": "o",
+"s": 111.88,
+"e": 112.0,
+"p": 0.91
+},
+{
+"w": "Robert",
+"s": 112.0,
+"e": 112.32,
+"p": 0.97
+},
+{
+"w": "Pattinson",
+"s": 112.32,
+"e": 112.72,
+"p": 0.65
+},
+{
+"w": "deu",
+"s": 112.72,
+"e": 112.9,
+"p": 0.99
+},
+{
+"w": "um",
+"s": 112.9,
+"e": 113.26,
+"p": 0.99
+},
+{
+"w": "presente",
+"s": 113.26,
+"e": 113.6,
+"p": 1.0
+},
+{
+"w": "para",
+"s": 113.6,
+"e": 113.8,
+"p": 0.65
+},
+{
+"w": "o",
+"s": 113.8,
+"e": 113.96,
+"p": 0.97
+},
+{
+"w": "Nolan.",
+"s": 113.96,
+"e": 114.16,
+"p": 0.95
+},
+{
+"w": "Um",
+"s": 114.16,
+"e": 114.44,
+"p": 0.43
+},
+{
+"w": "livro",
+"s": 114.44,
+"e": 114.74,
+"p": 0.97
+},
+{
+"w": "com",
+"s": 114.74,
+"e": 115.04,
+"p": 0.98
+},
+{
+"w": "discursos",
+"s": 115.04,
+"e": 115.56,
+"p": 0.99
+},
+{
+"w": "de",
+"s": 115.56,
+"e": 115.86,
 "p": 0.99
 },
 {
 "w": "Oppenheimer.",
-"s": 117.56,
-"e": 118.28,
+"s": 115.86,
+"e": 116.6,
 "p": 0.88
 },
 {
 "w": "O",
-"s": 118.68,
-"e": 118.88,
-"p": 0.75
+"s": 116.92,
+"e": 116.92,
+"p": 0.51
 },
 {
 "w": "Nolan",
-"s": 118.88,
-"e": 119.12,
-"p": 1.0
+"s": 116.92,
+"e": 117.28,
+"p": 0.98
 },
 {
 "w": "leu",
-"s": 119.12,
-"e": 119.42,
+"s": 117.28,
+"e": 117.72,
 "p": 0.99
 },
 {
 "w": "e",
-"s": 119.42,
-"e": 119.7,
-"p": 0.97
+"s": 117.72,
+"e": 117.98,
+"p": 0.98
 },
 {
 "w": "não",
-"s": 119.7,
-"e": 120.1,
+"s": 117.98,
+"e": 118.4,
 "p": 0.99
 },
 {
 "w": "conseguiu",
-"s": 120.1,
-"e": 120.4,
-"p": 0.99
+"s": 118.4,
+"e": 118.7,
+"p": 1.0
 },
 {
 "w": "largar.",
-"s": 120.4,
-"e": 120.86,
+"s": 118.7,
+"e": 119.28,
 "p": 0.99
 },
 {
 "w": "Um",
-"s": 121.12,
-"e": 121.18,
-"p": 0.88
+"s": 119.48,
+"e": 119.64,
+"p": 0.93
 },
 {
 "w": "cientista",
-"s": 121.18,
-"e": 121.68,
+"s": 119.64,
+"e": 120.1,
 "p": 0.99
 },
 {
 "w": "tentando",
-"s": 121.68,
-"e": 122.1,
+"s": 120.1,
+"e": 120.52,
 "p": 0.99
+},
+{
+"w": "viver,",
+"s": 120.52,
+"e": 120.92,
+"p": 1.0
+},
+{
+"w": "um",
+"s": 121.04,
+"e": 121.2,
+"p": 0.95
+},
+{
+"w": "cientista",
+"s": 121.2,
+"e": 121.82,
+"p": 1.0
+},
+{
+"w": "tentando",
+"s": 121.82,
+"e": 122.26,
+"p": 1.0
 },
 {
 "w": "viver",
-"s": 122.1,
-"e": 124.22,
-"p": 0.99
+"s": 122.26,
+"e": 122.64,
+"p": 1.0
 },
 {
 "w": "com",
+"s": 122.64,
+"e": 122.86,
+"p": 0.68
+},
+{
+"w": "aquele",
+"s": 122.86,
+"e": 123.18,
+"p": 0.98
+},
+{
+"w": "mesmo,",
+"s": 123.18,
+"e": 123.4,
+"p": 0.91
+},
+{
+"w": "um",
+"s": 123.44,
+"e": 123.74,
+"p": 0.97
+},
+{
+"w": "cientista",
+"s": 123.74,
+"e": 124.22,
+"p": 1.0
+},
+{
+"w": "tentando",
 "s": 124.22,
-"e": 124.48,
-"p": 0.52
+"e": 124.66,
+"p": 1.0
+},
+{
+"w": "viver",
+"s": 124.66,
+"e": 125.04,
+"p": 1.0
+},
+{
+"w": "com",
+"s": 125.04,
+"e": 125.36,
+"p": 0.97
 },
 {
 "w": "o",
-"s": 124.48,
-"e": 125.28,
-"p": 0.78
+"s": 125.36,
+"e": 125.46,
+"p": 0.89
 },
 {
 "w": "que",
-"s": 125.28,
-"e": 127.24,
+"s": 125.46,
+"e": 125.6,
 "p": 0.99
 },
 {
 "w": "ele",
-"s": 127.24,
-"e": 127.5,
-"p": 0.98
+"s": 125.6,
+"e": 125.82,
+"p": 0.99
 },
 {
 "w": "mesmo",
-"s": 127.5,
-"e": 127.78,
+"s": 125.82,
+"e": 126.1,
 "p": 0.99
 },
 {
 "w": "tinha",
-"s": 127.78,
-"e": 127.96,
-"p": 0.97
+"s": 126.1,
+"e": 126.28,
+"p": 0.99
 },
 {
 "w": "soltado",
-"s": 127.96,
-"e": 128.4,
-"p": 0.97
+"s": 126.28,
+"e": 126.74,
+"p": 0.98
 },
 {
 "w": "no",
-"s": 128.4,
-"e": 128.58,
-"p": 0.97
+"s": 126.74,
+"e": 126.92,
+"p": 0.99
 },
 {
 "w": "mundo.",
-"s": 128.58,
-"e": 128.9,
+"s": 126.92,
+"e": 127.24,
 "p": 0.99
 },
 {
 "w": "Três",
-"s": 129.02,
-"e": 129.24,
-"p": 0.83
+"s": 127.36,
+"e": 127.56,
+"p": 0.86
 },
 {
 "w": "anos",
-"s": 129.24,
-"e": 129.4,
+"s": 127.56,
+"e": 127.74,
 "p": 1.0
 },
 {
 "w": "depois,",
-"s": 129.4,
-"e": 129.96,
+"s": 127.74,
+"e": 128.26,
 "p": 0.99
 },
 {
 "w": "saiu",
-"s": 130.34,
-"e": 130.52,
-"p": 0.98
+"s": 128.62,
+"e": 128.9,
+"p": 0.99
 },
 {
 "w": "Oppenheimer.",
-"s": 130.52,
-"e": 131.52,
-"p": 0.9
+"s": 128.9,
+"e": 129.86,
+"p": 0.94
 },
 {
 "w": "Três",
-"s": 131.64,
-"e": 131.9,
-"p": 0.97
+"s": 130.0,
+"e": 130.28,
+"p": 0.96
 },
 {
 "w": "horas",
-"s": 131.9,
-"e": 132.14,
+"s": 130.28,
+"e": 130.5,
 "p": 1.0
 },
 {
 "w": "de",
-"s": 132.14,
-"e": 132.18,
+"s": 130.5,
+"e": 130.54,
 "p": 0.99
 },
 {
 "w": "gente",
-"s": 132.18,
-"e": 132.4,
+"s": 130.54,
+"e": 130.74,
 "p": 1.0
 },
 {
 "w": "sentada",
-"s": 132.4,
-"e": 132.9,
+"s": 130.74,
+"e": 131.28,
 "p": 0.96
 },
 {
 "w": "numa",
-"s": 132.9,
-"e": 133.08,
-"p": 0.87
+"s": 131.28,
+"e": 131.44,
+"p": 0.94
 },
 {
 "w": "sala",
-"s": 133.08,
-"e": 133.4,
+"s": 131.44,
+"e": 131.76,
 "p": 1.0
 },
 {
 "w": "falando",
-"s": 133.4,
-"e": 133.68,
-"p": 0.95
+"s": 131.76,
+"e": 132.04,
+"p": 0.96
 },
 {
 "w": "de",
-"s": 133.68,
-"e": 134.1,
+"s": 132.04,
+"e": 132.36,
 "p": 0.99
 },
 {
 "w": "física.",
-"s": 134.1,
-"e": 134.54,
-"p": 0.93
+"s": 132.36,
+"e": 132.8,
+"p": 0.96
 },
 {
 "w": "E",
-"s": 134.76,
-"e": 134.9,
-"p": 0.91
+"s": 133.02,
+"e": 133.16,
+"p": 0.96
 },
 {
 "w": "chegou",
-"s": 134.9,
-"e": 135.08,
-"p": 0.99
+"s": 133.16,
+"e": 133.34,
+"p": 1.0
 },
 {
 "w": "perto",
-"s": 135.08,
-"e": 135.48,
-"p": 0.98
+"s": 133.34,
+"e": 133.74,
+"p": 0.99
 },
 {
 "w": "de",
-"s": 135.48,
-"e": 135.84,
-"p": 0.99
+"s": 133.74,
+"e": 134.14,
+"p": 1.0
 },
 {
 "w": "um",
-"s": 135.84,
-"e": 136.26,
-"p": 0.78
+"s": 134.14,
+"e": 134.52,
+"p": 0.82
 },
 {
 "w": "bilhão",
-"s": 136.26,
-"e": 136.82,
+"s": 134.52,
+"e": 135.1,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 136.82,
-"e": 137.08,
+"s": 135.1,
+"e": 135.36,
 "p": 1.0
 },
 {
 "w": "dólares.",
-"s": 137.08,
-"e": 137.5,
+"s": 135.36,
+"e": 135.74,
 "p": 1.0
 },
 {
 "w": "Agora",
-"s": 137.72,
-"e": 138.16,
-"p": 0.97
+"s": 135.84,
+"e": 136.24,
+"p": 0.99
 },
 {
 "w": "pensa",
-"s": 138.16,
-"e": 138.4,
-"p": 0.83
+"s": 136.24,
+"e": 136.5,
+"p": 0.86
 },
 {
 "w": "no",
-"s": 138.4,
-"e": 138.56,
+"s": 136.5,
+"e": 136.66,
 "p": 0.98
 },
 {
 "w": "Back",
-"s": 138.56,
-"e": 138.86,
-"p": 0.66
+"s": 136.66,
+"e": 136.96,
+"p": 0.64
 },
 {
 "w": "Rooms.",
-"s": 138.86,
-"e": 139.3,
+"s": 136.96,
+"e": 137.38,
 "p": 0.65
 },
 {
 "w": "O",
-"s": 139.3,
-"e": 139.66,
-"p": 0.56
+"s": 137.52,
+"e": 137.76,
+"p": 0.96
 },
 {
 "w": "Kenny",
-"s": 139.66,
-"e": 139.96,
-"p": 0.93
+"s": 137.76,
+"e": 138.02,
+"p": 0.78
 },
 {
-"w": "Pearsons",
-"s": 139.96,
-"e": 140.56,
-"p": 0.76
+"w": "Parsons",
+"s": 138.02,
+"e": 138.6,
+"p": 0.62
 },
 {
 "w": "começou",
-"s": 140.56,
-"e": 140.96,
+"s": 138.6,
+"e": 139.02,
 "p": 0.99
 },
 {
 "w": "postando",
-"s": 140.96,
-"e": 141.4,
+"s": 139.02,
+"e": 139.46,
 "p": 0.99
 },
 {
 "w": "vídeos",
-"s": 141.4,
-"e": 141.72,
-"p": 0.96
+"s": 139.46,
+"e": 139.74,
+"p": 0.98
 },
 {
 "w": "curtos",
-"s": 141.72,
-"e": 142.12,
+"s": 139.74,
+"e": 140.18,
 "p": 1.0
 },
 {
 "w": "no",
-"s": 142.12,
-"e": 142.28,
-"p": 0.98
+"s": 140.18,
+"e": 140.34,
+"p": 0.99
 },
 {
 "w": "YouTube",
-"s": 142.28,
-"e": 142.7,
-"p": 0.68
+"s": 140.34,
+"e": 140.74,
+"p": 0.71
 },
 {
 "w": "sobre",
-"s": 142.7,
-"e": 143.18,
-"p": 0.62
+"s": 140.74,
+"e": 141.1,
+"p": 0.49
 },
 {
 "w": "aqueles",
-"s": 143.18,
-"e": 143.46,
-"p": 0.96
+"s": 141.1,
+"e": 141.4,
+"p": 0.99
 },
 {
 "w": "corredores",
-"s": 143.46,
-"e": 143.94,
+"s": 141.4,
+"e": 141.86,
 "p": 0.99
 },
 {
 "w": "amarelos",
-"s": 143.94,
-"e": 144.48,
+"s": 141.86,
+"e": 142.4,
+"p": 0.98
+},
+{
+"w": "infinitos.",
+"s": 142.4,
+"e": 143.02,
 "p": 0.99
 },
 {
-"w": "infinitos,",
-"s": 144.48,
-"e": 145.08,
-"p": 0.96
+"w": "Adolescente",
+"s": 143.02,
+"e": 143.96,
+"p": 0.84
 },
 {
-"w": "adolescentes",
-"s": 145.3,
-"e": 145.98,
-"p": 0.59
-},
-{
-"w": "sozinhos",
-"s": 145.98,
-"e": 146.48,
-"p": 0.74
+"w": "sozinho",
+"s": 143.96,
+"e": 144.46,
+"p": 0.78
 },
 {
 "w": "no",
-"s": 146.48,
-"e": 146.66,
-"p": 0.9
+"s": 144.46,
+"e": 144.62,
+"p": 0.78
 },
 {
 "w": "computador",
-"s": 146.66,
-"e": 147.26,
+"s": 144.62,
+"e": 145.26,
 "p": 1.0
 },
 {
 "w": "de",
-"s": 147.26,
-"e": 147.52,
-"p": 0.99
+"s": 145.26,
+"e": 145.52,
+"p": 0.97
 },
 {
 "w": "casa.",
-"s": 147.52,
-"e": 147.92,
+"s": 145.52,
+"e": 145.94,
 "p": 1.0
 },
 {
 "w": "Em",
-"s": 148.08,
-"e": 148.16,
-"p": 0.81
+"s": 146.08,
+"e": 146.14,
+"p": 0.9
 },
 {
 "w": "2026,",
-"s": 148.16,
-"e": 148.86,
+"s": 146.14,
+"e": 146.88,
 "p": 0.96
 },
 {
 "w": "ele",
-"s": 148.98,
-"e": 149.18,
-"p": 0.99
+"s": 147.04,
+"e": 147.2,
+"p": 0.97
 },
 {
 "w": "virou",
-"s": 149.18,
-"e": 149.42,
+"s": 147.2,
+"e": 147.44,
 "p": 0.99
 },
 {
 "w": "o",
-"s": 149.42,
-"e": 149.68,
-"p": 0.98
+"s": 147.44,
+"e": 147.66,
+"p": 0.97
 },
 {
 "w": "diretor",
-"s": 149.68,
-"e": 150.06,
+"s": 147.66,
+"e": 148.1,
 "p": 1.0
 },
 {
 "w": "mais",
-"s": 150.06,
-"e": 150.42,
+"s": 148.1,
+"e": 148.44,
 "p": 1.0
 },
 {
 "w": "jovem",
-"s": 150.42,
-"e": 150.9,
+"s": 148.44,
+"e": 148.74,
 "p": 1.0
 },
 {
 "w": "a",
-"s": 150.9,
-"e": 151.18,
-"p": 0.98
+"s": 148.74,
+"e": 149.04,
+"p": 0.94
 },
 {
 "w": "ficar",
-"s": 151.18,
-"e": 151.32,
+"s": 149.04,
+"e": 149.2,
 "p": 1.0
 },
 {
 "w": "em",
-"s": 151.32,
-"e": 151.7,
+"s": 149.2,
+"e": 149.58,
 "p": 0.99
 },
 {
 "w": "primeiro",
-"s": 151.7,
-"e": 151.96,
-"p": 0.9
+"s": 149.58,
+"e": 149.82,
+"p": 0.86
 },
 {
 "w": "lugar",
-"s": 151.96,
-"e": 152.22,
+"s": 149.82,
+"e": 150.08,
 "p": 1.0
 },
 {
 "w": "nas",
-"s": 152.22,
-"e": 152.42,
-"p": 0.99
+"s": 150.08,
+"e": 150.28,
+"p": 0.98
 },
 {
 "w": "bilheterias.",
-"s": 152.42,
-"e": 153.2,
-"p": 0.98
+"s": 150.28,
+"e": 151.04,
+"p": 0.99
 },
 {
 "w": "E",
-"s": 153.32,
-"e": 153.52,
-"p": 0.91
+"s": 151.18,
+"e": 151.36,
+"p": 0.82
 },
 {
 "w": "Backrooms",
-"s": 153.52,
-"e": 154.04,
-"p": 0.53
+"s": 151.36,
+"e": 151.84,
+"p": 0.6
 },
 {
 "w": "teve",
-"s": 154.04,
-"e": 154.44,
-"p": 0.98
+"s": 151.84,
+"e": 152.16,
+"p": 0.96
 },
 {
 "w": "a",
-"s": 154.44,
-"e": 154.66,
+"s": 152.16,
+"e": 152.4,
 "p": 1.0
 },
 {
 "w": "maior",
-"s": 154.66,
-"e": 154.96,
-"p": 1.0
+"s": 152.4,
+"e": 152.66,
+"p": 0.99
 },
 {
 "w": "estreia",
-"s": 154.96,
-"e": 155.5,
+"s": 152.66,
+"e": 153.08,
 "p": 0.98
 },
 {
 "w": "da",
-"s": 155.5,
-"e": 155.7,
-"p": 0.98
+"s": 153.08,
+"e": 153.28,
+"p": 0.99
 },
 {
 "w": "história",
-"s": 155.7,
-"e": 156.18,
+"s": 153.28,
+"e": 153.68,
 "p": 0.99
 },
 {
 "w": "da",
-"s": 156.18,
-"e": 156.52,
-"p": 0.96
+"s": 153.68,
+"e": 153.92,
+"p": 0.95
 },
 {
-"w": "Avent.",
-"s": 156.52,
-"e": 156.72,
-"p": 0.65
+"w": "A24.",
+"s": 153.92,
+"e": 154.72,
+"p": 0.78
 },
 {
 "w": "O",
-"s": 156.88,
-"e": 157.06,
+"s": 154.94,
+"e": 155.04,
 "p": 0.98
 },
 {
 "w": "que",
-"s": 157.06,
-"e": 157.2,
+"s": 155.04,
+"e": 155.18,
 "p": 0.99
 },
 {
 "w": "eles",
-"s": 157.2,
-"e": 157.48,
-"p": 0.98
+"s": 155.18,
+"e": 155.44,
+"p": 0.97
 },
 {
 "w": "dois",
-"s": 157.48,
-"e": 157.82,
+"s": 155.44,
+"e": 155.8,
 "p": 0.99
 },
 {
 "w": "têm",
-"s": 157.82,
-"e": 158.16,
-"p": 0.85
+"s": 155.8,
+"e": 156.12,
+"p": 0.77
 },
 {
 "w": "em",
-"s": 158.16,
-"e": 158.38,
+"s": 156.12,
+"e": 156.32,
 "p": 1.0
 },
 {
 "w": "comum?",
-"s": 158.38,
-"e": 158.56,
-"p": 1.0
+"s": 156.32,
+"e": 156.56,
+"p": 0.99
 },
 {
 "w": "Ninguém",
-"s": 158.86,
-"e": 159.1,
-"p": 0.98
+"s": 156.86,
+"e": 157.1,
+"p": 0.99
 },
 {
 "w": "mandou",
-"s": 159.1,
-"e": 159.46,
+"s": 157.1,
+"e": 157.46,
 "p": 1.0
 },
 {
 "w": "eles",
-"s": 159.46,
-"e": 159.66,
-"p": 0.96
+"s": 157.46,
+"e": 157.66,
+"p": 0.94
 },
 {
 "w": "fazerem",
-"s": 159.66,
-"e": 159.92,
-"p": 0.98
+"s": 157.66,
+"e": 157.94,
+"p": 0.97
 },
 {
 "w": "esses",
-"s": 159.92,
-"e": 160.14,
-"p": 0.99
+"s": 157.94,
+"e": 158.14,
+"p": 0.98
 },
 {
 "w": "filmes.",
-"s": 160.14,
-"e": 160.58,
+"s": 158.14,
+"e": 158.6,
 "p": 1.0
 },
 {
 "w": "Eles",
-"s": 160.66,
-"e": 161.04,
+"s": 158.7,
+"e": 159.04,
 "p": 0.99
 },
 {
 "w": "quiseram.",
-"s": 161.04,
-"e": 161.62,
-"p": 0.97
+"s": 159.04,
+"e": 159.74,
+"p": 0.96
 },
 {
 "w": "Agora,",
-"s": 161.66,
-"e": 162.16,
+"s": 159.82,
+"e": 160.32,
 "p": 0.98
 },
 {
 "w": "olha",
-"s": 162.26,
-"e": 162.48,
-"p": 0.93
+"s": 160.42,
+"e": 160.64,
+"p": 0.96
 },
 {
 "w": "o",
-"s": 162.48,
-"e": 162.6,
+"s": 160.64,
+"e": 160.76,
 "p": 0.99
 },
 {
 "w": "caminho",
-"s": 162.6,
-"e": 162.96,
+"s": 160.76,
+"e": 161.12,
 "p": 1.0
 },
 {
 "w": "contrário.",
-"s": 162.96,
-"e": 163.68,
-"p": 1.0
+"s": 161.12,
+"e": 161.64,
+"p": 0.95
 },
 {
 "w": "A",
-"s": 163.78,
-"e": 164.06,
-"p": 0.99
+"s": 161.7,
+"e": 161.94,
+"p": 0.97
 },
 {
 "w": "Marvel",
-"s": 164.06,
-"e": 164.38,
+"s": 161.94,
+"e": 162.28,
 "p": 1.0
 },
 {
 "w": "anunciou",
-"s": 164.38,
-"e": 164.94,
+"s": 162.28,
+"e": 162.84,
 "p": 1.0
 },
 {
 "w": "um",
-"s": 164.94,
-"e": 165.08,
-"p": 0.89
+"s": 162.84,
+"e": 163.0,
+"p": 0.8
 },
 {
 "w": "filme",
-"s": 165.08,
-"e": 165.26,
-"p": 0.99
+"s": 163.0,
+"e": 163.16,
+"p": 0.98
 },
 {
 "w": "dos",
-"s": 165.26,
-"e": 165.48,
+"s": 163.16,
+"e": 163.38,
 "p": 0.99
 },
 {
 "w": "Vingadores",
-"s": 165.48,
-"e": 165.96,
-"p": 0.96
-},
-{
-"w": "com",
-"s": 165.96,
-"e": 166.34,
+"s": 163.38,
+"e": 163.88,
 "p": 0.95
 },
 {
+"w": "com",
+"s": 163.88,
+"e": 164.24,
+"p": 0.96
+},
+{
 "w": "Kang",
-"s": 166.34,
-"e": 166.6,
-"p": 0.64
+"s": 164.24,
+"e": 164.5,
+"p": 0.66
 },
 {
 "w": "como",
-"s": 166.6,
-"e": 166.9,
-"p": 0.98
+"s": 164.5,
+"e": 164.8,
+"p": 0.96
 },
 {
 "w": "vilão.",
-"s": 166.9,
-"e": 167.26,
+"s": 164.8,
+"e": 165.16,
 "p": 1.0
 },
 {
 "w": "O",
-"s": 167.26,
-"e": 167.48,
-"p": 0.47
+"s": 165.26,
+"e": 165.44,
+"p": 0.99
 },
 {
 "w": "ator",
-"s": 167.48,
-"e": 167.76,
-"p": 0.99
+"s": 165.44,
+"e": 165.66,
+"p": 1.0
 },
 {
 "w": "saiu,",
-"s": 167.76,
-"e": 168.24,
-"p": 0.98
+"s": 165.66,
+"e": 166.06,
+"p": 1.0
 },
 {
 "w": "o",
-"s": 168.36,
-"e": 168.5,
-"p": 0.98
-},
-{
-"w": "plano",
-"s": 168.5,
-"e": 168.68,
+"s": 166.26,
+"e": 166.4,
 "p": 0.99
 },
 {
+"w": "plano",
+"s": 166.4,
+"e": 166.58,
+"p": 1.0
+},
+{
 "w": "desmoronou",
-"s": 168.68,
-"e": 169.34,
+"s": 166.58,
+"e": 167.22,
 "p": 0.99
 },
 {
 "w": "e",
-"s": 169.34,
-"e": 169.48,
-"p": 0.81
+"s": 167.22,
+"e": 167.38,
+"p": 0.79
 },
 {
 "w": "o",
-"s": 169.48,
-"e": 169.52,
-"p": 0.99
+"s": 167.38,
+"e": 167.42,
+"p": 1.0
 },
 {
 "w": "filme",
-"s": 169.52,
-"e": 169.74,
+"s": 167.42,
+"e": 167.64,
 "p": 1.0
 },
 {
 "w": "virou",
-"s": 169.74,
-"e": 170.14,
-"p": 0.99
+"s": 167.64,
+"e": 168.06,
+"p": 1.0
 },
 {
 "w": "outra",
-"s": 170.14,
-"e": 170.66,
-"p": 0.95
-},
-{
-"w": "coisa.",
-"s": 170.66,
-"e": 170.98,
+"s": 168.06,
+"e": 168.56,
 "p": 0.99
 },
 {
-"w": "Pra",
-"s": 171.06,
-"e": 171.2,
-"p": 0.73
+"w": "coisa.",
+"s": 168.56,
+"e": 168.88,
+"p": 1.0
+},
+{
+"w": "Para",
+"s": 168.98,
+"e": 169.16,
+"p": 0.48
 },
 {
 "w": "salvar,",
-"s": 171.2,
-"e": 171.64,
+"s": 169.16,
+"e": 169.56,
 "p": 0.99
 },
 {
 "w": "chamaram",
-"s": 171.96,
-"e": 172.14,
+"s": 169.84,
+"e": 170.04,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 172.14,
-"e": 172.38,
-"p": 0.99
+"s": 170.04,
+"e": 170.28,
+"p": 1.0
 },
 {
 "w": "volta",
-"s": 172.38,
-"e": 172.6,
+"s": 170.28,
+"e": 170.52,
 "p": 1.0
 },
 {
 "w": "o",
-"s": 172.6,
-"e": 172.86,
-"p": 0.86
+"s": 170.52,
+"e": 170.78,
+"p": 0.76
 },
 {
 "w": "Robert",
-"s": 172.86,
-"e": 173.16,
-"p": 0.99
+"s": 170.78,
+"e": 171.04,
+"p": 1.0
 },
 {
 "w": "Downey",
-"s": 173.16,
-"e": 173.56,
-"p": 0.88
-},
-{
-"w": "Jr.,",
-"s": 173.56,
-"e": 173.94,
-"p": 0.74
-},
-{
-"w": "o",
-"s": 173.94,
-"e": 174.04,
-"p": 0.78
-},
-{
-"w": "nosso",
-"s": 174.04,
-"e": 174.22,
-"p": 0.98
-},
-{
-"w": "Homem",
-"s": 174.22,
-"e": 174.4,
-"p": 0.74
-},
-{
-"w": "de",
-"s": 174.4,
-"e": 174.62,
+"s": 171.04,
+"e": 171.46,
 "p": 0.96
 },
 {
+"w": "Jr.,",
+"s": 171.46,
+"e": 171.82,
+"p": 0.77
+},
+{
+"w": "nosso",
+"s": 171.82,
+"e": 172.06,
+"p": 0.09
+},
+{
+"w": "Homem",
+"s": 172.06,
+"e": 172.3,
+"p": 0.68
+},
+{
+"w": "de",
+"s": 172.3,
+"e": 172.5,
+"p": 0.9
+},
+{
 "w": "Ferro,",
-"s": 174.62,
-"e": 174.86,
+"s": 172.5,
+"e": 172.76,
 "p": 0.99
 },
 {
 "w": "que",
-"s": 174.92,
-"e": 175.12,
-"p": 0.99
+"s": 172.86,
+"e": 173.0,
+"p": 0.97
 },
 {
 "w": "agora",
-"s": 175.12,
-"e": 175.54,
-"p": 0.94
+"s": 173.0,
+"e": 173.48,
+"p": 0.89
 },
 {
 "w": "virou",
-"s": 175.54,
-"e": 176.0,
-"p": 0.98
+"s": 173.48,
+"e": 173.86,
+"p": 0.97
 },
 {
 "w": "o",
-"s": 176.0,
-"e": 176.1,
-"p": 0.94
+"s": 173.86,
+"e": 173.92,
+"p": 0.73
 },
 {
 "w": "Doutor",
-"s": 176.1,
-"e": 176.52,
-"p": 0.86
+"s": 173.92,
+"e": 174.34,
+"p": 0.89
 },
 {
 "w": "Destino.",
-"s": 176.52,
-"e": 177.0,
-"p": 1.0
+"s": 174.34,
+"e": 174.76,
+"p": 0.99
 },
 {
 "w": "Chamaram",
-"s": 177.14,
-"e": 177.4,
-"p": 0.98
+"s": 174.9,
+"e": 175.16,
+"p": 0.97
 },
 {
 "w": "de",
-"s": 177.4,
-"e": 177.64,
-"p": 1.0
+"s": 175.16,
+"e": 175.42,
+"p": 0.99
 },
 {
 "w": "volta",
-"s": 177.64,
-"e": 177.88,
+"s": 175.42,
+"e": 175.64,
 "p": 1.0
 },
 {
 "w": "os",
-"s": 177.88,
-"e": 178.28,
-"p": 0.98
+"s": 175.64,
+"e": 176.06,
+"p": 0.96
 },
 {
 "w": "mesmos",
-"s": 178.28,
-"e": 178.7,
+"s": 176.06,
+"e": 176.46,
 "p": 0.99
 },
 {
 "w": "diretores",
-"s": 178.7,
-"e": 179.16,
-"p": 0.99
+"s": 176.46,
+"e": 176.94,
+"p": 0.98
 },
 {
 "w": "também.",
-"s": 179.16,
-"e": 179.5,
-"p": 0.89
+"s": 176.94,
+"e": 177.24,
+"p": 0.91
 },
 {
 "w": "E",
-"s": 179.68,
-"e": 179.8,
-"p": 0.96
+"s": 177.42,
+"e": 177.54,
+"p": 0.94
 },
 {
 "w": "além",
-"s": 179.8,
+"s": 177.54,
+"e": 177.68,
+"p": 0.8
+},
+{
+"w": "de",
+"s": 177.68,
+"e": 177.86,
+"p": 0.96
+},
+{
+"w": "tudo",
+"s": 177.86,
+"e": 178.06,
+"p": 1.0
+},
+{
+"w": "isso",
+"s": 178.06,
+"e": 178.3,
+"p": 0.99
+},
+{
+"w": "também",
+"s": 178.3,
+"e": 178.62,
+"p": 0.42
+},
+{
+"w": "chamaram",
+"s": 178.62,
+"e": 178.86,
+"p": 0.99
+},
+{
+"w": "de",
+"s": 178.86,
+"e": 179.06,
+"p": 1.0
+},
+{
+"w": "volta",
+"s": 179.06,
+"e": 179.24,
+"p": 1.0
+},
+{
+"w": "o",
+"s": 179.24,
+"e": 179.52,
+"p": 0.83
+},
+{
+"w": "X",
+"s": 179.52,
+"e": 179.74,
+"p": 0.17
+},
+{
+"w": "-Men",
+"s": 179.74,
 "e": 179.96,
-"p": 0.74
+"p": 0.81
 },
 {
 "w": "de",
 "s": 179.96,
-"e": 180.12,
-"p": 0.93
-},
-{
-"w": "tudo",
-"s": 180.12,
-"e": 180.34,
-"p": 1.0
-},
-{
-"w": "isso,",
-"s": 180.34,
-"e": 180.56,
-"p": 0.99
-},
-{
-"w": "também",
-"s": 180.68,
-"e": 180.94,
-"p": 0.96
-},
-{
-"w": "chamaram",
-"s": 180.94,
-"e": 181.12,
-"p": 0.99
-},
-{
-"w": "de",
-"s": 181.12,
-"e": 181.34,
-"p": 1.0
-},
-{
-"w": "volta",
-"s": 181.34,
-"e": 181.52,
-"p": 1.0
-},
-{
-"w": "o",
-"s": 181.52,
-"e": 181.76,
-"p": 0.93
-},
-{
-"w": "Zé",
-"s": 181.76,
-"e": 181.94,
-"p": 0.62
-},
-{
-"w": "que",
-"s": 181.94,
-"e": 182.04,
-"p": 0.2
-},
-{
-"w": "se",
-"s": 182.04,
-"e": 182.14,
-"p": 0.99
-},
-{
-"w": "mente",
-"s": 182.14,
-"e": 182.34,
-"p": 0.35
+"e": 180.2,
+"p": 0.92
 },
 {
 "w": "20",
-"s": 182.34,
-"e": 182.82,
-"p": 0.8
+"s": 180.2,
+"e": 180.56,
+"p": 0.89
 },
 {
 "w": "anos",
-"s": 182.82,
-"e": 183.22,
+"s": 180.56,
+"e": 180.96,
 "p": 1.0
 },
 {
 "w": "atrás.",
-"s": 183.22,
-"e": 183.56,
-"p": 1.0
+"s": 180.96,
+"e": 181.38,
+"p": 0.99
 },
 {
 "w": "Eu",
-"s": 183.68,
-"e": 183.86,
-"p": 0.48
+"s": 181.48,
+"e": 181.64,
+"p": 0.68
 },
 {
 "w": "vou",
-"s": 183.86,
-"e": 183.98,
+"s": 181.64,
+"e": 181.76,
 "p": 0.99
 },
 {
 "w": "ver?",
-"s": 183.98,
-"e": 184.28,
-"p": 0.91
+"s": 181.76,
+"e": 182.08,
+"p": 0.94
 },
 {
 "w": "Vou!",
-"s": 184.42,
-"e": 184.66,
+"s": 182.46,
+"e": 182.46,
 "p": 0.98
 },
 {
 "w": "Porque",
-"s": 184.76,
-"e": 185.04,
-"p": 0.97
+"s": 182.54,
+"e": 182.8,
+"p": 0.95
 },
 {
 "w": "eu",
-"s": 185.04,
-"e": 185.22,
-"p": 0.46
+"s": 182.8,
+"e": 183.0,
+"p": 0.93
 },
 {
 "w": "sou",
-"s": 185.22,
-"e": 185.36,
-"p": 0.9
+"s": 183.0,
+"e": 183.14,
+"p": 0.94
 },
 {
 "w": "fã",
-"s": 185.36,
-"e": 185.5,
-"p": 0.88
+"s": 183.14,
+"e": 183.26,
+"p": 0.84
 },
 {
 "w": "e",
-"s": 185.5,
-"e": 185.56,
+"s": 183.26,
+"e": 183.32,
 "p": 0.98
 },
 {
 "w": "não",
-"s": 185.56,
-"e": 185.76,
+"s": 183.32,
+"e": 183.52,
 "p": 0.99
 },
 {
 "w": "consigo",
-"s": 185.76,
-"e": 186.18,
+"s": 183.52,
+"e": 183.94,
 "p": 1.0
 },
 {
 "w": "evitar.",
-"s": 186.18,
-"e": 186.5,
+"s": 183.94,
+"e": 184.28,
 "p": 0.99
 },
 {
 "w": "Mas",
-"s": 186.62,
-"e": 186.8,
+"s": 184.4,
+"e": 184.56,
 "p": 0.99
 },
 {
 "w": "me",
-"s": 186.8,
-"e": 187.0,
+"s": 184.56,
+"e": 184.76,
 "p": 0.98
 },
 {
 "w": "diz",
-"s": 187.0,
-"e": 187.12,
+"s": 184.76,
+"e": 184.88,
 "p": 1.0
 },
 {
 "w": "uma",
-"s": 187.12,
-"e": 187.42,
-"p": 0.99
+"s": 184.88,
+"e": 185.18,
+"p": 0.98
 },
 {
-"w": "coisa,",
-"s": 187.42,
-"e": 187.76,
+"w": "coisa.",
+"s": 185.18,
+"e": 185.54,
 "p": 1.0
 },
 {
-"w": "alguém",
-"s": 188.06,
-"e": 188.36,
-"p": 0.96
+"w": "Alguém",
+"s": 185.8,
+"e": 186.16,
+"p": 1.0
 },
 {
 "w": "ali",
-"s": 188.36,
-"e": 188.6,
+"s": 186.16,
+"e": 186.36,
 "p": 0.98
 },
 {
 "w": "queria",
-"s": 188.6,
-"e": 188.9,
-"p": 0.99
+"s": 186.36,
+"e": 186.66,
+"p": 0.98
 },
 {
 "w": "muito",
-"s": 188.9,
-"e": 189.3,
+"s": 186.66,
+"e": 187.06,
 "p": 0.99
 },
 {
 "w": "contar",
-"s": 189.3,
-"e": 189.58,
+"s": 187.06,
+"e": 187.36,
 "p": 0.99
 },
 {
 "w": "essa",
-"s": 189.58,
-"e": 189.76,
-"p": 0.99
+"s": 187.36,
+"e": 187.54,
+"p": 0.98
 },
 {
 "w": "história?",
-"s": 189.76,
-"e": 190.18,
+"s": 187.54,
+"e": 187.92,
 "p": 0.99
 },
 {
 "w": "Ou",
-"s": 190.38,
-"e": 190.62,
-"p": 0.98
+"s": 188.14,
+"e": 188.34,
+"p": 0.96
 },
 {
 "w": "alguém",
-"s": 190.62,
-"e": 190.94,
+"s": 188.34,
+"e": 188.66,
 "p": 0.98
 },
 {
 "w": "numa",
-"s": 190.94,
-"e": 191.14,
-"p": 0.83
+"s": 188.66,
+"e": 188.88,
+"p": 0.85
 },
 {
 "w": "sala",
-"s": 191.14,
-"e": 191.42,
-"p": 1.0
+"s": 188.88,
+"e": 189.14,
+"p": 0.99
 },
 {
 "w": "de",
-"s": 191.42,
-"e": 191.64,
+"s": 189.14,
+"e": 189.36,
 "p": 1.0
 },
 {
 "w": "reunião",
-"s": 191.64,
-"e": 191.96,
+"s": 189.36,
+"e": 189.7,
 "p": 0.99
 },
 {
 "w": "queria",
-"s": 191.96,
-"e": 192.24,
-"p": 0.88
+"s": 189.7,
+"e": 189.98,
+"p": 0.89
 },
 {
 "w": "muito",
-"s": 192.24,
-"e": 192.64,
+"s": 189.98,
+"e": 190.38,
 "p": 0.99
 },
 {
 "w": "mais",
-"s": 192.64,
-"e": 192.8,
+"s": 190.38,
+"e": 190.52,
 "p": 1.0
 },
 {
 "w": "um",
-"s": 192.8,
-"e": 192.94,
-"p": 0.57
+"s": 190.52,
+"e": 190.78,
+"p": 0.93
 },
 {
 "w": "filme",
-"s": 192.94,
-"e": 193.16,
+"s": 190.78,
+"e": 190.9,
 "p": 0.99
 },
 {
 "w": "dos",
-"s": 193.16,
-"e": 193.32,
-"p": 0.96
+"s": 190.9,
+"e": 191.06,
+"p": 0.97
 },
 {
 "w": "Vingadores?",
-"s": 193.32,
-"e": 193.82,
+"s": 191.06,
+"e": 191.56,
 "p": 0.97
 },
 {
 "w": "Só",
-"s": 193.82,
-"e": 194.2,
-"p": 0.64
-},
-{
-"w": "para",
-"s": 194.2,
-"e": 194.46,
-"p": 0.96
-},
-{
-"w": "dar",
-"s": 194.46,
-"e": 194.6,
+"s": 191.74,
+"e": 191.96,
 "p": 0.98
 },
 {
+"w": "para",
+"s": 191.96,
+"e": 192.18,
+"p": 0.98
+},
+{
+"w": "dar",
+"s": 192.18,
+"e": 192.34,
+"p": 0.99
+},
+{
 "w": "aquele",
-"s": 194.6,
-"e": 194.76,
-"p": 0.95
+"s": 192.34,
+"e": 192.5,
+"p": 0.99
 },
 {
 "w": "lucruzinho,",
-"s": 194.76,
-"e": 195.4,
+"s": 192.5,
+"e": 193.08,
 "p": 0.86
 },
 {
-"w": "aquela",
-"s": 195.54,
-"e": 195.78,
-"p": 0.44
+"w": "né?",
+"s": 193.24,
+"e": 193.24,
+"p": 0.32
+},
+{
+"w": "Aquela",
+"s": 193.28,
+"e": 193.46,
+"p": 0.95
 },
 {
 "w": "granazinha",
-"s": 195.78,
-"e": 196.38,
-"p": 0.65
+"s": 193.46,
+"e": 194.1,
+"p": 0.82
 },
 {
 "w": "nos",
-"s": 196.38,
-"e": 196.52,
-"p": 0.57
+"s": 194.1,
+"e": 194.24,
+"p": 0.83
 },
 {
 "w": "finais",
-"s": 196.52,
-"e": 196.78,
-"p": 0.93
+"s": 194.24,
+"e": 194.44,
+"p": 0.92
 },
 {
 "w": "de",
-"s": 196.78,
-"e": 196.82,
-"p": 0.73
+"s": 194.44,
+"e": 194.52,
+"p": 0.85
 },
 {
 "w": "semana",
-"s": 196.82,
-"e": 197.1,
+"s": 194.52,
+"e": 194.76,
 "p": 1.0
 },
 {
 "w": "lá",
-"s": 197.1,
-"e": 197.28,
-"p": 0.67
+"s": 194.76,
+"e": 194.94,
+"p": 0.74
 },
 {
 "w": "do",
-"s": 197.28,
-"e": 197.42,
-"p": 0.91
+"s": 194.94,
+"e": 195.08,
+"p": 0.88
 },
 {
 "w": "cinema.",
-"s": 197.42,
-"e": 197.9,
+"s": 195.08,
+"e": 195.48,
 "p": 0.97
 },
 {
 "w": "Um",
-"s": 198.06,
-"e": 198.2,
-"p": 0.86
+"s": 195.62,
+"e": 195.82,
+"p": 0.99
 },
 {
 "w": "filme",
-"s": 198.2,
-"e": 198.5,
+"s": 195.82,
+"e": 196.1,
 "p": 1.0
 },
 {
 "w": "nasce",
-"s": 198.5,
-"e": 198.9,
+"s": 196.1,
+"e": 196.5,
 "p": 1.0
 },
 {
 "w": "de",
-"s": 198.9,
-"e": 199.12,
-"p": 0.99
+"s": 196.5,
+"e": 196.72,
+"p": 1.0
 },
 {
 "w": "uma",
-"s": 199.12,
-"e": 199.42,
+"s": 196.72,
+"e": 196.98,
 "p": 1.0
 },
 {
 "w": "ideia,",
-"s": 199.42,
-"e": 199.72,
-"p": 0.96
+"s": 196.98,
+"e": 197.32,
+"p": 0.98
 },
 {
 "w": "o",
-"s": 199.84,
-"e": 200.1,
-"p": 0.94
+"s": 197.46,
+"e": 197.7,
+"p": 0.96
 },
 {
 "w": "outro",
-"s": 200.1,
-"e": 200.38,
+"s": 197.7,
+"e": 197.98,
 "p": 1.0
 },
 {
 "w": "nasce",
-"s": 200.38,
-"e": 200.66,
-"p": 0.98
+"s": 197.98,
+"e": 198.26,
+"p": 1.0
 },
 {
 "w": "de",
-"s": 200.66,
-"e": 200.84,
+"s": 198.26,
+"e": 198.42,
 "p": 1.0
 },
 {
 "w": "uma",
-"s": 200.84,
-"e": 201.04,
+"s": 198.42,
+"e": 198.66,
 "p": 1.0
 },
 {
 "w": "planilha.",
-"s": 201.04,
-"e": 201.58,
+"s": 198.66,
+"e": 199.14,
 "p": 1.0
 },
 {
 "w": "Se",
-"s": 201.74,
-"e": 201.9,
-"p": 0.99
+"s": 199.14,
+"e": 199.5,
+"p": 0.74
 },
 {
 "w": "você",
-"s": 201.9,
-"e": 202.24,
-"p": 1.0
+"s": 199.5,
+"e": 199.84,
+"p": 0.99
 },
 {
 "w": "também",
-"s": 202.24,
-"e": 202.46,
-"p": 0.91
+"s": 199.84,
+"e": 200.06,
+"p": 0.78
 },
 {
 "w": "sente",
-"s": 202.46,
-"e": 203.0,
+"s": 200.06,
+"e": 200.6,
 "p": 1.0
 },
 {
 "w": "falta",
-"s": 203.0,
-"e": 203.36,
-"p": 0.97
+"s": 200.6,
+"e": 200.94,
+"p": 0.98
 },
 {
 "w": "de",
-"s": 203.36,
-"e": 203.52,
-"p": 1.0
-},
-{
-"w": "sair",
-"s": 203.52,
-"e": 203.68,
+"s": 200.94,
+"e": 201.12,
 "p": 0.99
 },
 {
+"w": "sair",
+"s": 201.12,
+"e": 201.24,
+"p": 0.98
+},
+{
 "w": "do",
-"s": 203.68,
-"e": 203.86,
+"s": 201.24,
+"e": 201.42,
 "p": 0.99
 },
 {
 "w": "cinema",
-"s": 203.86,
-"e": 204.2,
-"p": 1.0
+"s": 201.42,
+"e": 201.76,
+"p": 0.99
 },
 {
 "w": "meio",
-"s": 204.2,
-"e": 204.54,
+"s": 201.76,
+"e": 202.1,
 "p": 0.99
 },
 {
 "w": "atordoado,",
-"s": 204.54,
-"e": 205.34,
-"p": 0.95
+"s": 202.1,
+"e": 202.94,
+"p": 0.97
 },
 {
 "w": "se",
-"s": 205.56,
-"e": 205.76,
-"p": 0.96
+"s": 203.16,
+"e": 203.36,
+"p": 0.94
 },
 {
 "w": "inscreve",
-"s": 205.76,
-"e": 206.1,
+"s": 203.36,
+"e": 203.7,
 "p": 0.99
 },
 {
 "w": "no",
-"s": 206.1,
-"e": 206.22,
-"p": 0.99
+"s": 203.7,
+"e": 203.82,
+"p": 0.98
 },
 {
 "w": "canal.",
-"s": 206.22,
-"e": 206.5,
+"s": 203.82,
+"e": 204.14,
 "p": 0.99
 },
 {
 "w": "Aqui",
-"s": 206.6,
-"e": 206.76,
-"p": 1.0
+"s": 204.3,
+"e": 204.42,
+"p": 0.99
 },
 {
 "w": "a",
-"s": 206.76,
-"e": 206.78,
-"p": 0.93
+"s": 204.42,
+"e": 204.5,
+"p": 0.89
 },
 {
 "w": "gente",
-"s": 206.78,
-"e": 206.96,
+"s": 204.5,
+"e": 204.62,
 "p": 1.0
 },
 {
 "w": "fala",
-"s": 206.96,
-"e": 207.2,
+"s": 204.62,
+"e": 204.86,
 "p": 0.99
 },
 {
 "w": "do",
-"s": 207.2,
-"e": 207.3,
-"p": 0.69
+"s": 204.86,
+"e": 204.96,
+"p": 0.83
 },
 {
 "w": "que",
-"s": 207.3,
-"e": 207.38,
+"s": 204.96,
+"e": 205.04,
 "p": 0.99
 },
 {
 "w": "os",
-"s": 207.38,
-"e": 207.58,
-"p": 0.95
+"s": 205.04,
+"e": 205.24,
+"p": 0.94
 },
 {
 "w": "filmes",
-"s": 207.58,
-"e": 207.78,
-"p": 1.0
+"s": 205.24,
+"e": 205.46,
+"p": 0.99
 },
 {
 "w": "e",
-"s": 207.78,
-"e": 207.88,
-"p": 0.94
+"s": 205.46,
+"e": 205.56,
+"p": 0.86
 },
 {
 "w": "as",
-"s": 207.88,
-"e": 208.02,
-"p": 0.94
+"s": 205.56,
+"e": 205.68,
+"p": 0.91
 },
 {
 "w": "séries",
-"s": 208.02,
-"e": 208.14,
+"s": 205.68,
+"e": 205.82,
 "p": 0.99
 },
 {
 "w": "que",
-"s": 208.14,
-"e": 208.36,
+"s": 205.82,
+"e": 206.0,
 "p": 0.99
 },
 {
 "w": "você",
-"s": 208.36,
-"e": 208.66,
+"s": 206.0,
+"e": 206.34,
 "p": 0.99
 },
 {
 "w": "tanto",
-"s": 208.66,
-"e": 208.98,
+"s": 206.34,
+"e": 206.64,
 "p": 0.97
 },
 {
 "w": "ama",
-"s": 208.98,
-"e": 209.2,
+"s": 206.64,
+"e": 206.86,
 "p": 1.0
 },
 {
 "w": "realmente",
-"s": 209.2,
-"e": 209.88,
-"p": 0.9
+"s": 206.86,
+"e": 207.52,
+"p": 0.86
 },
 {
 "w": "querem",
-"s": 209.88,
-"e": 210.14,
+"s": 207.52,
+"e": 207.78,
 "p": 0.99
 },
 {
 "w": "dizer.",
-"s": 210.14,
-"e": 210.46,
+"s": 207.78,
+"e": 208.14,
 "p": 1.0
 },
 {
 "w": "Aí",
-"s": 210.58,
-"e": 210.86,
-"p": 0.79
+"s": 208.4,
+"e": 208.62,
+"p": 0.87
 },
 {
 "w": "vem",
-"s": 210.86,
-"e": 211.16,
+"s": 208.62,
+"e": 208.94,
 "p": 0.99
 },
 {
 "w": "a",
-"s": 211.16,
-"e": 211.42,
-"p": 0.99
+"s": 208.94,
+"e": 209.18,
+"p": 1.0
 },
 {
 "w": "pergunta",
-"s": 211.42,
-"e": 211.78,
+"s": 209.18,
+"e": 209.56,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 211.78,
-"e": 212.08,
+"s": 209.56,
+"e": 209.84,
 "p": 1.0
 },
 {
 "w": "sempre.",
-"s": 212.08,
-"e": 212.38,
+"s": 209.84,
+"e": 210.18,
 "p": 1.0
 },
 {
-"w": "Ah",
-"s": 212.92,
-"e": 212.92,
-"p": 0.0
+"w": "Ah,",
+"s": 210.48,
+"e": 210.48,
+"p": 0.02
 },
 {
-"w": "Luis,",
-"s": 212.92,
-"e": 213.22,
-"p": 0.2
+"w": "Luiz,",
+"s": 210.56,
+"e": 210.84,
+"p": 0.73
 },
 {
 "w": "mas",
-"s": 213.24,
-"e": 213.54,
+"s": 211.06,
+"e": 211.1,
 "p": 0.99
 },
 {
 "w": "filme",
-"s": 213.54,
-"e": 213.86,
+"s": 211.1,
+"e": 211.42,
 "p": 0.93
 },
 {
 "w": "de",
-"s": 213.86,
-"e": 214.12,
+"s": 211.42,
+"e": 211.7,
 "p": 1.0
 },
 {
 "w": "autor",
-"s": 214.12,
-"e": 214.38,
+"s": 211.7,
+"e": 211.96,
 "p": 0.99
 },
 {
 "w": "não",
-"s": 214.38,
-"e": 214.76,
+"s": 211.96,
+"e": 212.34,
 "p": 0.99
 },
 {
 "w": "dá",
-"s": 214.76,
-"e": 215.04,
-"p": 0.97
+"s": 212.34,
+"e": 212.6,
+"p": 0.98
 },
 {
 "w": "dinheiro?",
-"s": 215.04,
-"e": 215.32,
-"p": 0.97
+"s": 212.6,
+"e": 213.1,
+"p": 1.0
 },
 {
 "w": "A",
-"s": 215.4,
-"e": 215.7,
+"s": 213.26,
+"e": 213.56,
 "p": 0.99
 },
 {
 "w": "resposta",
-"s": 215.7,
-"e": 216.06,
+"s": 213.56,
+"e": 213.92,
 "p": 1.0
 },
 {
 "w": "é",
-"s": 216.06,
-"e": 216.3,
-"p": 0.99
+"s": 213.92,
+"e": 214.18,
+"p": 1.0
 },
 {
 "w": "que",
-"s": 216.3,
-"e": 216.58,
-"p": 0.99
+"s": 214.18,
+"e": 214.44,
+"p": 1.0
 },
 {
 "w": "dá.",
-"s": 216.58,
-"e": 216.7,
-"p": 0.98
-},
-{
-"w": "Obsession",
-"s": 216.94,
-"e": 217.46,
-"p": 0.91
-},
-{
-"w": "custou",
-"s": 217.46,
-"e": 217.8,
+"s": 214.44,
+"e": 214.56,
 "p": 0.99
 },
 {
+"w": "Sechan",
+"s": 214.7,
+"e": 214.98,
+"p": 0.15
+},
+{
+"w": "custou",
+"s": 214.98,
+"e": 215.34,
+"p": 0.98
+},
+{
 "w": "por",
-"s": 217.8,
-"e": 217.98,
+"s": 215.34,
+"e": 215.52,
 "p": 0.99
 },
 {
 "w": "volta",
-"s": 217.98,
-"e": 218.18,
+"s": 215.52,
+"e": 215.72,
 "p": 1.0
 },
 {
 "w": "de",
-"s": 218.18,
-"e": 218.46,
+"s": 215.72,
+"e": 215.98,
 "p": 1.0
 },
 {
 "w": "750",
-"s": 218.46,
-"e": 219.14,
-"p": 0.77
+"s": 215.98,
+"e": 216.62,
+"p": 0.85
 },
 {
 "w": "mil",
-"s": 219.14,
-"e": 219.66,
-"p": 0.94
+"s": 216.62,
+"e": 217.12,
+"p": 0.95
 },
 {
 "w": "dólares",
-"s": 219.66,
-"e": 220.04,
-"p": 0.99
+"s": 217.12,
+"e": 217.52,
+"p": 1.0
 },
 {
 "w": "e",
-"s": 220.04,
-"e": 220.2,
-"p": 0.96
+"s": 217.52,
+"e": 217.68,
+"p": 0.97
 },
 {
 "w": "fez",
-"s": 220.2,
-"e": 220.4,
-"p": 0.99
+"s": 217.68,
+"e": 217.86,
+"p": 1.0
 },
 {
 "w": "mais",
-"s": 220.4,
-"e": 220.62,
-"p": 0.99
+"s": 217.86,
+"e": 218.1,
+"p": 1.0
 },
 {
 "w": "de",
-"s": 220.62,
-"e": 220.84,
+"s": 218.1,
+"e": 218.3,
 "p": 0.99
 },
 {
 "w": "500",
-"s": 220.84,
-"e": 221.08,
-"p": 0.98
+"s": 218.3,
+"e": 218.56,
+"p": 0.99
 },
 {
 "w": "milhões",
-"s": 221.08,
-"e": 221.56,
+"s": 218.56,
+"e": 219.02,
 "p": 0.99
 },
 {
 "w": "no",
-"s": 221.56,
-"e": 221.72,
-"p": 0.97
+"s": 219.02,
+"e": 219.2,
+"p": 0.96
 },
 {
 "w": "mundo",
-"s": 221.72,
-"e": 221.96,
+"s": 219.2,
+"e": 219.44,
 "p": 1.0
 },
 {
 "w": "inteiro.",
-"s": 221.96,
-"e": 222.34,
-"p": 1.0
-},
-{
-"w": "É",
-"s": 222.34,
-"e": 222.54,
-"p": 0.66
-},
-{
-"w": "o",
-"s": 222.54,
-"e": 222.66,
+"s": 219.44,
+"e": 219.82,
 "p": 0.99
 },
 {
+"w": "É",
+"s": 219.92,
+"e": 220.08,
+"p": 0.99
+},
+{
+"w": "o",
+"s": 220.08,
+"e": 220.18,
+"p": 1.0
+},
+{
 "w": "filme",
-"s": 222.66,
-"e": 222.88,
+"s": 220.18,
+"e": 220.38,
 "p": 1.0
 },
 {
 "w": "que",
-"s": 222.88,
-"e": 223.08,
-"p": 0.99
+"s": 220.38,
+"e": 220.58,
+"p": 1.0
 },
 {
 "w": "mais",
-"s": 223.08,
-"e": 223.36,
-"p": 0.99
+"s": 220.58,
+"e": 220.86,
+"p": 1.0
 },
 {
 "w": "lucrou",
-"s": 223.36,
-"e": 223.68,
+"s": 220.86,
+"e": 221.18,
 "p": 1.0
 },
 {
 "w": "em",
-"s": 223.68,
-"e": 223.86,
-"p": 0.94
+"s": 221.18,
+"e": 221.4,
+"p": 0.98
 },
 {
 "w": "relação",
-"s": 223.86,
-"e": 224.22,
+"s": 221.4,
+"e": 221.72,
 "p": 1.0
 },
 {
 "w": "ao",
-"s": 224.22,
-"e": 224.4,
-"p": 0.96
-},
-{
-"w": "que",
-"s": 224.4,
-"e": 224.62,
-"p": 0.99
-},
-{
-"w": "custou",
-"s": 224.62,
-"e": 225.02,
-"p": 0.99
-},
-{
-"w": "em",
-"s": 225.02,
-"e": 225.38,
-"p": 0.98
-},
-{
-"w": "toda",
-"s": 225.38,
-"e": 225.82,
+"s": 221.72,
+"e": 221.88,
 "p": 0.97
 },
 {
+"w": "que",
+"s": 221.88,
+"e": 222.12,
+"p": 1.0
+},
+{
+"w": "custou",
+"s": 222.12,
+"e": 222.52,
+"p": 1.0
+},
+{
+"w": "em",
+"s": 222.52,
+"e": 222.86,
+"p": 1.0
+},
+{
+"w": "toda",
+"s": 222.86,
+"e": 223.28,
+"p": 0.98
+},
+{
 "w": "a",
-"s": 225.82,
-"e": 226.22,
+"s": 223.28,
+"e": 223.58,
 "p": 0.99
 },
 {
 "w": "história.",
-"s": 226.22,
-"e": 226.52,
-"p": 0.96
+"s": 223.58,
+"e": 223.86,
+"p": 0.98
 },
 {
 "w": "A",
-"s": 226.66,
-"e": 226.84,
-"p": 0.41
+"s": 223.86,
+"e": 224.18,
+"p": 0.66
 },
 {
-"w": "Odysseyia,",
-"s": 226.84,
-"e": 227.42,
-"p": 0.34
+"w": "Odisséia,",
+"s": 224.18,
+"e": 224.78,
+"p": 0.65
 },
 {
 "w": "um",
-"s": 227.52,
-"e": 227.72,
-"p": 0.96
+"s": 224.96,
+"e": 225.1,
+"p": 0.9
 },
 {
 "w": "poema",
-"s": 227.72,
-"e": 228.02,
-"p": 0.99
+"s": 225.1,
+"e": 225.4,
+"p": 1.0
 },
 {
 "w": "grego",
-"s": 228.02,
-"e": 228.32,
+"s": 225.4,
+"e": 225.7,
 "p": 0.98
 },
 {
 "w": "de",
-"s": 228.32,
-"e": 228.52,
+"s": 225.7,
+"e": 225.86,
 "p": 0.99
 },
 {
 "w": "quase",
-"s": 228.52,
-"e": 228.78,
-"p": 0.99
+"s": 225.86,
+"e": 226.18,
+"p": 0.98
 },
 {
 "w": "3",
-"s": 228.78,
-"e": 229.1,
-"p": 0.74
+"s": 226.18,
+"e": 226.48,
+"p": 0.71
 },
 {
 "w": "mil",
-"s": 229.1,
-"e": 229.24,
-"p": 0.84
+"s": 226.48,
+"e": 226.6,
+"p": 0.87
 },
 {
 "w": "anos,",
-"s": 229.24,
-"e": 229.68,
+"s": 226.6,
+"e": 227.06,
 "p": 1.0
 },
 {
 "w": "teve",
-"s": 229.86,
-"e": 229.96,
-"p": 0.98
+"s": 227.18,
+"e": 227.32,
+"p": 0.97
 },
 {
 "w": "a",
-"s": 229.96,
-"e": 230.08,
+"s": 227.32,
+"e": 227.44,
 "p": 1.0
 },
 {
 "w": "maior",
-"s": 230.08,
-"e": 230.34,
+"s": 227.44,
+"e": 227.72,
 "p": 0.99
 },
 {
 "w": "estreia",
-"s": 230.34,
-"e": 230.74,
+"s": 227.72,
+"e": 228.06,
 "p": 0.99
 },
 {
 "w": "da",
-"s": 230.74,
-"e": 230.92,
-"p": 0.97
+"s": 228.06,
+"e": 228.26,
+"p": 0.96
 },
 {
 "w": "carreira",
-"s": 230.92,
-"e": 231.36,
+"s": 228.26,
+"e": 228.7,
 "p": 0.99
 },
 {
 "w": "do",
-"s": 231.36,
-"e": 231.56,
-"p": 0.94
+"s": 228.7,
+"e": 228.9,
+"p": 0.95
 },
 {
 "w": "Nolan.",
-"s": 231.56,
-"e": 231.84,
+"s": 228.9,
+"e": 229.16,
 "p": 0.97
 },
 {
 "w": "Mais",
-"s": 232.24,
-"e": 232.44,
-"p": 0.98
+"s": 229.36,
+"e": 229.6,
+"p": 0.99
 },
 {
 "w": "de",
-"s": 232.44,
-"e": 232.7,
-"p": 0.99
+"s": 229.6,
+"e": 229.88,
+"p": 1.0
 },
 {
 "w": "260",
-"s": 232.7,
-"e": 233.14,
-"p": 0.94
+"s": 229.88,
+"e": 230.3,
+"p": 0.93
 },
 {
 "w": "milhões",
-"s": 233.14,
-"e": 233.6,
+"s": 230.3,
+"e": 230.78,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 233.6,
-"e": 233.96,
-"p": 1.0
+"s": 230.78,
+"e": 231.14,
+"p": 0.99
 },
 {
 "w": "dólares",
-"s": 233.96,
-"e": 234.22,
-"p": 1.0
+"s": 231.14,
+"e": 231.38,
+"p": 0.99
 },
 {
 "w": "no",
-"s": 234.22,
-"e": 234.48,
+"s": 231.38,
+"e": 231.64,
 "p": 0.97
 },
 {
 "w": "primeiro",
-"s": 234.48,
-"e": 235.1,
+"s": 231.64,
+"e": 232.26,
 "p": 0.98
 },
 {
 "w": "fim",
-"s": 235.1,
-"e": 235.36,
+"s": 232.26,
+"e": 232.52,
 "p": 1.0
 },
 {
 "w": "de",
-"s": 235.36,
-"e": 235.56,
-"p": 0.99
+"s": 232.52,
+"e": 232.7,
+"p": 0.98
 },
 {
 "w": "semana.",
-"s": 235.56,
-"e": 235.86,
+"s": 232.7,
+"e": 233.0,
 "p": 1.0
 },
 {
 "w": "As",
-"s": 236.02,
-"e": 236.26,
+"s": 233.26,
+"e": 233.38,
 "p": 0.97
 },
 {
 "w": "pessoas",
-"s": 236.26,
-"e": 236.62,
+"s": 233.38,
+"e": 233.76,
 "p": 1.0
 },
 {
 "w": "não",
-"s": 236.62,
-"e": 236.94,
+"s": 233.76,
+"e": 234.06,
 "p": 1.0
 },
 {
 "w": "pararam",
-"s": 236.94,
-"e": 237.44,
-"p": 0.98
+"s": 234.06,
+"e": 234.58,
+"p": 0.99
 },
 {
 "w": "de",
-"s": 237.44,
-"e": 237.7,
+"s": 234.58,
+"e": 234.84,
 "p": 1.0
 },
 {
 "w": "ir",
-"s": 237.7,
-"e": 237.82,
+"s": 234.84,
+"e": 234.96,
 "p": 1.0
 },
 {
 "w": "ao",
-"s": 237.82,
-"e": 237.98,
+"s": 234.96,
+"e": 235.12,
 "p": 1.0
 },
 {
 "w": "cinema.",
-"s": 237.98,
-"e": 238.36,
+"s": 235.12,
+"e": 235.52,
 "p": 0.99
 },
 {
 "w": "Elas",
-"s": 238.5,
-"e": 238.68,
+"s": 235.68,
+"e": 235.86,
 "p": 0.99
 },
 {
 "w": "só",
-"s": 238.68,
-"e": 238.88,
+"s": 235.86,
+"e": 236.08,
 "p": 1.0
 },
 {
 "w": "pararam",
-"s": 238.88,
-"e": 239.14,
+"s": 236.08,
+"e": 236.34,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 239.14,
-"e": 239.32,
+"s": 236.34,
+"e": 236.52,
 "p": 1.0
 },
 {
 "w": "ir",
-"s": 239.32,
-"e": 239.4,
+"s": 236.52,
+"e": 236.6,
 "p": 1.0
 },
 {
 "w": "ao",
-"s": 239.4,
-"e": 239.58,
-"p": 1.0
+"s": 236.6,
+"e": 236.74,
+"p": 0.99
 },
 {
 "w": "cinema",
-"s": 239.58,
-"e": 239.96,
-"p": 1.0
+"s": 236.74,
+"e": 237.18,
+"p": 0.99
 },
 {
 "w": "pra",
-"s": 239.96,
-"e": 240.34,
-"p": 0.63
+"s": 237.18,
+"e": 237.44,
+"p": 0.67
 },
 {
 "w": "ver",
-"s": 240.34,
-"e": 240.46,
-"p": 1.0
+"s": 237.44,
+"e": 237.56,
+"p": 0.99
 },
 {
 "w": "o",
-"s": 240.46,
-"e": 240.54,
+"s": 237.56,
+"e": 237.66,
 "p": 0.99
 },
 {
 "w": "que",
-"s": 240.54,
-"e": 240.66,
+"s": 237.66,
+"e": 237.76,
 "p": 1.0
 },
 {
 "w": "vai",
-"s": 240.66,
-"e": 240.86,
-"p": 0.97
+"s": 237.76,
+"e": 238.0,
+"p": 0.96
 },
 {
 "w": "estar",
-"s": 240.86,
-"e": 241.06,
+"s": 238.0,
+"e": 238.16,
 "p": 0.99
 },
 {
 "w": "no",
-"s": 241.06,
-"e": 241.26,
+"s": 238.16,
+"e": 238.36,
 "p": 0.99
 },
 {
 "w": "streaming",
-"s": 241.26,
-"e": 241.58,
-"p": 0.98
+"s": 238.36,
+"e": 238.66,
+"p": 0.97
 },
 {
 "w": "daqui",
-"s": 241.58,
-"e": 241.9,
+"s": 238.66,
+"e": 239.0,
 "p": 0.99
 },
 {
 "w": "a",
-"s": 241.9,
-"e": 242.18,
-"p": 0.92
+"s": 239.0,
+"e": 239.3,
+"p": 0.93
 },
 {
 "w": "um",
-"s": 242.18,
-"e": 242.34,
-"p": 0.92
+"s": 239.3,
+"e": 239.44,
+"p": 0.93
 },
 {
 "w": "mês.",
-"s": 242.34,
-"e": 242.62,
+"s": 239.44,
+"e": 239.7,
 "p": 1.0
 },
 {
 "w": "Dá",
-"s": 242.74,
-"e": 242.98,
+"s": 239.8,
+"e": 240.04,
 "p": 0.97
 },
 {
 "w": "pra",
-"s": 242.98,
-"e": 243.16,
+"s": 240.04,
+"e": 240.22,
 "p": 0.97
 },
 {
 "w": "ver",
-"s": 243.16,
-"e": 243.36,
+"s": 240.22,
+"e": 240.42,
 "p": 1.0
 },
 {
 "w": "um",
-"s": 243.36,
-"e": 243.52,
+"s": 240.42,
+"e": 240.6,
 "p": 0.97
 },
 {
 "w": "filme",
-"s": 243.52,
-"e": 243.74,
+"s": 240.6,
+"e": 240.8,
 "p": 1.0
 },
 {
 "w": "qualquer",
-"s": 243.74,
-"e": 244.26,
+"s": 240.8,
+"e": 241.32,
 "p": 1.0
 },
 {
 "w": "no",
-"s": 244.26,
-"e": 244.44,
+"s": 241.32,
+"e": 241.52,
 "p": 0.99
 },
 {
 "w": "sofá.",
-"s": 244.44,
-"e": 244.78,
+"s": 241.52,
+"e": 241.84,
 "p": 0.99
 },
 {
 "w": "Você",
-"s": 244.86,
-"e": 245.02,
+"s": 241.94,
+"e": 242.1,
 "p": 0.99
 },
 {
 "w": "só",
-"s": 245.02,
-"e": 245.22,
+"s": 242.1,
+"e": 242.32,
 "p": 1.0
 },
 {
 "w": "sai",
-"s": 245.22,
-"e": 245.38,
+"s": 242.32,
+"e": 242.44,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 245.38,
-"e": 245.6,
+"s": 242.44,
+"e": 242.66,
 "p": 1.0
 },
 {
 "w": "casa",
-"s": 245.6,
-"e": 245.84,
+"s": 242.66,
+"e": 242.9,
 "p": 1.0
 },
 {
 "w": "pelo",
-"s": 245.84,
-"e": 246.0,
+"s": 242.9,
+"e": 243.08,
 "p": 0.99
 },
 {
 "w": "que",
-"s": 246.0,
-"e": 246.16,
-"p": 0.96
+"s": 243.08,
+"e": 243.24,
+"p": 0.95
 },
 {
 "w": "não",
-"s": 246.16,
-"e": 246.54,
+"s": 243.24,
+"e": 243.62,
 "p": 1.0
 },
 {
 "w": "cabe",
-"s": 246.54,
-"e": 246.8,
+"s": 243.62,
+"e": 243.86,
 "p": 0.99
 },
 {
 "w": "no",
-"s": 246.8,
-"e": 247.0,
-"p": 0.98
+"s": 243.86,
+"e": 244.06,
+"p": 0.99
 },
 {
 "w": "sofá.",
-"s": 247.0,
-"e": 247.32,
+"s": 244.06,
+"e": 244.38,
 "p": 1.0
 },
 {
 "w": "E",
-"s": 247.38,
-"e": 247.6,
+"s": 244.42,
+"e": 244.62,
 "p": 1.0
 },
 {
 "w": "não",
-"s": 247.6,
-"e": 247.84,
+"s": 244.62,
+"e": 244.82,
 "p": 1.0
 },
 {
 "w": "é",
-"s": 247.84,
-"e": 248.0,
+"s": 244.82,
+"e": 245.02,
 "p": 1.0
 },
 {
 "w": "só",
-"s": 248.0,
-"e": 248.16,
-"p": 0.97
+"s": 245.02,
+"e": 245.14,
+"p": 1.0
 },
 {
 "w": "lá",
-"s": 248.16,
-"e": 248.36,
+"s": 245.14,
+"e": 245.4,
 "p": 0.99
 },
 {
 "w": "fora.",
-"s": 248.36,
-"e": 248.58,
+"s": 245.4,
+"e": 245.64,
 "p": 1.0
 },
 {
 "w": "Em",
-"s": 248.58,
-"e": 248.74,
-"p": 0.74
+"s": 245.78,
+"e": 245.9,
+"p": 0.99
 },
 {
 "w": "2025,",
-"s": 248.74,
-"e": 249.64,
-"p": 0.96
+"s": 245.9,
+"e": 246.58,
+"p": 0.99
 },
 {
 "w": "ainda",
-"s": 249.82,
-"e": 250.06,
-"p": 0.88
+"s": 246.72,
+"e": 247.02,
+"p": 0.9
 },
 {
 "w": "estou",
-"s": 250.06,
-"e": 250.26,
+"s": 247.02,
+"e": 247.2,
 "p": 0.99
 },
 {
 "w": "aqui",
-"s": 250.26,
-"e": 250.5,
+"s": 247.2,
+"e": 247.42,
 "p": 1.0
 },
 {
 "w": "e",
-"s": 250.5,
-"e": 250.64,
-"p": 0.68
+"s": 247.42,
+"e": 247.5,
+"p": 0.58
 },
 {
-"w": "ganhou",
-"s": 250.64,
-"e": 250.86,
-"p": 0.9
+"w": "ganho",
+"s": 247.5,
+"e": 247.68,
+"p": 0.75
 },
 {
 "w": "o",
-"s": 250.86,
-"e": 251.12,
-"p": 0.95
-},
-{
-"w": "primeiro",
-"s": 251.12,
-"e": 251.52,
-"p": 0.95
-},
-{
-"w": "Oscar",
-"s": 251.52,
-"e": 251.9,
-"p": 0.92
-},
-{
-"w": "de",
-"s": 251.9,
-"e": 252.2,
-"p": 0.98
-},
-{
-"w": "filme",
-"s": 252.2,
-"e": 252.46,
+"s": 247.68,
+"e": 247.72,
 "p": 0.96
 },
 {
+"w": "primeiro",
+"s": 247.72,
+"e": 248.08,
+"p": 0.96
+},
+{
+"w": "Oscar",
+"s": 248.08,
+"e": 248.42,
+"p": 0.81
+},
+{
+"w": "de",
+"s": 248.42,
+"e": 248.62,
+"p": 0.99
+},
+{
+"w": "filme",
+"s": 248.62,
+"e": 248.8,
+"p": 0.97
+},
+{
 "w": "brasileiro.",
-"s": 252.46,
-"e": 253.08,
+"s": 248.8,
+"e": 249.34,
 "p": 0.99
 },
 {
 "w": "Um",
-"s": 253.18,
-"e": 253.3,
-"p": 0.91
+"s": 249.44,
+"e": 249.6,
+"p": 0.99
 },
 {
 "w": "filme",
-"s": 253.3,
-"e": 253.58,
+"s": 249.6,
+"e": 249.8,
 "p": 1.0
 },
 {
 "w": "sobre",
-"s": 253.58,
-"e": 253.88,
-"p": 0.99
+"s": 249.8,
+"e": 250.0,
+"p": 1.0
 },
 {
 "w": "uma",
-"s": 253.88,
-"e": 254.14,
-"p": 0.98
+"s": 250.0,
+"e": 250.2,
+"p": 1.0
 },
 {
 "w": "família,",
-"s": 254.14,
-"e": 254.56,
-"p": 0.99
+"s": 250.2,
+"e": 250.58,
+"p": 1.0
 },
 {
 "w": "uma",
-"s": 254.88,
-"e": 255.06,
-"p": 0.99
+"s": 250.78,
+"e": 250.94,
+"p": 1.0
 },
 {
 "w": "casa",
-"s": 255.06,
-"e": 255.38,
+"s": 250.94,
+"e": 251.26,
 "p": 1.0
 },
 {
 "w": "e",
-"s": 255.38,
-"e": 255.72,
-"p": 0.95
-},
-{
-"w": "uma",
-"s": 255.72,
-"e": 256.04,
+"s": 251.26,
+"e": 251.48,
 "p": 0.98
 },
 {
+"w": "uma",
+"s": 251.48,
+"e": 251.78,
+"p": 0.99
+},
+{
 "w": "ausência.",
-"s": 256.04,
-"e": 256.7,
-"p": 1.0
+"s": 251.78,
+"e": 252.38,
+"p": 0.99
 },
 {
 "w": "Sem",
-"s": 256.82,
-"e": 257.06,
-"p": 0.99
+"s": 252.52,
+"e": 252.76,
+"p": 1.0
 },
 {
 "w": "explosão",
-"s": 257.06,
-"e": 257.82,
-"p": 0.99
+"s": 252.76,
+"e": 253.3,
+"p": 1.0
 },
 {
 "w": "nenhuma.",
-"s": 257.82,
-"e": 258.3,
-"p": 0.99
+"s": 253.3,
+"e": 253.7,
+"p": 1.0
 },
 {
 "w": "E",
-"s": 258.54,
-"e": 258.64,
-"p": 0.9
+"s": 253.7,
+"e": 253.92,
+"p": 0.38
 },
 {
 "w": "logo",
-"s": 258.64,
-"e": 258.86,
-"p": 0.93
+"s": 253.92,
+"e": 254.18,
+"p": 0.97
 },
 {
 "w": "depois",
-"s": 258.86,
-"e": 259.24,
+"s": 254.18,
+"e": 254.58,
 "p": 1.0
 },
 {
 "w": "veio",
-"s": 259.24,
-"e": 259.46,
-"p": 0.76
-},
-{
-"w": "O",
-"s": 259.46,
-"e": 259.74,
-"p": 0.29
-},
-{
-"w": "Agente",
-"s": 259.74,
-"e": 260.08,
-"p": 0.98
-},
-{
-"w": "Secreto.",
-"s": 260.08,
-"e": 260.58,
-"p": 0.98
-},
-{
-"w": "Virou",
-"s": 260.94,
-"e": 261.1,
-"p": 0.99
+"s": 254.58,
+"e": 254.8,
+"p": 0.84
 },
 {
 "w": "o",
-"s": 261.1,
-"e": 261.2,
-"p": 0.95
+"s": 254.8,
+"e": 255.1,
+"p": 0.39
+},
+{
+"w": "Agente",
+"s": 255.1,
+"e": 255.42,
+"p": 0.77
+},
+{
+"w": "Secreto,",
+"s": 255.42,
+"e": 255.88,
+"p": 0.96
+},
+{
+"w": "virou",
+"s": 256.02,
+"e": 256.2,
+"p": 0.89
+},
+{
+"w": "o",
+"s": 256.2,
+"e": 256.28,
+"p": 0.97
 },
 {
 "w": "filme",
-"s": 261.2,
-"e": 261.34,
-"p": 1.0
-},
-{
-"w": "brasileiro",
-"s": 261.34,
-"e": 261.86,
-"p": 1.0
-},
-{
-"w": "mais",
-"s": 261.86,
-"e": 262.18,
+"s": 256.28,
+"e": 256.46,
 "p": 0.99
 },
 {
+"w": "brasileiro",
+"s": 256.46,
+"e": 256.96,
+"p": 0.98
+},
+{
+"w": "mais",
+"s": 256.96,
+"e": 257.26,
+"p": 0.98
+},
+{
 "w": "indicado",
-"s": 262.18,
-"e": 262.62,
+"s": 257.26,
+"e": 257.7,
 "p": 1.0
 },
 {
 "w": "da",
-"s": 262.62,
-"e": 262.8,
-"p": 0.98
+"s": 257.7,
+"e": 257.84,
+"p": 0.95
 },
 {
 "w": "história",
-"s": 262.8,
-"e": 263.3,
-"p": 0.99
-},
-{
-"w": "do",
-"s": 263.3,
-"e": 263.5,
-"p": 0.98
-},
-{
-"w": "Oscar.",
-"s": 263.5,
-"e": 263.86,
-"p": 1.0
-},
-{
-"w": "E",
-"s": 264.1,
-"e": 264.24,
-"p": 0.85
-},
-{
-"w": "levou",
-"s": 264.24,
-"e": 264.42,
-"p": 1.0
-},
-{
-"w": "mais",
-"s": 264.42,
-"e": 264.66,
-"p": 0.99
-},
-{
-"w": "de",
-"s": 264.66,
-"e": 265.08,
-"p": 0.87
-},
-{
-"w": "2",
-"s": 265.08,
-"e": 265.14,
-"p": 0.52
-},
-{
-"w": "milhões",
-"s": 265.14,
-"e": 265.4,
-"p": 0.98
-},
-{
-"w": "de",
-"s": 265.4,
-"e": 265.7,
-"p": 1.0
-},
-{
-"w": "pessoas",
-"s": 265.7,
-"e": 265.9,
-"p": 1.0
-},
-{
-"w": "ao",
-"s": 265.9,
-"e": 266.1,
-"p": 0.37
-},
-{
-"w": "cinema",
-"s": 266.1,
-"e": 266.5,
-"p": 0.84
-},
-{
-"w": "de",
-"s": 266.5,
-"e": 266.66,
-"p": 0.58
-},
-{
-"w": "daqui.",
-"s": 266.66,
-"e": 266.92,
-"p": 0.91
-},
-{
-"w": "Saiu",
-"s": 267.2,
-"e": 267.52,
-"p": 0.88
-},
-{
-"w": "sem",
-"s": 267.52,
-"e": 267.7,
-"p": 1.0
-},
-{
-"w": "estatueta?",
-"s": 267.7,
-"e": 268.36,
-"p": 0.82
-},
-{
-"w": "Infelizmente",
-"s": 268.66,
-"e": 269.14,
-"p": 1.0
-},
-{
-"w": "sim.",
-"s": 269.14,
-"e": 269.36,
-"p": 0.64
-},
-{
-"w": "Mas",
-"s": 269.5,
-"e": 269.76,
-"p": 0.99
-},
-{
-"w": "olha",
-"s": 269.76,
-"e": 270.02,
-"p": 0.97
-},
-{
-"w": "o",
-"s": 270.02,
-"e": 270.24,
+"s": 257.84,
+"e": 258.2,
 "p": 0.96
 },
 {
+"w": "do",
+"s": 258.2,
+"e": 258.44,
+"p": 0.91
+},
+{
+"w": "Oscar",
+"s": 258.44,
+"e": 258.76,
+"p": 0.95
+},
+{
+"w": "e",
+"s": 258.76,
+"e": 259.04,
+"p": 0.55
+},
+{
+"w": "levou",
+"s": 259.04,
+"e": 259.26,
+"p": 0.99
+},
+{
+"w": "mais",
+"s": 259.26,
+"e": 259.48,
+"p": 0.98
+},
+{
+"w": "de",
+"s": 259.48,
+"e": 259.96,
+"p": 0.88
+},
+{
+"w": "2",
+"s": 259.96,
+"e": 259.98,
+"p": 0.68
+},
+{
+"w": "milhões",
+"s": 259.98,
+"e": 260.26,
+"p": 0.97
+},
+{
+"w": "de",
+"s": 260.26,
+"e": 260.5,
+"p": 0.99
+},
+{
+"w": "pessoas",
+"s": 260.5,
+"e": 260.74,
+"p": 1.0
+},
+{
+"w": "aos",
+"s": 260.74,
+"e": 260.94,
+"p": 0.56
+},
+{
+"w": "cinemas",
+"s": 260.94,
+"e": 261.36,
+"p": 0.99
+},
+{
+"w": "de",
+"s": 261.36,
+"e": 261.52,
+"p": 0.67
+},
+{
+"w": "daqui.",
+"s": 261.52,
+"e": 261.74,
+"p": 0.86
+},
+{
+"w": "Saiu",
+"s": 261.92,
+"e": 262.28,
+"p": 0.87
+},
+{
+"w": "sem",
+"s": 262.28,
+"e": 262.46,
+"p": 0.99
+},
+{
+"w": "estatueta?",
+"s": 262.46,
+"e": 263.16,
+"p": 0.78
+},
+{
+"w": "Infelizmente",
+"s": 263.36,
+"e": 263.84,
+"p": 0.99
+},
+{
+"w": "sim.",
+"s": 263.84,
+"e": 264.1,
+"p": 0.85
+},
+{
+"w": "Mas",
+"s": 264.26,
+"e": 264.48,
+"p": 0.98
+},
+{
+"w": "olha",
+"s": 264.48,
+"e": 264.74,
+"p": 0.98
+},
+{
+"w": "o",
+"s": 264.74,
+"e": 264.98,
+"p": 0.97
+},
+{
 "w": "que",
-"s": 270.24,
-"e": 270.38,
+"s": 264.98,
+"e": 265.1,
 "p": 1.0
 },
 {
 "w": "ele",
-"s": 270.38,
-"e": 270.64,
-"p": 0.99
+"s": 265.1,
+"e": 265.36,
+"p": 0.98
 },
 {
 "w": "provou.",
-"s": 270.64,
-"e": 270.98,
-"p": 1.0
+"s": 265.36,
+"e": 265.74,
+"p": 0.99
 },
 {
 "w": "O",
-"s": 271.12,
-"e": 271.32,
+"s": 265.88,
+"e": 266.04,
 "p": 0.99
 },
 {
 "w": "brasileiro",
-"s": 271.32,
-"e": 271.76,
-"p": 1.0
+"s": 266.04,
+"e": 266.5,
+"p": 0.99
 },
 {
 "w": "vai",
-"s": 271.76,
-"e": 272.0,
+"s": 266.5,
+"e": 266.74,
 "p": 0.99
 },
 {
 "w": "ao",
-"s": 272.0,
-"e": 272.16,
-"p": 0.99
+"s": 266.74,
+"e": 266.9,
+"p": 0.97
 },
 {
 "w": "cinema",
-"s": 272.16,
-"e": 272.38,
-"p": 0.99
+"s": 266.9,
+"e": 267.12,
+"p": 0.98
 },
 {
 "w": "ver",
-"s": 272.38,
-"e": 272.54,
-"p": 0.96
+"s": 267.12,
+"e": 267.28,
+"p": 0.95
 },
 {
 "w": "filme",
-"s": 272.54,
-"e": 272.76,
-"p": 0.95
+"s": 267.28,
+"e": 267.5,
+"p": 0.94
 },
 {
 "w": "brasileiro?",
-"s": 272.76,
-"e": 273.36,
+"s": 267.5,
+"e": 268.1,
 "p": 1.0
 },
 {
-"w": "Sim,",
-"s": 273.46,
-"e": 273.66,
-"p": 0.95
+"w": "Sim.",
+"s": 268.26,
+"e": 268.42,
+"p": 0.92
 },
 {
-"w": "quando",
-"s": 273.76,
-"e": 274.0,
-"p": 1.0
+"w": "Quando",
+"s": 268.54,
+"e": 268.74,
+"p": 0.93
 },
 {
 "w": "alguém",
-"s": 274.0,
-"e": 274.42,
+"s": 268.74,
+"e": 269.16,
 "p": 0.99
 },
 {
 "w": "faz",
-"s": 274.42,
-"e": 274.82,
-"p": 0.99
+"s": 269.16,
+"e": 269.54,
+"p": 0.98
 },
 {
 "w": "com",
-"s": 274.82,
-"e": 275.04,
-"p": 0.99
+"s": 269.54,
+"e": 269.76,
+"p": 0.97
 },
 {
 "w": "vontade.",
-"s": 275.04,
-"e": 275.42,
+"s": 269.76,
+"e": 270.16,
 "p": 1.0
 },
 {
 "w": "É",
-"s": 275.54,
-"e": 275.76,
-"p": 0.97
+"s": 270.28,
+"e": 270.44,
+"p": 0.88
 },
 {
 "w": "a",
-"s": 275.76,
-"e": 275.76,
-"p": 0.91
+"s": 270.44,
+"e": 270.52,
+"p": 0.99
 },
 {
 "w": "mesma",
-"s": 275.76,
-"e": 275.96,
+"s": 270.52,
+"e": 270.8,
 "p": 1.0
 },
 {
 "w": "regra",
-"s": 275.96,
-"e": 276.2,
-"p": 0.8
-},
-{
-"w": "do",
-"s": 276.2,
-"e": 276.4,
-"p": 0.96
-},
-{
-"w": "Nola",
-"s": 276.4,
-"e": 276.7,
-"p": 0.69
-},
-{
-"w": "e",
-"s": 276.7,
-"e": 276.88,
+"s": 270.8,
+"e": 271.08,
 "p": 0.99
 },
 {
 "w": "do",
-"s": 276.88,
-"e": 277.1,
-"p": 0.91
+"s": 271.08,
+"e": 271.28,
+"p": 0.97
 },
 {
-"w": "Kenny",
-"s": 277.1,
-"e": 277.38,
-"p": 0.65
+"w": "Nolan",
+"s": 271.28,
+"e": 271.56,
+"p": 0.99
 },
 {
-"w": "Pearsons.",
-"s": 277.38,
-"e": 277.98,
-"p": 0.71
+"w": "e",
+"s": 271.56,
+"e": 271.76,
+"p": 0.99
 },
 {
-"w": "Ninguém",
-"s": 277.98,
-"e": 278.42,
-"p": 0.82
-},
-{
-"w": "entra",
-"s": 278.42,
-"e": 278.7,
+"w": "do",
+"s": 271.76,
+"e": 271.94,
 "p": 0.88
 },
 {
-"w": "dessa",
-"s": 278.7,
-"e": 278.86,
-"p": 0.53
+"w": "Kenny",
+"s": 271.94,
+"e": 272.18,
+"p": 0.91
+},
+{
+"w": "Pearsons.",
+"s": 272.18,
+"e": 272.74,
+"p": 0.76
+},
+{
+"w": "Ninguém",
+"s": 273.06,
+"e": 273.34,
+"p": 0.98
+},
+{
+"w": "atravessa",
+"s": 273.34,
+"e": 273.72,
+"p": 0.91
+},
+{
+"w": "a",
+"s": 273.72,
+"e": 273.76,
+"p": 0.9
 },
 {
 "w": "cidade",
-"s": 278.86,
-"e": 279.44,
+"s": 273.76,
+"e": 274.24,
 "p": 1.0
 },
 {
 "w": "e",
-"s": 279.44,
-"e": 279.74,
-"p": 0.97
+"s": 274.24,
+"e": 274.52,
+"p": 0.98
 },
 {
 "w": "paga",
-"s": 279.74,
-"e": 279.96,
-"p": 0.99
+"s": 274.52,
+"e": 274.74,
+"p": 0.86
 },
 {
 "w": "ingresso",
-"s": 279.96,
-"e": 280.48,
-"p": 0.96
+"s": 274.74,
+"e": 275.3,
+"p": 0.97
 },
 {
 "w": "caro",
-"s": 280.48,
-"e": 281.04,
-"p": 0.99
+"s": 275.3,
+"e": 275.66,
+"p": 1.0
 },
 {
 "w": "para",
-"s": 281.04,
-"e": 281.22,
-"p": 0.65
+"s": 275.66,
+"e": 275.88,
+"p": 0.95
 },
 {
 "w": "ver",
-"s": 281.22,
-"e": 281.36,
+"s": 275.88,
+"e": 276.0,
 "p": 0.99
 },
 {
 "w": "um",
-"s": 281.36,
-"e": 281.58,
-"p": 0.96
+"s": 276.0,
+"e": 276.18,
+"p": 0.97
 },
 {
 "w": "filme",
-"s": 281.58,
-"e": 281.76,
-"p": 1.0
-},
-{
-"w": "que",
-"s": 281.76,
-"e": 282.0,
-"p": 0.97
-},
-{
-"w": "parece",
-"s": 282.0,
-"e": 282.2,
-"p": 0.99
-},
-{
-"w": "que",
-"s": 282.2,
-"e": 282.3,
-"p": 0.97
-},
-{
-"w": "foi",
-"s": 282.3,
-"e": 282.46,
+"s": 276.18,
+"e": 276.32,
 "p": 1.0
 },
 {
 "w": "feito",
-"s": 282.46,
-"e": 282.7,
+"s": 276.32,
+"e": 276.56,
 "p": 1.0
 },
 {
 "w": "no",
-"s": 282.7,
-"e": 282.98,
-"p": 0.98
+"s": 276.56,
+"e": 276.8,
+"p": 0.99
 },
 {
-"w": "tabom,",
-"s": 282.98,
-"e": 283.76,
-"p": 0.58
+"w": "tabom",
+"s": 276.8,
+"e": 277.3,
+"p": 0.65
 },
 {
 "w": "assim.",
-"s": 284.12,
-"e": 284.24,
-"p": 0.98
+"s": 277.3,
+"e": 277.6,
+"p": 0.86
 },
 {
 "w": "Então",
-"s": 284.36,
-"e": 284.64,
+"s": 277.86,
+"e": 278.06,
 "p": 0.97
 },
 {
 "w": "tá",
-"s": 284.64,
-"e": 284.8,
-"p": 0.58
+"s": 278.06,
+"e": 278.26,
+"p": 0.79
 },
 {
 "w": "tudo",
-"s": 284.8,
-"e": 285.0,
+"s": 278.26,
+"e": 278.44,
 "p": 1.0
 },
 {
 "w": "resolvido,",
-"s": 285.0,
-"e": 285.56,
+"s": 278.44,
+"e": 278.98,
 "p": 1.0
 },
 {
 "w": "né?",
-"s": 285.58,
-"e": 285.72,
-"p": 0.99
+"s": 279.04,
+"e": 279.1,
+"p": 0.98
 },
 {
 "w": "O",
-"s": 285.8,
-"e": 285.96,
-"p": 0.97
+"s": 279.16,
+"e": 279.34,
+"p": 0.98
 },
 {
 "w": "cinema",
-"s": 285.96,
-"e": 286.26,
+"s": 279.34,
+"e": 279.6,
 "p": 0.99
 },
 {
 "w": "voltou",
-"s": 286.26,
-"e": 286.88,
+"s": 279.6,
+"e": 280.18,
 "p": 1.0
 },
 {
-"w": "o",
-"s": 286.88,
-"e": 287.06,
-"p": 0.42
+"w": "ao",
+"s": 280.18,
+"e": 280.42,
+"p": 0.59
 },
 {
 "w": "final",
-"s": 287.06,
-"e": 287.46,
+"s": 280.42,
+"e": 280.8,
 "p": 0.99
 },
 {
 "w": "feliz.",
-"s": 287.46,
-"e": 287.86,
-"p": 0.98
+"s": 280.8,
+"e": 281.22,
+"p": 0.99
 },
 {
 "w": "Só",
-"s": 287.9,
-"e": 288.1,
-"p": 0.98
+"s": 281.22,
+"e": 281.44,
+"p": 0.73
 },
 {
 "w": "que",
-"s": 288.1,
-"e": 288.2,
+"s": 281.44,
+"e": 281.54,
 "p": 1.0
 },
 {
 "w": "em",
-"s": 288.2,
-"e": 288.3,
-"p": 0.79
-},
-{
-"w": "fevereiro",
-"s": 288.3,
-"e": 288.74,
-"p": 0.98
-},
-{
-"w": "deste",
-"s": 288.74,
-"e": 289.0,
+"s": 281.54,
+"e": 281.66,
 "p": 0.92
 },
 {
+"w": "fevereiro",
+"s": 281.66,
+"e": 282.1,
+"p": 0.95
+},
+{
+"w": "deste",
+"s": 282.1,
+"e": 282.36,
+"p": 0.93
+},
+{
 "w": "ano,",
-"s": 289.0,
-"e": 289.28,
+"s": 282.36,
+"e": 282.64,
 "p": 1.0
 },
 {
 "w": "a",
-"s": 289.38,
-"e": 289.56,
-"p": 0.98
+"s": 282.74,
+"e": 282.9,
+"p": 0.97
 },
 {
 "w": "Paramount",
-"s": 289.56,
-"e": 289.92,
+"s": 282.9,
+"e": 283.26,
 "p": 0.98
 },
 {
 "w": "fechou",
-"s": 289.92,
-"e": 290.24,
-"p": 0.98
+"s": 283.26,
+"e": 283.58,
+"p": 0.95
 },
 {
 "w": "um",
-"s": 290.24,
-"e": 290.42,
-"p": 1.0
+"s": 283.58,
+"e": 283.76,
+"p": 0.99
 },
 {
 "w": "acordo",
-"s": 290.42,
-"e": 290.6,
+"s": 283.76,
+"e": 283.96,
 "p": 1.0
 },
 {
 "w": "para",
-"s": 290.6,
-"e": 290.92,
-"p": 0.95
+"s": 283.96,
+"e": 284.2,
+"p": 0.78
 },
 {
-"w": "comparar",
-"s": 290.92,
-"e": 291.42,
-"p": 0.72
+"w": "comprar",
+"s": 284.2,
+"e": 284.58,
+"p": 0.99
 },
 {
 "w": "Warner,",
-"s": 291.42,
-"e": 291.88,
-"p": 0.7
+"s": 284.58,
+"e": 285.2,
+"p": 0.8
 },
 {
 "w": "o",
-"s": 292.08,
-"e": 292.34,
-"p": 0.93
+"s": 285.36,
+"e": 285.54,
+"p": 0.94
 },
 {
 "w": "estúdio",
-"s": 292.34,
-"e": 292.56,
+"s": 285.54,
+"e": 285.8,
 "p": 0.99
 },
 {
 "w": "que",
-"s": 292.56,
-"e": 292.76,
+"s": 285.8,
+"e": 286.0,
 "p": 1.0
 },
 {
 "w": "bancou",
-"s": 292.76,
-"e": 293.14,
+"s": 286.0,
+"e": 286.36,
 "p": 0.99
 },
 {
 "w": "Duna,",
-"s": 293.14,
-"e": 293.56,
-"p": 0.84
+"s": 286.36,
+"e": 286.8,
+"p": 0.79
 },
 {
 "w": "Batman,",
-"s": 293.68,
-"e": 294.06,
-"p": 0.63
+"s": 287.02,
+"e": 287.3,
+"p": 0.78
 },
 {
 "w": "Barbie",
-"s": 294.32,
-"e": 294.62,
+"s": 287.56,
+"e": 287.84,
 "p": 0.95
 },
 {
 "w": "e",
-"s": 294.62,
-"e": 294.88,
-"p": 0.97
+"s": 287.84,
+"e": 288.1,
+"p": 0.96
 },
 {
 "w": "Pecadores.",
-"s": 294.88,
-"e": 295.46,
-"p": 0.86
+"s": 288.1,
+"e": 288.74,
+"p": 0.75
 },
 {
 "w": "O",
-"s": 295.66,
-"e": 295.78,
+"s": 288.94,
+"e": 289.06,
 "p": 0.99
 },
 {
 "w": "negócio",
-"s": 295.78,
-"e": 296.1,
+"s": 289.06,
+"e": 289.36,
 "p": 1.0
 },
 {
 "w": "está",
-"s": 296.1,
-"e": 296.48,
-"p": 0.97
-},
-{
-"w": "travado",
-"s": 296.48,
-"e": 296.84,
+"s": 289.36,
+"e": 289.7,
 "p": 0.98
 },
 {
+"w": "travado",
+"s": 289.7,
+"e": 290.08,
+"p": 0.97
+},
+{
 "w": "na",
-"s": 296.84,
-"e": 296.98,
+"s": 290.08,
+"e": 290.2,
 "p": 0.99
 },
 {
 "w": "justiça",
-"s": 296.98,
-"e": 297.6,
-"p": 0.95
+"s": 290.2,
+"e": 290.84,
+"p": 0.96
 },
 {
 "w": "americana,",
-"s": 297.6,
-"e": 298.2,
+"s": 290.84,
+"e": 291.42,
 "p": 0.99
 },
 {
 "w": "mas",
-"s": 298.28,
-"e": 298.56,
-"p": 1.0
+"s": 291.52,
+"e": 291.72,
+"p": 0.99
 },
 {
 "w": "o",
-"s": 298.56,
-"e": 298.74,
+"s": 291.72,
+"e": 291.88,
 "p": 1.0
 },
 {
 "w": "plano",
-"s": 298.74,
-"e": 298.92,
+"s": 291.88,
+"e": 292.08,
 "p": 1.0
 },
 {
 "w": "continua",
-"s": 298.92,
-"e": 299.64,
-"p": 0.99
+"s": 292.08,
+"e": 292.8,
+"p": 0.98
 },
 {
 "w": "de",
-"s": 299.64,
-"e": 299.94,
-"p": 0.95
+"s": 292.8,
+"e": 293.12,
+"p": 0.94
 },
 {
 "w": "pé.",
-"s": 299.94,
-"e": 300.1,
+"s": 293.12,
+"e": 293.26,
 "p": 1.0
 },
 {
 "w": "Quando",
-"s": 300.18,
-"e": 300.48,
-"p": 0.99
+"s": 293.36,
+"e": 293.62,
+"p": 0.98
 },
 {
 "w": "dois",
-"s": 300.48,
-"e": 300.94,
-"p": 0.73
+"s": 293.62,
+"e": 294.08,
+"p": 0.9
 },
 {
 "w": "gigantes",
-"s": 300.94,
-"e": 301.52,
+"s": 294.08,
+"e": 294.7,
 "p": 0.99
 },
 {
 "w": "viram",
-"s": 301.52,
-"e": 301.96,
-"p": 0.96
+"s": 294.7,
+"e": 295.14,
+"p": 0.9
 },
 {
 "w": "um",
-"s": 301.96,
-"e": 302.3,
-"p": 0.92
+"s": 295.14,
+"e": 295.46,
+"p": 0.87
 },
 {
 "w": "só,",
-"s": 302.3,
-"e": 302.48,
-"p": 0.99
+"s": 295.46,
+"e": 295.64,
+"p": 0.98
 },
 {
 "w": "o",
-"s": 302.72,
-"e": 302.94,
-"p": 0.99
+"s": 295.74,
+"e": 296.0,
+"p": 1.0
 },
 {
 "w": "primeiro",
-"s": 302.94,
-"e": 303.22,
+"s": 296.0,
+"e": 296.3,
 "p": 1.0
 },
 {
 "w": "corte",
-"s": 303.22,
-"e": 303.68,
+"s": 296.3,
+"e": 296.72,
 "p": 1.0
 },
 {
 "w": "costuma",
-"s": 303.68,
-"e": 304.08,
+"s": 296.72,
+"e": 297.14,
 "p": 1.0
 },
 {
 "w": "ser",
-"s": 304.08,
-"e": 304.28,
+"s": 297.14,
+"e": 297.36,
 "p": 1.0
 },
 {
 "w": "o",
-"s": 304.28,
-"e": 304.38,
-"p": 0.94
+"s": 297.36,
+"e": 297.44,
+"p": 0.92
 },
 {
 "w": "filme",
-"s": 304.38,
-"e": 304.78,
+"s": 297.44,
+"e": 297.82,
 "p": 1.0
 },
 {
 "w": "arriscado.",
-"s": 304.78,
-"e": 305.48,
-"p": 0.98
+"s": 297.82,
+"e": 298.62,
+"p": 0.99
 },
 {
 "w": "Fica",
-"s": 305.48,
-"e": 305.94,
-"p": 0.78
+"s": 298.78,
+"e": 299.06,
+"p": 0.99
 },
 {
 "w": "o",
-"s": 305.94,
-"e": 306.12,
+"s": 299.06,
+"e": 299.26,
 "p": 0.99
 },
 {
 "w": "que",
-"s": 306.12,
-"e": 306.22,
+"s": 299.26,
+"e": 299.4,
 "p": 1.0
 },
 {
 "w": "é",
-"s": 306.22,
-"e": 306.5,
+"s": 299.4,
+"e": 299.66,
 "p": 0.99
 },
 {
 "w": "garantido,",
-"s": 306.5,
-"e": 307.14,
+"s": 299.66,
+"e": 300.22,
 "p": 1.0
 },
 {
 "w": "a",
-"s": 307.24,
-"e": 307.52,
-"p": 0.98
+"s": 300.36,
+"e": 300.64,
+"p": 0.99
 },
 {
 "w": "continuação,",
-"s": 307.52,
-"e": 308.1,
+"s": 300.64,
+"e": 301.18,
 "p": 0.99
 },
 {
 "w": "o",
-"s": 308.22,
-"e": 308.44,
-"p": 0.95
+"s": 301.36,
+"e": 301.54,
+"p": 0.97
 },
 {
 "w": "remake,",
-"s": 308.44,
-"e": 308.86,
-"p": 0.91
+"s": 301.54,
+"e": 301.96,
+"p": 0.92
 },
 {
 "w": "a",
-"s": 309.22,
-"e": 309.36,
-"p": 0.99
+"s": 302.24,
+"e": 302.38,
+"p": 1.0
 },
 {
 "w": "marca",
-"s": 309.36,
-"e": 309.74,
+"s": 302.38,
+"e": 302.64,
 "p": 0.99
 },
 {
 "w": "conhecida.",
-"s": 309.74,
-"e": 310.32,
+"s": 302.64,
+"e": 303.34,
 "p": 0.99
 },
 {
 "w": "Só",
-"s": 310.44,
-"e": 310.58,
-"p": 0.97
+"s": 303.42,
+"e": 303.62,
+"p": 0.98
 },
 {
 "w": "que",
-"s": 310.58,
-"e": 310.88,
+"s": 303.62,
+"e": 303.9,
 "p": 1.0
 },
 {
 "w": "até",
-"s": 310.88,
-"e": 311.14,
-"p": 0.96
+"s": 303.9,
+"e": 304.2,
+"p": 0.98
 },
 {
 "w": "isso",
-"s": 311.14,
-"e": 311.56,
+"s": 304.2,
+"e": 304.6,
 "p": 0.99
 },
 {
 "w": "acaba.",
-"s": 311.56,
-"e": 312.02,
-"p": 0.98
+"s": 304.6,
+"e": 305.04,
+"p": 0.99
 },
 {
 "w": "Uma",
-"s": 312.16,
-"e": 312.34,
+"s": 305.18,
+"e": 305.38,
 "p": 0.97
 },
 {
 "w": "hora",
-"s": 312.34,
-"e": 312.54,
-"p": 0.99
+"s": 305.38,
+"e": 305.56,
+"p": 1.0
 },
 {
 "w": "não",
-"s": 312.54,
-"e": 312.74,
-"p": 0.97
+"s": 305.56,
+"e": 305.74,
+"p": 0.95
 },
 {
 "w": "sobra",
-"s": 312.74,
-"e": 313.0,
+"s": 305.74,
+"e": 306.0,
 "p": 0.98
 },
 {
 "w": "desenho",
-"s": 313.0,
-"e": 313.48,
+"s": 306.0,
+"e": 306.48,
 "p": 0.99
 },
 {
-"w": "pra",
-"s": 313.48,
-"e": 313.68,
-"p": 0.61
+"w": "para",
+"s": 306.48,
+"e": 306.66,
+"p": 0.87
 },
 {
 "w": "virar",
-"s": 313.68,
-"e": 313.92,
+"s": 306.66,
+"e": 306.92,
 "p": 0.99
 },
 {
 "w": "live",
-"s": 313.92,
-"e": 314.2,
-"p": 0.95
+"s": 306.92,
+"e": 307.2,
+"p": 0.88
 },
 {
-"w": "action.",
-"s": 314.2,
-"e": 314.54,
-"p": 0.8
+"w": "action,",
+"s": 307.2,
+"e": 307.42,
+"p": 0.94
 },
 {
-"w": "Não",
-"s": 314.68,
-"e": 314.8,
+"w": "não",
+"s": 307.56,
+"e": 307.68,
 "p": 0.99
 },
 {
 "w": "sobra",
-"s": 314.8,
-"e": 315.1,
+"s": 307.68,
+"e": 307.98,
 "p": 1.0
 },
 {
 "w": "jogo",
-"s": 315.1,
-"e": 315.42,
+"s": 307.98,
+"e": 308.3,
 "p": 0.99
 },
 {
-"w": "pra",
-"s": 315.42,
-"e": 315.64,
+"w": "para",
+"s": 308.3,
+"e": 308.52,
 "p": 0.96
 },
 {
 "w": "virar",
-"s": 315.64,
-"e": 315.98,
-"p": 1.0
-},
-{
-"w": "filme.",
-"s": 315.98,
-"e": 316.18,
-"p": 0.97
+"s": 308.52,
+"e": 308.78,
+"p": 0.99
 },
 {
 "w": "Não",
-"s": 316.28,
-"e": 316.44,
-"p": 0.99
+"s": 308.78,
+"e": 309.2,
+"p": 0.52
 },
 {
 "w": "sobra",
-"s": 316.44,
-"e": 316.74,
-"p": 0.99
+"s": 309.2,
+"e": 309.56,
+"p": 0.9
 },
 {
 "w": "anos",
-"s": 316.74,
-"e": 317.0,
-"p": 1.0
+"s": 309.56,
+"e": 309.82,
+"p": 0.98
 },
 {
 "w": "80s",
-"s": 317.0,
-"e": 317.78,
-"p": 0.84
+"s": 309.82,
+"e": 310.6,
+"p": 0.72
 },
 {
-"w": "pra",
-"s": 317.78,
-"e": 317.98,
-"p": 0.94
+"w": "para",
+"s": 310.6,
+"e": 310.78,
+"p": 0.42
 },
 {
 "w": "trazer",
-"s": 317.98,
-"e": 318.26,
-"p": 0.99
+"s": 310.78,
+"e": 311.06,
+"p": 0.98
 },
 {
 "w": "de",
-"s": 318.26,
-"e": 318.54,
-"p": 1.0
+"s": 311.06,
+"e": 311.34,
+"p": 0.99
 },
 {
 "w": "volta.",
-"s": 318.54,
-"e": 318.84,
+"s": 311.34,
+"e": 311.68,
 "p": 1.0
 },
 {
 "w": "E",
-"s": 318.98,
-"e": 319.26,
-"p": 0.99
+"s": 311.94,
+"e": 312.08,
+"p": 0.94
 },
 {
 "w": "é",
-"s": 319.26,
-"e": 319.5,
-"p": 0.98
+"s": 312.08,
+"e": 312.28,
+"p": 0.96
 },
 {
 "w": "aqui",
-"s": 319.5,
-"e": 319.76,
-"p": 0.89
+"s": 312.28,
+"e": 312.56,
+"p": 0.95
 },
 {
 "w": "que",
-"s": 319.76,
-"e": 320.06,
+"s": 312.56,
+"e": 312.88,
 "p": 0.97
 },
 {
 "w": "chega",
-"s": 320.06,
-"e": 320.26,
+"s": 312.88,
+"e": 313.08,
 "p": 0.99
 },
 {
 "w": "o",
-"s": 320.26,
-"e": 320.5,
-"p": 0.99
+"s": 313.08,
+"e": 313.36,
+"p": 0.97
 },
 {
 "w": "final",
-"s": 320.5,
-"e": 320.76,
-"p": 0.99
+"s": 313.36,
+"e": 313.54,
+"p": 0.91
 },
 {
 "w": "ruim",
-"s": 320.76,
-"e": 321.06,
+"s": 313.54,
+"e": 313.84,
 "p": 1.0
 },
 {
 "w": "que",
-"s": 321.06,
-"e": 321.22,
-"p": 0.93
+"s": 313.84,
+"e": 314.02,
+"p": 0.9
 },
 {
 "w": "eu",
-"s": 321.22,
-"e": 321.36,
-"p": 0.91
+"s": 314.02,
+"e": 314.18,
+"p": 0.81
 },
 {
 "w": "te",
-"s": 321.36,
-"e": 321.64,
-"p": 0.99
+"s": 314.18,
+"e": 314.44,
+"p": 0.96
 },
 {
 "w": "prometi",
-"s": 321.64,
-"e": 322.16,
+"s": 314.44,
+"e": 314.96,
 "p": 0.99
 },
 {
 "w": "lá",
-"s": 322.16,
-"e": 322.4,
-"p": 0.82
+"s": 314.96,
+"e": 315.22,
+"p": 0.85
 },
 {
 "w": "no",
-"s": 322.4,
-"e": 322.6,
+"s": 315.22,
+"e": 315.4,
 "p": 1.0
 },
 {
 "w": "começo.",
-"s": 322.6,
-"e": 322.92,
+"s": 315.4,
+"e": 315.72,
 "p": 1.0
 },
 {
 "w": "Quando",
-"s": 323.24,
-"e": 323.54,
-"p": 0.98
+"s": 316.12,
+"e": 316.26,
+"p": 0.93
 },
 {
 "w": "acabarem",
-"s": 323.54,
-"e": 324.18,
+"s": 316.26,
+"e": 316.94,
 "p": 1.0
 },
 {
 "w": "as",
-"s": 324.18,
-"e": 324.42,
+"s": 316.94,
+"e": 317.16,
 "p": 0.99
 },
 {
 "w": "ideias",
-"s": 324.42,
-"e": 324.76,
-"p": 0.97
+"s": 317.16,
+"e": 317.52,
+"p": 0.96
 },
 {
 "w": "velhas,",
-"s": 324.76,
-"e": 325.34,
+"s": 317.52,
+"e": 318.06,
 "p": 0.99
 },
 {
 "w": "alguém",
-"s": 325.72,
-"e": 325.98,
+"s": 318.38,
+"e": 318.62,
 "p": 0.99
 },
 {
 "w": "vai",
-"s": 325.98,
-"e": 326.22,
+"s": 318.62,
+"e": 318.86,
 "p": 1.0
 },
 {
 "w": "sugerir",
-"s": 326.22,
-"e": 326.56,
+"s": 318.86,
+"e": 319.2,
 "p": 0.96
 },
 {
 "w": "que",
-"s": 326.56,
-"e": 326.74,
-"p": 1.0
+"s": 319.2,
+"e": 319.34,
+"p": 0.99
 },
 {
 "w": "não",
-"s": 326.74,
-"e": 326.98,
+"s": 319.34,
+"e": 319.58,
 "p": 0.99
 },
 {
 "w": "precisa",
-"s": 326.98,
-"e": 327.26,
+"s": 319.58,
+"e": 319.9,
 "p": 0.99
 },
 {
 "w": "mais",
-"s": 327.26,
-"e": 327.84,
+"s": 319.9,
+"e": 320.48,
 "p": 0.99
 },
 {
 "w": "de",
-"s": 327.84,
-"e": 328.16,
+"s": 320.48,
+"e": 320.8,
 "p": 1.0
 },
 {
-"w": "ideia,",
-"s": 328.16,
-"e": 328.44,
-"p": 0.9
+"w": "ideia.",
+"s": 320.8,
+"e": 321.08,
+"p": 0.85
 },
 {
-"w": "nem",
-"s": 328.52,
-"e": 328.68,
-"p": 0.99
+"w": "Nem",
+"s": 321.18,
+"e": 321.3,
+"p": 0.95
 },
 {
 "w": "de",
-"s": 328.68,
-"e": 328.92,
-"p": 1.0
+"s": 321.3,
+"e": 321.52,
+"p": 0.99
 },
 {
 "w": "diretor,",
-"s": 328.92,
-"e": 329.34,
+"s": 321.52,
+"e": 321.98,
 "p": 1.0
 },
 {
 "w": "nem",
-"s": 329.5,
-"e": 329.62,
+"s": 322.14,
+"e": 322.26,
 "p": 1.0
 },
 {
 "w": "de",
-"s": 329.62,
-"e": 329.86,
+"s": 322.26,
+"e": 322.5,
 "p": 1.0
 },
 {
 "w": "fotógrafo,",
-"s": 329.86,
-"e": 330.36,
+"s": 322.5,
+"e": 323.02,
 "p": 0.99
 },
 {
 "w": "nem",
-"s": 330.4,
-"e": 330.6,
+"s": 323.08,
+"e": 323.24,
 "p": 1.0
 },
 {
 "w": "de",
-"s": 330.6,
-"e": 330.8,
+"s": 323.24,
+"e": 323.42,
 "p": 1.0
 },
 {
 "w": "ator.",
-"s": 330.8,
-"e": 331.16,
+"s": 323.42,
+"e": 323.78,
 "p": 1.0
 },
 {
 "w": "Um",
-"s": 331.28,
-"e": 331.5,
-"p": 0.98
+"s": 323.9,
+"e": 324.08,
+"p": 0.88
 },
 {
 "w": "filme",
-"s": 331.5,
-"e": 331.84,
+"s": 324.08,
+"e": 324.4,
 "p": 1.0
 },
 {
 "w": "montado",
-"s": 331.84,
-"e": 332.46,
-"p": 1.0
+"s": 324.4,
+"e": 325.02,
+"p": 0.99
 },
 {
 "w": "por",
-"s": 332.46,
-"e": 332.72,
+"s": 325.02,
+"e": 325.3,
 "p": 1.0
 },
 {
 "w": "algoritmo,",
-"s": 332.72,
-"e": 333.36,
-"p": 0.96
+"s": 325.3,
+"e": 326.08,
+"p": 0.98
 },
 {
 "w": "gerado",
-"s": 333.36,
-"e": 333.92,
-"p": 0.7
+"s": 326.34,
+"e": 326.66,
+"p": 1.0
 },
 {
 "w": "por",
-"s": 333.92,
-"e": 334.22,
+"s": 326.66,
+"e": 326.94,
 "p": 0.99
 },
 {
 "w": "inteligência",
-"s": 334.22,
-"e": 335.04,
+"s": 326.94,
+"e": 327.78,
 "p": 0.99
 },
 {
-"w": "artificial,",
-"s": 335.04,
-"e": 335.84,
-"p": 0.99
+"w": "artificial.",
+"s": 327.78,
+"e": 328.42,
+"p": 1.0
 },
 {
-"w": "calculado",
-"s": 336.14,
-"e": 336.66,
-"p": 0.98
+"w": "Calculado",
+"s": 328.72,
+"e": 329.28,
+"p": 1.0
 },
 {
 "w": "para",
-"s": 336.66,
-"e": 336.92,
-"p": 0.6
+"s": 329.28,
+"e": 329.56,
+"p": 0.87
 },
 {
 "w": "agradar",
-"s": 336.92,
-"e": 337.46,
+"s": 329.56,
+"e": 330.08,
 "p": 1.0
 },
 {
 "w": "todo",
-"s": 337.46,
-"e": 337.74,
+"s": 330.08,
+"e": 330.36,
 "p": 0.99
 },
 {
 "w": "mundo",
-"s": 337.74,
-"e": 338.16,
-"p": 0.91
+"s": 330.36,
+"e": 330.74,
+"p": 0.95
 },
 {
 "w": "e",
-"s": 338.16,
-"e": 338.46,
-"p": 0.66
+"s": 330.74,
+"e": 331.04,
+"p": 0.42
 },
 {
 "w": "não",
-"s": 338.46,
-"e": 338.64,
+"s": 331.04,
+"e": 331.22,
 "p": 1.0
 },
 {
 "w": "dizer",
-"s": 338.64,
-"e": 338.86,
-"p": 0.99
+"s": 331.22,
+"e": 331.46,
+"p": 1.0
 },
 {
 "w": "nada",
-"s": 338.86,
-"e": 339.36,
+"s": 331.46,
+"e": 331.86,
 "p": 1.0
 },
 {
 "w": "para",
-"s": 339.36,
-"e": 339.64,
-"p": 0.74
+"s": 331.86,
+"e": 332.24,
+"p": 0.71
 },
 {
 "w": "ninguém.",
-"s": 339.64,
-"e": 339.96,
+"s": 332.24,
+"e": 332.58,
 "p": 1.0
 },
 {
 "w": "Esse",
-"s": 340.28,
-"e": 340.48,
+"s": 332.72,
+"e": 332.98,
 "p": 0.98
 },
 {
 "w": "é",
-"s": 340.48,
-"e": 340.9,
-"p": 0.99
+"s": 332.98,
+"e": 333.08,
+"p": 1.0
 },
 {
 "w": "o",
-"s": 340.9,
-"e": 341.04,
-"p": 0.98
+"s": 333.08,
+"e": 333.16,
+"p": 0.99
 },
 {
 "w": "final",
-"s": 341.04,
-"e": 341.2,
-"p": 0.96
+"s": 333.16,
+"e": 333.32,
+"p": 0.97
 },
 {
 "w": "ruim.",
-"s": 341.2,
-"e": 341.52,
+"s": 333.32,
+"e": 333.56,
 "p": 1.0
 },
 {
 "w": "E",
-"s": 341.68,
-"e": 341.78,
-"p": 0.96
+"s": 333.66,
+"e": 333.8,
+"p": 0.83
 },
 {
 "w": "as",
-"s": 341.78,
-"e": 342.0,
-"p": 0.99
-},
-{
-"w": "primeiras",
-"s": 342.0,
-"e": 342.48,
+"s": 333.8,
+"e": 333.94,
 "p": 1.0
 },
 {
-"w": "peças",
-"s": 342.48,
-"e": 342.96,
-"p": 0.99
+"w": "primeiras",
+"s": 333.94,
+"e": 334.36,
+"p": 0.98
 },
 {
-"w": "deles",
-"s": 342.96,
-"e": 343.28,
-"p": 0.44
+"w": "peças",
+"s": 334.36,
+"e": 334.74,
+"p": 1.0
+},
+{
+"w": "dele",
+"s": 334.74,
+"e": 334.98,
+"p": 0.85
 },
 {
 "w": "já",
-"s": 343.28,
-"e": 343.64,
+"s": 334.98,
+"e": 335.26,
 "p": 0.99
 },
 {
 "w": "estão",
-"s": 343.64,
-"e": 343.84,
-"p": 1.0
+"s": 335.26,
+"e": 335.48,
+"p": 0.99
 },
 {
 "w": "sendo",
-"s": 343.84,
-"e": 344.22,
+"s": 335.48,
+"e": 335.78,
 "p": 1.0
 },
 {
 "w": "testadas.",
-"s": 344.22,
-"e": 344.98,
-"p": 0.96
+"s": 335.78,
+"e": 336.4,
+"p": 0.98
 },
 {
 "w": "O",
-"s": 345.08,
-"e": 345.24,
-"p": 0.99
+"s": 336.4,
+"e": 336.68,
+"p": 0.88
 },
 {
 "w": "final",
-"s": 345.24,
-"e": 345.54,
-"p": 0.99
+"s": 336.68,
+"e": 336.96,
+"p": 0.97
 },
 {
 "w": "bom",
-"s": 345.54,
-"e": 345.78,
-"p": 0.99
-},
-{
-"w": "é",
-"s": 345.78,
-"e": 346.1,
-"p": 0.97
-},
-{
-"w": "o",
-"s": 346.1,
-"e": 346.26,
-"p": 0.92
-},
-{
-"w": "outro,",
-"s": 346.26,
-"e": 346.56,
-"p": 0.99
-},
-{
-"w": "é",
-"s": 346.68,
-"e": 346.82,
-"p": 0.97
-},
-{
-"w": "Obsessions,",
-"s": 346.82,
-"e": 347.54,
-"p": 0.63
-},
-{
-"w": "é",
-"s": 347.7,
-"e": 347.86,
-"p": 0.93
-},
-{
-"w": "Backrooms,",
-"s": 347.86,
-"e": 348.36,
-"p": 0.63
-},
-{
-"w": "é",
-"s": 348.54,
-"e": 348.66,
-"p": 0.97
-},
-{
-"w": "a",
-"s": 348.66,
-"e": 348.82,
-"p": 0.56
-},
-{
-"w": "Odisseia,",
-"s": 348.82,
-"e": 349.34,
-"p": 0.77
-},
-{
-"w": "é",
-"s": 349.46,
-"e": 349.58,
-"p": 0.97
-},
-{
-"w": "o",
-"s": 349.58,
-"e": 349.78,
-"p": 0.91
-},
-{
-"w": "Agente",
-"s": 349.78,
-"e": 350.1,
-"p": 0.95
-},
-{
-"w": "Secreto.",
-"s": 350.1,
-"e": 350.5,
-"p": 0.93
-},
-{
-"w": "Filme",
-"s": 350.6,
-"e": 350.84,
+"s": 336.96,
+"e": 337.2,
 "p": 0.96
 },
 {
+"w": "é",
+"s": 337.2,
+"e": 337.52,
+"p": 0.95
+},
+{
+"w": "o",
+"s": 337.52,
+"e": 337.7,
+"p": 0.91
+},
+{
+"w": "outro,",
+"s": 337.7,
+"e": 337.96,
+"p": 0.94
+},
+{
+"w": "é",
+"s": 338.14,
+"e": 338.26,
+"p": 0.96
+},
+{
+"w": "Obsessions,",
+"s": 338.26,
+"e": 338.98,
+"p": 0.67
+},
+{
+"w": "é",
+"s": 339.16,
+"e": 339.3,
+"p": 0.93
+},
+{
+"w": "Back",
+"s": 339.3,
+"e": 339.48,
+"p": 0.9
+},
+{
+"w": "Rooms,",
+"s": 339.48,
+"e": 339.86,
+"p": 0.71
+},
+{
+"w": "é",
+"s": 340.06,
+"e": 340.16,
+"p": 0.96
+},
+{
+"w": "a",
+"s": 340.16,
+"e": 340.28,
+"p": 0.51
+},
+{
+"w": "Odisseia,",
+"s": 340.28,
+"e": 340.84,
+"p": 0.85
+},
+{
+"w": "é",
+"s": 340.96,
+"e": 341.06,
+"p": 0.97
+},
+{
+"w": "o",
+"s": 341.06,
+"e": 341.22,
+"p": 0.76
+},
+{
+"w": "Agente",
+"s": 341.22,
+"e": 341.54,
+"p": 0.96
+},
+{
+"w": "Secreto.",
+"s": 341.54,
+"e": 342.04,
+"p": 0.97
+},
+{
+"w": "Filme",
+"s": 342.2,
+"e": 342.42,
+"p": 0.94
+},
+{
 "w": "que",
-"s": 350.84,
-"e": 351.14,
+"s": 342.42,
+"e": 342.72,
 "p": 1.0
 },
 {
 "w": "existe",
-"s": 351.14,
-"e": 351.4,
+"s": 342.72,
+"e": 342.98,
 "p": 1.0
 },
 {
 "w": "porque",
-"s": 351.4,
-"e": 351.76,
-"p": 0.95
+"s": 342.98,
+"e": 343.34,
+"p": 0.93
 },
 {
 "w": "alguém",
-"s": 351.76,
-"e": 352.32,
+"s": 343.34,
+"e": 343.86,
 "p": 0.99
 },
 {
 "w": "precisava",
-"s": 352.32,
-"e": 352.82,
+"s": 343.86,
+"e": 344.42,
 "p": 1.0
 },
 {
 "w": "contar",
-"s": 352.82,
-"e": 353.42,
+"s": 344.42,
+"e": 344.98,
 "p": 0.99
 },
 {
 "w": "aquela",
-"s": 353.42,
-"e": 353.66,
-"p": 0.98
+"s": 344.98,
+"e": 345.22,
+"p": 0.97
 },
 {
 "w": "história.",
-"s": 353.66,
-"e": 354.14,
-"p": 1.0
+"s": 345.22,
+"e": 345.62,
+"p": 0.99
 },
 {
 "w": "Então",
-"s": 354.36,
-"e": 354.6,
-"p": 1.0
+"s": 345.92,
+"e": 346.1,
+"p": 0.99
 },
 {
 "w": "não,",
-"s": 354.6,
-"e": 354.84,
-"p": 0.66
+"s": 346.1,
+"e": 346.34,
+"p": 0.62
 },
 {
 "w": "o",
-"s": 354.94,
-"e": 355.16,
-"p": 1.0
+"s": 346.54,
+"e": 346.72,
+"p": 0.99
 },
 {
 "w": "cinema",
-"s": 355.16,
-"e": 355.4,
+"s": 346.72,
+"e": 346.98,
 "p": 0.99
 },
 {
 "w": "não",
-"s": 355.4,
-"e": 355.8,
-"p": 1.0
+"s": 346.98,
+"e": 347.34,
+"p": 0.99
 },
 {
 "w": "morreu.",
-"s": 355.8,
-"e": 356.16,
+"s": 347.34,
+"e": 347.7,
 "p": 1.0
 },
 {
 "w": "Ele",
-"s": 356.28,
-"e": 356.46,
+"s": 347.84,
+"e": 347.98,
 "p": 0.99
 },
 {
 "w": "só",
-"s": 356.46,
-"e": 356.6,
+"s": 347.98,
+"e": 348.1,
 "p": 1.0
 },
 {
-"w": "está",
-"s": 356.6,
-"e": 356.8,
-"p": 0.77
+"w": "tá",
+"s": 348.1,
+"e": 348.3,
+"p": 0.54
 },
 {
 "w": "esperando",
-"s": 356.8,
-"e": 357.12,
+"s": 348.3,
+"e": 348.62,
 "p": 1.0
 },
 {
 "w": "a",
-"s": 357.12,
-"e": 357.46,
+"s": 348.62,
+"e": 348.94,
 "p": 1.0
 },
 {
 "w": "gente",
-"s": 357.46,
-"e": 357.74,
+"s": 348.94,
+"e": 349.22,
 "p": 1.0
 },
 {
 "w": "escolher",
-"s": 357.74,
-"e": 358.28,
+"s": 349.22,
+"e": 349.82,
 "p": 1.0
 },
 {
 "w": "qual",
-"s": 358.28,
-"e": 358.54,
+"s": 349.82,
+"e": 350.06,
 "p": 1.0
 },
 {
 "w": "final",
-"s": 358.54,
-"e": 358.92,
-"p": 0.89
+"s": 350.06,
+"e": 350.42,
+"p": 0.91
 },
 {
 "w": "vai",
-"s": 358.92,
-"e": 359.22,
+"s": 350.42,
+"e": 350.7,
 "p": 0.99
 },
 {
 "w": "ter.",
-"s": 359.22,
-"e": 359.38,
+"s": 350.7,
+"e": 350.88,
 "p": 1.0
 },
 {
 "w": "Me",
-"s": 359.48,
-"e": 359.7,
+"s": 351.02,
+"e": 351.18,
 "p": 1.0
 },
 {
 "w": "conta",
-"s": 359.7,
-"e": 359.86,
-"p": 0.99
+"s": 351.18,
+"e": 351.32,
+"p": 1.0
 },
 {
 "w": "aqui",
-"s": 359.86,
-"e": 360.0,
-"p": 0.98
-},
-{
-"w": "nos",
-"s": 360.0,
-"e": 360.18,
+"s": 351.32,
+"e": 351.46,
 "p": 0.99
 },
 {
-"w": "comentários,",
-"s": 360.18,
-"e": 360.7,
+"w": "nos",
+"s": 351.46,
+"e": 351.62,
+"p": 0.99
+},
+{
+"w": "comentários.",
+"s": 351.62,
+"e": 352.14,
 "p": 1.0
 },
 {
 "w": "Qual",
-"s": 360.7,
-"e": 361.1,
-"p": 0.5
-},
-{
-"w": "foi",
-"s": 361.1,
-"e": 361.28,
+"s": 352.46,
+"e": 352.58,
 "p": 0.99
 },
 {
+"w": "foi",
+"s": 352.58,
+"e": 352.76,
+"p": 1.0
+},
+{
 "w": "o",
-"s": 361.28,
-"e": 361.52,
+"s": 352.76,
+"e": 352.98,
 "p": 1.0
 },
 {
 "w": "último",
-"s": 361.52,
-"e": 361.8,
-"p": 0.99
+"s": 352.98,
+"e": 353.26,
+"p": 1.0
 },
 {
 "w": "filme",
-"s": 361.8,
-"e": 362.04,
+"s": 353.26,
+"e": 353.52,
 "p": 0.98
 },
 {
 "w": "que",
-"s": 362.04,
-"e": 362.22,
-"p": 0.99
+"s": 353.52,
+"e": 353.68,
+"p": 1.0
 },
 {
 "w": "te",
-"s": 362.22,
-"e": 362.4,
-"p": 0.95
+"s": 353.68,
+"e": 353.88,
+"p": 0.98
 },
 {
 "w": "fez",
-"s": 362.4,
-"e": 362.6,
-"p": 0.99
+"s": 353.88,
+"e": 354.06,
+"p": 1.0
 },
 {
 "w": "sair",
-"s": 362.6,
-"e": 362.92,
+"s": 354.06,
+"e": 354.38,
 "p": 1.0
 },
 {
 "w": "do",
-"s": 362.92,
-"e": 363.06,
-"p": 0.93
-},
-{
-"w": "cinema",
-"s": 363.06,
-"e": 363.36,
-"p": 0.98
-},
-{
-"w": "diferente",
-"s": 363.36,
-"e": 363.9,
-"p": 0.98
-},
-{
-"w": "de",
-"s": 363.9,
-"e": 364.12,
-"p": 0.97
-},
-{
-"w": "como",
-"s": 364.12,
-"e": 364.3,
-"p": 0.92
-},
-{
-"w": "você",
-"s": 364.3,
-"e": 364.62,
-"p": 1.0
-},
-{
-"w": "entrou?",
-"s": 364.62,
-"e": 365.0,
-"p": 0.99
-},
-{
-"w": "Se",
-"s": 365.18,
-"e": 365.4,
+"s": 354.38,
+"e": 354.5,
 "p": 0.96
 },
 {
+"w": "cinema",
+"s": 354.5,
+"e": 354.8,
+"p": 0.99
+},
+{
+"w": "diferente",
+"s": 354.8,
+"e": 355.34,
+"p": 0.99
+},
+{
+"w": "de",
+"s": 355.34,
+"e": 355.56,
+"p": 0.99
+},
+{
+"w": "Como",
+"s": 355.56,
+"e": 355.72,
+"p": 0.58
+},
+{
+"w": "Você",
+"s": 355.72,
+"e": 356.02,
+"p": 0.88
+},
+{
+"w": "Entrou?",
+"s": 356.02,
+"e": 356.36,
+"p": 0.84
+},
+{
+"w": "Se",
+"s": 356.56,
+"e": 356.78,
+"p": 0.99
+},
+{
 "w": "inscreve",
-"s": 365.4,
-"e": 365.82,
-"p": 0.98
+"s": 356.78,
+"e": 357.2,
+"p": 0.99
 },
 {
 "w": "que",
-"s": 365.82,
-"e": 365.96,
-"p": 0.73
+"s": 357.2,
+"e": 357.32,
+"p": 0.72
 },
 {
 "w": "aqui",
-"s": 365.96,
-"e": 366.12,
-"p": 0.9
+"s": 357.32,
+"e": 357.5,
+"p": 0.95
 },
 {
 "w": "tem",
-"s": 366.12,
-"e": 366.46,
+"s": 357.5,
+"e": 357.86,
 "p": 0.99
 },
 {
 "w": "muito",
-"s": 366.46,
-"e": 366.92,
+"s": 357.86,
+"e": 358.28,
 "p": 0.98
 },
 {
 "w": "filme",
-"s": 366.92,
-"e": 367.16,
-"p": 0.97
+"s": 358.28,
+"e": 358.52,
+"p": 0.99
 },
 {
 "w": "pra",
-"s": 367.16,
-"e": 367.34,
-"p": 0.69
+"s": 358.52,
+"e": 358.7,
+"p": 0.89
 },
 {
 "w": "gente",
-"s": 367.34,
-"e": 367.66,
+"s": 358.7,
+"e": 359.02,
 "p": 0.97
 },
 {
 "w": "destrinchar.",
-"s": 367.66,
-"e": 368.4,
-"p": 0.98
+"s": 359.02,
+"e": 359.74,
+"p": 0.97
 },
 {
 "w": "É",
-"s": 368.66,
-"e": 368.68,
+"s": 359.94,
+"e": 360.04,
 "p": 0.99
 },
 {
 "w": "isso",
-"s": 368.68,
-"e": 368.9,
+"s": 360.04,
+"e": 360.24,
 "p": 1.0
 },
 {
 "w": "galera,",
-"s": 368.9,
-"e": 369.26,
-"p": 0.82
+"s": 360.24,
+"e": 360.58,
+"p": 0.67
 },
 {
 "w": "valeu,",
-"s": 369.46,
-"e": 369.82,
-"p": 0.97
+"s": 360.8,
+"e": 361.14,
+"p": 0.99
 },
 {
 "w": "fui",
-"s": 369.96,
-"e": 370.14,
+"s": 361.26,
+"e": 361.5,
 "p": 0.99
 },
 {
 "w": "e",
-"s": 370.14,
-"e": 370.46,
-"p": 0.85
+"s": 361.5,
+"e": 361.78,
+"p": 0.83
 },
 {
 "w": "tchau.",
-"s": 370.46,
-"e": 370.72,
+"s": 361.78,
+"e": 362.04,
 "p": 0.99
 }
 ]
