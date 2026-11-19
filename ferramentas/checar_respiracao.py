@@ -27,3 +27,23 @@ for a, b in runs:
 print(f"trechos sem fala acima de {LIM:.2f} s (descontando consoantes): {len(susp)} | total {sum(s[2] for s in susp):.1f} s de {len(voz)*Q:.0f} s")
 for t, d, l in sorted(susp, key=lambda x: -x[2])[:25]:
     print(f"  {int(t//60)}:{t%60:05.2f}  sem voz por {d:.2f} s (~{l:.2f} s alem das consoantes)")
+
+# --- respiracao "plana": som acima do piso, sem tom de voz, com grave ~ agudo (nem vogal, nem "s") ---
+print("\nrespiracoes (som plano sem voz, >= 60 ms) no corte:")
+n_resp = 0
+for p in D:
+    arq = plano["tomadas"][p["t"]]; tot = E[p["t"]][0]
+    bruto, incl = dec["BRUTO"][arq], dec["INCL"][arq]
+    import numpy as _np
+    piso = _np.percentile(bruto, 5)
+    k0, k1 = int(round(p["s"] / Q)), int(round(p["e"] / Q))
+    run = 0
+    for k in range(k0, min(k1, len(incl)) + 1):
+        plano_ = k < k1 and k < len(incl) and bruto[k] > piso + 10 and -4 < incl[k] < 8 and E[p["t"]][1][k] <= E[p["t"]][3]
+        if plano_: run += 1
+        else:
+            if run * Q >= 0.06:
+                t = p["dst_s"] + (k - run - k0) * Q; n_resp += 1
+                print(f"  {int(t//60)}:{t%60:05.2f}  {run*Q:.2f} s  (grav. {p['t']} {(k-run)*Q:.2f}s)")
+            run = 0
+print("respiracoes:", n_resp)
