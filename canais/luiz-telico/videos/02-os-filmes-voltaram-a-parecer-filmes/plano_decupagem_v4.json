@@ -1,0 +1,587 @@
+{
+ "tomadas": {
+  "5": "gravacao/g5.mp4"
+ },
+ "render": {
+  "5": "build/cfr5.mov"
+ },
+ "transcricoes": {
+  "5": "build/g5_palavras.json"
+ },
+ "trechos": [
+  {
+   "t": "5",
+   "ini": 0.17,
+   "fim": 6.71,
+   "bloco": "abertura",
+   "obs": "Bom, vocês devem reparar que os filmes de hoje em dia estão sem cor, estão sem vida."
+  },
+  {
+   "t": "5",
+   "ini": 10.28,
+   "fim": 17.44,
+   "bloco": "abertura",
+   "obs": "tipo essa muleta aqui, ela é sem vida, sem nada, é mexuruca, é velha, é acabada!"
+  },
+  {
+   "t": "5",
+   "ini": 20.57,
+   "fim": 26.75,
+   "bloco": "abertura",
+   "obs": "igualmente também a esta cortina, velha, acabada, escuraçada e sem cor."
+  },
+  {
+   "t": "5",
+   "ini": 34.03,
+   "fim": 39.83,
+   "bloco": "abertura",
+   "obs": "Igual também esse laptop antigo, que aqui em casa é chamado de bomba atômica de 2013."
+  },
+  {
+   "t": "5",
+   "ini": 43.18,
+   "fim": 49.82,
+   "bloco": "abertura",
+   "obs": "A diferença é que nenhum destes equipamentos recebe uma grande produção de Hollywood, por "
+  },
+  {
+   "t": "5",
+   "ini": 50.42,
+   "fim": 54.42,
+   "bloco": "abertura",
+   "obs": "Agora os filmes, não. Os filmes de Hollywood recebem bastante investimento..."
+  },
+  {
+   "t": "5",
+   "ini": 54.58,
+   "fim": 56.02,
+   "bloco": "abertura",
+   "obs": "estão parecendo eles."
+  },
+  {
+   "t": "5",
+   "ini": 60.56,
+   "fim": 70.02,
+   "bloco": "gancho",
+   "obs": "Faz anos que a gente fala que o cinema morreu, que é tudo continuação, remake e filme de h"
+  },
+  {
+   "t": "5",
+   "ini": 72.11,
+   "fim": 78.43,
+   "bloco": "gancho",
+   "obs": "Um filme de terror que custou menos que um apartamento, fez mais de meio bilhão de dólares"
+  },
+  {
+   "t": "5",
+   "ini": 78.85,
+   "fim": 84.47,
+   "bloco": "gancho",
+   "obs": "Um garoto de 20 anos que começou no YouTube, teve a maior estreia da história do estúdio d"
+  },
+  {
+   "t": "5",
+   "ini": 85.0,
+   "fim": 87.86,
+   "bloco": "piada-primo",
+   "obs": "Rapaz, eu não queria ser primo desse cara, imagina só!"
+  },
+  {
+   "t": "5",
+   "ini": 89.42,
+   "fim": 96.7,
+   "bloco": "piada-primo",
+   "obs": "Oi, tudo bem, Ertozinho? O seu primo fez um filme e ganhou mais de meio bilhão de dólares,"
+  },
+  {
+   "t": "5",
+   "ini": 98.24,
+   "fim": 101.72,
+   "bloco": "piada-primo",
+   "obs": "Bom, mamãe, eu userei o GTA 6 em menos de uma semana."
+  },
+  {
+   "t": "5",
+   "ini": 104.85,
+   "fim": 106.77,
+   "bloco": "piada-primo",
+   "obs": "Artuzinho, você é um desgosto pra família."
+  },
+  {
+   "t": "5",
+   "ini": 107.66,
+   "fim": 108.44,
+   "bloco": "piada-primo",
+   "obs": "Que horror!"
+  },
+  {
+   "t": "5",
+   "ini": 114.05,
+   "fim": 123.11,
+   "bloco": "gancho",
+   "obs": "Além do mais, tem um poema de quase 3 mil anos que o diretor Christopher Nolan pegou e tra"
+  },
+  {
+   "t": "5",
+   "ini": 123.51,
+   "fim": 137.97,
+   "bloco": "gancho",
+   "obs": "Os filmes voltaram a aparecer filmes, mas eu não vim aqui só comemorar, porque Hollywood e"
+  },
+  {
+   "t": "5",
+   "ini": 147.01,
+   "fim": 154.79,
+   "bloco": "1-visual",
+   "obs": "Repara numa coisa, peça no filme que você viu nos streamings nos últimos anos, com meio ap"
+  },
+  {
+   "t": "5",
+   "ini": 155.61,
+   "fim": 160.97,
+   "bloco": "1-visual",
+   "obs": "o rosto do ator nítido e o fundo todo borrado. Nenhuma imagem que você lembra depois."
+  },
+  {
+   "t": "5",
+   "ini": 167.78,
+   "fim": 180.06,
+   "bloco": "1-visual",
+   "obs": "Eu acho que a única imagem que você vai lembrar é da Sydney Swinney, mostrando os peitos l"
+  },
+  {
+   "t": "5",
+   "ini": 186.04,
+   "fim": 192.64,
+   "bloco": "1-visual",
+   "obs": "Eles fixam o rosto do ator bem na frente da câmera, e às vezes o ator nem é bonito. Não qu"
+  },
+  {
+   "t": "5",
+   "ini": 195.56,
+   "fim": 198.9,
+   "bloco": "1-visual",
+   "obs": "E tem gente que chama isso de visual Netflix."
+  },
+  {
+   "t": "5",
+   "ini": 199.18,
+   "fim": 203.46,
+   "bloco": "1-visual",
+   "obs": "mas não é culpa da Netflix e nem da câmera digital, é uma escolha."
+  },
+  {
+   "t": "5",
+   "ini": 205.59,
+   "fim": 211.35,
+   "bloco": "1-visual",
+   "obs": "É o filme feito pra funcionar em qualquer tela, no celular, no ônibus ou na TV velha do fu"
+  },
+  {
+   "t": "5",
+   "ini": 212.24,
+   "fim": 226.96,
+   "bloco": "1-visual",
+   "obs": "Sabe aquelas televisões velhas antigas, que tinha uma caixa d 'água atrás? Aí na frente a "
+  },
+  {
+   "t": "5",
+   "ini": 230.34,
+   "fim": 232.9,
+   "bloco": "1-visual",
+   "obs": "é o famoso tá bom assim."
+  },
+  {
+   "t": "5",
+   "ini": 233.73,
+   "fim": 243.69,
+   "bloco": "1-visual",
+   "obs": "Enquadra, foca, ilumina tudo e pronto. Agora pensa em Duna, naquele deserto alaranjado, na"
+  },
+  {
+   "t": "5",
+   "ini": 244.47,
+   "fim": 253.75,
+   "bloco": "1-visual",
+   "obs": "Pensa também em A Odisseia, que o Nolan filmou com a câmera IMAX, aquele trambolho do tama"
+  },
+  {
+   "t": "5",
+   "ini": 254.27,
+   "fim": 261.11,
+   "bloco": "1-visual",
+   "obs": "Pensa em Batman, onde a chuva e o vermelho do farol do carro contam a história antes de qu"
+  },
+  {
+   "t": "5",
+   "ini": 264.67,
+   "fim": 271.35,
+   "bloco": "1-visual",
+   "obs": "Nenhuma dessas escolhas era segura, cada uma poderia dar errado, e é justamente por isso q"
+  },
+  {
+   "t": "5",
+   "ini": 273.59,
+   "fim": 287.57,
+   "bloco": "1-visual",
+   "obs": "Até porque todo investimento precisa do seu risco, por exemplo, se não fosse o risco do Bi"
+  },
+  {
+   "t": "5",
+   "ini": 294.67,
+   "fim": 304.93,
+   "bloco": "ponte",
+   "obs": "Até aqui parece só papo de imagem bonita, mas a imagem bonita não explica porque um garoto"
+  },
+  {
+   "t": "5",
+   "ini": 309.24,
+   "fim": 313.96,
+   "bloco": "2-oppenheimer",
+   "obs": "Em 2020, no fim das filmagens de Tenet, o Robert Pattinson deu um presente pro Nolan."
+  },
+  {
+   "t": "5",
+   "ini": 314.26,
+   "fim": 316.84,
+   "bloco": "2-oppenheimer",
+   "obs": "um livro com discursos do Oppenheimer."
+  },
+  {
+   "t": "5",
+   "ini": 319.6,
+   "fim": 325.12,
+   "bloco": "2-oppenheimer",
+   "obs": "Se eu tenho um amigo rico, como Robert Pattinson, e ele me dá um livro do Oppenheimer, eu "
+  },
+  {
+   "t": "5",
+   "ini": 325.38,
+   "fim": 330.28,
+   "bloco": "2-oppenheimer",
+   "obs": "ele poderia me dar uma Lamborghini, uma Ferrari, um iPhone 18, mas ele me dá um livro do O"
+  },
+  {
+   "t": "5",
+   "ini": 330.8,
+   "fim": 332.72,
+   "bloco": "2-oppenheimer",
+   "obs": "Eu não sei se eu continuarei com essa amizade, não."
+  },
+  {
+   "t": "5",
+   "ini": 346.46,
+   "fim": 357.78,
+   "bloco": "2-oppenheimer",
+   "obs": "Mas o Nolan até que gostou, o Nolan leu e não conseguiu largar. Um cientista tentando vive"
+  },
+  {
+   "t": "5",
+   "ini": 359.03,
+   "fim": 365.29,
+   "bloco": "2-oppenheimer",
+   "obs": "3 horas de gente sentada numa sala falando de física, e chegou perto de 1 bilhão de dólare"
+  },
+  {
+   "t": "5",
+   "ini": 365.97,
+   "fim": 371.73,
+   "bloco": "2-oppenheimer",
+   "obs": "Cara, imagina você pegar um livro de um físico e fazer um filme que gera 1 bilhão de dólar"
+  },
+  {
+   "t": "5",
+   "ini": 372.21,
+   "fim": 374.55,
+   "bloco": "2-oppenheimer",
+   "obs": "Gente, isso é muita coisa!"
+  },
+  {
+   "t": "5",
+   "ini": 377.52,
+   "fim": 392.8,
+   "bloco": "2-backrooms",
+   "obs": "Agora pensa no Back Rooms. O Ken Persons começou postando vídeos curtos no YouTube sobre a"
+  },
+  {
+   "t": "5",
+   "ini": 393.56,
+   "fim": 401.4,
+   "bloco": "2-backrooms",
+   "obs": "Em 2026, ele virou diretor mais jovem a ficar em primeiro lugar nas bilheterias e Backroom"
+  },
+  {
+   "t": "5",
+   "ini": 403.04,
+   "fim": 407.64,
+   "bloco": "2-backrooms",
+   "obs": "O que esses dois têm em comum? Ninguém mandou eles fazerem esses filmes."
+  },
+  {
+   "t": "5",
+   "ini": 408.09,
+   "fim": 410.61,
+   "bloco": "2-backrooms",
+   "obs": "eles quiseram, tem autenticidade."
+  },
+  {
+   "t": "5",
+   "ini": 415.41,
+   "fim": 423.47,
+   "bloco": "2-backrooms",
+   "obs": "Filho, o seu outro primo criou os Back Rooms, um filme muito magnífico que fez milhões pro"
+  },
+  {
+   "t": "5",
+   "ini": 430.82,
+   "fim": 432.76,
+   "bloco": "2-backrooms",
+   "obs": "Ah, mamãe, eu criei um canal no YouTube!"
+  },
+  {
+   "t": "5",
+   "ini": 436.45,
+   "fim": 439.97,
+   "bloco": "2-backrooms",
+   "obs": "você realmente é o desgoixo da família. Que horror é!"
+  },
+  {
+   "t": "5",
+   "ini": 448.06,
+   "fim": 456.86,
+   "bloco": "2-marvel",
+   "obs": "Agora olha o caminho contrário. A Marvel anunciou um filme dos Vingadores com o Kang como "
+  },
+  {
+   "t": "5",
+   "ini": 457.83,
+   "fim": 460.45,
+   "bloco": "2-marvel",
+   "obs": "e o filme, virou outra coisa."
+  },
+  {
+   "t": "5",
+   "ini": 464.67,
+   "fim": 476.91,
+   "bloco": "2-marvel",
+   "obs": "Pra salvar, chamaram de volta o Robert Downey Jr., o nosso homem de ferro, agora como o Do"
+  },
+  {
+   "t": "5",
+   "ini": 477.29,
+   "fim": 481.07,
+   "bloco": "2-marvel",
+   "obs": "eu vou ver, é claro que eu vou ver, porque eu sou muito fã da Marvel."
+  },
+  {
+   "t": "5",
+   "ini": 483.07,
+   "fim": 486.93,
+   "bloco": "2-marvel",
+   "obs": "Mas me diz uma coisa, alguém ali queria mesmo contar essa história."
+  },
+  {
+   "t": "5",
+   "ini": 487.45,
+   "fim": 490.91,
+   "bloco": "2-marvel",
+   "obs": "ou alguém numa sala de reunião, queria muito mais um filme dos Vingadores."
+  },
+  {
+   "t": "5",
+   "ini": 491.66,
+   "fim": 502.94,
+   "bloco": "2-marvel",
+   "obs": "porque sabe que os Vingadores dá dinheiro. Todo mundo vai ver os Vingadores, rapaz. Aí eu "
+  },
+  {
+   "t": "5",
+   "ini": 503.34,
+   "fim": 511.84,
+   "bloco": "2-marvel",
+   "obs": "Traz! Traz esse cara! Daí eu sei que ele morreu, mas a gente arruma um jeito! Traz essa po"
+  },
+  {
+   "t": "5",
+   "ini": 521.74,
+   "fim": 527.08,
+   "bloco": "3-dinheiro",
+   "obs": "Aí vem a pergunta de sempre. Ah, Luiz, mas nem todo filme como esse dá dinheiro."
+  },
+  {
+   "t": "5",
+   "ini": 529.37,
+   "fim": 530.37,
+   "bloco": "3-dinheiro",
+   "obs": "confia no pai!"
+  },
+  {
+   "t": "5",
+   "ini": 530.68,
+   "fim": 531.48,
+   "bloco": "3-dinheiro",
+   "obs": "dá sim."
+  },
+  {
+   "t": "5",
+   "ini": 535.77,
+   "fim": 545.85,
+   "bloco": "3-dinheiro",
+   "obs": "(sem 'Caiu um pouquinho o meu oculos, calma ai. Agora sim.') Obsession custou..."
+  },
+  {
+   "t": "5",
+   "ini": 547.57,
+   "fim": 557.59,
+   "bloco": "3-dinheiro",
+   "obs": "A Odisseia, um poema grego de quase 3 mil anos, teve a maior estreia da carreira do Nolan."
+  },
+  {
+   "t": "5",
+   "ini": 562.1,
+   "fim": 569.54,
+   "bloco": "3-dinheiro",
+   "obs": "(sem 'Deixa eu ajeitar aqui o meu oculos, um instante') As pessoas nao pararam..."
+  },
+  {
+   "t": "5",
+   "ini": 571.59,
+   "fim": 577.03,
+   "bloco": "3-dinheiro",
+   "obs": "Dá pra ver um filme em qualquer sofá, você só sai de casa pelo que não cabe no sofá."
+  },
+  {
+   "t": "5",
+   "ini": 580.78,
+   "fim": 590.92,
+   "bloco": "4-brasil",
+   "obs": "que não é só lá fora, não, tá? Em 2025, ainda estou aqui, ganhou o primeiro Oscar de filme"
+  },
+  {
+   "t": "5",
+   "ini": 591.28,
+   "fim": 595.42,
+   "bloco": "4-brasil",
+   "obs": "sem explosão nenhuma, até porque, se você quiser ver uma explosão..."
+  },
+  {
+   "t": "5",
+   "ini": 595.69,
+   "fim": 597.69,
+   "bloco": "4-brasil",
+   "obs": "eu acho que é melhor você ficar com o Oppenheimer."
+  },
+  {
+   "t": "5",
+   "ini": 599.93,
+   "fim": 608.71,
+   "bloco": "4-brasil",
+   "obs": "E logo depois veio O Agente Secreto. Virou o filme brasileiro mais indicado da história do"
+  },
+  {
+   "t": "5",
+   "ini": 610.16,
+   "fim": 611.58,
+   "bloco": "4-brasil",
+   "obs": "saiu sem estatueta?"
+  },
+  {
+   "t": "5",
+   "ini": 611.9,
+   "fim": 618.04,
+   "bloco": "4-brasil",
+   "obs": "saiu. Mas olha o que ele provou, o brasileiro vai ao cinema ver filme brasileiro? Sim, qua"
+  },
+  {
+   "t": "5",
+   "ini": 619.39,
+   "fim": 621.91,
+   "bloco": "4-brasil",
+   "obs": "Agora parece que os filmes brasileiros são feitos assim, ó..."
+  },
+  {
+   "t": "5",
+   "ini": 622.16,
+   "fim": 623.5,
+   "bloco": "4-brasil",
+   "obs": "Ah, é brasileiro?"
+  },
+  {
+   "t": "5",
+   "ini": 623.83,
+   "fim": 637.39,
+   "bloco": "4-brasil",
+   "obs": "Então, coloca a merda aí no roteiro, que eu acho que eles vão gostar. Coloca um monte de g"
+  },
+  {
+   "t": "5",
+   "ini": 638.33,
+   "fim": 641.39,
+   "bloco": "4-brasil",
+   "obs": "Que que dá? Não dá porra nenhuma. Ninguém vai assistir."
+  },
+  {
+   "t": "5",
+   "ini": 642.29,
+   "fim": 650.27,
+   "bloco": "virada",
+   "obs": "Então tá tudo resolvido, né? O cinema voltou e final feliz. Só que em fevereiro deste ano,"
+  },
+  {
+   "t": "5",
+   "ini": 651.04,
+   "fim": 656.98,
+   "bloco": "virada",
+   "obs": "O estúdio que bancou Duna, Bátima, Barbie e Pecadores. O negócio está travado na justiça a"
+  },
+  {
+   "t": "5",
+   "ini": 657.81,
+   "fim": 659.53,
+   "bloco": "virada",
+   "obs": "mas o plano continua de pé."
+  },
+  {
+   "t": "5",
+   "ini": 662.01,
+   "fim": 671.81,
+   "bloco": "virada",
+   "obs": "E quando dois gigantes viram um só, o primeiro corte costuma ser os filmes arriscados. Fic"
+  },
+  {
+   "t": "5",
+   "ini": 674.6,
+   "fim": 683.08,
+   "bloco": "virada",
+   "obs": "Só que até isso acaba. Uma hora não sobra desenho pra virar live action, não sobra jogo pr"
+  },
+  {
+   "t": "5",
+   "ini": 695.95,
+   "fim": 703.29,
+   "bloco": "final",
+   "obs": "E é aí que chega o final ruim que eu te prometi lá no começo. Quando acabarem as ideias ve"
+  },
+  {
+   "t": "5",
+   "ini": 703.65,
+   "fim": 707.87,
+   "bloco": "final",
+   "obs": "nem de diretor, nem de fotógrafo, nem de ator, nem de porra de ninguém."
+  },
+  {
+   "t": "5",
+   "ini": 708.2,
+   "fim": 709.84,
+   "bloco": "final",
+   "obs": "Enfim, galera, o vídeo foi esse."
+  },
+  {
+   "t": "5",
+   "ini": 710.07,
+   "fim": 722.05,
+   "bloco": "final",
+   "obs": "espero que vocês tenham gostado. Se gostaram, não se esqueçam de deixar o like e se inscre"
+  }
+ ]
+}
