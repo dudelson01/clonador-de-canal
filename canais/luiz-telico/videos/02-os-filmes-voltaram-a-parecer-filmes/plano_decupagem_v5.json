@@ -412,6 +412,14 @@
   {
    "t": "5",
    "exato": true,
+   "ini": 462.3,
+   "fim": 462.86,
+   "bloco": "2-marvel",
+   "obs": "a fim!"
+  },
+  {
+   "t": "5",
+   "exato": true,
    "ini": 464.79,
    "fim": 477.01,
    "bloco": "2-marvel",
@@ -424,6 +432,14 @@
    "fim": 481.19,
    "bloco": "2-marvel",
    "obs": "eu vou ver, é claro que eu vou ver, porque eu sou muito fã da Marvel."
+  },
+  {
+   "t": "5",
+   "exato": true,
+   "ini": 481.67,
+   "fim": 482.12,
+   "bloco": "2-marvel",
+   "obs": "FUUUUUUUUUUU"
   },
   {
    "t": "5",
@@ -484,10 +500,10 @@
   {
    "t": "5",
    "exato": true,
-   "ini": 535.71,
+   "ini": 532.05,
    "fim": 546.02,
    "bloco": "3-dinheiro",
-   "obs": "(sem 'Caiu um pouquinho o meu oculos, calma ai. Agora sim.') Obsession custou..."
+   "obs": "Caiu um pouquinho o meu oculos, calma ai. Agora sim. Obsession custou... (inteira)"
   },
   {
    "t": "5",
@@ -500,10 +516,10 @@
   {
    "t": "5",
    "exato": true,
-   "ini": 562.04,
+   "ini": 559.06,
    "fim": 569.61,
    "bloco": "3-dinheiro",
-   "obs": "(sem 'Deixa eu ajeitar aqui o meu oculos, um instante') As pessoas nao pararam..."
+   "obs": "Deixa eu ajeitar aqui o meu oculos, um instante... As pessoas nao pararam... (inteira)"
   },
   {
    "t": "5",
