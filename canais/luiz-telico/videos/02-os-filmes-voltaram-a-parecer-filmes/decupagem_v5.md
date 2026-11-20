@@ -1,21 +1,52 @@
-# Decupagem – vídeo 02, gravação com mais identidade (v5, para aprovar)
+# Decupagem – vídeo 02 (v5b, para aprovar)
 
-Duração: **8:05** (gravação de 12:04; a v4 tinha 7:52).
-
-A v4 foi reprovada: cortou demais, comeu palavras e perdeu o contexto. O que mudou:
-- O começo e o fim de cada frase agora são medidos pelo áudio (antes, pelo tempo da transcrição, que marcava tarde e comia a primeira sílaba).
-- Voz fraca ou rouca (sílaba de começo/fim de frase, "e", "a", "eu") conta como voz; antes só contava voz com tom bem marcado.
-- Pausa menor que 0,15 s não é mais cortada (era 0,08 s e comia palavra curta entre palavras). Respiração dura mais que isso e continua saindo.
+Duração: **8:12** (gravação de 12:04).
 
 ## Conferência
-- comparar_trechos (transcreve o original e o corte de cada frase e compara): nenhuma palavra faltando. As 6 diferenças restantes são variação da transcrição ("em um"/"num", ordem de palavra) ou o "então" repetido que foi cortado de propósito; os pontos foram conferidos e estão inteiros no corte.
-- checar_respiracao: nenhuma pausa sobrando; 6 sopros de 0,06–0,07 s (o mínimo medível).
+- comparar_trechos (cada frase: transcrição do original inteiro x do corte): nenhuma palavra comida. As diferenças que aparecem são da transcrição ("por que"/"porque", ordem de palavra, frase inventada "legendas pela comunidade amara.org") e foram conferidas no áudio.
+- Respiração: nenhuma pausa sobrando; 7 sopros de 0,06–0,07 s (mínimo medível).
 
-## Cortes de propósito
-- Tentativas refeitas: fica a última boa.
-- "Caiu um pouquinho o meu óculos, calma aí" e "Deixa eu ajeitar aqui o meu óculos".
-- "então, então" → "então".
-- "Tipo, é…", "ééé", "huuum", "aham", "fuuu", "a fim!".
+## Voltaram nesta versão
+- "Caiu um pouquinho o meu óculos, calma aí. Agora sim."
+- "Deixa eu ajeitar aqui o meu óculos, um instante…"
+- "A fim!" / "Enfim!" (depois de "o filme virou outra coisa")
+- "Fuuuu" (depois de "sou muito fã da Marvel")
+- "então, então traz a porra do Homem de Ferro" inteiro
+
+## TUDO o que ficou de fora (tempo na gravação)
+Se algo daqui deve voltar, é só dizer o tempo.
+
+| Gravação | Fala | Por quê |
+|---|---|---|
+| 0:07 | Tipo, é... | hesitação |
+| 0:31 | ... | sem palavra (barulho, respiro, pausa) |
+| 0:41 | ... | sem palavra (barulho, respiro, pausa) |
+| 0:42 | ... | sem palavra (barulho, respiro, pausa) |
+| 1:10 | ... | sem palavra (barulho, respiro, pausa) |
+| 1:42 | ... | sem palavra (barulho, respiro, pausa) |
+| 2:20 | Repara numa coisa, pensa nos filmes que você viu, no estri... | tentativa interrompida (refeita logo depois) |
+| 2:46 | ... | sem palavra (barulho, respiro, pausa) |
+| 3:01 | (som sem palavra) | sem palavra (barulho, respiro, pausa) |
+| 3:13 | ... | sem palavra (barulho, respiro, pausa) |
+| 3:47 | ... | sem palavra (barulho, respiro, pausa) |
+| 4:22 | ... | sem palavra (barulho, respiro, pausa) |
+| 4:51 | até aqui parece imagem de... | tentativa interrompida (refeita logo depois) |
+| 5:38 | Mas o Nolan gostou, o Nolan leu e conseguiu largar. | tentativa com erro ('conseguiu largar'); a refeita diz 'não conseguiu largar' |
+| 6:16 | ... | sem palavra (barulho, respiro, pausa) |
+| 6:51 | ... | sem palavra (barulho, respiro, pausa) |
+| 7:04 | ... | sem palavra (barulho, respiro, pausa) |
+| 7:06 | ... | sem palavra (barulho, respiro, pausa) |
+| 7:10 | ... | sem palavra (barulho, respiro, pausa) |
+| 7:13 | você se... | tentativa interrompida (refeita logo depois) |
+| 8:33 | huuuum... | hesitação |
+| 8:37 | ... | sem palavra (barulho, respiro, pausa) |
+| 9:37 | ... | sem palavra (barulho, respiro, pausa) |
+| 11:13 | Aham... | hesitação |
+| 11:25 | E é aí que chega o final ruim, que eu te prometi lá no começo. Quando acabarem as ideias velhas, alguém vai subir... | tentativa interrompida (refeita logo depois) |
+| 11:32 | quando acabarem esse dia... | tentativa interrompida (refeita logo depois) |
+| 12:03 | ... | sem palavra (barulho, respiro, pausa) |
+
+## Trechos do vídeo
 
 | No vídeo | Gravação | Parte | Fala |
 |---|---|---|---|
@@ -69,36 +100,37 @@ A v4 foi reprovada: cortou demais, comeu palavras e perdeu o contexto. O que mud
 | 4:51 | 7:16 | 2-backrooms | você realmente é o desgoixo da família. Que horror é! |
 | 4:54 | 7:28 | 2-marvel | Agora olha o caminho contrário. A Marvel anunciou um filme dos Vingadores com o Kang como  |
 | 5:01 | 7:38 | 2-marvel | e o filme, virou outra coisa. |
-| 5:03 | 7:44 | 2-marvel | Pra salvar, chamaram de volta o Robert Downey Jr., o nosso homem de ferro, agora como o Do |
-| 5:15 | 7:57 | 2-marvel | eu vou ver, é claro que eu vou ver, porque eu sou muito fã da Marvel. |
-| 5:18 | 8:03 | 2-marvel | Mas me diz uma coisa, alguém ali queria mesmo contar essa história. |
-| 5:22 | 8:07 | 2-marvel | ou alguém numa sala de reunião, queria muito mais um filme dos Vingadores. |
-| 5:25 | 8:11 | 2-marvel | porque sabe que os Vingadores da dinheiro ... mas o Kang saiu do filme, |
-| 5:33 | 8:21 | 2-marvel | (sem o 'entao,' repetido) entao traz a porra do Homem de Ferro de volta |
-| 5:35 | 8:23 | 2-marvel | Traz! Traz esse cara! Daí eu sei que ele morreu, mas a gente arruma um jeito! Traz essa po |
-| 5:43 | 8:41 | 3-dinheiro | Aí vem a pergunta de sempre. Ah, Luiz, mas nem todo filme como esse dá dinheiro. |
-| 5:48 | 8:49 | 3-dinheiro | confia no pai! |
-| 5:49 | 8:50 | 3-dinheiro | dá sim. |
-| 5:50 | 8:55 | 3-dinheiro | (sem 'Caiu um pouquinho o meu oculos, calma ai. Agora sim.') Obsession custou... |
-| 6:00 | 9:07 | 3-dinheiro | A Odisseia, um poema grego de quase 3 mil anos, teve a maior estreia da carreira do Nolan. |
-| 6:09 | 9:22 | 3-dinheiro | (sem 'Deixa eu ajeitar aqui o meu oculos, um instante') As pessoas nao pararam... |
-| 6:16 | 9:31 | 3-dinheiro | Dá pra ver um filme em qualquer sofá, você só sai de casa pelo que não cabe no sofá. |
-| 6:21 | 9:40 | 4-brasil | que não é só lá fora, não, tá? Em 2025, ainda estou aqui, ganhou o primeiro Oscar de filme |
-| 6:31 | 9:51 | 4-brasil | sem explosão nenhuma, até porque, se você quiser ver uma explosão... |
-| 6:34 | 9:55 | 4-brasil | eu acho que é melhor você ficar com o Oppenheimer. |
-| 6:36 | 10:00 | 4-brasil | E logo depois veio O Agente Secreto. Virou o filme brasileiro mais indicado da história do |
-| 6:45 | 10:10 | 4-brasil | saiu sem estatueta? |
-| 6:46 | 10:11 | 4-brasil | saiu. Mas olha o que ele provou, o brasileiro vai ao cinema ver filme brasileiro? Sim, qua |
-| 6:52 | 10:19 | 4-brasil | Agora parece que os filmes brasileiros são feitos assim, ó... |
-| 6:54 | 10:22 | 4-brasil | Ah, é brasileiro? |
-| 6:55 | 10:23 | 4-brasil | Então, coloca a merda aí no roteiro, que eu acho que eles vão gostar. Coloca um monte de g |
-| 7:08 | 10:38 | 4-brasil | Que que dá? Não dá porra nenhuma. Ninguém vai assistir. |
-| 7:11 | 10:42 | virada | Então tá tudo resolvido, né? O cinema voltou e final feliz. Só que em fevereiro deste ano, |
-| 7:18 | 10:51 | virada | O estúdio que bancou Duna, Bátima, Barbie e Pecadores. O negócio está travado na justiça a |
-| 7:23 | 10:57 | virada | mas o plano continua de pé. |
-| 7:25 | 11:02 | virada | E quando dois gigantes viram um só, o primeiro corte costuma ser os filmes arriscados. Fic |
-| 7:34 | 11:14 | virada | Só que até isso acaba. Uma hora não sobra desenho pra virar live action, não sobra jogo pr |
-| 7:42 | 11:36 | final | E é aí que chega o final ruim que eu te prometi lá no começo. Quando acabarem as ideias ve |
-| 7:49 | 11:43 | final | nem de diretor, nem de fotógrafo, nem de ator, nem de porra de ninguém. |
-| 7:53 | 11:48 | final | Enfim, galera, o vídeo foi esse. |
-| 7:55 | 11:50 | final | espero que vocês tenham gostado. Se gostaram, não se esqueçam de deixar o like e se inscre |
+| 5:03 | 7:42 | 2-marvel | a fim! |
+| 5:04 | 7:44 | 2-marvel | Pra salvar, chamaram de volta o Robert Downey Jr., o nosso homem de ferro, agora como o Do |
+| 5:16 | 7:57 | 2-marvel | eu vou ver, é claro que eu vou ver, porque eu sou muito fã da Marvel. |
+| 5:19 | 8:01 | 2-marvel | FUUUUUUUUUUU |
+| 5:19 | 8:03 | 2-marvel | Mas me diz uma coisa, alguém ali queria mesmo contar essa história. |
+| 5:23 | 8:07 | 2-marvel | ou alguém numa sala de reunião, queria muito mais um filme dos Vingadores. |
+| 5:26 | 8:11 | 2-marvel | porque sabe que os Vingadores da dinheiro ... entao, entao traz a porra do Homem de Ferro de volta (inteira: cortar o 'entao' repetido comia os dois) |
+| 5:36 | 8:23 | 2-marvel | Traz! Traz esse cara! Daí eu sei que ele morreu, mas a gente arruma um jeito! Traz essa po |
+| 5:44 | 8:41 | 3-dinheiro | Aí vem a pergunta de sempre. Ah, Luiz, mas nem todo filme como esse dá dinheiro. |
+| 5:49 | 8:49 | 3-dinheiro | confia no pai! |
+| 5:50 | 8:50 | 3-dinheiro | dá sim. |
+| 5:51 | 8:52 | 3-dinheiro | Caiu um pouquinho o meu oculos, calma ai. Agora sim. Obsession custou... (inteira) |
+| 6:04 | 9:07 | 3-dinheiro | A Odisseia, um poema grego de quase 3 mil anos, teve a maior estreia da carreira do Nolan. |
+| 6:14 | 9:19 | 3-dinheiro | Deixa eu ajeitar aqui o meu oculos, um instante... As pessoas nao pararam... (inteira) |
+| 6:23 | 9:31 | 3-dinheiro | Dá pra ver um filme em qualquer sofá, você só sai de casa pelo que não cabe no sofá. |
+| 6:28 | 9:40 | 4-brasil | que não é só lá fora, não, tá? Em 2025, ainda estou aqui, ganhou o primeiro Oscar de filme |
+| 6:38 | 9:51 | 4-brasil | sem explosão nenhuma, até porque, se você quiser ver uma explosão... |
+| 6:42 | 9:55 | 4-brasil | eu acho que é melhor você ficar com o Oppenheimer. |
+| 6:44 | 10:00 | 4-brasil | E logo depois veio O Agente Secreto. Virou o filme brasileiro mais indicado da história do |
+| 6:52 | 10:10 | 4-brasil | saiu sem estatueta? |
+| 6:53 | 10:11 | 4-brasil | saiu. Mas olha o que ele provou, o brasileiro vai ao cinema ver filme brasileiro? Sim, qua |
+| 6:59 | 10:19 | 4-brasil | Agora parece que os filmes brasileiros são feitos assim, ó... |
+| 7:01 | 10:22 | 4-brasil | Ah, é brasileiro? |
+| 7:02 | 10:23 | 4-brasil | Então, coloca a merda aí no roteiro, que eu acho que eles vão gostar. Coloca um monte de g |
+| 7:15 | 10:38 | 4-brasil | Que que dá? Não dá porra nenhuma. Ninguém vai assistir. |
+| 7:18 | 10:42 | virada | Então tá tudo resolvido, né? O cinema voltou e final feliz. Só que em fevereiro deste ano, |
+| 7:25 | 10:51 | virada | O estúdio que bancou Duna, Bátima, Barbie e Pecadores. O negócio está travado na justiça a |
+| 7:31 | 10:57 | virada | mas o plano continua de pé. |
+| 7:32 | 11:02 | virada | E quando dois gigantes viram um só, o primeiro corte costuma ser os filmes arriscados. Fic |
+| 7:41 | 11:14 | virada | Só que até isso acaba. Uma hora não sobra desenho pra virar live action, não sobra jogo pr |
+| 7:49 | 11:36 | final | E é aí que chega o final ruim que eu te prometi lá no começo. Quando acabarem as ideias ve |
+| 7:56 | 11:43 | final | nem de diretor, nem de fotógrafo, nem de ator, nem de porra de ninguém. |
+| 8:00 | 11:48 | final | Enfim, galera, o vídeo foi esse. |
+| 8:02 | 11:50 | final | espero que vocês tenham gostado. Se gostaram, não se esqueçam de deixar o like e se inscre |
