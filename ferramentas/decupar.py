@@ -36,7 +36,7 @@ def acha(palavras, frase, perto, depois_de=None, janela=40):
 # Separa voz (vibracao das cordas vocais: energia forte em 100-900 Hz) de respiracao/estalo de boca
 # (ruido sem vibracao). Mantem consoantes surdas (s, f, ch, t) so encostadas na voz, ate CONSOANTE s.
 QUADRO = 0.010          # 10 ms
-SIL_MIN = 0.08          # buraco sem voz maior que isso, dentro da fala, e cortado
+SIL_MIN = 0.15          # buraco sem voz maior que isso, dentro da fala, e cortado (0,08 comia "e", "a" fracos entre palavras; respiracao dura 0,2 s ou mais)
 BRUTO = {}
 INCL = {}
 INCL_VOZ = 10.0         # dentro da palavra, so conta como voz o que tem grave pelo menos 10 dB acima do agudo
