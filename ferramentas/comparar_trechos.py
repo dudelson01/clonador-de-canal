@@ -28,7 +28,8 @@ ruins = 0
 for n, tr in enumerate(plano["trechos"]):
     ps = [p for p in D if p["n"] == n]
     if not ps: print(f"#{n} SUMIU INTEIRO: {tr.get('obs','')}"); ruins += 1; continue
-    o = txt(A[ps[0]["t"]], min(p["s"] for p in ps) - 0.05, max(p["e"] for p in ps) + 0.05)
+    # original = a frase PEDIDA inteira (nao so o que sobrou), senao palavra comida na borda nao aparece
+    o = txt(A[ps[0]["t"]], min(tr.get("ini", 1e9), min(p["s"] for p in ps)) - 0.05, max(tr.get("fim", 0), max(p["e"] for p in ps)) + 0.05)
     c = txt(C, ps[0]["dst_s"] - 0.02, ps[-1]["dst_e"] + 0.02)
     perdas = []
     for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, o, c, autojunk=False).get_opcodes():
