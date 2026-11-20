@@ -105,7 +105,10 @@ def apertar(pedacos, tomadas, trans=None):
         tot, low, lt, ll = E[p["t"]]
         a, b = int(p["s"] / QUADRO), int(p["e"] / QUADRO)
         i0 = max(0, a - int(BUSCA / QUADRO)); i1 = min(len(tot), b + int(BUSCA / QUADRO))
-        voz = low[i0:i1] > ll          # vibracao de voz (com tom regular)
+        # voz = vibracao com tom regular OU som forte com cara de voz (grave >> agudo): pega silaba fraca/rouca
+        # do comeco e do fim da frase ("Ate", "Mas", "fui"), que o tom sozinho perdia. Respiracao e plana e fica de fora.
+        bruto_t = BRUTO[tomadas[p["t"]]]; incl_t = INCL[tomadas[p["t"]]]
+        voz = (low[i0:i1] > ll) | ((bruto_t[i0:i1] > ll) & (incl_t[i0:i1] >= INCL_VOZ))
         if trans:                      # protege as palavras: voz soprada/rouca dentro de palavra fica
             bruto = BRUTO[tomadas[p["t"]]]; incl = INCL[tomadas[p["t"]]]
             for w in trans[p["t"]]:
