@@ -116,7 +116,7 @@ window.quadro = function(a, t, dur){
       const q = back((t-t0)/0.2), ok = it.ok !== false;
       return `<div style="display:flex;align-items:center;gap:26px;margin:14px 0;transform:translateX(${(1-q)*-60}px);opacity:${Math.min(1,(t-t0)/0.08)}">
         <div style="width:72px;height:72px;border-radius:14px;background:${ok?'#16b45a':'#e0141e'};color:#fff;font:900 54px Inter;display:flex;align-items:center;justify-content:center">${ok?'✓':'✗'}</div>
-        <div style="font:900 64px Inter,sans-serif;color:#fff;text-shadow:0 4px 14px #000">${it.texto}</div></div>`; }).join('');
+        <div style="font:900 58px Inter,sans-serif;color:#fff;text-shadow:0 4px 14px #000;white-space:normal;max-width:${a.larg||700}px;line-height:1.05">${it.texto}</div></div>`; }).join('');
     h += `<div class="el" style="left:${a.x||120}px;top:${a.y||180}px;opacity:${p*out};background:rgba(0,0,0,.62);padding:30px 44px;border-radius:24px">
           ${a.titulo?`<div style="font:900 40px Inter;color:#ffd400;margin-bottom:8px;text-transform:uppercase">${a.titulo}</div>`:''}${li}</div>`;
   } else if (a.tipo === 'versus'){      // dois lados batendo no centro: A  VS  B
@@ -155,5 +155,32 @@ window.quadro = function(a, t, dur){
           <div style="font:900 46px Inter,sans-serif;color:#fff;text-shadow:0 3px 12px #000;text-transform:uppercase">${a.rotulo||''}</div></div>`;
   }
   palco.innerHTML = h;
+  dentroDaTela();
 };
+
+// Mantem toda arte inteira dentro da area segura (margem de 50 px): mede a largura FINAL (sem a animacao de escala,
+// offsetWidth ignora transform) e empurra para dentro; se for maior que a tela, diminui.
+function dentroDaTela(){
+  const M = 50, W = 1920;
+  for (const el of palco.children){
+    if (!el.classList || !el.classList.contains('el')) continue;
+    el.style.width = 'max-content';      // largura natural (senao a caixa estica/encolhe conforme o espaco ate a borda)
+    const w = el.offsetWidth; if (!w) continue;
+    const tf = el.style.transform || '';
+    // deslocamento horizontal em % da propria largura (translate(-50%..), translateX(-110%), calc(-50% + ..))
+    const mt = tf.match(/translate(?:X)?\(\s*(?:calc\()?\s*(-?[\d.]+)%/);
+    const frac = mt ? parseFloat(mt[1]) / 100 : 0;
+    let left;
+    if (el.style.left.endsWith('%')) left = W * parseFloat(el.style.left) / 100;
+    else if (el.style.left) left = parseFloat(el.style.left);
+    else if (el.style.right) left = W - parseFloat(el.style.right) - w;
+    else continue;
+    let L = left + frac * w, R = L + w;
+    if (w > W - 2*M){ el.style.zoom = ((W - 2*M) / w).toFixed(3); continue; }
+    let dx = 0;
+    if (R > W - M) dx = (W - M) - R;
+    if (L + dx < M) dx = M - L;
+    if (dx) el.style.marginLeft = dx + 'px';
+  }
+}
 </script></body></html>
