@@ -61,7 +61,8 @@ def main():
         cands = [c for c in achado if LIVRE.search(c["lic"]) and c["w"] >= 800]
         if not cands: print("NADA livre para", nome, "|", busca); continue
         c = cands[0]
-        open(dest, "wb").write(baixa(c["url"]))
+        dados = baixa(c["url"])            # baixa tudo antes de criar o arquivo (arquivo vazio = foto quebrada)
+        open(dest, "wb").write(dados)
         cred.write(f"{nome}.jpg | {c['titulo']} | {c['autor']} | {c['lic']} | {c['pagina']}\n"); cred.flush()
         print("ok", nome, "<-", c["titulo"], "|", c["lic"])
         time.sleep(4)

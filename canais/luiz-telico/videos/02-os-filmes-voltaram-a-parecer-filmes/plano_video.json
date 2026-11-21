@@ -1,0 +1,2738 @@
+{
+ "fala": "build/fala.mp4",
+ "fontes": {},
+ "inicio": 0.0,
+ "fim": 529.11,
+ "trilha": {
+  "arquivo": "midia/som/trilha.wav",
+  "volume_db": -21
+ },
+ "efeitos_dir": "midia/som/efeitos",
+ "cenas": [
+  {
+   "ini": 0.0,
+   "fim": 3.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 3.3,
+   "fim": 6.6,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 6.6,
+   "fim": 10.27,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 10.27,
+   "fim": 13.94,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 13.94,
+   "fim": 17.17,
+   "tipo": "rosto",
+   "zoom": [
+    1.06,
+    1.12
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 17.17,
+   "fim": 20.4,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 20.4,
+   "fim": 23.71,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 23.71,
+   "fim": 27.02,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 27.02,
+   "fim": 30.69,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 30.69,
+   "fim": 34.36,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 34.36,
+   "fim": 37.02,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 37.02,
+   "fim": 39.52,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "efeito": "lavado",
+   "sfx": [
+    [
+     "boing",
+     0.35
+    ]
+   ]
+  },
+  {
+   "ini": 39.52,
+   "fim": 45.1,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "ini": 45.1,
+   "fim": 48.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "subida",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 48.7,
+   "fim": 54.44,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 54.44,
+   "fim": 60.26,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 60.26,
+   "fim": 63.58,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 63.58,
+   "fim": 67.47,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.14
+   ]
+  },
+  {
+   "ini": 67.47,
+   "fim": 71.36,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 71.36,
+   "fim": 75.16,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.03
+   ],
+   "sfx": [
+    [
+     "pop",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 75.16,
+   "fim": 77.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "pop",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 77.3,
+   "fim": 78.16,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "errou",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 78.16,
+   "fim": 81.56,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 81.56,
+   "fim": 87.32,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 87.32,
+   "fim": 91.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.18,
+    1.0
+   ],
+   "sfx": [
+    [
+     "impacto",
+     0.05
+    ]
+   ]
+  },
+  {
+   "ini": 91.2,
+   "fim": 94.42,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 94.42,
+   "fim": 97.64,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 97.64,
+   "fim": 99.22,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 99.22,
+   "fim": 101.26,
+   "tipo": "rosto",
+   "zoom": [
+    1.06,
+    1.12
+   ]
+  },
+  {
+   "ini": 101.26,
+   "fim": 105.72,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "sfx": [
+    [
+     "rebobinar",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 105.72,
+   "fim": 108.76,
+   "tipo": "rosto",
+   "zoom": [
+    1.08,
+    1.14
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 108.76,
+   "fim": 111.82,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 111.82,
+   "fim": 114.48,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 114.48,
+   "fim": 118.61,
+   "tipo": "rosto",
+   "zoom": [
+    1.06,
+    1.1
+   ]
+  },
+  {
+   "ini": 118.61,
+   "fim": 122.74,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 122.74,
+   "fim": 127.08,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "boing",
+     0.2
+    ]
+   ]
+  },
+  {
+   "ini": 127.08,
+   "fim": 129.68,
+   "tipo": "rosto",
+   "zoom": [
+    1.3,
+    1.42
+   ]
+  },
+  {
+   "ini": 129.68,
+   "fim": 131.74,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.04
+   ]
+  },
+  {
+   "ini": 131.74,
+   "fim": 134.38,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "bonk",
+     0.1
+    ]
+   ]
+  },
+  {
+   "ini": 134.38,
+   "fim": 137.56,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 137.56,
+   "fim": 140.6,
+   "tipo": "rosto",
+   "zoom": [
+    1.06,
+    1.12
+   ]
+  },
+  {
+   "ini": 140.6,
+   "fim": 141.72,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 141.72,
+   "fim": 144.9,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 144.9,
+   "fim": 148.08,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 148.08,
+   "fim": 152.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.04,
+    1.1
+   ],
+   "efeito": "crt",
+   "sfx": [
+    [
+     "rebobinar",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 152.3,
+   "fim": 156.54,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ],
+   "efeito": "crt"
+  },
+  {
+   "ini": 156.54,
+   "fim": 158.56,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "efeito": "crt",
+   "sfx": [
+    [
+     "bonk",
+     0.15
+    ]
+   ]
+  },
+  {
+   "ini": 158.56,
+   "fim": 163.16,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "efeito": "crt"
+  },
+  {
+   "ini": 163.16,
+   "fim": 165.52,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "impacto",
+     0.1
+    ]
+   ]
+  },
+  {
+   "ini": 165.52,
+   "fim": 167.94,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 167.94,
+   "fim": 171.46,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ],
+   "efeito": "vivido",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 171.46,
+   "fim": 175.06,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ],
+   "efeito": "pb",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 175.06,
+   "fim": 179.36,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 179.36,
+   "fim": 184.42,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 184.42,
+   "fim": 187.98,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ],
+   "efeito": "vermelho",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 187.98,
+   "fim": 191.54,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ],
+   "efeito": "vermelho",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 191.54,
+   "fim": 195.88,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 195.88,
+   "fim": 198.34,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 198.34,
+   "fim": 202.34,
+   "tipo": "rosto",
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  },
+  {
+   "ini": 202.34,
+   "fim": 203.88,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 203.88,
+   "fim": 206.38,
+   "tipo": "rosto",
+   "zoom": [
+    1.06,
+    1.12
+   ]
+  },
+  {
+   "ini": 206.38,
+   "fim": 209.51,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 209.51,
+   "fim": 212.64,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 212.64,
+   "fim": 215.44,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 215.44,
+   "fim": 220.64,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 220.64,
+   "fim": 222.5,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "subida",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 222.5,
+   "fim": 227.12,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 227.12,
+   "fim": 230.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 230.3,
+   "fim": 235.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 235.7,
+   "fim": 238.8,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.04
+   ]
+  },
+  {
+   "ini": 238.8,
+   "fim": 240.96,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "errou",
+     0.6
+    ]
+   ]
+  },
+  {
+   "ini": 240.96,
+   "fim": 243.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.08,
+    1.12
+   ]
+  },
+  {
+   "ini": 243.3,
+   "fim": 247.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 247.3,
+   "fim": 251.36,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ],
+   "efeito": "pb",
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 251.36,
+   "fim": 254.1,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 254.1,
+   "fim": 257.39,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 257.39,
+   "fim": 260.68,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 260.68,
+   "fim": 263.04,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 263.04,
+   "fim": 266.9,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 266.9,
+   "fim": 269.44,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "impacto",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 269.44,
+   "fim": 271.32,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 271.32,
+   "fim": 277.14,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 277.14,
+   "fim": 279.88,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 279.88,
+   "fim": 282.5,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "boing",
+     0.8
+    ]
+   ]
+  },
+  {
+   "ini": 282.5,
+   "fim": 284.96,
+   "tipo": "rosto",
+   "zoom": [
+    1.04,
+    1.1
+   ],
+   "sfx": [
+    [
+     "plim",
+     0.4
+    ]
+   ]
+  },
+  {
+   "ini": 284.96,
+   "fim": 289.09,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 289.09,
+   "fim": 293.22,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 293.22,
+   "fim": 298.52,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 298.52,
+   "fim": 300.76,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "plim",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 300.76,
+   "fim": 304.58,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.14
+   ]
+  },
+  {
+   "ini": 304.58,
+   "fim": 308.4,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 308.4,
+   "fim": 310.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.03
+   ],
+   "sfx": [
+    [
+     "pop",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 310.2,
+   "fim": 314.04,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "errou",
+     1.0
+    ]
+   ]
+  },
+  {
+   "ini": 314.04,
+   "fim": 316.46,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "sfx": [
+    [
+     "rebobinar",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 316.46,
+   "fim": 319.98,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 319.98,
+   "fim": 322.68,
+   "tipo": "rosto",
+   "zoom": [
+    1.06,
+    1.12
+   ]
+  },
+  {
+   "ini": 322.68,
+   "fim": 325.0,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 325.0,
+   "fim": 330.92,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 330.92,
+   "fim": 334.03,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 334.03,
+   "fim": 337.14,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 337.14,
+   "fim": 341.28,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 341.28,
+   "fim": 345.24,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 345.24,
+   "fim": 348.78,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 348.78,
+   "fim": 353.16,
+   "tipo": "rosto",
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  },
+  {
+   "ini": 353.16,
+   "fim": 355.22,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 355.22,
+   "fim": 357.68,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 357.68,
+   "fim": 360.06,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "impacto",
+     0.1
+    ]
+   ]
+  },
+  {
+   "ini": 360.06,
+   "fim": 361.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "ini": 361.2,
+   "fim": 362.92,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "bonk",
+     0.4
+    ]
+   ]
+  },
+  {
+   "ini": 362.92,
+   "fim": 365.94,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.2
+   ]
+  },
+  {
+   "ini": 365.94,
+   "fim": 368.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 368.7,
+   "fim": 374.44,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 374.44,
+   "fim": 377.0,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "plim",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 377.0,
+   "fim": 379.14,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.04
+   ]
+  },
+  {
+   "ini": 379.14,
+   "fim": 382.17,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 382.17,
+   "fim": 385.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 385.2,
+   "fim": 389.84,
+   "tipo": "rosto",
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  },
+  {
+   "ini": 389.84,
+   "fim": 393.233,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 393.233,
+   "fim": 396.627,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 396.627,
+   "fim": 400.02,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 400.02,
+   "fim": 402.84,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.04
+   ]
+  },
+  {
+   "ini": 402.84,
+   "fim": 407.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  },
+  {
+   "ini": 407.7,
+   "fim": 410.48,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 410.48,
+   "fim": 413.26,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 413.26,
+   "fim": 415.94,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 415.94,
+   "fim": 417.82,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 417.82,
+   "fim": 422.5,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 422.5,
+   "fim": 427.58,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 427.58,
+   "fim": 430.8,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "boing",
+     1.4
+    ]
+   ]
+  },
+  {
+   "ini": 430.8,
+   "fim": 432.26,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 432.26,
+   "fim": 434.8,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 434.8,
+   "fim": 438.2,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 438.2,
+   "fim": 441.6,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 441.6,
+   "fim": 443.6,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "errou",
+     0.5
+    ]
+   ]
+  },
+  {
+   "ini": 443.6,
+   "fim": 447.4,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 447.4,
+   "fim": 449.62,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "plim",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 449.62,
+   "fim": 451.8,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 451.8,
+   "fim": 453.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 453.7,
+   "fim": 457.09,
+   "tipo": "rosto",
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  },
+  {
+   "ini": 457.09,
+   "fim": 460.48,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 460.48,
+   "fim": 463.87,
+   "tipo": "rosto",
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  },
+  {
+   "ini": 463.87,
+   "fim": 467.26,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 467.26,
+   "fim": 470.34,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "errou",
+     0.8
+    ]
+   ]
+  },
+  {
+   "ini": 470.34,
+   "fim": 474.08,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 474.08,
+   "fim": 477.88,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 477.88,
+   "fim": 481.92,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 481.92,
+   "fim": 486.16,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 486.16,
+   "fim": 488.08,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 488.08,
+   "fim": 490.78,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  },
+  {
+   "ini": 490.78,
+   "fim": 495.68,
+   "tipo": "rosto",
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  },
+  {
+   "ini": 495.68,
+   "fim": 497.24,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 497.24,
+   "fim": 499.56,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 499.56,
+   "fim": 501.38,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 501.38,
+   "fim": 503.84,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 503.84,
+   "fim": 507.56,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "subida",
+     0.2
+    ]
+   ]
+  },
+  {
+   "ini": 507.56,
+   "fim": 509.34,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 509.34,
+   "fim": 511.72,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ],
+   "efeito": "pb",
+   "sfx": [
+    [
+     "impacto",
+     0.1
+    ]
+   ]
+  },
+  {
+   "ini": 511.72,
+   "fim": 515.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.08
+   ],
+   "efeito": "pb"
+  },
+  {
+   "ini": 515.7,
+   "fim": 519.34,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 519.34,
+   "fim": 522.51,
+   "tipo": "rosto",
+   "zoom": [
+    1.04,
+    1.1
+   ]
+  },
+  {
+   "ini": 522.51,
+   "fim": 525.68,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 525.68,
+   "fim": 529.11,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ]
+  }
+ ],
+ "artes": [
+  {
+   "id": "chave_000",
+   "ini": 4.06,
+   "dur": 2.6,
+   "tipo": "chave",
+   "texto": "Sem <b>cor</b>. Sem <b>vida</b>."
+  },
+  {
+   "id": "canto_001",
+   "ini": 7.1,
+   "dur": 6.5,
+   "tipo": "canto",
+   "texto": "OBJETO 1: MULETA"
+  },
+  {
+   "id": "canto_002",
+   "ini": 15.4,
+   "dur": 6.0,
+   "tipo": "canto",
+   "texto": "OBJETO 2: CORTINA"
+  },
+  {
+   "id": "canto_003",
+   "ini": 21.34,
+   "dur": 5.5,
+   "tipo": "canto",
+   "texto": "OBJETO 3: LAPTOP"
+  },
+  {
+   "id": "maquina_004",
+   "ini": 23.94,
+   "dur": 2.6,
+   "tipo": "maquina",
+   "x": 980,
+   "y": 760,
+   "texto": "“BOMBA ATÔMICA DE 2013”",
+   "sfx": "teclas"
+  },
+  {
+   "id": "dinheiro_005",
+   "ini": 35.64,
+   "dur": 1.8,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 200,
+   "fmt": "US$ {v} MI",
+   "rotulo": "de orçamento",
+   "sfx": "ding"
+  },
+  {
+   "id": "meme_006",
+   "ini": 37.02,
+   "dur": 2.2,
+   "tipo": "meme",
+   "texto": "…E ESTÃO IGUAIS À MULETA"
+  },
+  {
+   "id": "maquina_007",
+   "ini": 40.82,
+   "dur": 2.4,
+   "tipo": "maquina",
+   "x": 120,
+   "y": 110,
+   "texto": "“O CINEMA MORREU”",
+   "sfx": "teclas"
+  },
+  {
+   "id": "lista_008",
+   "ini": 42.38,
+   "dur": 3.2,
+   "tipo": "lista",
+   "x": 1180,
+   "y": 200,
+   "titulo": "Hollywood hoje",
+   "vel": 0.55,
+   "itens": [
+    {
+     "texto": "Continuação"
+    },
+    {
+     "texto": "Remake"
+    },
+    {
+     "texto": "Herói igual"
+    }
+   ]
+  },
+  {
+   "id": "carimbo_009",
+   "ini": 45.48,
+   "dur": 1.6,
+   "tipo": "carimbo",
+   "x": 1450,
+   "y": 300,
+   "texto": "2026"
+  },
+  {
+   "id": "cardfilme_010",
+   "ini": 48.7,
+   "dur": 3.4,
+   "tipo": "cardfilme",
+   "titulo": "Obsession",
+   "sub": "custou menos que um apartamento"
+  },
+  {
+   "id": "dinheiro_011",
+   "ini": 52.76,
+   "dur": 2.0,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 500,
+   "fmt": "US$ {v} MI",
+   "rotulo": "de bilheteria",
+   "sfx": "ding"
+  },
+  {
+   "id": "cardfilme_012",
+   "ini": 54.44,
+   "dur": 3.6,
+   "tipo": "cardfilme",
+   "titulo": "Backrooms",
+   "sub": "Kane Parsons, 20 anos, começou no YouTube",
+   "cor": "#e8c300"
+  },
+  {
+   "id": "carimbo_013",
+   "ini": 57.28,
+   "dur": 1.8,
+   "tipo": "carimbo",
+   "x": 1400,
+   "y": 420,
+   "texto": "RECORDE"
+  },
+  {
+   "id": "meme_014",
+   "ini": 60.26,
+   "dur": 2.4,
+   "tipo": "meme",
+   "texto": "IMAGINA SER PRIMO DESSE CARA"
+  },
+  {
+   "id": "dialogo_015",
+   "ini": 63.58,
+   "dur": 11.2,
+   "tipo": "dialogo",
+   "y": 110,
+   "falas": [
+    {
+     "quem": "MÃE",
+     "texto": "Oi, tudo bem, Artuzinho? O seu primo ganhou meio bilhão de dólares. E você?",
+     "t": 0.0,
+     "alto": 230
+    },
+    {
+     "quem": "ARTUZINHO",
+     "texto": "Zerei o GTA 6 em menos de uma semana!",
+     "lado": "dir",
+     "t": 7.780000000000001
+    },
+    {
+     "quem": "MÃE",
+     "texto": "Você é um desgosto pra família.",
+     "t": 11.579999999999998
+    }
+   ]
+  },
+  {
+   "id": "meme_016",
+   "ini": 77.3,
+   "dur": 1.4,
+   "tipo": "meme",
+   "texto": "QUE HORROR!",
+   "cor": "#ff2b2b"
+  },
+  {
+   "id": "contador_017",
+   "ini": 79.1,
+   "dur": 2.2,
+   "tipo": "contador",
+   "x": 1450,
+   "y": 420,
+   "de": 0,
+   "ate": 3000,
+   "rotulo": "ANOS",
+   "tc": 1.0
+  },
+  {
+   "id": "cardfilme_018",
+   "ini": 81.56,
+   "dur": 4.2,
+   "tipo": "cardfilme",
+   "titulo": "A Odisseia",
+   "sub": "Christopher Nolan · 2026"
+  },
+  {
+   "id": "carimbo_019",
+   "ini": 85.68,
+   "dur": 1.8,
+   "tipo": "carimbo",
+   "x": 1400,
+   "y": 380,
+   "texto": "MAIOR ESTREIA DO NOLAN",
+   "rot": -6
+  },
+  {
+   "id": "meme_020",
+   "ini": 87.32,
+   "dur": 3.4,
+   "tipo": "meme",
+   "y": 90,
+   "texto": "OS FILMES VOLTARAM A PARECER FILMES",
+   "tam": 92
+  },
+  {
+   "id": "versus_021",
+   "ini": 92.66,
+   "dur": 3.4,
+   "tipo": "versus",
+   "a": "FINAL BOM",
+   "b": "FINAL RUIM",
+   "tam": 100
+  },
+  {
+   "id": "perigo_022",
+   "ini": 98.28,
+   "dur": 1.3,
+   "tipo": "perigo",
+   "texto": "JÁ COMEÇOU"
+  },
+  {
+   "id": "maquina_023",
+   "ini": 99.22,
+   "dur": 2.0,
+   "tipo": "maquina",
+   "x": 120,
+   "y": 860,
+   "texto": "FICA ATÉ O FIM…",
+   "sfx": "teclas"
+  },
+  {
+   "id": "chave_024",
+   "ini": 105.72,
+   "dur": 3.0,
+   "tipo": "chave",
+   "texto": "Cor apagada · tudo <b>cinza</b> · tudo <b>bege</b>"
+  },
+  {
+   "id": "chave_025",
+   "ini": 110.7,
+   "dur": 2.2,
+   "tipo": "chave",
+   "texto": "Rosto nítido, fundo <b>borrado</b>"
+  },
+  {
+   "id": "canto_026",
+   "ini": 118.92,
+   "dur": 3.0,
+   "tipo": "canto",
+   "texto": "EUPHORIA (HBO)"
+  },
+  {
+   "id": "meme_027",
+   "ini": 122.74,
+   "dur": 2.2,
+   "tipo": "meme",
+   "texto": "NÃO QUE EU SEJA TARADO"
+  },
+  {
+   "id": "chave_028",
+   "ini": 127.08,
+   "dur": 2.4,
+   "tipo": "chave",
+   "texto": "Rosto <b>colado</b> na câmera"
+  },
+  {
+   "id": "meme_029",
+   "ini": 130.54,
+   "dur": 1.6,
+   "tipo": "meme",
+   "texto": "NEM É BONITO",
+   "y": 140
+  },
+  {
+   "id": "carimbo_030",
+   "ini": 136.0,
+   "dur": 2.2,
+   "tipo": "carimbo",
+   "x": 1380,
+   "y": 360,
+   "texto": "“VISUAL NETFLIX”"
+  },
+  {
+   "id": "chave_031",
+   "ini": 140.6,
+   "dur": 1.8,
+   "tipo": "chave",
+   "texto": "É uma <b>escolha</b>."
+  },
+  {
+   "id": "lista_032",
+   "ini": 144.64,
+   "dur": 3.6,
+   "tipo": "lista",
+   "x": 1180,
+   "y": 160,
+   "titulo": "Feito pra qualquer tela",
+   "vel": 0.6,
+   "itens": [
+    {
+     "texto": "Celular"
+    },
+    {
+     "texto": "Ônibus"
+    },
+    {
+     "texto": "TV velha"
+    }
+   ]
+  },
+  {
+   "id": "canto_033",
+   "ini": 148.08,
+   "dur": 4.0,
+   "tipo": "canto",
+   "texto": "TV DE TUBO"
+  },
+  {
+   "id": "meme_034",
+   "ini": 163.16,
+   "dur": 2.0,
+   "tipo": "meme",
+   "texto": "O FAMOSO “TÁ BOM ASSIM”"
+  },
+  {
+   "id": "lista_035",
+   "ini": 165.52,
+   "dur": 2.6,
+   "tipo": "lista",
+   "x": 1250,
+   "y": 240,
+   "vel": 0.45,
+   "itens": [
+    {
+     "texto": "Enquadra"
+    },
+    {
+     "texto": "Foca"
+    },
+    {
+     "texto": "Ilumina"
+    },
+    {
+     "texto": "Pronto."
+    }
+   ]
+  },
+  {
+   "id": "cardfilme_036",
+   "ini": 167.94,
+   "dur": 3.4,
+   "tipo": "cardfilme",
+   "titulo": "Duna: Parte 2",
+   "sub": "Denis Villeneuve · 2024",
+   "cor": "#ff8a1e"
+  },
+  {
+   "id": "chave_037",
+   "ini": 173.22,
+   "dur": 2.4,
+   "tipo": "chave",
+   "texto": "Gladiador em <b>preto e branco</b> no sol negro"
+  },
+  {
+   "id": "cardfilme_038",
+   "ini": 177.86,
+   "dur": 2.8,
+   "tipo": "cardfilme",
+   "titulo": "A Odisseia",
+   "sub": "filmado inteiro com câmeras IMAX"
+  },
+  {
+   "id": "meme_039",
+   "ini": 180.42,
+   "dur": 2.4,
+   "tipo": "meme",
+   "texto": "DO TAMANHO DE UMA GELADEIRA",
+   "tam": 96
+  },
+  {
+   "id": "cardfilme_040",
+   "ini": 184.42,
+   "dur": 3.0,
+   "tipo": "cardfilme",
+   "titulo": "Batman",
+   "sub": "Matt Reeves · 2022",
+   "cor": "#c40000"
+  },
+  {
+   "id": "chave_041",
+   "ini": 191.54,
+   "dur": 2.6,
+   "tipo": "chave",
+   "texto": "Nenhuma era <b>segura</b>"
+  },
+  {
+   "id": "dinheiro_042",
+   "ini": 203.24,
+   "dur": 2.2,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 1,
+   "fmt": "₿ {v}",
+   "rotulo": "o risco que deu certo",
+   "tc": 0.4,
+   "cor": "#f7931a",
+   "sfx": "ding"
+  },
+  {
+   "id": "canto_043",
+   "ini": 204.2,
+   "dur": 3.2,
+   "tipo": "canto",
+   "texto": "DANIEL FRAGA (YOUTUBER)"
+  },
+  {
+   "id": "meme_044",
+   "ini": 208.9,
+   "dur": 2.2,
+   "tipo": "meme",
+   "texto": "FICOU RICO ANTES DE TODO MUNDO",
+   "tam": 90
+  },
+  {
+   "id": "chave_045",
+   "ini": 217.14,
+   "dur": 2.6,
+   "tipo": "chave",
+   "texto": "Um garoto do YouTube <b>derrubou Hollywood</b>"
+  },
+  {
+   "id": "maquina_046",
+   "ini": 222.5,
+   "dur": 3.0,
+   "tipo": "maquina",
+   "x": 120,
+   "y": 110,
+   "texto": "2020 · FIM DAS FILMAGENS DE TENET",
+   "sfx": "teclas"
+  },
+  {
+   "id": "canto_047",
+   "ini": 225.0,
+   "dur": 3.0,
+   "tipo": "canto",
+   "texto": "ROBERT PATTINSON"
+  },
+  {
+   "id": "chave_048",
+   "ini": 228.06,
+   "dur": 2.4,
+   "tipo": "chave",
+   "texto": "Discursos de <b>J. Robert Oppenheimer</b>"
+  },
+  {
+   "id": "carimbo_050",
+   "ini": 234.6,
+   "dur": 1.6,
+   "tipo": "carimbo",
+   "x": 640,
+   "y": 520,
+   "texto": "AMIZADE CANCELADA",
+   "rot": -8
+  },
+  {
+   "id": "lista_049",
+   "ini": 235.7,
+   "dur": 5.4600000000000195,
+   "tipo": "lista",
+   "x": 1080,
+   "y": 150,
+   "titulo": "Presente de amigo rico",
+   "vel": 0.75,
+   "itens": [
+    {
+     "texto": "Lamborghini"
+    },
+    {
+     "texto": "Ferrari"
+    },
+    {
+     "texto": "iPhone 18"
+    },
+    {
+     "texto": "Livro do Oppenheimer",
+     "ok": false
+    }
+   ]
+  },
+  {
+   "id": "chave_051",
+   "ini": 246.1,
+   "dur": 2.0,
+   "tipo": "chave",
+   "texto": "Leu e <b>não conseguiu largar</b>"
+  },
+  {
+   "id": "chave_052",
+   "ini": 247.3,
+   "dur": 3.4,
+   "tipo": "chave",
+   "texto": "Um cientista vivendo com o que <b>soltou no mundo</b>"
+  },
+  {
+   "id": "cardfilme_053",
+   "ini": 251.36,
+   "dur": 3.0,
+   "tipo": "cardfilme",
+   "titulo": "Oppenheimer",
+   "sub": "Christopher Nolan · 2023"
+  },
+  {
+   "id": "contador_054",
+   "ini": 254.1,
+   "dur": 2.0,
+   "tipo": "contador",
+   "x": 1450,
+   "y": 400,
+   "de": 0,
+   "ate": 3,
+   "rotulo": "HORAS",
+   "tc": 0.6
+  },
+  {
+   "id": "dinheiro_055",
+   "ini": 257.56,
+   "dur": 2.2,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 950,
+   "fmt": "US$ {v} MI",
+   "rotulo": "no mundo",
+   "sfx": "ding"
+  },
+  {
+   "id": "meme_056",
+   "ini": 266.9,
+   "dur": 1.8,
+   "tipo": "meme",
+   "texto": "ISSO É MUITA COISA!"
+  },
+  {
+   "id": "cardfilme_057",
+   "ini": 269.44,
+   "dur": 3.0,
+   "tipo": "cardfilme",
+   "titulo": "Backrooms",
+   "sub": "A24 · 2026",
+   "cor": "#e8c300"
+  },
+  {
+   "id": "canto_058",
+   "ini": 271.32,
+   "dur": 4.0,
+   "tipo": "canto",
+   "texto": "KANE PARSONS"
+  },
+  {
+   "id": "chave_059",
+   "ini": 283.48,
+   "dur": 1.8,
+   "tipo": "chave",
+   "texto": "Ele estava sendo <b>criativo</b>"
+  },
+  {
+   "id": "carimbo_060",
+   "ini": 286.06,
+   "dur": 2.0,
+   "tipo": "carimbo",
+   "x": 1400,
+   "y": 380,
+   "texto": "Nº 1 MAIS JOVEM"
+  },
+  {
+   "id": "carimbo_061",
+   "ini": 289.94,
+   "dur": 1.8,
+   "tipo": "carimbo",
+   "x": 520,
+   "y": 640,
+   "texto": "RECORDE DA A24",
+   "rot": 6
+  },
+  {
+   "id": "versus_062",
+   "ini": 295.1,
+   "dur": 2.6,
+   "tipo": "versus",
+   "a": "NINGUÉM MANDOU",
+   "b": "ELES QUISERAM",
+   "cor1": "#ffffff",
+   "cor2": "#2bd96b",
+   "tam": 84
+  },
+  {
+   "id": "dialogo_063",
+   "ini": 300.76,
+   "dur": 13.120000000000005,
+   "tipo": "dialogo",
+   "y": 110,
+   "falas": [
+    {
+     "quem": "MÃE",
+     "texto": "Filho, o seu outro primo criou os Backrooms. E você, o que fez?",
+     "t": 0.0,
+     "alto": 230
+    },
+    {
+     "quem": "ARTUZINHO",
+     "texto": "Ah, mamãe, eu criei um canal no YouTube!",
+     "lado": "dir",
+     "t": 7.639999999999986
+    },
+    {
+     "quem": "MÃE",
+     "texto": "Você é o desgosto da família!",
+     "t": 9.439999999999998
+    }
+   ]
+  },
+  {
+   "id": "inscrever_064",
+   "ini": 308.8,
+   "dur": 1.8,
+   "tipo": "inscrever",
+   "x": 1180,
+   "y": 860
+  },
+  {
+   "id": "cardfilme_065",
+   "ini": 316.46,
+   "dur": 3.4,
+   "tipo": "cardfilme",
+   "titulo": "Vingadores: A Dinastia Kang",
+   "sub": "o plano original",
+   "cor": "#c40000",
+   "tam": 76
+  },
+  {
+   "id": "perigo_066",
+   "ini": 321.02,
+   "dur": 1.3,
+   "tipo": "perigo",
+   "texto": "DESMORONOU"
+  },
+  {
+   "id": "cardfilme_067",
+   "ini": 323.34,
+   "dur": 2.6,
+   "tipo": "cardfilme",
+   "titulo": "Vingadores: Doomsday",
+   "sub": "dezembro de 2026",
+   "cor": "#2e7d32",
+   "tam": 80
+  },
+  {
+   "id": "canto_068",
+   "ini": 326.64,
+   "dur": 3.0,
+   "tipo": "canto",
+   "texto": "ROBERT DOWNEY JR."
+  },
+  {
+   "id": "meme_069",
+   "ini": 327.94,
+   "dur": 2.6,
+   "tipo": "meme",
+   "texto": "DE HOMEM DE FERRO A DOUTOR DESTINO",
+   "tam": 80
+  },
+  {
+   "id": "lista_070",
+   "ini": 330.92,
+   "dur": 6.21999999999997,
+   "tipo": "lista",
+   "x": 1100,
+   "y": 160,
+   "titulo": "Chamaram de volta",
+   "vel": 1.6,
+   "itens": [
+    {
+     "texto": "Robert Downey Jr."
+    },
+    {
+     "texto": "Os mesmos diretores"
+    },
+    {
+     "texto": "X-Men de 20 anos atrás"
+    }
+   ]
+  },
+  {
+   "id": "versus_071",
+   "ini": 345.72,
+   "dur": 2.8,
+   "tipo": "versus",
+   "a": "IDEIA",
+   "b": "PLANILHA"
+  },
+  {
+   "id": "dinheiro_072",
+   "ini": 350.02,
+   "dur": 1.8,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 2.8,
+   "fmt": "US$ {v} BI",
+   "dec": 1,
+   "rotulo": "Vingadores: Ultimato",
+   "sfx": "ding"
+  },
+  {
+   "id": "meme_073",
+   "ini": 357.68,
+   "dur": 2.4,
+   "tipo": "meme",
+   "texto": "TRAZ O HOMEM DE FERRO DE VOLTA!",
+   "tam": 88
+  },
+  {
+   "id": "chave_074",
+   "ini": 361.2,
+   "dur": 2.0,
+   "tipo": "chave",
+   "texto": "(ele <b>morreu</b>, mas a gente dá um jeito)"
+  },
+  {
+   "id": "maquina_075",
+   "ini": 371.12,
+   "dur": 3.0,
+   "tipo": "maquina",
+   "x": 120,
+   "y": 110,
+   "texto": "“Mas filme assim dá dinheiro?”",
+   "sfx": "teclas"
+  },
+  {
+   "id": "meme_076",
+   "ini": 374.44,
+   "dur": 1.8,
+   "tipo": "meme",
+   "texto": "CONFIA NO PAI"
+  },
+  {
+   "id": "cardfilme_077",
+   "ini": 379.14,
+   "dur": 2.4,
+   "tipo": "cardfilme",
+   "titulo": "Obsession",
+   "sub": "Curry Barker · 2026",
+   "cor": "#7b1fa2"
+  },
+  {
+   "id": "dinheiro_078",
+   "ini": 380.52,
+   "dur": 1.8,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 750,
+   "fmt": "US$ {v} MIL",
+   "rotulo": "custou",
+   "cor": "#ff5252"
+  },
+  {
+   "id": "dinheiro_079",
+   "ini": 381.96,
+   "dur": 2.2,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 500,
+   "fmt": "US$ {v} MI",
+   "rotulo": "fez no mundo inteiro",
+   "sfx": "ding"
+  },
+  {
+   "id": "carimbo_080",
+   "ini": 387.72,
+   "dur": 1.8,
+   "tipo": "carimbo",
+   "x": 1400,
+   "y": 380,
+   "texto": "RECORDE HISTÓRICO"
+  },
+  {
+   "id": "dinheiro_081",
+   "ini": 392.76,
+   "dur": 2.4,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 260,
+   "fmt": "US$ {v} MI",
+   "rotulo": "no 1º fim de semana",
+   "sfx": "ding"
+  },
+  {
+   "id": "chave_082",
+   "ini": 402.84,
+   "dur": 2.2,
+   "tipo": "chave",
+   "texto": "As pessoas <b>não pararam</b> de ir ao cinema"
+  },
+  {
+   "id": "chave_083",
+   "ini": 413.26,
+   "dur": 2.6,
+   "tipo": "chave",
+   "texto": "Só sai de casa pelo que <b>não cabe no sofá</b>"
+  },
+  {
+   "id": "cardfilme_084",
+   "ini": 417.82,
+   "dur": 3.4,
+   "tipo": "cardfilme",
+   "titulo": "Ainda Estou Aqui",
+   "sub": "Walter Salles · Oscar de Filme Internacional",
+   "cor": "#2e7d32",
+   "tam": 82
+  },
+  {
+   "id": "cardfilme_085",
+   "ini": 432.26,
+   "dur": 3.0,
+   "tipo": "cardfilme",
+   "titulo": "O Agente Secreto",
+   "sub": "Kleber Mendonça Filho · 2025",
+   "cor": "#ffd400",
+   "tam": 82
+  },
+  {
+   "id": "contador_086",
+   "ini": 435.58,
+   "dur": 2.2,
+   "tipo": "contador",
+   "x": 1450,
+   "y": 380,
+   "de": 0,
+   "ate": 4,
+   "rotulo": "INDICAÇÕES",
+   "tc": 0.6
+  },
+  {
+   "id": "dinheiro_087",
+   "ini": 438.68,
+   "dur": 2.2,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 2,
+   "fmt": "{v} MILHÕES",
+   "rotulo": "de pessoas no cinema",
+   "cor": "#ffd400",
+   "tc": 0.6
+  },
+  {
+   "id": "chave_088",
+   "ini": 444.76,
+   "dur": 2.6,
+   "tipo": "chave",
+   "texto": "Brasileiro vai ver filme brasileiro? <b>Sim.</b>"
+  },
+  {
+   "id": "meme_089",
+   "ini": 451.8,
+   "dur": 1.8,
+   "tipo": "meme",
+   "texto": "“AH, É BRASILEIRO?”"
+  },
+  {
+   "id": "lista_090",
+   "ini": 457.28,
+   "dur": 9.980000000000018,
+   "tipo": "lista",
+   "x": 1080,
+   "y": 170,
+   "titulo": "A receita",
+   "vel": 1.8,
+   "itens": [
+    {
+     "texto": "Gente falando nada com nada"
+    },
+    {
+     "texto": "Diálogo horroroso"
+    },
+    {
+     "texto": "Sotaque forçado"
+    }
+   ]
+  },
+  {
+   "id": "carimbo_091",
+   "ini": 469.18,
+   "dur": 1.6,
+   "tipo": "carimbo",
+   "x": 1400,
+   "y": 420,
+   "texto": "NINGUÉM ASSISTE"
+  },
+  {
+   "id": "chave_092",
+   "ini": 473.28,
+   "dur": 1.8,
+   "tipo": "chave",
+   "texto": "Final <b>feliz</b>?"
+  },
+  {
+   "id": "cardfilme_093",
+   "ini": 474.08,
+   "dur": 3.4,
+   "tipo": "cardfilme",
+   "titulo": "Paramount + Warner",
+   "sub": "acordo de fevereiro de 2026",
+   "cor": "#1565c0",
+   "tam": 82
+  },
+  {
+   "id": "lista_094",
+   "ini": 477.88,
+   "dur": 3.6,
+   "tipo": "lista",
+   "x": 1180,
+   "y": 150,
+   "titulo": "Warner bancou",
+   "vel": 0.55,
+   "itens": [
+    {
+     "texto": "Duna"
+    },
+    {
+     "texto": "Batman"
+    },
+    {
+     "texto": "Barbie"
+    },
+    {
+     "texto": "Pecadores"
+    }
+   ]
+  },
+  {
+   "id": "carimbo_095",
+   "ini": 482.5,
+   "dur": 1.8,
+   "tipo": "carimbo",
+   "x": 1400,
+   "y": 380,
+   "texto": "TRAVADO NA JUSTIÇA"
+  },
+  {
+   "id": "perigo_096",
+   "ini": 489.22,
+   "dur": 1.3,
+   "tipo": "perigo",
+   "texto": "CORTE"
+  },
+  {
+   "id": "lista_097",
+   "ini": 490.78,
+   "dur": 3.4,
+   "tipo": "lista",
+   "x": 1180,
+   "y": 200,
+   "titulo": "Fica só",
+   "vel": 0.6,
+   "itens": [
+    {
+     "texto": "Continuação"
+    },
+    {
+     "texto": "Remake"
+    },
+    {
+     "texto": "Marca conhecida"
+    }
+   ]
+  },
+  {
+   "id": "ia_098",
+   "ini": 509.34,
+   "dur": 2.6,
+   "tipo": "ia",
+   "texto": "IA",
+   "sub": "o final ruim"
+  },
+  {
+   "id": "lista_099",
+   "ini": 511.72,
+   "dur": 3.980000000000018,
+   "tipo": "lista",
+   "x": 1180,
+   "y": 180,
+   "vel": 0.7,
+   "itens": [
+    {
+     "texto": "Diretor",
+     "ok": false
+    },
+    {
+     "texto": "Fotógrafo",
+     "ok": false
+    },
+    {
+     "texto": "Ator",
+     "ok": false
+    },
+    {
+     "texto": "Ninguém",
+     "ok": false
+    }
+   ]
+  },
+  {
+   "id": "inscrever_100",
+   "ini": 521.08,
+   "dur": 2.2,
+   "tipo": "inscrever",
+   "x": 1180,
+   "y": 860
+  },
+  {
+   "id": "meme_101",
+   "ini": 527.04,
+   "dur": 1.4,
+   "tipo": "meme",
+   "texto": "FUI!",
+   "y": 160
+  }
+ ]
+}

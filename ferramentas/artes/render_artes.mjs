@@ -20,6 +20,8 @@ for (const a of artes) {
   const n = Math.round(a.dur * fps);
   for (let i = 0; i < n; i++) {
     await page.evaluate(([a, t, d]) => window.quadro(a, t, d), [a, i / fps, a.dur]);
+    // fotos (polaroid): espera a imagem carregar antes de fotografar o quadro
+    await page.waitForFunction(() => [...document.images].every(im => im.complete), null, { timeout: 15000 });
     await page.screenshot({ path: path.join(dir, String(i).padStart(4, '0') + '.png'), omitBackground: true });
   }
   console.log('ok', a.id, n, 'quadros');

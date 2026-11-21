@@ -14,7 +14,15 @@ FERR = os.path.dirname(os.path.abspath(__file__))
 FPS = 30
 GRADE_ROSTO = "eq=contrast=1.10:saturation=0.88:brightness=-0.035:gamma=0.97,vignette=angle=PI/4.2"
 GRADE_VIDEO = "eq=contrast=1.04:saturation=1.0"
-FOCO_ROSTO = (0.50, 0.36)   # onde fica o rosto no quadro (para o zoom centrar)
+FOCO_ROSTO = (0.50, 0.36)
+# efeitos de cor por cena (cena["efeito"]): ilustram o que a fala diz
+EFEITOS = {
+    "lavado": ",eq=contrast=0.72:saturation=0.45:brightness=0.06,gblur=sigma=0.6",          # "visual Netflix": sem cor, sem contraste
+    "vivido": ",eq=contrast=1.18:saturation=1.55,colorbalance=rs=0.10:gs=0.02:bs=-0.12",     # cor de cinema (deserto de Duna)
+    "pb": ",hue=s=0,eq=contrast=1.25",                                                        # preto e branco
+    "crt": ",hue=s=0.5,eq=contrast=1.3:brightness=0.03,noise=alls=12:allf=t,lenscorrection=k1=-0.25:k2=0.02,vignette=PI/3.2",  # TV de tubo
+    "vermelho": ",colorbalance=rs=0.35:gs=-0.15:bs=-0.15,eq=contrast=1.15",                 # luz vermelha (farol do Batman)
+}   # onde fica o rosto no quadro (para o zoom centrar)
 
 def sh(cmd):
     r = subprocess.run(cmd, capture_output=True, text=True)
@@ -69,7 +77,11 @@ def main():
             lista.append(f"file '{arq}'"); continue
         if c["tipo"] == "rosto":
             ent = ["-ss", f"{c['ini']:.4f}", "-i", P(plano["fala"])]
-            vf = f"{zoom_filtro(z0, z1, dur, c['foco'])},{GRADE_ROSTO}"
+            vf = f"{zoom_filtro(z0, z1, dur, c['foco'])},{GRADE_ROSTO}" + EFEITOS.get(c.get("efeito"), "")
+        elif c["tipo"] == "foto":   # foto parada vira movimento: zoom lento (Ken Burns) no ponto de foco
+            ent = ["-loop", "1", "-framerate", str(FPS), "-t", f"{dur + 0.2:.3f}", "-i", P(c["arquivo"])]
+            vf = (f"scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,"
+                  f"{zoom_filtro(z0, z1, dur, tuple(c.get('foco', (0.5, 0.5))))},{GRADE_VIDEO}" + EFEITOS.get(c.get("efeito"), ""))
         else:
             ent = ["-ss", f"{c['t']:.4f}", "-i", P(plano["fontes"][c["src"]])]
             logo = plano.get("tapa_logo", {}).get(c["src"])
