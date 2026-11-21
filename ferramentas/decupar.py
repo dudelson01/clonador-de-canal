@@ -160,6 +160,65 @@ def apertar(pedacos, tomadas, trans=None):
             meio = round((x["e"] + y["s"]) / 2, 3); x["e"] = meio; y["s"] = meio
     return novos
 
+# --- modo "palavras" (plano["modo"] == "palavras"): corte montado em volta das PALAVRAS transcritas ---
+# O que nao e palavra (dedo na tela, mao no oculos, tosse, nariz, silencio, respiracao) fica de fora.
+# O fim de cada palavra vai ate o som acabar de verdade (+ folga natural), para nao soar abrupto.
+JUNTA = 0.20        # pausa entre palavras ate isso fica como foi falada
+CAUDA = 0.06        # folga natural depois do fim do som
+FOLGA_INI = 0.03    # folga antes do inicio do som
+MAX_FIM, MAX_INI = 0.40, 0.15   # quanto o som pode passar do tempo que o Whisper deu para a palavra
+
+def por_palavras(plano, trans):
+    import numpy as np
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from vozeamento import periodicidade
+    S, B, PISO = {}, {}, {}
+    for k, arq in plano["tomadas"].items():
+        envelopes(arq)
+        b, inc = BRUTO[arq], INCL[arq]
+        per = periodicidade(arq); m = min(len(b), len(per)); b, inc, per = b[:m], inc[:m], per[:m]
+        hf = b - inc
+        piso, piso_hf = np.percentile(b, 10), np.percentile(hf, 10)
+        resp = (inc >= -3) & (inc < 7) & (per < 0.45)                 # sopro: plano, sem tom
+        fric = (inc < -3) & (hf > piso_hf + 12)                       # chiado de consoante
+        som = ((b > piso + 8) & ~resp) | fric
+        S[k] = som; B[k] = b; PISO[k] = piso
+    out = []
+    for n, tr in enumerate(plano["trechos"]):
+        t = tr["t"]; som = S[t]; L = len(som)
+        ws = [w for w in trans[t] if tr["ini"] - 0.02 <= (w["s"] + w["e"]) / 2 <= tr["fim"] + 0.02]
+        if not ws: print(f"aviso: trecho {n} sem palavras"); continue
+        blocos = [[ws[0]["s"], ws[0]["e"]]]
+        for w in ws[1:]:
+            if w["s"] - blocos[-1][1] <= JUNTA: blocos[-1][1] = max(blocos[-1][1], w["e"])
+            else: blocos.append([w["s"], w["e"]])
+        for b0, b1 in blocos:
+            k = min(L - 1, int(round(b1 / QUADRO)))
+            if som[k]:
+                while k + 1 < L and som[k + 1] and (k + 1) * QUADRO <= b1 + MAX_FIM: k += 1
+            else:
+                while k > int(b0 / QUADRO) and not som[k]: k -= 1
+            # nunca termina antes do fim da palavra; depois acompanha o som caindo (fim fraco da vogal) ate 0,15 s
+            kf = max(k + 1, int(round(b1 / QUADRO)))
+            lim = kf + int(0.15 / QUADRO)
+            while kf < min(L, lim) and B[t][kf] > PISO[t] + 4: kf += 1
+            fim = kf * QUADRO + CAUDA
+            j = min(L - 1, int(round(b0 / QUADRO)))
+            if j > 0 and som[j - 1]:
+                while j - 1 >= 0 and som[j - 1] and (j - 1) * QUADRO >= b0 - MAX_INI: j -= 1
+            else:
+                while j < k and not som[j]: j += 1
+            ini = max(0, min(j * QUADRO, b0) - FOLGA_INI)   # nunca comeca depois do inicio da palavra
+            if fim - ini < 0.08: continue
+            if out and out[-1]["t"] == t and out[-1]["n"] == n and ini <= out[-1]["e"] + 0.02:
+                out[-1]["e"] = round(max(out[-1]["e"], fim), 3); continue
+            out.append({"t": t, "s": round(ini, 3), "e": round(fim, 3), "n": n, "bloco": tr.get("bloco", ""), "texto": tr.get("obs", "")})
+    # pedaco vizinho da mesma tomada nao pode se sobrepor
+    for x, y in zip(out, out[1:]):
+        if x["t"] == y["t"] and y["s"] < x["e"] and y["s"] > x["s"]:
+            meio = round((x["e"] + y["s"]) / 2, 3); x["e"] = meio; y["s"] = meio
+    return out
+
 def main():
     plano = json.load(open(sys.argv[1])); out = sys.argv[2]; preview = "--preview" in sys.argv
     os.makedirs(out, exist_ok=True)
@@ -195,7 +254,7 @@ def main():
                         "texto": " ".join(w["w"] for w in ws)})
     if erros:
         print("\n".join(erros)); sys.exit(1)
-    pedacos = apertar(pedacos, plano["tomadas"], trans)
+    pedacos = por_palavras(plano, trans) if plano.get("modo") == "palavras" else apertar(pedacos, plano["tomadas"], trans)
     # encaixa cada corte na borda de um quadro (1/30 s): imagem e som com a MESMA duracao, sem atraso acumulado
     FPS = 30
     for p in pedacos:
@@ -227,7 +286,7 @@ def main():
         nq = round(d * FPS)
         subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", f"{p['s']:.4f}", "-i", fonte,
                         "-t", f"{nq / FPS + 0.1:.4f}", "-vf", f"trim=end_frame={nq},setpts=PTS-STARTPTS,{escala}format=yuv420p",
-                        "-af", f"asetpts=PTS-STARTPTS,aresample=48000,apad=whole_dur={nq / FPS:.4f},atrim=end={nq / FPS:.4f},afade=t=in:d=0.012,afade=t=out:st={max(0, nq / FPS - 0.015):.4f}:d=0.015",
+                        "-af", f"asetpts=PTS-STARTPTS,aresample=48000,apad=whole_dur={nq / FPS:.4f},atrim=end={nq / FPS:.4f},afade=t=in:d=0.015,afade=t=out:st={max(0, nq / FPS - 0.025):.4f}:d=0.025",
                         "-c:v", "libx264", "-preset", "ultrafast" if preview else "fast", "-crf", "20",
                         "-c:a", "pcm_s16le", "-ac", "1", "-ar", "48000", arq.replace(".mp4", ".mov")], check=True)
         lista.append(f"file '{os.path.abspath(arq.replace('.mp4', '.mov'))}'")
