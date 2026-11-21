@@ -1,6 +1,17 @@
 {
  "fala": "build/fala.mp4",
- "fontes": {},
+ "fontes": {
+  "duna": "midia/trailers/duna.mp4",
+  "odisseia": "midia/trailers/odisseia.mp4",
+  "batman": "midia/trailers/batman.mp4",
+  "oppenheimer": "midia/trailers/oppenheimer.mp4",
+  "backrooms": "midia/trailers/backrooms.mp4",
+  "obsession": "midia/trailers/obsession.mp4",
+  "doomsday": "midia/trailers/doomsday.mp4",
+  "ainda": "midia/trailers/ainda.mp4",
+  "agente": "midia/trailers/agente.mp4",
+  "barbie": "midia/trailers/barbie.mp4"
+ },
  "inicio": 0.0,
  "fim": 529.11,
  "trilha": {
@@ -132,11 +143,28 @@
   },
   {
    "ini": 39.52,
-   "fim": 45.1,
+   "fim": 44.02,
    "tipo": "rosto",
    "zoom": [
     1.0,
     1.08
+   ]
+  },
+  {
+   "ini": 44.02,
+   "fim": 45.1,
+   "tipo": "video",
+   "src": "doomsday",
+   "t": 106.0,
+   "zoom": [
+    1.37,
+    1.44
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -157,19 +185,35 @@
   {
    "ini": 48.7,
    "fim": 54.44,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "obsession",
+   "t": 110.0,
    "zoom": [
-    1.1,
-    1.16
+    1.21,
+    1.28
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
    "ini": 54.44,
    "fim": 60.26,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "backrooms",
+   "t": 100.0,
    "zoom": [
-    1.1,
-    1.16
+    1.36,
+    1.43
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -247,33 +291,106 @@
   {
    "ini": 78.16,
    "fim": 81.56,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "odisseia",
+   "t": 42.0,
    "zoom": [
-    1.1,
-    1.16
+    1.37,
+    1.44
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
    "ini": 81.56,
    "fim": 87.32,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "odisseia",
+   "t": 10.0,
    "zoom": [
-    1.1,
-    1.16
+    1.37,
+    1.44
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
    "ini": 87.32,
-   "fim": 91.2,
-   "tipo": "rosto",
+   "fim": 88.27,
+   "tipo": "video",
+   "src": "odisseia",
+   "t": 50.0,
    "zoom": [
-    1.18,
-    1.0
+    1.37,
+    1.44
    ],
    "sfx": [
     [
      "impacto",
-     0.05
+     0.03
+    ]
+   ]
+  },
+  {
+   "ini": 88.27,
+   "fim": 89.22,
+   "tipo": "video",
+   "src": "duna",
+   "t": 46.0,
+   "zoom": [
+    1.24,
+    1.31
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0.03
+    ]
+   ],
+   "foco": [
+    0.5,
+    0.42
+   ]
+  },
+  {
+   "ini": 89.22,
+   "fim": 90.17,
+   "tipo": "video",
+   "src": "batman",
+   "t": 92.0,
+   "zoom": [
+    1.37,
+    1.44
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0.03
+    ]
+   ]
+  },
+  {
+   "ini": 90.17,
+   "fim": 91.2,
+   "tipo": "video",
+   "src": "oppenheimer",
+   "t": 172.0,
+   "zoom": [
+    1.26,
+    1.33
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0.03
     ]
    ]
   },
@@ -548,42 +665,60 @@
   {
    "ini": 167.94,
    "fim": 171.46,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "duna",
+   "t": 46.0,
    "zoom": [
-    1.1,
-    1.16
+    1.24,
+    1.31
    ],
-   "efeito": "vivido",
    "sfx": [
     [
      "whoosh",
      0
     ]
+   ],
+   "foco": [
+    0.5,
+    0.42
    ]
   },
   {
    "ini": 171.46,
    "fim": 175.06,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "duna",
+   "t": 100.0,
    "zoom": [
-    1.1,
-    1.16
+    1.24,
+    1.31
    ],
-   "efeito": "pb",
    "sfx": [
     [
      "whoosh",
      0
     ]
+   ],
+   "foco": [
+    0.5,
+    0.42
    ]
   },
   {
    "ini": 175.06,
    "fim": 179.36,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "odisseia",
+   "t": 50.0,
    "zoom": [
-    1.1,
-    1.16
+    1.37,
+    1.44
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -598,12 +733,13 @@
   {
    "ini": 184.42,
    "fim": 187.98,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "batman",
+   "t": 108.0,
    "zoom": [
-    1.1,
-    1.16
+    1.37,
+    1.44
    ],
-   "efeito": "vermelho",
    "sfx": [
     [
      "whoosh",
@@ -614,12 +750,13 @@
   {
    "ini": 187.98,
    "fim": 191.54,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "batman",
+   "t": 130.0,
    "zoom": [
-    1.1,
-    1.16
+    1.37,
+    1.44
    ],
-   "efeito": "vermelho",
    "sfx": [
     [
      "whoosh",
@@ -702,10 +839,18 @@
   {
    "ini": 215.44,
    "fim": 220.64,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "backrooms",
+   "t": 30.0,
    "zoom": [
     1.1,
-    1.16
+    1.17
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -795,12 +940,13 @@
   {
    "ini": 247.3,
    "fim": 251.36,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "oppenheimer",
+   "t": 166.0,
    "zoom": [
-    1.1,
-    1.16
+    1.26,
+    1.33
    ],
-   "efeito": "pb",
    "sfx": [
     [
      "whoosh",
@@ -811,28 +957,35 @@
   {
    "ini": 251.36,
    "fim": 254.1,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "oppenheimer",
+   "t": 94.0,
    "zoom": [
-    1.1,
-    1.16
+    1.26,
+    1.33
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
    "ini": 254.1,
-   "fim": 257.39,
-   "tipo": "rosto",
-   "zoom": [
-    1.1,
-    1.16
-   ]
-  },
-  {
-   "ini": 257.39,
    "fim": 260.68,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "oppenheimer",
+   "t": 100.0,
    "zoom": [
-    1.12,
-    1.17
+    1.26,
+    1.33
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -871,19 +1024,35 @@
   {
    "ini": 269.44,
    "fim": 271.32,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "backrooms",
+   "t": 26.0,
    "zoom": [
     1.1,
-    1.16
+    1.17
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
    "ini": 271.32,
    "fim": 277.14,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "backrooms",
+   "t": 44.0,
    "zoom": [
     1.1,
-    1.16
+    1.17
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -927,20 +1096,19 @@
   },
   {
    "ini": 284.96,
-   "fim": 289.09,
-   "tipo": "rosto",
+   "fim": 293.22,
+   "tipo": "video",
+   "src": "backrooms",
+   "t": 4.0,
    "zoom": [
     1.1,
-    1.16
-   ]
-  },
-  {
-   "ini": 289.09,
-   "fim": 293.22,
-   "tipo": "rosto",
-   "zoom": [
-    1.12,
     1.17
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -1033,10 +1201,18 @@
   {
    "ini": 316.46,
    "fim": 319.98,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "doomsday",
+   "t": 26.0,
    "zoom": [
-    1.1,
-    1.16
+    1.37,
+    1.44
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -1051,19 +1227,35 @@
   {
    "ini": 322.68,
    "fim": 325.0,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "doomsday",
+   "t": 124.0,
    "zoom": [
-    1.1,
-    1.16
+    1.37,
+    1.44
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
    "ini": 325.0,
    "fim": 330.92,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "doomsday",
+   "t": 104.0,
    "zoom": [
-    1.1,
-    1.16
+    1.37,
+    1.44
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -1230,20 +1422,19 @@
   },
   {
    "ini": 379.14,
-   "fim": 382.17,
-   "tipo": "rosto",
-   "zoom": [
-    1.1,
-    1.16
-   ]
-  },
-  {
-   "ini": 382.17,
    "fim": 385.2,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "obsession",
+   "t": 12.0,
    "zoom": [
-    1.12,
-    1.17
+    1.21,
+    1.28
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -1257,29 +1448,19 @@
   },
   {
    "ini": 389.84,
-   "fim": 393.233,
-   "tipo": "rosto",
-   "zoom": [
-    1.1,
-    1.16
-   ]
-  },
-  {
-   "ini": 393.233,
-   "fim": 396.627,
-   "tipo": "rosto",
-   "zoom": [
-    1.12,
-    1.17
-   ]
-  },
-  {
-   "ini": 396.627,
    "fim": 400.02,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "odisseia",
+   "t": 68.0,
    "zoom": [
-    1.1,
-    1.16
+    1.37,
+    1.44
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -1339,19 +1520,35 @@
   {
    "ini": 417.82,
    "fim": 422.5,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "ainda",
+   "t": 38.0,
    "zoom": [
-    1.1,
-    1.16
+    1.08,
+    1.15
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
    "ini": 422.5,
    "fim": 427.58,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "ainda",
+   "t": 102.0,
    "zoom": [
-    1.1,
-    1.16
+    1.08,
+    1.15
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -1372,37 +1569,52 @@
   {
    "ini": 430.8,
    "fim": 432.26,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "oppenheimer",
+   "t": 36.0,
    "zoom": [
-    1.1,
-    1.16
+    1.26,
+    1.33
+   ],
+   "sfx": [
+    [
+     "impacto",
+     0.1
+    ]
    ]
   },
   {
    "ini": 432.26,
    "fim": 434.8,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "agente",
+   "t": 20.0,
    "zoom": [
-    1.1,
-    1.16
+    1.18,
+    1.25
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
    "ini": 434.8,
-   "fim": 438.2,
-   "tipo": "rosto",
-   "zoom": [
-    1.1,
-    1.16
-   ]
-  },
-  {
-   "ini": 438.2,
    "fim": 441.6,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "agente",
+   "t": 100.0,
    "zoom": [
-    1.12,
-    1.17
+    1.18,
+    1.25
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -1534,10 +1746,18 @@
   {
    "ini": 477.88,
    "fim": 481.92,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "barbie",
+   "t": 6.0,
    "zoom": [
-    1.1,
-    1.16
+    1.16,
+    1.23
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -1588,10 +1808,18 @@
   {
    "ini": 497.24,
    "fim": 499.56,
-   "tipo": "rosto",
+   "tipo": "video",
+   "src": "barbie",
+   "t": 10.0,
    "zoom": [
-    1.1,
-    1.16
+    1.16,
+    1.23
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
    ]
   },
   {
@@ -1765,27 +1993,6 @@
    "y": 110,
    "texto": "“O CINEMA MORREU”",
    "sfx": "teclas"
-  },
-  {
-   "id": "lista_008",
-   "ini": 42.38,
-   "dur": 3.2,
-   "tipo": "lista",
-   "x": 1180,
-   "y": 200,
-   "titulo": "Hollywood hoje",
-   "vel": 0.55,
-   "itens": [
-    {
-     "texto": "Continuação"
-    },
-    {
-     "texto": "Remake"
-    },
-    {
-     "texto": "Herói igual"
-    }
-   ]
   },
   {
    "id": "carimbo_009",
@@ -2680,6 +2887,27 @@
     },
     {
      "texto": "Marca conhecida"
+    }
+   ]
+  },
+  {
+   "id": "lista_008",
+   "ini": 492.24,
+   "dur": 3.2,
+   "tipo": "lista",
+   "x": 1180,
+   "y": 200,
+   "titulo": "Hollywood hoje",
+   "vel": 0.55,
+   "itens": [
+    {
+     "texto": "Continuação"
+    },
+    {
+     "texto": "Remake"
+    },
+    {
+     "texto": "Herói igual"
     }
    ]
   },

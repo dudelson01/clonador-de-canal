@@ -32,6 +32,19 @@ def existe(rel): return os.path.exists(os.path.join(AQUI, rel)) and os.path.gets
 TRAILERS = {k: f"midia/trailers/{k}.mp4" for k in
             ("duna", "odisseia", "batman", "oppenheimer", "backrooms", "obsession", "doomsday", "ainda", "agente", "pecadores", "barbie")}
 
+ZMIN = {"agente": 1.18, "ainda": 1.08, "backrooms": 1.10, "barbie": 1.16, "batman": 1.37, "doomsday": 1.37,
+        "duna": 1.24, "obsession": 1.21, "odisseia": 1.37, "oppenheimer": 1.26, "pecadores": 1.10}
+FOCO = {"duna": [0.5, 0.42]}          # Duna tem legenda embutida embaixo: sobe o foco para ela ficar fora
+PILAR = {"backrooms": [(58, 82), (99, 105)]}   # trechos com faixa lateral (4:3): zoom maior
+CORTES_T = json.load(open(os.path.join(AQUI, "build/cortes_trailers.json"))) if os.path.exists(os.path.join(AQUI, "build/cortes_trailers.json")) else {}
+def inicio_do_plano(src, t):
+    """comeca no inicio do plano do trailer que contem t (sem pegar o fim do plano anterior nem preto)."""
+    cs = [c for c in CORTES_T.get(src, {}).get("cortes", []) if c <= t + 0.3]
+    if cs and t - cs[-1] < 1.2: t = cs[-1] + 0.08
+    for a, b in CORTES_T.get(src, {}).get("pretos", []):
+        if a - 0.05 <= t <= b: t = b + 0.05
+    return round(t, 2)
+
 # ---------------- marcas de corte (cenas) ----------------
 cortes = []   # (ini, tipo, dados)
 def _anda(t):   # so as CENAS andam o cursor de busca (artes podem olhar a frente sem atrapalhar)
@@ -45,7 +58,11 @@ def B(t, fontes, efeito_rosto=None, z=(1.08, 1.16), efeito=None, sfx=(("whoosh",
     for f in fontes:
         if isinstance(f, tuple):                       # ("trailer_id", segundo)
             if existe(TRAILERS[f[0]]):
-                cortes.append((t, "video", dict(src=f[0], t=f[1], zoom=list(z), efeito=efeito, sfx=[list(s) for s in sfx]))); return
+                zm = ZMIN.get(f[0], 1.08)
+                if any(a <= f[1] <= b for a, b in PILAR.get(f[0], [])): zm = 1.36
+                d = dict(src=f[0], t=inicio_do_plano(f[0], f[1]), zoom=[zm, round(zm + 0.07, 2)], efeito=efeito, sfx=[list(x) for x in sfx])
+                if f[0] in FOCO: d["foco"] = FOCO[f[0]]
+                cortes.append((t, "video", d)); return
         elif existe(f"midia/fotos/{f}.jpg"):
             d = dict(arquivo=f"midia/fotos/{f}.jpg", zoom=[1.04, 1.14], efeito=efeito, sfx=[list(s) for s in sfx])
             if foco: d["foco"] = foco
@@ -75,14 +92,15 @@ A(T("e estao parecendo eles"), "meme", 2.2, texto="…E ESTÃO IGUAIS À MULETA"
 # ================= GANCHO =================
 R(T("faz anos que a gente"), (1.0, 1.08))
 A(T("o cinema morreu"), "maquina", 2.4, x=120, y=110, texto="“O CINEMA MORREU”", sfx="teclas")
+B(T("filme de heroi"), [("doomsday", 106.0)], efeito_rosto=None)
 A(T("continuacao"), "lista", 3.2, x=1180, y=200, titulo="Hollywood hoje", vel=0.55,
   itens=[{"texto": "Continuação"}, {"texto": "Remake"}, {"texto": "Herói igual"}])
 P(T("so que em 2026"), sfx=[["subida", 0]])
 A(T("2026"), "carimbo", 1.6, x=1450, y=300, texto="2026")
-B(T("um filme de terror"), [("obsession", 12.0), "dolares"], efeito_rosto=None)
+B(T("um filme de terror"), [("obsession", 110.0), "dolares"], efeito_rosto=None)
 A(T("um filme de terror"), "cardfilme", 3.4, titulo="Obsession", sub="custou menos que um apartamento")
 A(T("meio bilhao"), "dinheiro", 2.0, de=0, ate=500, fmt="US$ {v} MI", rotulo="de bilheteria", sfx="ding")
-B(T("um garoto de 20 anos"), [("backrooms", 8.0), "corredor_amarelo"])
+B(T("um garoto de 20 anos"), [("backrooms", 100.0), "corredor_amarelo"])
 A(T("um garoto de 20 anos"), "cardfilme", 3.6, titulo="Backrooms", sub="Kane Parsons, 20 anos, começou no YouTube", cor="#e8c300")
 A(T("a maior estreia"), "carimbo", 1.8, x=1400, y=420, texto="RECORDE")
 
@@ -100,13 +118,15 @@ P(T("que horror"), sfx=[["errou", 0]])
 A(T("que horror"), "meme", 1.4, texto="QUE HORROR!", cor="#ff2b2b")
 
 # ================= A ODISSEIA / TESE =================
-B(T("alem do mais"), [("odisseia", 20.0), "homero", "odisseia_arte"])
+B(T("alem do mais"), [("odisseia", 42.0), "homero", "odisseia_arte"])
 A(T("um poema de quase"), "contador", 2.2, x=1450, y=420, de=0, ate=3000, rotulo="ANOS", tc=1.0)
-B(T("christopher nolan"), [("odisseia", 40.0), "nolan"])
+B(T("christopher nolan"), [("odisseia", 10.0), "nolan"])
 A(T("christopher nolan"), "cardfilme", 4.2, titulo="A Odisseia", sub="Christopher Nolan · 2026")
 A(T("o maior filme da carreira"), "carimbo", 1.8, x=1400, y=380, texto="MAIOR ESTREIA DO NOLAN", rot=-6)
-R(T("os filmes voltaram"), (1.18, 1.0), sfx=[["impacto", 0.05]])
-A(T("os filmes voltaram"), "meme", 3.4, y=90, texto="OS FILMES VOLTARAM A PARECER FILMES", tam=92)
+t0 = T("os filmes voltaram")
+for k, (src, tt) in enumerate([("odisseia", 50.0), ("duna", 46.0), ("batman", 92.0), ("oppenheimer", 172.0)]):
+    B(round(t0 + k * 0.95, 2), [(src, tt)], sfx=(("impacto" if k == 0 else "whoosh", 0.03),))
+A(t0, "meme", 3.4, y=90, texto="OS FILMES VOLTARAM A PARECER FILMES", tam=92)
 R(T("porque hollywood esta"))
 A(T("encruzilhada"), "versus", 3.4, a="FINAL BOM", b="FINAL RUIM", tam=100)
 P(T("o final ruim ja comecou"))
@@ -147,17 +167,17 @@ P(T("e o famoso"), sfx=[["impacto", 0.1]])
 A(T("e o famoso"), "meme", 2.0, texto="O FAMOSO “TÁ BOM ASSIM”")
 R(T("enquadra foca"), (1.0, 1.05))
 A(T("enquadra foca"), "lista", 2.6, x=1250, y=240, vel=0.45, itens=[{"texto": "Enquadra"}, {"texto": "Foca"}, {"texto": "Ilumina"}, {"texto": "Pronto."}])
-B(T("agora pensa em duna"), [("duna", 30.0), "deserto"], efeito_rosto="vivido", efeito=None)
+B(T("agora pensa em duna"), [("duna", 46.0), "deserto"], efeito_rosto="vivido", efeito=None)
 A(T("agora pensa em duna"), "cardfilme", 3.4, titulo="Duna: Parte 2", sub="Denis Villeneuve · 2024", cor="#ff8a1e")
-B(T("naquela cena do gladiador"), [("duna", 95.0)], efeito_rosto="pb", efeito=None)
+B(T("naquela cena do gladiador"), [("duna", 100.0)], efeito_rosto="pb", efeito=None)
 A(T("preto e branco"), "chave", 2.4, texto="Gladiador em <b>preto e branco</b> no sol negro")
-B(T("pensa tambem em a odisseia"), [("odisseia", 55.0), "imax_camera"])
+B(T("pensa tambem em a odisseia"), [("odisseia", 50.0), "imax_camera"])
 A(T("camera imax"), "cardfilme", 2.8, titulo="A Odisseia", sub="filmado inteiro com câmeras IMAX")
 B(T("aquele trambolho"), ["imax_camera", "geladeira"], efeito_rosto=None)
 A(T("do tamanho de uma geladeira"), "meme", 2.4, texto="DO TAMANHO DE UMA GELADEIRA", tam=96)
-B(T("pensa em batman"), [("batman", 25.0), "chuva_noite"], efeito_rosto="vermelho")
+B(T("pensa em batman"), [("batman", 108.0), "chuva_noite"], efeito_rosto="vermelho")
 A(T("pensa em batman"), "cardfilme", 3.0, titulo="Batman", sub="Matt Reeves · 2022", cor="#c40000")
-B(T("contam a historia"), [("batman", 70.0), "chuva_noite"], efeito_rosto="vermelho")
+B(T("contam a historia"), [("batman", 130.0), "chuva_noite"], efeito_rosto="vermelho")
 R(T("nenhuma dessas escolhas"), (1.0, 1.06))
 A(T("nenhuma dessas escolhas"), "chave", 2.6, texto="Nenhuma era <b>segura</b>")
 P(T("e justamente por isso"))
@@ -171,7 +191,7 @@ A(T("ficou muito rico"), "meme", 2.2, texto="FICOU RICO ANTES DE TODO MUNDO", ta
 
 # ================= PONTE =================
 R(T("ate aqui parece so papo"), (1.0, 1.06))
-B(T("mas a imagem bonita nao explica"), ["hollywood"], efeito_rosto=None)
+B(T("mas a imagem bonita nao explica"), ["hollywood", ("backrooms", 30.0)], efeito_rosto=None)
 A(T("um garoto do youtube"), "chave", 2.6, texto="Um garoto do YouTube <b>derrubou Hollywood</b>")
 P(T("isso tem a ver"), sfx=[["subida", 0]])
 
@@ -191,11 +211,11 @@ P(T("mas ele me da um livro"), sfx=[["errou", 0.6]])
 R(T("eu nao sei se eu continuaria"), (1.08, 1.12))
 B(T("mas o nolan ate que gostou"), ["nolan"], efeito_rosto=None)
 A(T("nao conseguiu largar"), "chave", 2.0, texto="Leu e <b>não conseguiu largar</b>")
-B(T("um cientista tentando"), ["trinity", "oppenheimer"], efeito_rosto="pb", efeito="pb")
+B(T("um cientista tentando"), [("oppenheimer", 166.0), "trinity", "oppenheimer"], efeito_rosto="pb")
 A(T("um cientista tentando"), "chave", 3.4, texto="Um cientista vivendo com o que <b>soltou no mundo</b>")
-B(T("tres anos depois"), [("oppenheimer", 15.0), "oppenheimer"])
+B(T("tres anos depois"), [("oppenheimer", 94.0), "oppenheimer"])
 A(T("tres anos depois"), "cardfilme", 3.0, titulo="Oppenheimer", sub="Christopher Nolan · 2023")
-B(T("tres horas de gente"), [("oppenheimer", 60.0), "lousa_fisica"])
+B(T("tres horas de gente"), [("oppenheimer", 100.0), "lousa_fisica"])
 A(T("tres horas de gente"), "contador", 2.0, x=1450, y=400, de=0, ate=3, rotulo="HORAS", tc=0.6)
 A(T("chegou perto de um bilhao"), "dinheiro", 2.2, de=0, ate=950, fmt="US$ {v} MI", rotulo="no mundo", sfx="ding")
 P(T("cara imagina voce pegar"))
@@ -204,15 +224,15 @@ P(T("gente isso e muita coisa"), sfx=[["impacto", 0]])
 A(T("gente isso e muita coisa"), "meme", 1.8, texto="ISSO É MUITA COISA!")
 
 # Backrooms
-B(T("agora pensa no back"), [("backrooms", 20.0), "corredor_amarelo"], efeito=None)
+B(T("agora pensa no back"), [("backrooms", 26.0), "corredor_amarelo"], efeito=None)
 A(T("agora pensa no back"), "cardfilme", 3.0, titulo="Backrooms", sub="A24 · 2026", cor="#e8c300")
-B(T("o ken parsons"), [("backrooms", 45.0), "corredor_amarelo"])
+B(T("o ken parsons"), [("backrooms", 44.0), "corredor_amarelo"])
 A(T("o ken parsons"), "canto", 4.0, texto="KANE PARSONS")
 R(T("adolescente sozinho"), (1.0, 1.06))
 P(T("todo mundo achando"), sfx=[["boing", 0.8]])
 R(T("mas nao ele estava sendo"), (1.04, 1.1), sfx=[["plim", 0.4]])
 A(T("sendo criativo"), "chave", 1.8, texto="Ele estava sendo <b>criativo</b>")
-B(T("em 2026 ele virou"), [("backrooms", 80.0), "corredor_amarelo"])
+B(T("em 2026 ele virou"), [("backrooms", 4.0), "corredor_amarelo"])
 A(T("diretor mais jovem"), "carimbo", 2.0, x=1400, y=380, texto="Nº 1 MAIS JOVEM")
 A(T("a maior estreia da historia da a24"), "carimbo", 1.8, x=520, y=640, texto="RECORDE DA A24", rot=6)
 R(T("o que esses dois"), (1.0, 1.06))
@@ -231,13 +251,13 @@ P(T("voce realmente", depois=309), sfx=[["errou", 1.0]])
 
 # Marvel
 R(T("agora olha o caminho contrario"), (1.0, 1.06), sfx=[["rebobinar", 0]])
-B(T("a marvel anunciou"), [("doomsday", 10.0)], efeito_rosto=None)
+B(T("a marvel anunciou"), [("doomsday", 26.0)], efeito_rosto=None)
 A(T("a marvel anunciou"), "cardfilme", 3.4, titulo="Vingadores: A Dinastia Kang", sub="o plano original", cor="#c40000", tam=76)
 R(T("o ator saiu"), (1.06, 1.12))
 A(T("o plano desmoronou"), "perigo", 1.3, texto="DESMORONOU")
-B(T("e o filme virou outra coisa"), [("doomsday", 40.0)], efeito_rosto=None)
+B(T("e o filme virou outra coisa"), [("doomsday", 124.0)], efeito_rosto=None)
 A(T("virou outra coisa"), "cardfilme", 2.6, titulo="Vingadores: Doomsday", sub="dezembro de 2026", cor="#2e7d32", tam=80)
-B(T("pra salvar"), ["rdj", ("doomsday", 60.0)])
+B(T("pra salvar"), ["rdj", ("doomsday", 104.0)])
 A(T("robert downey"), "canto", 3.0, texto="ROBERT DOWNEY JR.")
 A(T("doutor destino", depois=325) if False else T("o nosso homem de ferro"), "meme", 2.6, texto="DE HOMEM DE FERRO A DOUTOR DESTINO", tam=80)
 R(T("chamaram de volta tambem"), (1.0, 1.06))
@@ -265,13 +285,13 @@ A(T("ah luiz mas nem todo"), "maquina", 3.0, x=120, y=110, texto="“Mas filme a
 P(T("confia no pai"), sfx=[["plim", 0]])
 A(T("confia no pai"), "meme", 1.8, texto="CONFIA NO PAI")
 R(T("caiu um pouquinho"), (1.0, 1.04))
-B(T("obsession custou"), [("obsession", 30.0), "dolares"])
+B(T("obsession custou"), [("obsession", 12.0), "dolares"])
 A(T("obsession custou"), "cardfilme", 2.4, titulo="Obsession", sub="Curry Barker · 2026", cor="#7b1fa2")
 A(T("750 mil"), "dinheiro", 1.8, de=0, ate=750, fmt="US$ {v} MIL", rotulo="custou", cor="#ff5252")
 A(T("e lucrou mais de 500"), "dinheiro", 2.2, de=0, ate=500, fmt="US$ {v} MI", rotulo="fez no mundo inteiro", sfx="ding")
 R(T("e o filme que mais lucrou"), (1.04, 1.1))
 A(T("em toda a historia", depois=386), "carimbo", 1.8, x=1400, y=380, texto="RECORDE HISTÓRICO")
-B(T("a odysseyia") if any(t[0] == "odysseyia" for t in TOK) else T("um poema grego"), [("odisseia", 70.0), "homero"])
+B(T("a odysseyia") if any(t[0] == "odysseyia" for t in TOK) else T("um poema grego"), [("odisseia", 68.0), "homero"])
 A(T("teve a maior estreia da carreira"), "dinheiro", 2.4, de=0, ate=260, fmt="US$ {v} MI", rotulo="no 1º fim de semana", sfx="ding")
 R(T("deixa eu ajeitar"), (1.0, 1.04))
 R(T("as pessoas nao pararam"), (1.04, 1.1))
@@ -283,14 +303,14 @@ A(T("voce so sai de casa"), "chave", 2.6, texto="Só sai de casa pelo que <b>nã
 
 # ================= 4. E O BRASIL =================
 R(T("e nao e so la fora"), (1.0, 1.06))
-B(T("em 2025 ainda estou aqui"), [("ainda", 20.0), "fernanda_torres", "oscar"])
+B(T("em 2025 ainda estou aqui"), [("ainda", 38.0), "fernanda_torres", "oscar"])
 A(T("em 2025 ainda estou aqui"), "cardfilme", 3.4, titulo="Ainda Estou Aqui", sub="Walter Salles · Oscar de Filme Internacional", cor="#2e7d32", tam=82)
-B(T("um filme sobre uma familia"), [("ainda", 60.0), "oscar"])
+B(T("um filme sobre uma familia"), [("ainda", 102.0), "oscar"])
 P(T("ate porque se voce quiser"), sfx=[["boing", 1.4]])
-B(T("melhor voce ficar com"), ["trinity"], efeito_rosto=None, sfx=(("impacto", 0.1),))
-B(T("e logo depois veio o agente"), [("agente", 15.0), "wagner_moura"])
+B(T("melhor voce ficar com"), [("oppenheimer", 36.0), "trinity"], efeito_rosto=None, sfx=(("impacto", 0.1),))
+B(T("e logo depois veio o agente"), [("agente", 20.0), "wagner_moura"])
 A(T("e logo depois veio o agente"), "cardfilme", 3.0, titulo="O Agente Secreto", sub="Kleber Mendonça Filho · 2025", cor="#ffd400", tam=82)
-B(T("virou o filme brasileiro"), [("agente", 50.0), "oscar"])
+B(T("virou o filme brasileiro"), [("agente", 100.0), "oscar"])
 A(T("mais indicado"), "contador", 2.2, x=1450, y=380, de=0, ate=4, rotulo="INDICAÇÕES", tc=0.6)
 A(T("2 milhoes"), "dinheiro", 2.2, de=0, ate=2, fmt="{v} MILHÕES", rotulo="de pessoas no cinema", cor="#ffd400", tc=0.6)
 P(T("saiu sem estatueta"), sfx=[["errou", 0.5]])
@@ -311,7 +331,7 @@ R(T("entao ta tudo resolvido"), (1.0, 1.06))
 A(T("final feliz"), "chave", 1.8, texto="Final <b>feliz</b>?")
 B(T("so que em fevereiro"), ["paramount"], efeito_rosto=None, sfx=(("impacto", 0.1),))
 A(T("so que em fevereiro"), "cardfilme", 3.4, titulo="Paramount + Warner", sub="acordo de fevereiro de 2026", cor="#1565c0", tam=82)
-B(T("o estudio que bancou"), ["warner"], efeito_rosto=None)
+B(T("o estudio que bancou"), ["warner", ("barbie", 6.0)], efeito_rosto=None)
 A(T("o estudio que bancou"), "lista", 3.6, x=1180, y=150, titulo="Warner bancou", vel=0.55,
   itens=[{"texto": "Duna"}, {"texto": "Batman"}, {"texto": "Barbie"}, {"texto": "Pecadores"}])
 B(T("o negocio esta travado"), ["tribunal"], efeito_rosto=None)
