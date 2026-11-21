@@ -79,7 +79,13 @@
    "ini": 72.23,
    "fim": 78.59,
    "bloco": "gancho",
-   "obs": "Um filme de terror que custou menos que um apartamento, fez mais de meio bilhão de dólares"
+   "obs": "Um filme de terror que custou menos que um apartamento, fez mais de meio bilhão de dólares [corte manual: dedo na tela antes de falar]",
+   "corta": [
+    [
+     70.5,
+     72.45
+    ]
+   ]
   },
   {
    "t": "5",
@@ -359,7 +365,13 @@
    "ini": 402.5,
    "fim": 407.64,
    "bloco": "2-backrooms",
-   "obs": "O que esses dois têm em comum? Ninguém mandou eles fazerem esses filmes."
+   "obs": "O que esses dois têm em comum? Ninguém mandou eles fazerem esses filmes. [corte manual: 1 s sem falar]",
+   "corta": [
+    [
+     402.0,
+     402.95
+    ]
+   ]
   },
   {
    "t": "5",
@@ -487,7 +499,13 @@
    "ini": 532.05,
    "fim": 546.02,
    "bloco": "3-dinheiro",
-   "obs": "Caiu um pouquinho o meu oculos, calma ai. Agora sim. Obsession custou... (inteira)"
+   "obs": "Caiu um pouquinho o meu oculos, calma ai. Agora sim. Obsession custou... (inteira) [corte manual: ajeitando o oculos sem falar]",
+   "corta": [
+    [
+     534.33,
+     535.6
+    ]
+   ]
   },
   {
    "t": "5",

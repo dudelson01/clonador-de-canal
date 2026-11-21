@@ -258,6 +258,19 @@ def por_palavras(plano, trans):
             if b - a < 0.08 or (b - a < 0.60 and not forte): continue
             limpo.append(dict(p, s=round(a, 3), e=round(b, 3)))
     out = limpo
+    # cortes manuais pedidos pelo aluno: trecho["corta"] = [[ini, fim], ...] (tempo da gravacao)
+    final = []
+    for p in out:
+        partes = [(p["s"], p["e"])]
+        for a, b in plano["trechos"][p["n"]].get("corta", []):
+            novo = []
+            for x, y in partes:
+                if b <= x or a >= y: novo.append((x, y)); continue
+                if a > x: novo.append((x, a))
+                if b < y: novo.append((b, y))
+            partes = novo
+        final += [dict(p, s=round(x, 3), e=round(y, 3)) for x, y in partes if y - x >= 0.08]
+    out = final
     # pedaco vizinho da mesma tomada nao pode se sobrepor
     for x, y in zip(out, out[1:]):
         if x["t"] == y["t"] and y["s"] < x["e"] and y["s"] > x["s"]:
