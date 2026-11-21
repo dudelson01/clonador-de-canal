@@ -327,7 +327,7 @@
    "fim": 88.27,
    "tipo": "video",
    "src": "odisseia",
-   "t": 50.0,
+   "t": 50.47,
    "zoom": [
     1.37,
     1.44
@@ -344,7 +344,7 @@
    "fim": 89.22,
    "tipo": "video",
    "src": "duna",
-   "t": 46.0,
+   "t": 45.89,
    "zoom": [
     1.24,
     1.31
@@ -365,7 +365,7 @@
    "fim": 90.17,
    "tipo": "video",
    "src": "batman",
-   "t": 92.0,
+   "t": 91.75,
    "zoom": [
     1.37,
     1.44
@@ -667,7 +667,7 @@
    "fim": 171.46,
    "tipo": "video",
    "src": "duna",
-   "t": 46.0,
+   "t": 45.89,
    "zoom": [
     1.24,
     1.31
@@ -688,7 +688,7 @@
    "fim": 175.06,
    "tipo": "video",
    "src": "duna",
-   "t": 100.0,
+   "t": 100.3,
    "zoom": [
     1.24,
     1.31
@@ -709,7 +709,7 @@
    "fim": 179.36,
    "tipo": "video",
    "src": "odisseia",
-   "t": 50.0,
+   "t": 50.47,
    "zoom": [
     1.37,
     1.44
@@ -841,7 +841,7 @@
    "fim": 220.64,
    "tipo": "video",
    "src": "backrooms",
-   "t": 30.0,
+   "t": 30.19,
    "zoom": [
     1.1,
     1.17
@@ -942,7 +942,7 @@
    "fim": 251.36,
    "tipo": "video",
    "src": "oppenheimer",
-   "t": 166.0,
+   "t": 166.59,
    "zoom": [
     1.26,
     1.33
@@ -959,7 +959,7 @@
    "fim": 254.1,
    "tipo": "video",
    "src": "oppenheimer",
-   "t": 94.0,
+   "t": 94.22,
    "zoom": [
     1.26,
     1.33
@@ -1026,7 +1026,7 @@
    "fim": 271.32,
    "tipo": "video",
    "src": "backrooms",
-   "t": 26.0,
+   "t": 25.36,
    "zoom": [
     1.1,
     1.17
@@ -1041,12 +1041,11 @@
   {
    "ini": 271.32,
    "fim": 277.14,
-   "tipo": "video",
-   "src": "backrooms",
-   "t": 44.0,
+   "tipo": "foto",
+   "arquivo": "midia/fotos/kane_parsons.jpg",
    "zoom": [
-    1.1,
-    1.17
+    1.04,
+    1.14
    ],
    "sfx": [
     [
@@ -1099,7 +1098,7 @@
    "fim": 293.22,
    "tipo": "video",
    "src": "backrooms",
-   "t": 4.0,
+   "t": 3.88,
    "zoom": [
     1.1,
     1.17
@@ -1425,7 +1424,7 @@
    "fim": 385.2,
    "tipo": "video",
    "src": "obsession",
-   "t": 12.0,
+   "t": 12.38,
    "zoom": [
     1.21,
     1.28
@@ -1522,7 +1521,7 @@
    "fim": 422.5,
    "tipo": "video",
    "src": "ainda",
-   "t": 38.0,
+   "t": 37.04,
    "zoom": [
     1.08,
     1.15
@@ -1539,7 +1538,7 @@
    "fim": 427.58,
    "tipo": "video",
    "src": "ainda",
-   "t": 102.0,
+   "t": 101.91,
    "zoom": [
     1.08,
     1.15
@@ -1571,7 +1570,7 @@
    "fim": 432.26,
    "tipo": "video",
    "src": "oppenheimer",
-   "t": 36.0,
+   "t": 36.16,
    "zoom": [
     1.26,
     1.33
@@ -1588,7 +1587,7 @@
    "fim": 434.8,
    "tipo": "video",
    "src": "agente",
-   "t": 20.0,
+   "t": 19.83,
    "zoom": [
     1.18,
     1.25
@@ -1748,7 +1747,7 @@
    "fim": 481.92,
    "tipo": "video",
    "src": "barbie",
-   "t": 6.0,
+   "t": 5.39,
    "zoom": [
     1.16,
     1.23
@@ -2725,7 +2724,7 @@
    "texto": "Só sai de casa pelo que <b>não cabe no sofá</b>"
   },
   {
-   "id": "cardfilme_084",
+   "id": "cardfilme_085",
    "ini": 417.82,
    "dur": 3.4,
    "tipo": "cardfilme",
@@ -2735,7 +2734,20 @@
    "tam": 82
   },
   {
-   "id": "cardfilme_085",
+   "id": "polaroid_084",
+   "ini": 419.98,
+   "dur": 3.4,
+   "tipo": "polaroid",
+   "src": "file:///home/user/clonador-de-canal/canais/luiz-telico/videos/02-os-filmes-voltaram-a-parecer-filmes/midia/fotos/fernanda_torres.jpg",
+   "legenda": "Fernanda Torres",
+   "x": 1320,
+   "y": 120,
+   "w": 480,
+   "h": 300,
+   "rot": 5
+  },
+  {
+   "id": "cardfilme_086",
    "ini": 432.26,
    "dur": 3.0,
    "tipo": "cardfilme",
@@ -2745,7 +2757,7 @@
    "tam": 82
   },
   {
-   "id": "contador_086",
+   "id": "contador_087",
    "ini": 435.58,
    "dur": 2.2,
    "tipo": "contador",
@@ -2757,7 +2769,7 @@
    "tc": 0.6
   },
   {
-   "id": "dinheiro_087",
+   "id": "dinheiro_088",
    "ini": 438.68,
    "dur": 2.2,
    "tipo": "dinheiro",
@@ -2769,21 +2781,21 @@
    "tc": 0.6
   },
   {
-   "id": "chave_088",
+   "id": "chave_089",
    "ini": 444.76,
    "dur": 2.6,
    "tipo": "chave",
    "texto": "Brasileiro vai ver filme brasileiro? <b>Sim.</b>"
   },
   {
-   "id": "meme_089",
+   "id": "meme_090",
    "ini": 451.8,
    "dur": 1.8,
    "tipo": "meme",
    "texto": "“AH, É BRASILEIRO?”"
   },
   {
-   "id": "lista_090",
+   "id": "lista_091",
    "ini": 457.28,
    "dur": 9.980000000000018,
    "tipo": "lista",
@@ -2804,7 +2816,7 @@
    ]
   },
   {
-   "id": "carimbo_091",
+   "id": "carimbo_092",
    "ini": 469.18,
    "dur": 1.6,
    "tipo": "carimbo",
@@ -2813,14 +2825,14 @@
    "texto": "NINGUÉM ASSISTE"
   },
   {
-   "id": "chave_092",
+   "id": "chave_093",
    "ini": 473.28,
    "dur": 1.8,
    "tipo": "chave",
    "texto": "Final <b>feliz</b>?"
   },
   {
-   "id": "cardfilme_093",
+   "id": "cardfilme_094",
    "ini": 474.08,
    "dur": 3.4,
    "tipo": "cardfilme",
@@ -2830,7 +2842,7 @@
    "tam": 82
   },
   {
-   "id": "lista_094",
+   "id": "lista_095",
    "ini": 477.88,
    "dur": 3.6,
    "tipo": "lista",
@@ -2854,7 +2866,7 @@
    ]
   },
   {
-   "id": "carimbo_095",
+   "id": "carimbo_096",
    "ini": 482.5,
    "dur": 1.8,
    "tipo": "carimbo",
@@ -2863,14 +2875,14 @@
    "texto": "TRAVADO NA JUSTIÇA"
   },
   {
-   "id": "perigo_096",
+   "id": "perigo_097",
    "ini": 489.22,
    "dur": 1.3,
    "tipo": "perigo",
    "texto": "CORTE"
   },
   {
-   "id": "lista_097",
+   "id": "lista_098",
    "ini": 490.78,
    "dur": 3.4,
    "tipo": "lista",
@@ -2912,7 +2924,7 @@
    ]
   },
   {
-   "id": "ia_098",
+   "id": "ia_099",
    "ini": 509.34,
    "dur": 2.6,
    "tipo": "ia",
@@ -2920,7 +2932,7 @@
    "sub": "o final ruim"
   },
   {
-   "id": "lista_099",
+   "id": "lista_100",
    "ini": 511.72,
    "dur": 3.980000000000018,
    "tipo": "lista",
@@ -2947,7 +2959,7 @@
    ]
   },
   {
-   "id": "inscrever_100",
+   "id": "inscrever_101",
    "ini": 521.08,
    "dur": 2.2,
    "tipo": "inscrever",
@@ -2955,7 +2967,7 @@
    "y": 860
   },
   {
-   "id": "meme_101",
+   "id": "meme_102",
    "ini": 527.04,
    "dur": 1.4,
    "tipo": "meme",

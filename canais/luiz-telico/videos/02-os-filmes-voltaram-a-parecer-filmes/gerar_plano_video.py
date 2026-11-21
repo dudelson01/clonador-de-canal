@@ -226,7 +226,7 @@ A(T("gente isso e muita coisa"), "meme", 1.8, texto="ISSO É MUITA COISA!")
 # Backrooms
 B(T("agora pensa no back"), [("backrooms", 26.0), "corredor_amarelo"], efeito=None)
 A(T("agora pensa no back"), "cardfilme", 3.0, titulo="Backrooms", sub="A24 · 2026", cor="#e8c300")
-B(T("o ken parsons"), [("backrooms", 44.0), "corredor_amarelo"])
+B(T("o ken parsons"), ["kane_parsons", ("backrooms", 44.0)], efeito_rosto=None)
 A(T("o ken parsons"), "canto", 4.0, texto="KANE PARSONS")
 R(T("adolescente sozinho"), (1.0, 1.06))
 P(T("todo mundo achando"), sfx=[["boing", 0.8]])
@@ -304,6 +304,7 @@ A(T("voce so sai de casa"), "chave", 2.6, texto="Só sai de casa pelo que <b>nã
 # ================= 4. E O BRASIL =================
 R(T("e nao e so la fora"), (1.0, 1.06))
 B(T("em 2025 ainda estou aqui"), [("ainda", 38.0), "fernanda_torres", "oscar"])
+A(T("ainda estou aqui") + 1.2, "polaroid", 3.4, src="__FOTO__fernanda_torres", legenda="Fernanda Torres", x=1320, y=120, w=480, h=300, rot=5)
 A(T("em 2025 ainda estou aqui"), "cardfilme", 3.4, titulo="Ainda Estou Aqui", sub="Walter Salles · Oscar de Filme Internacional", cor="#2e7d32", tam=82)
 B(T("um filme sobre uma familia"), [("ainda", 102.0), "oscar"])
 P(T("ate porque se voce quiser"), sfx=[["boing", 1.4]])
