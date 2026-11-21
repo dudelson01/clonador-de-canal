@@ -97,7 +97,7 @@ A(T("continuacao"), "lista", 3.2, x=1180, y=200, titulo="Hollywood hoje", vel=0.
   itens=[{"texto": "Continuação"}, {"texto": "Remake"}, {"texto": "Herói igual"}])
 P(T("so que em 2026"), sfx=[["subida", 0]])
 A(T("2026"), "carimbo", 1.6, x=1450, y=300, texto="2026")
-B(T("um filme de terror"), [("obsession", 110.0), "dolares"], efeito_rosto=None)
+B(T("um filme de terror"), [("obsession", 106.1), "dolares"], efeito_rosto=None)
 A(T("um filme de terror"), "cardfilme", 3.4, titulo="Obsession", sub="custou menos que um apartamento")
 A(T("meio bilhao"), "dinheiro", 2.0, de=0, ate=500, fmt="US$ {v} MI", rotulo="de bilheteria", sfx="ding")
 B(T("um garoto de 20 anos"), [("backrooms", 100.0), "corredor_amarelo"])
@@ -175,9 +175,9 @@ B(T("pensa tambem em a odisseia"), [("odisseia", 50.0), "imax_camera"])
 A(T("camera imax"), "cardfilme", 2.8, titulo="A Odisseia", sub="filmado inteiro com câmeras IMAX")
 B(T("aquele trambolho"), ["imax_camera", "geladeira"], efeito_rosto=None)
 A(T("do tamanho de uma geladeira"), "meme", 2.4, texto="DO TAMANHO DE UMA GELADEIRA", tam=96)
-B(T("pensa em batman"), [("batman", 108.0), "chuva_noite"], efeito_rosto="vermelho")
+B(T("pensa em batman"), [("batman", 126.0), "chuva_noite"], efeito_rosto="vermelho")
 A(T("pensa em batman"), "cardfilme", 3.0, titulo="Batman", sub="Matt Reeves · 2022", cor="#c40000")
-B(T("contam a historia"), [("batman", 130.0), "chuva_noite"], efeito_rosto="vermelho")
+B(T("contam a historia"), [("batman", 135.8), "chuva_noite"], efeito_rosto="vermelho")
 R(T("nenhuma dessas escolhas"), (1.0, 1.06))
 A(T("nenhuma dessas escolhas"), "chave", 2.6, texto="Nenhuma era <b>segura</b>")
 P(T("e justamente por isso"))
@@ -383,6 +383,9 @@ for c in cenas:
         if i > 0: q.pop("sfx", None)
         final.append(q)
 cenas = final
+# rosto: o bone fica perto do topo do quadro nesta gravacao; o zoom parte do TOPO (bone sempre inteiro, regra do canal)
+for c in cenas:
+    if c["tipo"] == "rosto": c["foco"] = [0.5, 0.0]
 # fotos locais nas artes polaroid
 for a in artes:
     if str(a.get("src", "")).startswith("__FOTO__"):
