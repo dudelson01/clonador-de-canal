@@ -172,7 +172,7 @@ def por_palavras(plano, trans):
     import numpy as np
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from vozeamento import periodicidade
-    S, B, PISO = {}, {}, {}
+    S, B, PISO, R, V, FR = {}, {}, {}, {}, {}, {}
     for k, arq in plano["tomadas"].items():
         envelopes(arq)
         b, inc = BRUTO[arq], INCL[arq]
@@ -182,7 +182,7 @@ def por_palavras(plano, trans):
         resp = (inc >= -3) & (inc < 7) & (per < 0.45)                 # sopro: plano, sem tom
         fric = (inc < -3) & (hf > piso_hf + 12)                       # chiado de consoante
         som = ((b > piso + 8) & ~resp) | fric
-        S[k] = som; B[k] = b; PISO[k] = piso
+        S[k] = som; B[k] = b; PISO[k] = piso; R[k] = resp; V[k] = per; FR[k] = fric
     out = []
     for n, tr in enumerate(plano["trechos"]):
         t = tr["t"]; som = S[t]; L = len(som)
@@ -199,20 +199,56 @@ def por_palavras(plano, trans):
             else:
                 while k > int(b0 / QUADRO) and not som[k]: k -= 1
             # nunca termina antes do fim da palavra; depois acompanha o som caindo (fim fraco da vogal) ate 0,15 s
+            # fim arrastado ("horrooor", "rrr" final) parece sopro: segue enquanto ha som (sem queda para silencio),
+            # tolerando 20 ms de queda, ate 0,6 s depois da palavra e sem passar do fim do trecho
             kf = max(k + 1, int(round(b1 / QUADRO)))
-            lim = kf + int(0.15 / QUADRO)
-            while kf < min(L, lim) and B[t][kf] > PISO[t] + 4: kf += 1
+            lim = min(L, int((b1 + 0.6) / QUADRO), int((tr["fim"] + 0.05) / QUADRO))
+            forte = lambda q: q < L and (B[t][q] > PISO[t] + 6 or FR[t][q])     # som grave OU chiado final ("z", "s")
+            while kf < lim and (forte(kf) or forte(kf + 1) or forte(kf + 2)): kf += 1
             fim = kf * QUADRO + CAUDA
             j = min(L - 1, int(round(b0 / QUADRO)))
             if j > 0 and som[j - 1]:
                 while j - 1 >= 0 and som[j - 1] and (j - 1) * QUADRO >= b0 - MAX_INI: j -= 1
             else:
                 while j < k and not som[j]: j += 1
-            ini = max(0, min(j * QUADRO, b0) - FOLGA_INI)   # nunca comeca depois do inicio da palavra
+            # comeco pelo SOM (nao pelo tempo do Whisper, que as vezes estica a palavra por cima de uma respiracao);
+            # volta ate 0,15 s se houver voz fraca (nao sopro) antes
+            j0 = j
+            while j - 1 >= 0 and j0 - (j - 1) <= int(0.15 / QUADRO) and B[t][j - 1] > PISO[t] + 4 and not R[t][j - 1]: j -= 1
+            ini = max(0, j * QUADRO - FOLGA_INI)
             if fim - ini < 0.08: continue
             if out and out[-1]["t"] == t and out[-1]["n"] == n and ini <= out[-1]["e"] + 0.02:
                 out[-1]["e"] = round(max(out[-1]["e"], fim), 3); continue
             out.append({"t": t, "s": round(ini, 3), "e": round(fim, 3), "n": n, "bloco": tr.get("bloco", ""), "texto": tr.get("obs", "")})
+    # respiracao (>= 0,12 s) DENTRO de um pedaco tambem sai; sobra curta e baixa (< 0,15 s, sem voz forte) e descartada
+    limpo = []
+    for p in out:
+        t = p["t"]; R_, B_ = R[t], B[t]
+        k0, k1 = int(p["s"] / QUADRO), min(len(R_), int(p["e"] / QUADRO))
+        cortes, k = [], k0
+        while k < k1:
+            # sopro logo depois de voz forte = fim de palavra sumindo (nao e respiracao)
+            colado = any(B_[q] > PISO[t] + 14 and V[t][q] >= 0.5 for q in range(max(k0, k - 4), k))
+            if R_[k] and B_[k] > PISO[t] + 4 and not colado:
+                j = k
+                while j < k1 and not FR[t][j] and (R_[j] or B_[j] <= PISO[t] + 4): j += 1
+                if sum(R_[k:j]) * QUADRO >= 0.12: cortes.append((k, j))   # precisa ter 0,12 s de sopro mesmo
+                k = j
+            else: k += 1
+        partes, ini = [], p["s"]
+        for a, b in cortes:
+            partes.append((ini, a * QUADRO + 0.02)); ini = b * QUADRO - 0.02
+        partes.append((ini, p["e"]))
+        # comeco do pedaco: pula sopro/silencio que sobrou antes da voz (ate 0,3 s)
+        a0, b0_ = partes[0]; q = int(a0 / QUADRO); lim0 = q + int(0.3 / QUADRO)
+        while q < min(lim0, int(b0_ / QUADRO)) and not FR[t][q] and (R_[q] or B_[q] <= PISO[t] + 6): q += 1
+        partes[0] = (max(a0, q * QUADRO - FOLGA_INI), b0_)
+        for a, b in partes:
+            ka, kb = int(a / QUADRO), max(int(a / QUADRO) + 1, int(b / QUADRO))
+            forte = ((B_[ka:kb] > PISO[t] + 14) & (V[t][ka:kb] >= 0.5)).any()   # voz de verdade (forte e com tom)
+            if b - a < 0.08 or (b - a < 0.30 and not forte): continue
+            limpo.append(dict(p, s=round(a, 3), e=round(b, 3)))
+    out = limpo
     # pedaco vizinho da mesma tomada nao pode se sobrepor
     for x, y in zip(out, out[1:]):
         if x["t"] == y["t"] and y["s"] < x["e"] and y["s"] > x["s"]:
