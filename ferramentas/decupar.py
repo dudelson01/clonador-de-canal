@@ -215,6 +215,13 @@ def por_palavras(plano, trans):
             # volta ate 0,15 s se houver voz fraca (nao sopro) antes
             j0 = j
             while j - 1 >= 0 and j0 - (j - 1) <= int(0.15 / QUADRO) and B[t][j - 1] > PISO[t] + 4 and not R[t][j - 1]: j -= 1
+            # palavra curtinha logo antes ("Ai", "E"), separada por pausa de ate 120 ms: entra junto (ate 0,35 s antes)
+            while True:
+                q = j - 1; dip = 0
+                while q >= 0 and dip <= 12 and not S[t][q] and (not R[t][q] or B[t][q] <= PISO[t] + 10): q -= 1; dip += 1
+                if q < 0 or dip > 12 or not S[t][q] or (j0 - q) * QUADRO > 0.35: break
+                while q - 1 >= 0 and S[t][q - 1] and (j0 - q) * QUADRO <= 0.35: q -= 1
+                j = q
             ini = max(0, j * QUADRO - FOLGA_INI)
             if fim - ini < 0.08: continue
             if out and out[-1]["t"] == t and out[-1]["n"] == n and ini <= out[-1]["e"] + 0.02:
@@ -229,10 +236,12 @@ def por_palavras(plano, trans):
         while k < k1:
             # sopro logo depois de voz forte = fim de palavra sumindo (nao e respiracao)
             colado = any(B_[q] > PISO[t] + 14 and V[t][q] >= 0.5 for q in range(max(k0, k - 4), k))
-            if R_[k] and B_[k] > PISO[t] + 4 and not colado:
+            if R_[k] and B_[k] > PISO[t] + 4:
                 j = k
                 while j < k1 and not FR[t][j] and (R_[j] or B_[j] <= PISO[t] + 4): j += 1
-                if sum(R_[k:j]) * QUADRO >= 0.12: cortes.append((k, j))   # precisa ter 0,12 s de sopro mesmo
+                # 0,12 s de sopro; se vem colado na voz (pode ser fim de palavra sumindo), so a partir de 0,18 s
+                if sum(R_[k:j]) * QUADRO >= (0.18 if colado else 0.12):
+                    cortes.append((k + (int(0.06 / QUADRO) if colado else 0), j))
                 k = j
             else: k += 1
         partes, ini = [], p["s"]
@@ -245,8 +254,8 @@ def por_palavras(plano, trans):
         partes[0] = (max(a0, q * QUADRO - FOLGA_INI), b0_)
         for a, b in partes:
             ka, kb = int(a / QUADRO), max(int(a / QUADRO) + 1, int(b / QUADRO))
-            forte = ((B_[ka:kb] > PISO[t] + 14) & (V[t][ka:kb] >= 0.5)).any()   # voz de verdade (forte e com tom)
-            if b - a < 0.08 or (b - a < 0.30 and not forte): continue
+            forte = ((B_[ka:kb] > PISO[t] + 18) & (V[t][ka:kb] >= 0.6)).sum() >= 3   # voz de verdade (forte e com tom)
+            if b - a < 0.08 or (b - a < 0.60 and not forte): continue
             limpo.append(dict(p, s=round(a, 3), e=round(b, 3)))
     out = limpo
     # pedaco vizinho da mesma tomada nao pode se sobrepor
