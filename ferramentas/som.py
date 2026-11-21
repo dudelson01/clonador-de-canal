@@ -4,7 +4,8 @@ Uso:
   python3 som.py musica saida.wav duracao_s [clima=suspense|triste|tenso|final] [seed=1]
   python3 som.py partes saida.wav suspense:0:70 triste:70:195 tenso:195:268 final:268:362
   python3 som.py efeitos pasta_saida
-Efeitos: whoosh, impacto, pop, carimbo, tecla, subida (riser), rebobinar. Todos curtos e contidos (sem chiado continuo)."""
+Efeitos: whoosh, impacto, pop, carimbo, tecla, subida (riser), rebobinar, boing, ding, errou, plim, tambor, bonk.
+Climas: suspense, triste, tenso, final, leve, groove, epico. Todos curtos e contidos (sem chiado continuo)."""
 import sys, os, wave, numpy as np
 
 SR = 48000
@@ -45,6 +46,10 @@ CLIMAS = {
     "suspense": dict(bpm=92, acordes=[[57, 60, 64, 67], [53, 57, 60, 64], [50, 53, 57, 64], [52, 57, 59, 64]], brilho=1400, serra=1.0, baixo=0.22),
     "triste":   dict(bpm=74, acordes=[[48, 55, 60, 64], [45, 52, 57, 60], [41, 48, 53, 57], [43, 50, 55, 59]], brilho=900,  serra=0.35, baixo=0.12),
     "tenso":    dict(bpm=104, acordes=[[50, 53, 57, 62], [46, 50, 53, 58], [43, 46, 50, 55], [45, 49, 52, 57]], brilho=1700, serra=1.0, baixo=0.30),
+    # climas de humor/energia (video 02): tom maior, mais brilho e bateria leve
+    "leve":     dict(bpm=112, acordes=[[60, 64, 67, 72], [57, 60, 64, 69], [53, 57, 60, 65], [55, 59, 62, 67]], brilho=2200, serra=0.45, baixo=0.20, bateria=True),
+    "groove":   dict(bpm=100, acordes=[[50, 53, 57, 60], [55, 59, 62, 65], [48, 52, 55, 59], [53, 57, 60, 64]], brilho=1900, serra=0.6, baixo=0.26, bateria=True),
+    "epico":    dict(bpm=96, acordes=[[53, 57, 60, 65], [50, 53, 57, 62], [46, 50, 53, 58], [48, 52, 55, 60]], brilho=1500, serra=0.8, baixo=0.24, bateria=True),
     "final":    dict(bpm=84, acordes=[[53, 57, 60, 65], [48, 52, 55, 60], [45, 48, 52, 57], [43, 47, 50, 55]], brilho=1100, serra=0.55, baixo=0.16),
 }
 
@@ -76,6 +81,20 @@ def musica(dur, seed=1, clima="suspense"):
         if L <= 0: break
         p = sum(saw(nota(m), L, 0.006) for m in ac) / 4
         mix[i0:i0 + L] += 0.10 * lp(p, 700) * env(L, 0.6, 0.6)
+    if C.get("bateria"):   # bumbo nos tempos, palma no 2 e 4, chimbal nas colcheias (tudo sintetizado e baixo)
+        bt = 4 * passo
+        for k in range(int(np.ceil(n / passo))):
+            i0 = k * passo
+            if i0 >= n: break
+            if k % 4 == 0:
+                L = min(int(0.25 * SR), n - i0); t = np.arange(L) / SR
+                f = 50 + 90 * np.exp(-t * 30); mix[i0:i0 + L] += 0.30 * np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 12)
+            if k % 8 == 4:
+                L = min(int(0.18 * SR), n - i0); t = np.arange(L) / SR
+                mix[i0:i0 + L] += 0.08 * ruido_banda(L, 1800, 1200, 0.5, k) * np.exp(-t * 28)
+            if k % 2 == 1:
+                L = min(int(0.04 * SR), n - i0); t = np.arange(L) / SR
+                mix[i0:i0 + L] += 0.03 * ruido_banda(L, 8000, 6000, 0.6, k + 7) * np.exp(-t * 120)
     d = int(0.011 * SR); dir_ = np.concatenate([np.zeros(d), mix[:-d]])
     est = np.stack([mix * 0.9 + 0.1 * dir_, dir_ * 0.9 + 0.1 * mix], 1)
     return est * env(n, 1.0, 1.5)[:, None]
@@ -118,6 +137,23 @@ def efeitos():
     E["subida"] = (0.6 * np.sin(ph) + 0.3 * ruido_banda(n, 400, 6000, 0.4, 5)) * (t / t[-1]) ** 2 * env(n, 0.01, 0.03)
     n = int(0.6 * SR); t = np.arange(n) / SR    # rebobinar: whoosh ao contrario, mais agudo
     E["rebobinar"] = (ruido_banda(n, 4000, 500, 0.4, 6) * np.sin(np.linspace(0, np.pi, n)) ** 2)[::-1]
+    # efeitos de humor (video 02), curtos e sem chiado continuo
+    n = int(0.45 * SR); t = np.arange(n) / SR   # boing: mola de desenho
+    f = 180 + 140 * np.sin(2 * np.pi * 9 * t) * np.exp(-t * 4) + 120 * t
+    E["boing"] = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 6)
+    n = int(0.9 * SR); t = np.arange(n) / SR    # ding: sino de caixa registradora (dinheiro)
+    E["ding"] = sum(a * np.sin(2 * np.pi * f * t) * np.exp(-t * d) for f, a, d in ((1568, 0.6, 5), (2093, 0.4, 6), (3136, 0.2, 8))) + \
+        0.3 * ruido_banda(n, 5000, 3000, 0.5, 8) * np.exp(-t * 60)
+    n = int(0.55 * SR); t = np.arange(n) / SR   # errou: buzina grave de "resposta errada"
+    E["errou"] = (np.sign(np.sin(2 * np.pi * 110 * t)) * 0.5 + np.sin(2 * np.pi * 116 * t) * 0.5) * env(n, 0.01, 0.12)
+    E["errou"] = lp(E["errou"], 1200)
+    n = int(0.5 * SR); t = np.arange(n) / SR    # plim: brilho subindo
+    E["plim"] = sum(np.sin(2 * np.pi * f * t) * np.exp(-((t - o) ** 2) / 0.002) for f, o in ((1319, 0.05), (1760, 0.12), (2637, 0.2)))
+    n = int(0.7 * SR); t = np.arange(n) / SR    # tambor: rufada curta + prato abafado (revelacao comica)
+    E["tambor"] = sum(np.sin(2 * np.pi * 160 * (t - o)) * np.exp(-np.clip(t - o, 0, None) * 30) * (t >= o) for o in np.arange(0, 0.45, 0.045)) * 0.5 + \
+        0.6 * ruido_banda(n, 6000, 3000, 0.5, 9) * np.exp(-np.clip(t - 0.5, 0, None) * 12) * (t >= 0.5)
+    n = int(0.35 * SR); t = np.arange(n) / SR   # bonk: pancada de desenho
+    E["bonk"] = np.sin(2 * np.pi * (300 * np.exp(-t * 18) + 120) * t) * np.exp(-t * 14)
     return E
 
 if __name__ == "__main__":

@@ -7,3 +7,4 @@ canais/*/videos/*/midia/
 *.wav
 *.mp4
 __pycache__/
+*.log
