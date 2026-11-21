@@ -291,7 +291,7 @@ A(T("750 mil"), "dinheiro", 1.8, de=0, ate=750, fmt="US$ {v} MIL", rotulo="custo
 A(T("e lucrou mais de 500"), "dinheiro", 2.2, de=0, ate=500, fmt="US$ {v} MI", rotulo="fez no mundo inteiro", sfx="ding")
 R(T("e o filme que mais lucrou"), (1.04, 1.1))
 A(T("em toda a historia", depois=386), "carimbo", 1.8, x=1400, y=380, texto="RECORDE HISTÓRICO")
-B(T("a odysseyia") if any(t[0] == "odysseyia" for t in TOK) else T("um poema grego"), [("odisseia", 68.0), "homero"])
+B(T("a odysseyia") if any(t[0] == "odysseyia" for t in TOK) else T("um poema grego"), [("odisseia", 16.2), "homero"])
 A(T("teve a maior estreia da carreira"), "dinheiro", 2.4, de=0, ate=260, fmt="US$ {v} MI", rotulo="no 1º fim de semana", sfx="ding")
 R(T("deixa eu ajeitar"), (1.0, 1.04))
 R(T("as pessoas nao pararam"), (1.04, 1.1))
