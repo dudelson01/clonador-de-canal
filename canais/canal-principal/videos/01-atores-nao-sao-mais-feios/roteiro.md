@@ -127,7 +127,7 @@ e mesmo assim tem o queixo esculpido e a pele de quem voltou de um spa em Bali.
 
 **[ARTE]**
 Se eu passar três semanas sem dormir, eu não fico com cara de Batman.
-Eu fico com cara de quem foi atropelado pelo Batmóvel.
+Eu fico com cara de quem foi atropelado... pelo Batmóvel!
 
 ---
 
