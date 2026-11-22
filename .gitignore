@@ -1,0 +1,8 @@
+.env
+node_modules/
+canais/*/referencia/*.mp4
+canais/*/referencia/*.webm
+canais/*/videos/*/build/
+canais/*/videos/*/midia/
+*.wav
+*.mp4
