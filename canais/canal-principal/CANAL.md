@@ -26,4 +26,6 @@ Cinema e cultura pop, com outliers gringos adaptados para o português do Brasil
 - 2026-11-22: **formato da amostra APROVADO** (gancho de 32 s): cenas curtas dos trailers com zoom lento, legenda palavra por palavra com a palavra falada em amarelo, um destaque animado diferente a cada frase (contador, carimbo, checklist, etiqueta, tela de filtro, letreiro, máquina de escrever), música original curiosa com ducking, efeitos discretos, -14 LUFS.
 - 2026-11-22: legenda da narração **menor**: Montserrat 900, 46 px (era 66), contorno 8 px, mais embaixo (top 868 px).
 - 2026-11-22: YouTube bloqueia download na nuvem. Trailers: o aluno baixa no PC e manda pelo Drive, cada arquivo como "qualquer pessoa com o link".
+- 2026-11-22: vídeo 01 ("Por que os atores não são mais feios?") entregue: 10:49, 259 cenas de 20 trailers, 109 destaques, 7 músicas originais (uma por parte). Ferramentas: indice_cenas.py (rostos/cartelas), planejar.py, folha_plano.py (conferência), plano_completo.py.
+- 2026-11-22: na conferência, bloquear cenas com letreiro/crédito/logo/anúncio dos trailers (build/bloqueadas.json) e carimbo sempre em UMA linha (white-space:nowrap).
 
