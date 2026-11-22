@@ -128,11 +128,16 @@ def destaques():
     out += [E("etq", 0.0, 2.6, html="BILL MURRAY &middot; <em>CAÇA-FANTASMAS</em>", x=1100, y=240),
             E("numero", em("anos", 0) - 0.5, 3.6, de=0, ate=33, sufixo="ANOS", dur=0.5)]
     # improvisos do aluno
-    t = em("subiu", 150); out.append(E("carimbo", t, t + 2.0, texto="10º ANDAR NO MÍNIMO", rot=6))
-    t = em("bali", 200); out.append(E("etq", t, t + 2.6, html="BALI &middot; <em>OU MADRID?</em> 🤔", x=1150, y=240))
+    t = em("subiu", 100); out.append(E("carimbo", t, t + 2.0, texto="10º ANDAR NO MÍNIMO", rot=6))
+    t = em("madrid", 150) - 0.9; out.append(E("etq", t, t + 2.8, html="BALI &middot; <em>OU MADRID?</em> 🤔", x=1150, y=240))
     t = em("filtrado", 300); out.append(E("filtro", t - 0.8, t + 2.4, texto="✨ FILTRO NATURAL DE FÁBRICA"))
     t = em("sobrenome", 480); out.append(E("carimbo", t - 0.6, t + 1.6, texto="SUTHERLAND (EU TENTEI)", rot=-6))
     t = em("chalamet", em("papel", 480)); out.append(E("carimbo", t - 0.3, t + 1.6, texto="DE NOVO ELE?", rot=7))
+    # duração máxima por formato (improvisos esticaram alguns)
+    MAX = {"carimbo": 3.0, "letreiro": 3.5, "etq": 5.0, "filtro": 5.0, "numero": 4.0, "vs": 11.0, "check": 11.0, "maquina": 10.0}
+    for x in out:
+        if x["tipo"] in MAX: x["fim"] = round(min(x["fim"], x["ini"] + MAX[x["tipo"]]), 3)
+        if x["tipo"] != "flash": x["fim"] = round(max(x["fim"], x["ini"] + 1.8), 3)
     # sem sobreposição: o que vier depois começa quando o anterior acaba
     out.sort(key=lambda x: x["ini"]); final = []
     for x in out:
@@ -164,7 +169,15 @@ if __name__ == "__main__":
                                       "Axe": "X", "Kitton": "Keaton", "Kinton": "Keaton", "Peterson": "Pattinson",
                                       "Pattison": "Pattinson", "Bennett": "Benedict", "Silvestre": "Sylvester",
                                       "Graham": "Glen", "Steelwood": "Eastwood", "Surtland": "Sutherland",
-                                      "Surtlund": "Sutherland", "pix": "Pix", "Rock": "Rocky"})
+                                      "Surtlund": "Sutherland", "pix": "Pix", "Rock": "Rocky", "Rug": "Hugh",
+                                      "Quidd": "Creed", "gols": "gomos", "Big": "bigode", "White": "", "Pére": "Pele",
+                                      "Bale": "Bali", "escupido": "esculpido", "Timothy": "Timothée", "Coaduvant": "coadjuvante",
+                                      "Inersão": "imersão", "oleira": "olheira", "Rocking": "Rocky", "sanguentado": "ensanguentado",
+                                      "Clint's": "Clint", "chocados": "machucados", "Shima": "Timothée", "Tchalameu": "Chalamet",
+                                      "arruenzinhos": "arranhõezinhos", "sozinho": "suorzinho", "beiria": "barbearia",
+                                      "teste": "testa", "verge": "age", "furam": "fumam", "Grey": "Glen", "Oculus": "óculos"})
+        for g in leg:
+            g["palavras"] = [w for w in g["palavras"] if w["w"].strip()]
         el = destaques()
         json.dump({"duracao": FIM, "legenda": leg, "elementos": el}, open(R + "spec.json", "w"), ensure_ascii=False)
         print(len(cenas), "cenas;", sum(1 for c in cenas if c.get("_rosto")), "de rosto;",
