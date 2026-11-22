@@ -48,7 +48,7 @@ SEG = [  # (ini, fim, filmes, opções)
  (164.8, 174.8, [TB], {}), (174.8, 183.474, [TB, B89], ESC),
  # parte 2
  (183.474, 197.5, O, {}), (197.5, 233.0, ["era-uma-vez-no-oeste-1968"], {}),
- (233.0, 247.5, ["poderoso-chefao-1972"], {}), (247.5, 256.9, ["fuga-de-nova-york-1981"], {}),
+ (233.0, 247.5, ["poderoso-chefao-1972"], {}), (247.5, 256.9, ["fuga-de-nova-york-1981", "rocky-1976"], {}),
  (256.9, 263.2, ["x-men-2000"], {}), (263.2, 275.2, ["deadpool-wolverine-2024"], {}),
  (275.2, 293.574, ["cidade-de-deus-2002"], {}),
  # CTA
@@ -275,7 +275,7 @@ if __name__ == "__main__":
     if "--plano" in a:
         sys.path.insert(0, "ferramentas")
         from planejar import Escolhedor
-        es = Escolhedor(V + "build/indice_cenas.json", V + "midia/trailers")
+        es = Escolhedor(V + "build/indice_cenas.json", V + "midia/trailers", bloqueadas=V + "build/bloqueadas.json")
         cenas = []
         for ini, fim, filmes, op in SEG:
             cenas += es.segmento(ini, fim, filmes, op)

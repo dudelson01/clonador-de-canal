@@ -9,18 +9,20 @@ ALVO = 2.3  # segundos por corte (DNA aprovado: 1,9 a 2,8)
 
 
 class Escolhedor:
-    def __init__(self, indice_json, pasta_trailers, seed=3):
+    def __init__(self, indice_json, pasta_trailers, seed=3, bloqueadas=None):
         self.idx = json.load(open(indice_json))
+        self.bloq = {tuple(x) for x in (json.load(open(bloqueadas)) if bloqueadas and os.path.exists(bloqueadas) else [])}
         self.pasta = pasta_trailers
         self.usado = {}  # (filme, i) -> vezes
         self.rng = random.Random(seed)
         self.giro = {}
 
     def _melhores(self, filme, rosto):
-        cs = [(i, c) for i, c in enumerate(self.idx.get(filme, [])) if not c["cartela"] and c["fim"] - c["ini"] >= 0.8]
+        cs = [(i, c) for i, c in enumerate(self.idx.get(filme, [])) if not c["cartela"] and c["fim"] - c["ini"] >= 0.8
+              and (filme, i) not in self.bloq and c["brilho"] >= 30]
         def nota(ic):
             i, c = ic
-            n = -3.0 * self.usado.get((filme, i), 0)
+            n = -6.0 * self.usado.get((filme, i), 0)
             if rosto: n += min(c["rosto"], 0.08) * 40
             n += min(c["brilho"], 120) / 120
             n += self.rng.random() * 0.6
