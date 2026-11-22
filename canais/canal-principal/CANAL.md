@@ -38,4 +38,5 @@ Cinema e cultura pop, com outliers gringos adaptados para o português do Brasil
   - **clipes desconexos da fala**: falou de um ator/filme, tem que aparecer AQUELE ator/AQUELA cena. Pode usar **fotos dos atores**. Nada de cena genérica "do filme" com outro ator;
   - **menos animações** na tela e **SEM legenda embaixo**;
   - referência de edição: vídeo mandado pelo Drive (estudar e copiar o estilo).
+- 2026-11-22: **v3 com rosto** (out/video-rosto-v3.mp4, 11:20): storyboard frase a frase (plano_v3.py), sem legenda, só etiqueta de nome + cartões de citação + botão de inscrever; ator citado = aquele ator (reconhecimento facial nos trailers, ferramentas/rostos.py + atores.py) ou foto livre do Commons; pausas > 0,35 s cortadas.
 
