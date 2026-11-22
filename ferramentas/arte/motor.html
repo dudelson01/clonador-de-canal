@@ -99,7 +99,7 @@ function render(t){
       const s=k<0.7?1:1+0.06*Math.exp(-(k-0.7)*8)*Math.sin((k-0.7)*40);
       d.style.transform=`scale(${(0.6+0.4*back(k/0.35))*s})`;
     } else if(e.tipo==='carimbo'){
-      d.textContent=e.texto; const s=2.4-1.4*ease(k/0.16);
+      d.textContent=e.texto; if(e.y!=null) d.style.top=e.y+'px'; const s=2.4-1.4*ease(k/0.16);
       d.style.transform=`translateX(-50%) rotate(${e.rot||-8}deg) scale(${s})`; d.style.opacity=Math.min(op,clamp(k/0.06));
     } else if(e.tipo==='check'){
       if(!d.dataset.ok){d.innerHTML=`<h3>${e.titulo}</h3><ul style="margin:0;padding:0">${e.itens.map(x=>`<li><b>✓</b><span>${x.t}</span></li>`).join('')}</ul>`;d.dataset.ok=1}
@@ -116,7 +116,7 @@ function render(t){
       const p=ease((k-0.25)/0.9); d.querySelector('.barra i').style.width=(p*100)+'%'; d.querySelector('.barra b').style.left=`calc(${p*100}% - 24px)`;
       d.querySelector('.tag').style.transform=`translateX(-50%) scale(${back(k/0.3)})`;
     } else if(e.tipo==='letreiro'){
-      d.innerHTML=`<div>${e.texto}</div>`; const s=1.25-0.25*ease(k/0.25);
+      d.innerHTML=`<div>${e.texto}</div>`; if(e.y!=null) d.style.top=e.y+'px'; const s=1.25-0.25*ease(k/0.25);
       const tr=k<0.45?(Math.sin(k*90)*10*(1-k/0.45)):0;
       d.firstChild.style.transform=`rotate(-2deg) scale(${s}) translate(${tr}px,${-tr/2}px)`;
     } else if(e.tipo==='flash'){

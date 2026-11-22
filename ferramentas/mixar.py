@@ -52,10 +52,10 @@ def mixar(voz, saida, ini, fim, musicas=(), sfx=(), musica_db=-17, ducking_db=-7
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "2", "-i", "-",
                     "-c:a", "pcm_f32le", tmp], input=np.clip(mix, -1, 1).astype(np.float32).tobytes(), check=True)
     # 2 passadas de loudnorm
-    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", tmp, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json",
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", tmp, "-af", "loudnorm=I=-14:TP=-2:LRA=11:print_format=json",
                         "-f", "null", "-"], capture_output=True, text=True).stderr
     j = json.loads(re.findall(r"\{[^{}]+\}", r)[-1])
-    af = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={j['input_i']}:measured_TP={j['input_tp']}:"
+    af = (f"loudnorm=I=-14:TP=-2:LRA=11:measured_I={j['input_i']}:measured_TP={j['input_tp']}:"
           f"measured_LRA={j['input_lra']}:measured_thresh={j['input_thresh']}:offset={j['target_offset']}:linear=true")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", tmp, "-af", af, "-ar", str(SR), "-c:a", "pcm_s16le", saida], check=True)
     import os; os.remove(tmp)

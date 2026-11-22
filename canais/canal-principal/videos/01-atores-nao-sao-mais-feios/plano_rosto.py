@@ -179,6 +179,11 @@ if __name__ == "__main__":
         for g in leg:
             g["palavras"] = [w for w in g["palavras"] if w["w"].strip()]
         el = destaques()
+        # com o rosto na tela, carimbo e letreiro descem para a altura do peito (não cobrem o rosto)
+        cam = [(c["ini"], c["fim"]) for c in CORTES if c["cam"]]
+        for x in el:
+            if x["tipo"] in ("carimbo", "letreiro") and any(a - 0.2 < (x["ini"] + x["fim"]) / 2 < b + 0.2 for a, b in cam):
+                x["y"] = 610 if x["tipo"] == "carimbo" else 600
         json.dump({"duracao": FIM, "legenda": leg, "elementos": el}, open(R + "spec.json", "w"), ensure_ascii=False)
         print(len(cenas), "cenas;", sum(1 for c in cenas if c.get("_rosto")), "de rosto;",
               round(sum(c["dur"] for c in cenas if c.get("_rosto")) / FIM * 100), "% do tempo com rosto;",
