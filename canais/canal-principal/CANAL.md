@@ -28,4 +28,8 @@ Cinema e cultura pop, com outliers gringos adaptados para o português do Brasil
 - 2026-11-22: YouTube bloqueia download na nuvem. Trailers: o aluno baixa no PC e manda pelo Drive, cada arquivo como "qualquer pessoa com o link".
 - 2026-11-22: vídeo 01 ("Por que os atores não são mais feios?") entregue: 10:49, 259 cenas de 20 trailers, 109 destaques, 7 músicas originais (uma por parte). Ferramentas: indice_cenas.py (rostos/cartelas), planejar.py, folha_plano.py (conferência), plano_completo.py.
 - 2026-11-22: na conferência, bloquear cenas com letreiro/crédito/logo/anúncio dos trailers (build/bloqueadas.json) e carimbo sempre em UMA linha (white-space:nowrap).
+- 2026-11-22: o aluno gravou o roteiro com o PRÓPRIO ROSTO. Formato híbrido escolhido: **rosto em tela cheia nas piadas, ganchos, transições e CTA (~33% do tempo), trailers com a voz dele por cima nos exemplos**. Pulos de zoom (100/114/106%) a cada ~3 s no rosto.
+- 2026-11-22: decupagem: ficar com a última versão boa, manter os bons improvisos dele (ex.: "subiu mais que 10", "Bali ou Madrid", "não sei falar esse sobrenome") e dar destaque a eles. Cortes alinhados aos quadros (1/30 s) para a boca não dessincronizar.
+- 2026-11-22: com o rosto na tela, carimbo e letreiro descem para a altura do peito (não cobrem o rosto).
+- 2026-11-22: entregue out/video-rosto.mp4 (12:05) + out/seo-rosto.txt. A versão só com voz de IA (out/video.mp4) continua disponível.
 
