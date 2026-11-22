@@ -12,8 +12,11 @@ import argparse, numpy as np, wave
 SR = 48000
 
 
+TOM = 0  # transposição global (semitons), muda a cada faixa para dar sensação de progresso
+
+
 def nota(n):  # n = semitons a partir de A4
-    return 440.0 * 2 ** (n / 12)
+    return 440.0 * 2 ** ((n + TOM) / 12)
 
 
 def env(n, a=0.005, d=0.2, s=0.0, r=0.05, dur=None):
@@ -155,8 +158,9 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("saida"); p.add_argument("seg", type=float)
     p.add_argument("--estilo", default="curioso"); p.add_argument("--bpm", type=float, default=96)
-    p.add_argument("--seed", type=int, default=1)
+    p.add_argument("--seed", type=int, default=1); p.add_argument("--tom", type=int, default=0)
     a = p.parse_args()
+    global TOM; TOM = a.tom
     rng = np.random.default_rng(a.seed)
     x = {"curioso": curioso, "tenso": tenso, "epico": epico}[a.estilo](a.seg, a.bpm, rng)
     # fade de entrada/saída e normalização

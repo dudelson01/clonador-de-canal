@@ -23,3 +23,7 @@ Cinema e cultura pop, com outliers gringos adaptados para o português do Brasil
 - 2026-11-22: voz escolhida: **Gabriel - Casual** (ai33 pro, voice_id BECjFqjKpX1jVslC0trK, modelo eleven_v4, velocidade 1.0).
 - 2026-11-22: blocos longos da ai33 às vezes cortam a última palavra. Conferir a energia no fim de cada bloco; se cortar, gerar a última frase sozinha e emendar. Final com "..." e "!" ajuda. Na emenda, o atraso vale para os DOIS canais (adelay=...:all=1): senão fica eco de duas vozes (erro de 2026-11-22, já corrigido).
 - 2026-11-22: roteiros com **humor e personalidade**, adaptados de outliers gringos, nunca traduzidos ao pé da letra.
+- 2026-11-22: **formato da amostra APROVADO** (gancho de 32 s): cenas curtas dos trailers com zoom lento, legenda palavra por palavra com a palavra falada em amarelo, um destaque animado diferente a cada frase (contador, carimbo, checklist, etiqueta, tela de filtro, letreiro, máquina de escrever), música original curiosa com ducking, efeitos discretos, -14 LUFS.
+- 2026-11-22: legenda da narração **menor**: Montserrat 900, 46 px (era 66), contorno 8 px, mais embaixo (top 868 px).
+- 2026-11-22: YouTube bloqueia download na nuvem. Trailers: o aluno baixa no PC e manda pelo Drive, cada arquivo como "qualquer pessoa com o link".
+

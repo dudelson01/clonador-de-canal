@@ -22,6 +22,8 @@ def _cena(c, out, w, h):
     ef = c.get("efeito")
     if ef == "filtro":
         vf.append("split[a][b];[b]gblur=sigma=14,eq=brightness=0.04[g];[a][g]blend=all_mode=lighten:all_opacity=0.5,eq=saturation=1.05:brightness=0.03")
+    elif ef == "lavado":
+        vf.append("eq=saturation=0.35:contrast=0.8:brightness=0.04:gamma=1.1")
     elif ef == "escurece":
         vf.append("eq=brightness=-0.08:saturation=0.9")
     elif ef == "pb":
@@ -29,6 +31,11 @@ def _cena(c, out, w, h):
     if c.get("espelhar"): vf.append("hflip")
     vf.append("vignette=PI/5")
     vf.append(f"fps={FPS},trim=duration={dur:.3f},setpts=PTS-STARTPTS,format=yuv420p")
+    if c["src"] == "ARTE":  # fundo de arte (sem cena): degradê escuro animado
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i",
+                        f"gradients=s={w}x{h}:c0=0x1b2430:c1=0x0b0b0e:x0=0:y0=0:x1={w}:y1={h}:speed=0.02:d={dur:.3f}:r={FPS}",
+                        "-vf", "vignette=PI/4,format=yuv420p", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", out], check=True)
+        return
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(c["ss"]), "-t", f"{fonte:.3f}", "-i", c["src"],
                     "-filter_complex", ",".join(vf), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
                     "-r", str(FPS), out], check=True)
@@ -50,6 +57,23 @@ def montar(cenas, artes_mov, som_wav, saida, preview=False):
                         "-c:v", "libx264", "-preset", "medium" if not preview else "veryfast", "-crf", "18",
                         "-r", str(FPS), "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest",
                         "-movflags", "+faststart", saida], check=True)
+    finally:
+        shutil.rmtree(d, ignore_errors=True)
+    return saida
+
+
+def base(cenas, saida, preview=False, paralelo=3):
+    """Só as cenas (sem artes/som), concatenadas. Renderiza as cenas em paralelo."""
+    from concurrent.futures import ThreadPoolExecutor
+    w, h = (960, 540) if preview else (W, H)
+    d = pathlib.Path(tempfile.mkdtemp())
+    try:
+        outs = [str(d / f"c{i:04d}.mp4") for i in range(len(cenas))]
+        with ThreadPoolExecutor(paralelo) as ex:
+            list(ex.map(lambda a: _cena(a[0], a[1], w, h), zip(cenas, outs)))
+        (d / "l.txt").write_text("\n".join(f"file '{o}'" for o in outs))
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(d / "l.txt"),
+                        "-c", "copy", saida], check=True)
     finally:
         shutil.rmtree(d, ignore_errors=True)
     return saida
