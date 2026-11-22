@@ -44,7 +44,7 @@ SB = [
  ("olha essa cara", ("C", GB, [108.4], 0.6)),
  ("isso é um homem", R_),
  ("agora olha o", ("C", TW, [65.88], 0.4), ("Glen Powell", "35 anos em Twisters (2024)")),
- ("esse homem nunca", ("C", TW, [57.4, 98.1])),
+ ("esse homem nunca", ("F", "glen-powell", 0)),
  ("a pele dele", ("F", "glen-powell", 2)),
  ("e não é impressão", R_),
  ("hollywood parou", ("C", CH, [82.85], 0.5)),
@@ -62,21 +62,21 @@ SB = [
  ("seu avô", ("P", [OE, TRS, PC])),
  ("você quando chegar", R_),
  ("silvestre stallone", ("A", "sylvester-stallone", RK), ("Sylvester Stallone", "29 anos em Rocky (1976)")),
- ("terceiro eu ainda", R_),
- ("com a mesma idade", ("A", "timoth-e-chalamet", CH), ("Timothée Chalamet", "29 anos")),
+ ("terceiro ainda acho", R_),
+ ("com a mesma idade", ("A", "timoth-e-chalamet", CH, 0.55), ("Timothée Chalamet", "29 anos")),
  ("tá bom eu sei", R_),
  ("um é boxeador", ("C", RK, [160.0])),
  ("o outro parece", ("A", "timoth-e-chalamet", CH)),
  ("vamos comparar", R_),
  ("de um lado bruce", ("F", "bruce-willis", 1), ("Bruce Willis", "33 anos em Duro de Matar (1988)")),
- ("do outro", ("C", TW, [100.4, 113.9], 0.6), ("Glen Powell", "35 anos em Twisters (2024)")),
+ ("do outro", ("F", "glen-powell", 1), ("Glen Powell", "35 anos em Twisters (2024)")),
  ("o bruce já", ("F", "bruce-willis", 2)),
  ("o grey parece", ("F", "glen-powell", 2)),
  ("ele é dois", R_),
  ("agora batman", ("A", "michael-keaton", B89), ("Michael Keaton", "37 anos em Batman (1989)")),
- ("robert pattinson", ("C", TB, [137.6], 0.6), ("Robert Pattinson", "35 anos em The Batman (2022)")),
+ ("robert pattinson", ("F", "robert-pattinson", 0), ("Robert Pattinson", "35 anos em The Batman (2022)")),
  ("o quinton tem", ("A", "michael-keaton", B89)),
- ("o pattinson foi", ("M", [("F", "robert-pattinson", 0), ("C", TB, [137.6], 0.7)])),
+ ("o pattinson foi", ("M", [("C", TB, [137.55], 0.45), ("F", "robert-pattinson", 0)])),
  ("e mesmo assim", ("F", "robert-pattinson", 1)),
  ("bali ou", R_),
  ("se eu passar", R_),
@@ -88,9 +88,9 @@ SB = [
  ("hoje isso seria", R_),
  ("mesma coisa com", ("P", [PC]), ("O Poderoso Chefão", "1972")),
  ("e não era só", ("F", "kurt-russell", 0), ("Kurt Russell", "Fuga de Nova York (1981)")),
- ("agora olha o hulk", ("C", XM, [63.5], 0.7), ("Hugh Jackman", "X-Men (2000)")),
+ ("agora olha o hulk", ("C", XM, [63.45], 0.4), ("Hugh Jackman", "X-Men (2000)")),
  ("e olha ele em", ("A", "hugh-jackman", DP), ("Hugh Jackman", "Deadpool & Wolverine (2024)")),
- ("o wolverine de 2000", ("C", XM, [64.0], 0.7)),
+ ("o wolverine de 2000", ("C", XM, [63.5], 0.38, {"espelhar": True})),
  ("o de 2024", ("A", "hugh-jackman", DP)),
  ("controlado por", R_),
  ("e aqui tem o exemplo", ("P", [CD]), ("Cidade de Deus", "2002")),
@@ -104,25 +104,25 @@ SB = [
  ("agora imagine", ("F", "margot-robbie", 0), ("Margot Robbie", "")),
  ("ela ia cortar", R_),
  ("é o rosto comum", ("F", "mia-farrow", 1)),
- ("e quando parece", ("P", [RS])),
+ ("e quando parece", R_),
  ("em star wars", ("P", [SW]), ("Star Wars", "1977")),
  ("e em taxi driver", ("P", [TX]), ("Taxi Driver", "1976")),
  ("o próprio deniro", ("A", "robert-de-niro", TX), ("Robert De Niro", "")),
  ("cara isso é mágico", R_),
  ("eles parecem que", ("P", [TX])),
  ("isso tem nome", R_),
- ("no fim de rocky", ("C", RK, [154.5, 158.0, 162.0, 166.0, 170.0])),
- ("quidge depois", ("A", "michael-b-jordan", CR), ("Michael B. Jordan", "Creed (2015)")),
+ ("no fim de rocky", ("M", [("C", RK, [157.0]), ("A", "sylvester-stallone", RK)])),
+ ("quidge depois", ("A", "michael-b-jordan", CR, 0.62), ("Michael B. Jordan", "Creed (2015)")),
  ("no fim de homem", ("A", "tobey-maguire", HA2), ("Tobey Maguire", "Homem-Aranha (2002)")),
- ("o tom holland", ("P", [HA21]), ("Tom Holland", "Homem-Aranha: Sem Volta para Casa (2021)")),
+ ("o tom holland", ("M", [("A", "tom-holland", HA21), ("P", [HA21])]), ("Tom Holland", "Homem-Aranha: Sem Volta para Casa (2021)")),
  ("e eu bato", R_),
- ("e em três homens", ("A", "clint-eastwood", TRS), ("Clint Eastwood", "Três Homens em Conflito (1966)")),
+ ("e em três homens", ("A", "clint-eastwood", TRS, 0.62), ("Clint Eastwood", "Três Homens em Conflito (1966)")),
  ("hoje o máximo", ("P", NOVOS)),
  ("mas quando todo", R_),
  ("em 2021", ("Q", {"tipo": "tweet", "nome": "Raquel S. Benedict", "user": "ensaio &middot; 2021",
                     "texto": "“Todo mundo é bonito e ninguém tem tesão.”", "likes": "o nome é esse mesmo"})),
  ("sim é esse", R_),
- ("a ideia dela", ("P", NOVOS)),
+ ("a ideia dela", ("M", [("A", "timoth-e-chalamet", CH, 0.55), ("A", "michael-b-jordan", CR, 0.62), ("A", "hugh-jackman", DP, 0.7), ("F", "glen-powell", 2), ("A", "tom-holland", HA21), ("F", "chris-evans", 0), ("F", "robert-pattinson", 0)])),
  ("e tem tecnologia", R_),
  ("percebendo", ("Q", {"tipo": "tweet", "nome": "cinéfilo cansado", "user": "@saudade_dos_80",
                       "texto": "que saudade de ator com dente normal", "likes": "48 mil"})),
@@ -130,38 +130,42 @@ SB = [
                           "texto": "é chato demais todo mundo ter o mesmo dente e o mesmo corpo", "likes": "31 mil"})),
  ("teve uma pessoa", ("A", "donald-sutherland", IV), ("Donald Sutherland", "Invasores de Corpos (1978)")),
  ("é bonito sim", ("F", "donald-sutherland", 0)),
- ("e se perguntou", ("P", [IV])),
- ("será que seria", ("A", "timoth-e-chalamet", CH)),
+ ("e se perguntou", ("A", "donald-sutherland", IV)),
+ ("será que seria", ("F", "timoth-e-chalamet", 0)),
  ("o ryan reynolds", ("M", [("F", "ryan-reynolds", 0), ("A", "ryan-reynolds", DP)]), ("Ryan Reynolds", "")),
  ("o chris evans", ("F", "chris-evans", 0), ("Chris Evans", "")),
  ("ai mas ele", ("F", "chris-evans", 1)),
  ("nós não temos", R_),
- ("parece que todo mundo", ("M", [("A", "hugh-jackman", DP), ("A", "michael-b-jordan", CR)])),
+ ("parece que todo mundo", ("M", [("A", "hugh-jackman", DP, 0.7), ("A", "michael-b-jordan", CR, 0.62)])),
  ("e isso tem até", R_),
- ("é aquele rosto", ("A", "timoth-e-chalamet", CH)),
+ ("é aquele rosto", ("F", "timoth-e-chalamet", 1)),
  ("é por isso que tem", R_),
  ("o cara está em", ("P", [CH])),
  ("o personagem é", R_),
  ("e isso não é só", ("P", NOVOS)),
  ("antes era a bagunça", ("C", TX, [128.5, 131.0], 1.0)),
- ("a poeira", ("P", [OE])),
+ ("a poeira", ("P", [OE, TRS])),
  ("hoje muita coisa", ("P", NOVOS, "lavado")),
  ("olha não é todo", R_),
- ("rock ensanguentado", ("M", [("C", RK, [166.0], 1.0), ("A", "clint-eastwood", TRS), ("P", [TX]), ("P", [OE])])),
+ ("rock ensanguentado", ("M", [("A", "sylvester-stallone", RK), ("A", "clint-eastwood", TRS, 0.62), ("A", "robert-de-niro", TX), ("P", [OE])])),
  ("os atores não são", ("P", NOVOS)),
  ("e é justamente", R_),
 ]
 
 
 # ---------------- âncoras: acha cada frase em sequência na fala ----------------
-def acha(frase, depois):
-    alvo = [norm(x) for x in frase.split()]
+def acha(frase, depois, limiar=0.78):
+    """Primeira posição depois de 'depois' cujas palavras parecem com a frase (tolera erro do transcritor)."""
+    import difflib
+    alvo = " ".join(norm(x) for x in frase.split()); n = len(frase.split())
     ws = [(norm(w["w"]), w["s"]) for w in PAL]
     for i in range(len(ws)):
         if ws[i][1] < depois - 0.05: continue
-        if all(i + k < len(ws) and ws[i + k][0].startswith(a[:max(3, len(a) - 1)]) if len(a) > 2 else ws[i + k][0] == a
-               for k, a in enumerate(alvo)):
-            return ws[i][1]
+        for m in (n, n + 1, n - 1):
+            if m < 1: continue
+            cand = " ".join(x[0] for x in ws[i:i + m])
+            if difflib.SequenceMatcher(None, alvo, cand).ratio() >= limiar and cand[:2] == alvo[:2]:
+                return ws[i][1]
     raise ValueError(f"âncora não achada: '{frase}' depois de {depois:.1f}")
 
 
@@ -188,7 +192,7 @@ def planos_ator(ator, tr, dur, minsim=0.5):
     vistos, cand = set(), []
     for x in sorted(ach, key=lambda x: -x["area"] * x["sim"]):
         i, c = cena_de(tr, x["t"])
-        if i is None or c["cartela"] or (tr, i) in BLOQ or (tr, i) in vistos: continue
+        if i is None or c["cartela"] or (tr, i) in BLOQ or (tr, i) in vistos or not (30 <= c["brilho"] <= 215): continue
         vistos.add((tr, i)); cand.append((i, c, x["t"]))
     novos = [c for c in cand if (tr, c[0]) not in usados] or cand
     return novos
@@ -207,10 +211,11 @@ def resolve(vis, dur):
     if kind == "C":
         tr, lista = vis[1], vis[2]; vel = vis[3] if len(vis) > 3 else 1.0
         n = max(1, min(len(lista), round(dur / 1.8))); d = dur / n
-        return [{"src": TR + tr + ".mp4", "ss": lista[k], "dur": d, "vel": vel} for k in range(n)]
+        ext = vis[4] if len(vis) > 4 else {}
+        return [{"src": TR + tr + ".mp4", "ss": lista[k], "dur": d, "vel": vel, **ext} for k in range(n)]
     if kind == "A":
         ator, tr = vis[1], vis[2]
-        cand = planos_ator(ator, tr, dur)
+        cand = planos_ator(ator, tr, dur, vis[3] if len(vis) > 3 else 0.5)
         if not cand: return resolve("R", dur)
         n = max(1, round(dur / 2.2)); d = dur / n; out = []
         for k in range(n):
@@ -266,3 +271,47 @@ if __name__ == "__main__" and "--plano" in A:
     rosto = sum(c["dur"] for c in cenas if c.get("_rosto"))
     print(len(cenas), "planos;", round(rosto / FIM * 100), "% rosto;", sum(1 for c in cenas if c["src"].endswith(".jpg")), "fotos;",
           len(el), "elementos; duração", round(sum(c["dur"] for c in cenas), 1), "/", round(FIM, 1))
+
+if __name__ == "__main__" and "--som" in A:
+    from mixar import mixar
+    ini = {}
+    for c in CORTES: ini.setdefault(c["bloco"], c["ini"])
+    partes = [("GANCHO", "curioso", 100, 0, 11), ("P2", "tenso", 90, 0, 2), ("CTA", "curioso", 94, -3, 3),
+              ("P4", "tenso", 100, 2, 4), ("P5", "curioso", 96, 2, 5), ("P6", "tenso", 84, -2, 6), ("FINAL", "epico", 80, 0, 7)]
+    mus = []
+    for i, (b, est, bpm, tom, seed) in enumerate(partes):
+        a = max(0.0, ini[b] - (1.5 if i else 0)); fim = (ini[partes[i + 1][0]] + 0.5) if i + 1 < len(partes) else FIM + 1.5
+        f = O3 + f"musica_{i}.wav"
+        subprocess.run(["python3", "ferramentas/musica.py", f, str(fim - a), "--estilo", est, "--bpm", str(bpm),
+                        "--tom", str(tom), "--seed", str(seed)], check=True, capture_output=True)
+        mus.append((f, a))
+    el = json.load(open(O3 + "spec.json"))["elementos"]; FX = V + "build/sfx/"
+    sfx = []
+    for e in el:
+        if e["tipo"] == "tweet": sfx.append((FX + "pop.wav", e["ini"], -8))
+        if e["tipo"] == "insc": sfx += [(FX + "pop.wav", e["ini"], -8), (FX + "tique.wav", e["ini"] + 1.4, -6)]
+    # whoosh bem baixinho só quando entra/sai do rosto (troca de "mundo")
+    cenas = json.load(open(O3 + "plano.json")); t = 0; ant = None
+    for c in cenas:
+        r = bool(c.get("_rosto"))
+        if ant is not None and r != ant: sfx.append((FX + "whoosh.wav", t - 0.12, -20))
+        ant = r; t += c["dur"]
+    mixar(R + "voz.wav", O3 + "som.wav", 0, FIM, musicas=mus, sfx=sfx, musica_db=-21)
+    print("som ok")
+
+if __name__ == "__main__" and "--artes" in A:
+    subprocess.run(["node", "ferramentas/arte/render.mjs", O3 + "spec.json", O3 + "artes.mov"], check=True, stdout=subprocess.DEVNULL)
+    print("artes ok")
+
+if __name__ == "__main__" and "--video" in A:
+    from montar import base
+    cenas = json.load(open(O3 + "plano.json"))
+    base(cenas, O3 + "base.mp4", paralelo=2); print("base ok")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", O3 + "base.mp4", "-i", O3 + "artes.mov", "-i", O3 + "som.wav",
+                    "-filter_complex", "[0][1]overlay=0:0:eof_action=pass,format=yuv420p[v]", "-map", "[v]", "-map", "2:a",
+                    "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-r", "30", "-c:a", "aac", "-b:a", "192k",
+                    "-ar", "48000", "-shortest", "-movflags", "+faststart", V + "out/video-rosto-v3.mp4"], check=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", V + "out/video-rosto-v3.mp4", "-c:v", "libx264", "-preset", "medium",
+                    "-b:v", "3900k", "-maxrate", "5000k", "-bufsize", "8000k", "-c:a", "copy", "-movflags", "+faststart",
+                    V + "out/video-rosto-v3-envio.mp4"], check=True)
+    print("VIDEO v3 ok")
