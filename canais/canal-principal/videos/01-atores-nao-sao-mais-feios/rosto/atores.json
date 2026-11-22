@@ -1,0 +1,17 @@
+{
+ "bill-murray": {"trailers": ["ghostbusters-1984"], "refs": ["ghostbusters-1984@108.5", "ghostbusters-1984@59.5"]},
+ "glen-powell": {"trailers": ["twisters-2024"], "refs": ["twisters-2024@66.5"]},
+ "sylvester-stallone": {"trailers": ["rocky-1976"], "refs": ["rocky-1976@132.0"]},
+ "timoth-e-chalamet": {"trailers": ["chalamet-a-complete-unknown"], "refs": []},
+ "michael-keaton": {"trailers": ["batman-1989"], "refs": []},
+ "robert-pattinson": {"trailers": ["the-batman-2022"], "refs": ["the-batman-2022@137.5"]},
+ "hugh-jackman": {"trailers": ["x-men-2000", "deadpool-wolverine-2024"], "refs": ["deadpool-wolverine-2024@7.5"]},
+ "mia-farrow": {"trailers": ["bebe-de-rosemary-1968"], "refs": []},
+ "robert-de-niro": {"trailers": ["taxi-driver-1976"], "refs": ["taxi-driver-1976@70.0"]},
+ "michael-b-jordan": {"trailers": ["creed-2015"], "refs": []},
+ "tobey-maguire": {"trailers": ["homem-aranha-2002"], "refs": []},
+ "tom-holland": {"trailers": ["homem-aranha-2021"], "refs": []},
+ "clint-eastwood": {"trailers": ["tres-homens-em-conflito-1966"], "refs": ["tres-homens-em-conflito-1966@148.0"]},
+ "donald-sutherland": {"trailers": ["invasores-de-corpos-1978"], "refs": []},
+ "ryan-reynolds": {"trailers": ["deadpool-wolverine-2024"], "refs": ["deadpool-wolverine-2024@88.5"]}
+}

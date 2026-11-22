@@ -31,6 +31,15 @@ def _cena(c, out, w, h):
     if c.get("espelhar"): vf.append("hflip")
     if not c.get("sem_vinheta"): vf.append("vignette=PI/5")
     vf.append(f"fps={FPS},trim=duration={dur:.3f},setpts=PTS-STARTPTS,format=yuv420p")
+    if c["src"].lower().endswith((".jpg", ".jpeg", ".png")):  # FOTO: zoom lento + fundo desfocado da própria foto
+        z0 = c.get("z0", 1.0); z = c.get("zoom", 0.08)
+        fc = (f"[0]scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},gblur=sigma=30,eq=brightness=-0.15[bg];"
+              f"[0]scale=-2:{h}[fg];[bg][fg]overlay=(W-w)/2:0,"
+              f"scale=w='ceil({w}*({z0}+{z}*t/{dur:.3f})/2)*2':h='ceil({h}*({z0}+{z}*t/{dur:.3f})/2)*2':eval=frame,crop={w}:{h},"
+              f"fps={FPS},format=yuv420p")
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.3f}", "-i", c["src"],
+                        "-filter_complex", fc, "-t", f"{dur:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", out], check=True)
+        return
     if c["src"] == "ARTE":  # fundo de arte (sem cena): degradê escuro animado
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i",
                         f"gradients=s={w}x{h}:c0=0x1b2430:c1=0x0b0b0e:x0=0:y0=0:x1={w}:y1={h}:speed=0.02:d={dur:.3f}:r={FPS}",

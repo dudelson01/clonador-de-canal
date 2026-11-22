@@ -20,7 +20,7 @@ TRECHOS = [
  ("ANTES", 110.98, 116.10, False, "Hoje os atores principais ... revista"),
  ("ANTES", 117.64, 120.18, False, "Eles não parecem gente, parecem modelo de perfume"),
  ("ANTES", 130.77, 134.09, True, "E eu falo isso com toda autoridade de quem"),
- ("ANTES", 134.67, 137.65, True, "tem rosto de gente (sem a pausa)"),
+ ("ANTES", 136.40, 138.10, True, "tem rosto de gente (sem o 'tem...' arrastado)", True),
  ("ANTES", 139.77, 148.53, False, "Claro, não é todo ator ... visual de filme de streaming"),
  ("ANTES", 149.71, 157.57, True, "Mas pega qualquer filme antes dos anos 2000 ... hoje em dia"),
  ("P1", 161.80, 166.10, True, "Parte do motivo é simples ... mais novo hoje"),
