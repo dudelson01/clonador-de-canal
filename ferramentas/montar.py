@@ -11,10 +11,10 @@ W, H, FPS = 1920, 1080, 30
 
 
 def _cena(c, out, w, h):
-    vel = c.get("vel", 1.0); dur = c["dur"]; z = c.get("zoom", 0.06)
+    vel = c.get("vel", 1.0); dur = c["dur"]; z = c.get("zoom", 0.06); z0 = c.get("z0", 1.0)
     fonte = dur * vel + 0.1
-    # zoom lento contínuo (sem tremer): escala cresce com o tempo, recorte central
-    zf = f"(1+{z}*t/{dur:.3f})"
+    # zoom lento contínuo (sem tremer): escala cresce com o tempo, recorte central; z0 = zoom inicial ("pulo de zoom")
+    zf = f"({z0}+{z}*t/{dur:.3f})"
     vf = [f"setpts=PTS/{vel}" if vel != 1 else "null",
           f"scale={w}:{h}:force_original_aspect_ratio=increase", f"crop={w}:{h}",
           f"scale=w='ceil({w}*{zf}/2)*2':h='ceil({h}*{zf}/2)*2':eval=frame", f"crop={w}:{h}",
@@ -29,7 +29,7 @@ def _cena(c, out, w, h):
     elif ef == "pb":
         vf.append("hue=s=0")
     if c.get("espelhar"): vf.append("hflip")
-    vf.append("vignette=PI/5")
+    if not c.get("sem_vinheta"): vf.append("vignette=PI/5")
     vf.append(f"fps={FPS},trim=duration={dur:.3f},setpts=PTS-STARTPTS,format=yuv420p")
     if c["src"] == "ARTE":  # fundo de arte (sem cena): degradê escuro animado
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i",
