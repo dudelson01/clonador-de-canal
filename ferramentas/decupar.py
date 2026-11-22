@@ -52,6 +52,33 @@ for tr in d.TRECHOS:
     cortes.append({"bloco": bloco, "cam": cam, "nota": nota, "src_s": round(s2, 3), "src_e": round(e2, 3),
                    "ini": round(t_novo, 3), "fim": round(t_novo + e2 - s2, 3)})
     t_novo += e2 - s2
+# corta silêncios longos DENTRO de cada trecho (rosto parado sem falar): pausa > 0,35 s vira 0,2 s
+PAUSA, RESPIRO = 0.35, 0.10
+novos = []
+for c in cortes:
+    i0, i1 = int(c["src_s"] * 100), int(c["src_e"] * 100)
+    sil = rms[i0:i1] < LIM
+    partes, ini, k = [], c["src_s"], 0
+    while k < len(sil):
+        if sil[k]:
+            j = k
+            while j < len(sil) and sil[j]: j += 1
+            a_, b_ = c["src_s"] + k / 100, c["src_s"] + j / 100
+            if b_ - a_ >= PAUSA and k > 0 and j < len(sil):
+                partes.append((ini, a_ + RESPIRO)); ini = b_ - RESPIRO
+            k = j
+        else:
+            k += 1
+    partes.append((ini, c["src_e"]))
+    for s_, e_ in partes:
+        # apara silêncio nas bordas: deixa 0,08 s antes da fala e 0,14 s depois
+        a_, b_ = int(s_ * 100), int(e_ * 100)
+        while a_ < b_ and rms[a_] < LIM: a_ += 1
+        while b_ > a_ and rms[b_ - 1] < LIM: b_ -= 1
+        s_, e_ = max(s_, a_ / 100 - 0.08), min(e_, b_ / 100 + 0.14)
+        if e_ - s_ > 0.12: novos.append({**c, "src_s": round(s_, 3), "src_e": round(e_, 3)})
+print(len(cortes), "trechos ->", len(novos), "depois de tirar as pausas")
+cortes = novos
 # alinha cada corte à grade de quadros (1/30 s) para voz e boca ficarem sincronizadas
 Q = 1 / 30; t_novo = 0.0
 for c in cortes:
@@ -73,6 +100,7 @@ fc_a = ";".join(fa) + ";" + "".join(f"[a{k}]" for k in range(n)) + f"concat=n={n
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", grav, "-filter_complex", fc_a, "-map", "[A]", "-ac", "1",
                 str(out / "voz.wav")], check=True)
 print("voz ok")
+if "--so-voz" in sys.argv: sys.exit(0)
 # vídeo: um trecho por vez (pouca memória), depois junta sem reencodar
 from concurrent.futures import ThreadPoolExecutor
 tmp = out / "trechos"; tmp.mkdir(exist_ok=True)

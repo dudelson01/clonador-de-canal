@@ -32,4 +32,10 @@ Cinema e cultura pop, com outliers gringos adaptados para o português do Brasil
 - 2026-11-22: decupagem: ficar com a última versão boa, manter os bons improvisos dele (ex.: "subiu mais que 10", "Bali ou Madrid", "não sei falar esse sobrenome") e dar destaque a eles. Cortes alinhados aos quadros (1/30 s) para a boca não dessincronizar.
 - 2026-11-22: com o rosto na tela, carimbo e letreiro descem para a altura do peito (não cobrem o rosto).
 - 2026-11-22: entregue out/video-rosto.mp4 (12:05) + out/seo-rosto.txt. A versão só com voz de IA (out/video.mp4) continua disponível.
+- 2026-11-22: **versão com rosto NÃO aprovada.** O aluno reclamou:
+  - cortes que comem palavras ("mais chatos", "Timothée Chalamet") e frase repetida (0:45);
+  - **rosto parado sem falar** depois de várias frases: cortar TODA pausa longa (máx. ~0,2 s de respiro);
+  - **clipes desconexos da fala**: falou de um ator/filme, tem que aparecer AQUELE ator/AQUELA cena. Pode usar **fotos dos atores**. Nada de cena genérica "do filme" com outro ator;
+  - **menos animações** na tela e **SEM legenda embaixo**;
+  - referência de edição: vídeo mandado pelo Drive (estudar e copiar o estilo).
 
