@@ -9,3 +9,4 @@ canais/*/videos/*/midia/
 __pycache__/
 canais/*/videos/*/out/*.mp3
 canais/*/videos/*/out/*.mp4
+canais/*/videos/*/out/*.png

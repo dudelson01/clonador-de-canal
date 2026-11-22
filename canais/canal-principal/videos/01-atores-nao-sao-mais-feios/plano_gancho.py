@@ -48,3 +48,35 @@ if __name__ == "__main__" and "--som" in sys.argv:
     mixar(V+"narracao.wav", V+"build/som_gancho.wav", 0, 32.0,
           musicas=[(V+"build/musica_gancho.wav", 0.0)], sfx=SFX)
     print("som ok")
+
+# ---------- cenas do gancho (tempo da narração -> trecho do trailer) ----------
+T = V + "midia/trailers/"
+GB, TW, CH, TB, RK, TX = (T + x + ".mp4" for x in ("ghostbusters-1984", "twisters-2024", "chalamet-a-complete-unknown",
+                                                   "the-batman-2022", "rocky-1976", "taxi-driver-1976"))
+CENAS = [
+ {"src": GB, "ss": 59.6, "dur": 2.40},                    # Bill Murray close: "tinha 33 anos"
+ {"src": GB, "ss": 41.0, "dur": 2.10},                    # equipe no hotel: "Caça-Fantasmas"
+ {"src": GB, "ss": 108.4, "dur": 2.30, "vel": 0.55, "zoom": 0.12},  # rosto do Bill: "33. Olha essa cara"
+ {"src": GB, "ss": 104.4, "dur": 2.70, "efeito": "escurece"},       # equipe: checklist
+ {"src": GB, "ss": 34.0, "dur": 1.70, "efeito": "escurece"},        # Ecto-1 na rua: "perdeu o ônibus"
+ {"src": GB, "ss": 98.3, "dur": 1.65, "efeito": "escurece"},        # multidão: "pastel de rodoviária"
+ {"src": TW, "ss": 65.88, "dur": 2.45, "vel": 0.37},        # Glen close: "Glen Powell, 35"
+ {"src": TW, "ss": 98.1, "dur": 0.85},                    # Glen de chapéu
+ {"src": TW, "ss": 57.4, "dur": 0.70},                    # Glen sorrindo
+ {"src": TW, "ss": 47.3, "dur": 0.90},                    # Glen dirigindo
+ {"src": TW, "ss": 113.9, "dur": 2.55, "vel": 0.42, "efeito": "filtro"},  # "pele com filtro"
+ {"src": CH, "ss": 60.2, "dur": 1.20},                    # Chalamet na rua: "não é impressão sua"
+ {"src": TB, "ss": 137.6, "dur": 1.20, "vel": 0.7},       # Pattinson
+ {"src": CH, "ss": 82.85, "dur": 3.00, "vel": 0.45, "zoom": 0.1},  # Chalamet de óculos: "PROIBIDO CARA DE GENTE"
+ {"src": RK, "ss": 132.15, "dur": 1.00, "vel": 0.5, "efeito": "escurece"},  # Stallone suado: "quando aconteceu"
+ {"src": RK, "ss": 160.0, "dur": 1.40, "efeito": "escurece"},  # ringue do Rocky
+ {"src": TX, "ss": 70.0, "dur": 1.60, "efeito": "escurece"},   # De Niro: "por que aconteceu"
+ {"src": TW, "ss": 100.4, "dur": 2.30, "vel": 0.75, "efeito": "escurece"},  # Glen gritando: "mais chatos?"
+]
+if __name__ == "__main__" and "--video" in sys.argv:
+    from montar import montar
+    print("duração das cenas:", round(sum(c["dur"] for c in CENAS), 2))
+    prev = "--preview" in sys.argv
+    montar(CENAS, V + "build/artes_gancho.mov", V + "build/som_gancho.wav",
+           V + ("out/amostra-gancho-preview.mp4" if prev else "out/amostra-gancho.mp4"), preview=prev)
+    print("video ok")
