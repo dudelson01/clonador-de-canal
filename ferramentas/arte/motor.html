@@ -1,0 +1,112 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Anton;src:url(../../node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2)}
+@font-face{font-family:Mont;font-weight:800;src:url(../../node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Mont;font-weight:900;src:url(../../node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+@font-face{font-family:Mont;font-weight:400;src:url(../../node_modules/@fontsource/montserrat/files/montserrat-latin-400-normal.woff2)}
+@font-face{font-family:Bebas;src:url(../../node_modules/@fontsource/bebas-neue/files/bebas-neue-latin-400-normal.woff2)}
+html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hidden}
+#palco{position:absolute;inset:0}
+.el{position:absolute;will-change:transform,opacity}
+/* legenda */
+#leg{position:absolute;left:0;right:0;top:820px;text-align:center;font:900 66px/1.15 Mont;color:#fff;
+  -webkit-text-stroke:11px #000;paint-order:stroke fill;letter-spacing:.5px;text-transform:uppercase;padding:0 160px}
+#leg span{display:inline-block;margin:0 .14em;transition:none}
+#leg span.on{color:#FFD400;transform:scale(1.08)}
+/* numero */
+.numero{left:0;right:0;top:150px;text-align:center;font:400 260px/1 Anton;color:#FFD400;-webkit-text-stroke:12px #000;paint-order:stroke fill;
+  text-shadow:0 10px 0 rgba(0,0,0,.35)}
+.numero small{display:block;font:400 92px/1 Anton;color:#fff;letter-spacing:6px;margin-top:6px}
+/* carimbo */
+.carimbo{left:50%;top:300px;font:400 170px/1 Anton;color:#E3262E;border:14px solid #E3262E;padding:10px 46px 0;border-radius:18px;
+  background:rgba(255,255,255,.06);letter-spacing:4px;mix-blend-mode:normal;text-shadow:0 0 1px #E3262E}
+/* checklist */
+.check{left:110px;top:150px;background:rgba(10,10,12,.82);border-left:10px solid #FFD400;padding:30px 44px 34px;border-radius:10px;
+  font:800 50px/1.25 Mont;color:#fff;box-shadow:0 18px 50px rgba(0,0,0,.5)}
+.check h3{margin:0 0 16px;font:400 64px/1 Anton;color:#FFD400;letter-spacing:2px}
+.check li{list-style:none;display:flex;align-items:center;gap:22px;margin:12px 0}
+.check li b{display:inline-grid;place-items:center;width:58px;height:58px;border-radius:8px;background:#1fbf5b;color:#fff;font:900 42px Mont}
+/* etiqueta */
+.etq{left:1180px;top:220px;font:800 46px/1.1 Mont;color:#111;background:#FFD400;padding:18px 28px;border-radius:8px;box-shadow:0 14px 40px rgba(0,0,0,.45)}
+.etq .linha{position:absolute;left:-180px;top:50%;width:180px;height:6px;background:#FFD400;transform-origin:right center}
+.etq .ponto{position:absolute;left:-196px;top:calc(50% - 10px);width:22px;height:22px;border-radius:50%;background:#FFD400}
+.etq em{font-style:normal;color:#E3262E;font-weight:900}
+/* filtro (interface de app de beleza) */
+.filtro{left:0;top:0;width:1920px;height:1080px}
+.filtro .moldura{position:absolute;inset:36px;border:4px solid rgba(255,255,255,.85);border-radius:34px}
+.filtro .tag{position:absolute;left:50%;top:84px;transform:translateX(-50%);background:rgba(255,255,255,.92);color:#111;
+  font:800 44px/1 Mont;padding:18px 34px;border-radius:999px;white-space:nowrap}
+.filtro .barra{position:absolute;left:50%;bottom:400px;transform:translateX(-50%);width:640px;height:14px;border-radius:7px;background:rgba(255,255,255,.35)}
+.filtro .barra i{position:absolute;left:0;top:0;bottom:0;border-radius:7px;background:#fff}
+.filtro .barra b{position:absolute;top:-17px;width:48px;height:48px;border-radius:50%;background:#fff;box-shadow:0 4px 14px rgba(0,0,0,.4)}
+/* letreiro */
+.letreiro{left:0;right:0;top:330px;text-align:center}
+.letreiro div{display:inline-block;font:400 150px/1 Anton;color:#fff;letter-spacing:6px;padding:26px 60px 18px;background:#C8101A;
+  box-shadow:0 0 0 10px #fff,0 0 0 22px #C8101A,0 30px 80px rgba(0,0,0,.6);transform:rotate(-2deg)}
+.flash{left:0;top:0;width:1920px;height:1080px;background:#fff}
+/* maquina de escrever */
+.maquina{left:150px;top:170px;font:400 96px/1.18 Bebas;color:#fff;letter-spacing:3px;text-shadow:0 6px 24px rgba(0,0,0,.8)}
+.maquina .n{color:#FFD400;margin-right:22px}
+.maquina .cursor{display:inline-block;width:10px;height:80px;background:#FFD400;vertical-align:-6px;margin-left:6px}
+</style></head>
+<body><div id="palco"></div><div id="leg"></div>
+<script>
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>1-Math.pow(1-clamp(x),3);
+const back=x=>{x=clamp(x);const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+let SPEC=null, nodes=[];
+function setup(spec){
+  SPEC=spec; const palco=document.getElementById('palco');
+  nodes=spec.elementos.map(e=>{const d=document.createElement('div');d.className='el '+e.tipo;palco.appendChild(d);return d});
+}
+function fade(t,e,inD=.18,outD=.18){return Math.min(ease((t-e.ini)/inD), ease((e.fim-t)/outD))}
+function render(t){
+  // legenda: grupos de palavras
+  const leg=document.getElementById('leg'); const g=(SPEC.legenda||[]).find(g=>t>=g.ini&&t<g.fim);
+  if(g){ let at=-1; g.palavras.forEach((p,i)=>{if(t>=p.s-0.03)at=i});
+    leg.innerHTML=g.palavras.map((p,i)=>`<span class="${i===at?'on':''}">${p.w}</span>`).join(' '); leg.style.opacity=1 }
+  else leg.innerHTML='';
+  SPEC.elementos.forEach((e,i)=>{
+    const d=nodes[i]; const vis=t>=e.ini&&t<e.fim; d.style.display=vis?'block':'none'; if(!vis)return;
+    const k=t-e.ini, op=fade(t,e);
+    d.style.opacity=op;
+    if(e.tipo==='numero'){
+      const v=Math.round(e.de+(e.ate-e.de)*ease(k/(e.dur||0.7)));
+      d.innerHTML=`${v}<small>${e.sufixo||''}</small>`;
+      const s=k<0.7?1:1+0.06*Math.exp(-(k-0.7)*8)*Math.sin((k-0.7)*40);
+      d.style.transform=`scale(${(0.6+0.4*back(k/0.35))*s})`;
+    } else if(e.tipo==='carimbo'){
+      d.textContent=e.texto; const s=2.4-1.4*ease(k/0.16);
+      d.style.transform=`translateX(-50%) rotate(${e.rot||-8}deg) scale(${s})`; d.style.opacity=Math.min(op,clamp(k/0.06));
+    } else if(e.tipo==='check'){
+      if(!d.dataset.ok){d.innerHTML=`<h3>${e.titulo}</h3><ul style="margin:0;padding:0">${e.itens.map(x=>`<li><b>✓</b><span>${x.t}</span></li>`).join('')}</ul>`;d.dataset.ok=1}
+      d.style.transform=`translateX(${-80*(1-ease(k/0.3))}px)`;
+      [...d.querySelectorAll('li')].forEach((li,j)=>{const kk=t-e.itens[j].s;li.style.opacity=clamp(kk/0.12);
+        li.querySelector('b').style.transform=`scale(${kk<0?0:back(kk/0.25)})`;li.style.transform=`translateX(${-30*(1-ease(kk/0.2))}px)`});
+    } else if(e.tipo==='etq'){
+      if(!d.dataset.ok){d.innerHTML=`<span class="ponto"></span><span class="linha"></span>${e.html}`;d.dataset.ok=1}
+      if(e.x!=null){d.style.left=e.x+'px';d.style.top=e.y+'px'}
+      d.querySelector('.linha').style.transform=`scaleX(${ease(k/0.25)})`;
+      d.style.transform=`scale(${0.7+0.3*back((k-0.12)/0.3)})`; d.style.opacity=Math.min(op,clamp((k-0.1)/0.1));
+    } else if(e.tipo==='filtro'){
+      if(!d.dataset.ok){d.innerHTML=`<div class="moldura"></div><div class="tag">${e.texto}</div><div class="barra"><i></i><b></b></div>`;d.dataset.ok=1}
+      const p=ease((k-0.25)/0.9); d.querySelector('.barra i').style.width=(p*100)+'%'; d.querySelector('.barra b').style.left=`calc(${p*100}% - 24px)`;
+      d.querySelector('.tag').style.transform=`translateX(-50%) scale(${back(k/0.3)})`;
+    } else if(e.tipo==='letreiro'){
+      d.innerHTML=`<div>${e.texto}</div>`; const s=1.25-0.25*ease(k/0.25);
+      const tr=k<0.45?(Math.sin(k*90)*10*(1-k/0.45)):0;
+      d.firstChild.style.transform=`rotate(-2deg) scale(${s}) translate(${tr}px,${-tr/2}px)`;
+    } else if(e.tipo==='flash'){
+      d.style.opacity=clamp(1-k/(e.fim-e.ini))*0.9;
+    } else if(e.tipo==='maquina'){
+      let html=''; const cps=e.cps||22;
+      e.linhas.forEach((l,j)=>{const kk=t-l.s; if(kk<0)return; const n=Math.floor(kk*cps);
+        const txt=l.t.slice(0,n); const fim=n>=l.t.length;
+        html+=`<div><span class="n">${j+1}.</span>${txt}${(!fim)?'<span class="cursor"></span>':''}</div>`});
+      d.innerHTML=html;
+    }
+  });
+}
+window.setup=setup; window.render=render;
+</script></body></html>
