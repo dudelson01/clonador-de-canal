@@ -8,7 +8,7 @@ O fim exato vem do fim da última palavra (Whisper) + folga, sem invadir a palav
 TRECHOS = [
  # bloco, ini, ultima, cam, nota
  ("GANCHO", 3.85, 6.45, False, "33 anos quando gravou Caça-Fantasmas"),
- ("GANCHO", 11.80, 12.55, True, "33.", True),
+ ("GANCHO", 11.95, 13.75, True, "Trinta e três.", True),
  ("GANCHO", 14.76, 21.52, True, "Olha essa cara! ... pastel na rodoviária"),
  ("GANCHO", 45.22, 52.74, False, "Agora olha o Glenn Powell. Com 35 ... com filtro (3ª versão)"),
  ("GANCHO", 54.92, 59.40, True, "E não é impressão sua ... cara de gente"),

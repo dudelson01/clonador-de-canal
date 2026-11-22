@@ -18,7 +18,9 @@ m = WhisperModel(a.modelo, device="cpu", compute_type="int8")
 segs, _ = m.transcribe(audio, language="pt", word_timestamps=True, vad_filter=True,
                        condition_on_previous_text=False, initial_prompt=a.prompt)
 pal, fr = [], []
+RUIDO = ("legendas pela comunidade", "amara.org", "obrigado por assistir", "inscreva-se no canal")
 for s in segs:
+    if any(r in s.text.lower() for r in RUIDO): continue
     fr.append({"texto": s.text.strip(), "s": round(s.start, 3), "e": round(s.end, 3)})
     for w in s.words or []:
         pal.append({"w": w.word.strip(), "s": round(w.start, 3), "e": round(w.end, 3), "p": round(w.probability, 2)})

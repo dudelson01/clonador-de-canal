@@ -170,3 +170,49 @@ if __name__ == "__main__":
         print(len(cenas), "cenas;", sum(1 for c in cenas if c.get("_rosto")), "de rosto;",
               round(sum(c["dur"] for c in cenas if c.get("_rosto")) / FIM * 100), "% do tempo com rosto;",
               len(el), "destaques; duração", round(FIM, 1), "s")
+    # ---------- música: uma faixa por parte (limites vindos da decupagem) ----------
+    def limites():
+        ini = {}
+        for c in CORTES:
+            ini.setdefault(c["bloco"], c["ini"])
+        return ini
+    if "--som" in A:
+        from mixar import mixar
+        L = limites()
+        partes = [("GANCHO", "curioso", 100, 0, 11), ("ANTES", "curioso", 100, 0, 1), ("P2", "tenso", 90, 0, 2),
+                  ("CTA", "curioso", 94, -3, 3), ("P4", "tenso", 100, 2, 4), ("P5", "curioso", 96, 2, 5),
+                  ("P6", "tenso", 84, -2, 6), ("FINAL", "epico", 80, 0, 7)]
+        mus = []
+        for i, (b, est, bpm, tom, seed) in enumerate(partes):
+            a = max(0.0, L[b] - (1.5 if i else 0)); fim = (L[partes[i + 1][0]] + 0.5) if i + 1 < len(partes) else FIM + 1.5
+            f = R + f"musica_{i}.wav"
+            subprocess.run(["python3", "ferramentas/musica.py", f, str(fim - a), "--estilo", est, "--bpm", str(bpm),
+                            "--tom", str(tom), "--seed", str(seed)], check=True, capture_output=True)
+            mus.append((f, a))
+        sp = json.load(open(R + "spec.json")); cenas = json.load(open(R + "plano.json"))
+        import importlib.util
+        s2 = importlib.util.spec_from_file_location("pc", V + "plano_completo.py"); pc = importlib.util.module_from_spec(s2)
+        sys.argv = ["x"]; s2.loader.exec_module(pc)
+        mixar(R + "voz.wav", R + "som.wav", 0, FIM, musicas=mus, sfx=pc.sfx_de(sp["elementos"]) + pc.whooshs(cenas, 0.0),
+              musica_db=-19)
+        print("som ok")
+    if "--artes" in A:
+        meio = round(FIM / 2)
+        ps = [subprocess.Popen(["node", "ferramentas/arte/render.mjs", R + "spec.json", R + f"artes_{k}.mov",
+                                "--ini", str(a), "--fim", str(b)], stdout=subprocess.DEVNULL)
+              for k, (a, b) in enumerate([(0, meio), (meio, FIM)])]
+        for p in ps: p.wait()
+        open(R + "artes_meio.txt", "w").write(str(meio)); print("artes ok")
+    if "--video" in A:
+        from montar import base
+        cenas = json.load(open(R + "plano.json"))
+        if "--refaz-base" in A or not os.path.exists(R + "base.mp4"):
+            base(cenas, R + "base.mp4", paralelo=2); print("base ok")
+        meio = open(R + "artes_meio.txt").read().strip()
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", R + "base.mp4", "-i", R + "artes_0.mov", "-itsoffset", meio,
+                        "-i", R + "artes_1.mov", "-i", R + "som.wav",
+                        "-filter_complex", "[0][1]overlay=0:0:eof_action=pass[x];[x][2]overlay=0:0:eof_action=pass,format=yuv420p[v]",
+                        "-map", "[v]", "-map", "3:a", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-r", "30",
+                        "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart",
+                        V + "out/video-rosto.mp4"], check=True)
+        print("VIDEO COM ROSTO ok")
