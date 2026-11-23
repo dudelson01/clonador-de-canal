@@ -64,10 +64,10 @@ html,body{margin:0;width:1920px;height:1080px;background:transparent;overflow:hi
 .vs .x{position:absolute;left:50%;top:150px;width:170px;height:170px;margin-left:-85px;border-radius:50%;background:#E3262E;color:#fff;
   font:400 92px/170px Anton;text-align:center;box-shadow:0 0 0 10px #fff,0 18px 50px rgba(0,0,0,.6)}
 /* inscreva-se */
-.insc{left:50%;top:360px;margin-left:-330px;width:660px;display:flex;align-items:center;gap:26px;background:#fff;border-radius:999px;
+.insc{left:50%;top:360px;margin-left:-400px;width:800px;display:flex;align-items:center;gap:26px;background:#fff;border-radius:999px;
   padding:22px 26px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
-.insc .av{width:96px;height:96px;border-radius:50%;background:#111;color:#FFD400;font:400 60px/96px Anton;text-align:center}
-.insc .nome{flex:1;font:800 40px Mont;color:#111}
+.insc .av{flex:none;width:96px;height:96px;overflow:hidden;border-radius:50%;background:#111;color:#FFD400;font:400 60px/96px Anton;text-align:center}
+.insc .nome{flex:1;font:800 42px Mont;color:#111;white-space:nowrap;text-shadow:none}
 .insc .bt{background:#E3262E;color:#fff;font:800 36px Mont;padding:20px 34px;border-radius:999px}
 .insc .bt.ok{background:#e5e5e5;color:#555}
 .insc .mao{position:absolute;right:40px;top:120px;font-size:90px}
@@ -102,7 +102,7 @@ function render(t){
     leg.innerHTML=g.palavras.map((p,i)=>`<span class="${i===at?'on':''}">${p.w}</span>`).join(' '); leg.style.opacity=1 }
   else leg.innerHTML='';
   SPEC.elementos.forEach((e,i)=>{
-    const d=nodes[i]; const vis=t>=e.ini&&t<e.fim; d.style.display=vis?'block':'none'; if(!vis)return;
+    const d=nodes[i]; const vis=t>=e.ini&&t<e.fim; d.style.display=vis?(e.tipo==='insc'?'flex':'block'):'none'; if(!vis)return;
     const k=t-e.ini, op=fade(t,e);
     d.style.opacity=op;
     if(e.tipo==='numero'){
