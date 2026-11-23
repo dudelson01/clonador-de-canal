@@ -60,18 +60,21 @@ def main():
             livre = 0
             while os.path.exists(os.path.join(d, f"{livre}.jpg")): livre += 1
             f = os.path.join(d, f"{livre}.jpg")
-            try:
-                with urllib.request.urlopen(urllib.request.Request(ii.get("thumburl") or ii["url"], headers=UA), timeout=60) as resp:
-                    open(f, "wb").write(resp.read())
-            except Exception:
-                time.sleep(10); continue
+            ok = False
+            for u in [x for x in (ii.get("thumburl"), ii.get("url")) if x]:  # miniatura; se falhar, o original
+                try:
+                    with urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=90) as resp:
+                        open(f, "wb").write(resp.read()); ok = True; break
+                except Exception:
+                    time.sleep(3)
+            if not ok: continue
             ja.add(p["title"])
             cred[f"{slug(nome)}/{os.path.basename(f)}"] = {"arquivo": p["title"], "autor": limpa(md.get("Artist", {}).get("value"))[:120],
                                             "licenca": lic, "pagina": ii.get("descriptionurl")}
             k += 1; time.sleep(1.5)
             if k >= n: break
         print(nome, k, "fotos", flush=True); time.sleep(1)
-    json.dump(cred, open(cred_f, "w"), ensure_ascii=False, indent=1)
+        json.dump(cred, open(cred_f, "w"), ensure_ascii=False, indent=1)  # salva a cada nome
 
 
 if __name__ == "__main__":

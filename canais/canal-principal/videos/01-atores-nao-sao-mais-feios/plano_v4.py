@@ -81,7 +81,7 @@ SB = [
  ("e mesmo assim", ("F", "robert-pattinson")),
  ("bali ou", R_),
  ("se eu passar", R_),
- ("mas não é só", R_),
+ ("que os atores antigos", R_),
  ("antes tinha", ("C", OE, [21.0, 14.0, 70.3, 129.0])),
  ("olha a abertura", ("C", OE, [7.5, 16.0]), ("Era Uma Vez no Oeste", "1968")),
  ("três pistoleiros", ("C", OE, [76.0, 79.0])),
@@ -90,7 +90,7 @@ SB = [
  ("e o terceiro tem", ("C", OE, [14.0, 74.0])),
  ("ninguém precisou", R_),
  ("quase 15", ("C", OE, [76.0, 83.0, 31.0])),
- ("hoje isso seria", R_),
+ ("isso seria um", R_),
  ("mesma coisa com", ("P", [PC]), ("O Poderoso Chefão", "1972")),
  ("e não era só", ("F", "kurt-russell"), ("Kurt Russell", "Fuga de Nova York (1981)")),
  ("agora olha o hulk", ("C", XM, [63.45], 0.4), ("Hugh Jackman", "X-Men (2000)")),
@@ -119,9 +119,9 @@ SB = [
  ("cara isso é mágico", R_),
  ("eles parecem que", ("C", TX, [129.5, 140.5, 152.0])),
  ("isso tem nome", R_),
- ("no fim de rocky", ("C", RK, [154.4, 155.6, 141.0, 175.0, 137.2], 1.0, {"foco": [0.5, 0.4], "z0": 1.2})),
+ ("no fim de rocky", ("C", RK, [155.0, 136.6, 133.0, 156.5], 1.0, {"foco": [0.5, 0.4], "z0": 1.2})),
  ("quidge depois", ("C", CR, [70.0, 84.5, 116.0, 111.0], 1.0, {"foco": [0.5, 0.42], "z0": 1.2}), ("Michael B. Jordan", "Creed (2015)")),
- ("no fim de homem", ("C", HA2, [23.0, 121.2, 130.0, 24.2]), ("Tobey Maguire", "Homem-Aranha (2002)")),
+ ("no fim de homem", ("C", HA2, [120.95, 23.0, 87.0], 0.4), ("Tobey Maguire", "Homem-Aranha (2002)")),
  ("o tom holland", ("C", HA21, [7.0, 106.6, 151.0, 18.6]), ("Tom Holland", "Homem-Aranha: Sem Volta para Casa (2021)")),
  ("e a máscara ele", ("C", HA21, [162.2, 84.0])),
  ("e eu bato", R_),
@@ -194,7 +194,7 @@ FOTO_CLIPE = {
  "michael-keaton": ("batman-1989", [31.0, 80.0]),
  "sylvester-stallone": ("rocky-1976", [28.5, 141.0]),
  "ryan-reynolds": ("deadpool-wolverine-2024", [88.5, 62.5]),
- "kurt-russell": ("fuga-de-nova-york-1981", []),
+ "kurt-russell": ("fuga-de-nova-york-1981", [81.0, 82.5]),
  "margot-robbie": ("x", []),
 }
 FOTO_CLIPE = {k: v for k, v in FOTO_CLIPE.items() if v[1]}
@@ -236,9 +236,11 @@ def resolve(vis, dur):
         n = max(1, round(dur / 1.3)); d = dur / n
         # menos de 3 fotos: alterna foto / clipe do mesmo ator, para nunca repetir a mesma imagem
         extra = []
-        if len(fs) < 3 and vis[1] in FOTO_CLIPE:
+        if len(fs) < n and vis[1] in FOTO_CLIPE:
             tr, tempos = FOTO_CLIPE[vis[1]]
             extra = [("C", tr, t_) for t_ in tempos]
+        uniq = len(fs) + len(extra)
+        if n > uniq: n = max(1, min(n, max(uniq, round(dur / 2.2)))); d = dur / n  # poucas imagens: cada uma fica mais tempo
         seq = []
         fi = USO_FOTO.get(vis[1], 0); ci = USO_FOTO.get(vis[1] + "#c", 0)
         # cada foto entra uma vez; o resto do tempo vai para clipes do ator; só repete foto se não houver clipe
