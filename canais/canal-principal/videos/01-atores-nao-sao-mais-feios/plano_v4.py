@@ -123,7 +123,7 @@ SB = [
  ("quidge depois", ("C", CR, [70.0, 84.5, 116.0, 111.0], 1.0, {"foco": [0.5, 0.42], "z0": 1.2}), ("Michael B. Jordan", "Creed (2015)")),
  ("no fim de homem", ("C", HA2, [120.95, 23.0, 87.0], 0.4), ("Tobey Maguire", "Homem-Aranha (2002)")),
  ("o tom holland", ("C", HA21, [7.0, 106.6, 151.0, 18.6]), ("Tom Holland", "Homem-Aranha: Sem Volta para Casa (2021)")),
- ("e a máscara ele", ("C", HA21, [162.2, 84.0])),
+ ("e a máscara ele", ("C", HA21, [162.3, 151.0], 0.4)),
  ("e eu bato", R_),
  ("e em três homens", ("A", "clint-eastwood", TRS, 0.62), ("Clint Eastwood", "Três Homens em Conflito (1966)")),
  ("hoje o máximo", ("P", NOVOS)),
@@ -194,7 +194,7 @@ FOTO_CLIPE = {
  "michael-keaton": ("batman-1989", [31.0, 80.0]),
  "sylvester-stallone": ("rocky-1976", [28.5, 141.0]),
  "ryan-reynolds": ("deadpool-wolverine-2024", [88.5, 62.5]),
- "kurt-russell": ("fuga-de-nova-york-1981", [81.0, 82.5]),
+ "kurt-russell": ("fuga-de-nova-york-1981", [81.5, 83.2], 0.3),
  "margot-robbie": ("x", []),
 }
 FOTO_CLIPE = {k: v for k, v in FOTO_CLIPE.items() if v[1]}
@@ -237,7 +237,7 @@ def resolve(vis, dur):
         # menos de 3 fotos: alterna foto / clipe do mesmo ator, para nunca repetir a mesma imagem
         extra = []
         if len(fs) < n and vis[1] in FOTO_CLIPE:
-            tr, tempos = FOTO_CLIPE[vis[1]]
+            tr, tempos = FOTO_CLIPE[vis[1]][:2]; vclip = (FOTO_CLIPE[vis[1]][2:] or [1.0])[0]
             extra = [("C", tr, t_) for t_ in tempos]
         uniq = len(fs) + len(extra)
         if n > uniq: n = max(1, min(n, max(uniq, round(dur / 2.2)))); d = dur / n  # poucas imagens: cada uma fica mais tempo
@@ -255,7 +255,7 @@ def resolve(vis, dur):
         for o in ordem:
             if o == "C":
                 _, tr, t_ = extra[ci % len(extra)]; ci += 1
-                seq.append({"src": TR + tr + ".mp4", "ss": t_, "dur": d, "vel": 1.0})
+                seq.append({"src": TR + tr + ".mp4", "ss": t_, "dur": d, "vel": vclip})
             else:
                 seq.append({"src": fs[fi % len(fs)], "ss": 0, "dur": d, "zoom": 0.07}); fi += 1
         USO_FOTO[vis[1]] = fi; USO_FOTO[vis[1] + "#c"] = ci

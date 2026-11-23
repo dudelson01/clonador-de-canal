@@ -48,3 +48,5 @@ Cinema e cultura pop, com outliers gringos adaptados para o português do Brasil
   - canal: **Lupa Infinita** (avatar enviado pelo aluno);
   - música de fundo um pouco mais alta.
 
+- 2026-11-23: **v4 com rosto** (out/video-rosto-v4.mp4, plano_v4.py): frase inteira em "mais chatos, também vai ser contado"; pausa de efeito mantida em "autoridade de quem... tem rosto de gente"; "como" errado cortado no CTA; fotos sem repetição seguida (alternam com clipes do próprio ator; poucas fotos = cada uma fica mais tempo); zoom no rosto do Stallone; Pattinson de Batman; pistoleiros certos (barba = Jack Elam, queixo = Woody Strode); oficiais do Império; uniforme rasgado do Tobey; Tom Holland sem máscara; cartão do ensaio; botão de inscrever "Lupa Infinita" com avatar, **embaixo do queixo** (nunca em cima do rosto); sem cartões de rede social; música -17. Créditos das fotos na descrição (out/seo-rosto.txt).
+- 2026-11-23: os trailers NÃO têm: Rocky ensanguentado no fim, Tobey com máscara rasgada, Tom Holland com arranhões, os amigos taxistas do De Niro. Para essas cenas, o aluno precisa mandar o trecho do filme pelo Drive.
