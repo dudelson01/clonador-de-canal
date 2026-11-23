@@ -12,7 +12,8 @@ W, H, FPS = 1920, 1080, 30
 
 def _cena(c, out, w, h):
     vel = c.get("vel", 1.0); dur = c["dur"]; z = c.get("zoom", 0.06); z0 = c.get("z0", 1.0)
-    fonte = dur * vel + 0.1
+    N = str(max(1, round(dur * FPS)))  # quadros exatos: sem isso a soma dos cortes vai atrasando a imagem
+    fonte = dur * vel + 0.3
     # zoom lento contínuo (sem tremer): escala cresce com o tempo, recorte central; z0 = zoom inicial ("pulo de zoom")
     zf = f"({z0}+{z}*t/{dur:.3f})"
     vf = [f"setpts=PTS/{vel}" if vel != 1 else "null",
@@ -32,23 +33,23 @@ def _cena(c, out, w, h):
         vf.append("hue=s=0")
     if c.get("espelhar"): vf.append("hflip")
     if not c.get("sem_vinheta"): vf.append("vignette=PI/5")
-    vf.append(f"fps={FPS},trim=duration={dur:.3f},setpts=PTS-STARTPTS,format=yuv420p")
+    vf.append(f"fps={FPS},setpts=PTS-STARTPTS,format=yuv420p")
     if c["src"].lower().endswith((".jpg", ".jpeg", ".png")):  # FOTO: zoom lento + fundo desfocado da própria foto
         z0 = c.get("z0", 1.0); z = c.get("zoom", 0.08)
         fc = (f"[0]scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},gblur=sigma=30,eq=brightness=-0.15[bg];"
               f"[0]scale=-2:{h}[fg];[bg][fg]overlay=(W-w)/2:0,"
               f"scale=w='ceil({w}*({z0}+{z}*t/{dur:.3f})/2)*2':h='ceil({h}*({z0}+{z}*t/{dur:.3f})/2)*2':eval=frame,crop={w}:{h},"
               f"fps={FPS},format=yuv420p")
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.3f}", "-i", c["src"],
-                        "-filter_complex", fc, "-t", f"{dur:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", out], check=True)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-framerate", str(FPS), "-t", f"{dur + 0.5:.3f}", "-i", c["src"],
+                        "-filter_complex", fc, "-frames:v", N, "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", out], check=True)
         return
     if c["src"] == "ARTE":  # fundo de arte (sem cena): degradê escuro animado
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i",
-                        f"gradients=s={w}x{h}:c0=0x1b2430:c1=0x0b0b0e:x0=0:y0=0:x1={w}:y1={h}:speed=0.02:d={dur:.3f}:r={FPS}",
-                        "-vf", "vignette=PI/4,format=yuv420p", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", out], check=True)
+                        f"gradients=s={w}x{h}:c0=0x1b2430:c1=0x0b0b0e:x0=0:y0=0:x1={w}:y1={h}:speed=0.02:d={dur + 0.5:.3f}:r={FPS}",
+                        "-vf", "vignette=PI/4,format=yuv420p", "-frames:v", N, "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", out], check=True)
         return
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(c["ss"]), "-t", f"{fonte:.3f}", "-i", c["src"],
-                    "-filter_complex", ",".join(vf), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
+                    "-filter_complex", ",".join(vf), "-an", "-frames:v", N, "-c:v", "libx264", "-preset", "veryfast", "-crf", "16",
                     "-r", str(FPS), out], check=True)
 
 

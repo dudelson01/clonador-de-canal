@@ -178,7 +178,7 @@ def tempos():
     t, out = 0.0, []
     for k, e in enumerate(SB):
         s = 0.0 if k == 0 else acha(e[0], t)
-        out.append(round(max(0.0, s - 0.08), 3)); t = s + 0.1
+        out.append(round(max(0.0, s - 0.2), 3)); t = s + 0.1  # imagem entra um pouquinho antes da palavra
     return out
 
 
@@ -323,6 +323,12 @@ if __name__ == "__main__" and "--plano" in A:
     t_cta = acha("se inscreve", 300)
     el.append({"tipo": "insc", "ini": round(t_cta - 1.2, 3), "fim": round(t_cta + 2.6, 3), "nome": "Lupa Infinita", "clique": 1.4,
                "avatar": "../../" + V + "midia/canal/avatar.jpg"})
+    # cortes em quadros exatos (1/30 s) acumulados: a imagem nunca atrasa em relação à voz
+    tq = 0.0
+    for c in cenas:
+        f0 = round(tq * 30); tq += c["dur"]; f1 = max(f0 + 1, round(tq * 30))
+        c["dur"] = (f1 - f0) / 30
+        if c.get("_rosto"): c["ss"] = f0 / 30
     json.dump(cenas, open(O3 + "plano.json", "w"), ensure_ascii=False, indent=0)
     json.dump({"duracao": FIM, "legenda": [], "elementos": el}, open(O3 + "spec.json", "w"), ensure_ascii=False)
     rosto = sum(c["dur"] for c in cenas if c.get("_rosto"))
