@@ -56,6 +56,8 @@ for tr in d.TRECHOS:
 PAUSA, RESPIRO = 0.35, 0.10
 novos = []
 for c in cortes:
+    if "[pausa]" in c["nota"] or "[inteiro]" in c["nota"]:  # pausa de efeito / frase inteira: não mexe
+        novos.append(c); continue
     i0, i1 = int(c["src_s"] * 100), int(c["src_e"] * 100)
     sil = rms[i0:i1] < LIM
     partes, ini, k = [], c["src_s"], 0

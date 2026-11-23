@@ -17,7 +17,9 @@ def _cena(c, out, w, h):
     zf = f"({z0}+{z}*t/{dur:.3f})"
     vf = [f"setpts=PTS/{vel}" if vel != 1 else "null",
           f"scale={w}:{h}:force_original_aspect_ratio=increase", f"crop={w}:{h}",
-          f"scale=w='ceil({w}*{zf}/2)*2':h='ceil({h}*{zf}/2)*2':eval=frame", f"crop={w}:{h}",
+          f"scale=w='ceil({w}*{zf}/2)*2':h='ceil({h}*{zf}/2)*2':eval=frame",
+          (f"crop={w}:{h}:x='max(0,min(iw-{w},iw*{c['foco'][0]}-{w}/2))':y='max(0,min(ih-{h},ih*{c['foco'][1]}-{h}/2))'"
+           if c.get("foco") else f"crop={w}:{h}"),
           "unsharp=5:5:0.4", "setsar=1"]
     ef = c.get("efeito")
     if ef == "filtro":

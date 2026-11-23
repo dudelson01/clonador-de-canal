@@ -39,4 +39,12 @@ Cinema e cultura pop, com outliers gringos adaptados para o português do Brasil
   - **menos animações** na tela e **SEM legenda embaixo**;
   - referência de edição: vídeo mandado pelo Drive (estudar e copiar o estilo).
 - 2026-11-22: **v3 com rosto** (out/video-rosto-v3.mp4, 11:20): storyboard frase a frase (plano_v3.py), sem legenda, só etiqueta de nome + cartões de citação + botão de inscrever; ator citado = aquele ator (reconhecimento facial nos trailers, ferramentas/rostos.py + atores.py) ou foto livre do Commons; pausas > 0,35 s cortadas.
+- 2026-11-23: retorno da v3 (aluno):
+  - frase inteira quando ele fala até o fim ("mais chatos, também vai ser contado"); **pausa de efeito antes do fim da piada é para MANTER** ("autoridade de quem... tem rosto de gente");
+  - fotos: **mínimo 3 fotos diferentes por trecho de foto** (troca a cada ~1,2 s); nunca a mesma foto repetida;
+  - zoom tem que ir NO ROSTO do ator citado (não no centro da tela);
+  - quando falar de característica específica (barba no pescoço, queixo quadrado, machucado, uniforme rasgado, arranhões, tirar a máscara, oficiais do Império, amigos taxistas), mostrar EXATAMENTE aquilo;
+  - **sem cartões de comentário de rede social** (tiram credibilidade); no ensaio, mostrar a imagem do estudo;
+  - canal: **Lupa Infinita** (avatar enviado pelo aluno);
+  - música de fundo um pouco mais alta.
 

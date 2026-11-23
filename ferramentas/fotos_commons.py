@@ -46,6 +46,7 @@ def main():
         pages += [p for p in sorted(r2.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99))
                   if p["title"] not in vistos]
         existentes = len([x for x in os.listdir(d) if x.endswith(".jpg")])
+        ja = {v["arquivo"] for k_, v in cred.items()}
         if existentes >= n: print(nome, "já tem", existentes); continue
         k = existentes
         for p in pages:
@@ -55,13 +56,17 @@ def main():
             md = ii.get("extmetadata", {})
             lic = limpa(md.get("LicenseShortName", {}).get("value"))
             if not re.search(r"CC BY|CC0|Public domain|PD", lic, re.I): continue
-            f = os.path.join(d, f"{k}.jpg")
+            if p["title"] in ja: continue  # já baixada (ou descartada antes)
+            livre = 0
+            while os.path.exists(os.path.join(d, f"{livre}.jpg")): livre += 1
+            f = os.path.join(d, f"{livre}.jpg")
             try:
                 with urllib.request.urlopen(urllib.request.Request(ii.get("thumburl") or ii["url"], headers=UA), timeout=60) as resp:
                     open(f, "wb").write(resp.read())
             except Exception:
                 time.sleep(10); continue
-            cred[f"{slug(nome)}/{k}.jpg"] = {"arquivo": p["title"], "autor": limpa(md.get("Artist", {}).get("value"))[:120],
+            ja.add(p["title"])
+            cred[f"{slug(nome)}/{os.path.basename(f)}"] = {"arquivo": p["title"], "autor": limpa(md.get("Artist", {}).get("value"))[:120],
                                             "licenca": lic, "pagina": ii.get("descriptionurl")}
             k += 1; time.sleep(1.5)
             if k >= n: break
