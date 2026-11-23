@@ -185,6 +185,19 @@ def tempos():
 # ---------------- resolve cada visual em planos ----------------
 usados = set()
 USO_FOTO = {}
+# clipes do próprio ator para alternar com as fotos (tempo no trailer)
+FOTO_CLIPE = {
+ "glen-powell": ("twisters-2024", [65.9, 57.4, 98.1, 47.3]),
+ "robert-pattinson": ("the-batman-2022", [137.55, 64.6, 72.3]),
+ "timoth-e-chalamet": ("chalamet-a-complete-unknown", [82.85, 60.2, 85.0]),
+ "mia-farrow": ("bebe-de-rosemary-1968", [40.0, 42.6, 20.5, 69.0]),
+ "michael-keaton": ("batman-1989", [31.0, 80.0]),
+ "sylvester-stallone": ("rocky-1976", [28.5, 141.0]),
+ "ryan-reynolds": ("deadpool-wolverine-2024", [88.5, 62.5]),
+ "kurt-russell": ("fuga-de-nova-york-1981", []),
+ "margot-robbie": ("x", []),
+}
+FOTO_CLIPE = {k: v for k, v in FOTO_CLIPE.items() if v[1]}
 ALT = {}
 def altura(tr):
     if tr not in ALT:
@@ -220,13 +233,31 @@ def resolve(vis, dur):
     if kind == "F":
         fs = sorted(glob.glob(f"{FOTOS}{vis[1]}/*.jpg"))
         if not fs: return resolve("R", dur)  # sem foto: volta para o rosto (nunca imagem errada)
-        k0 = USO_FOTO.get(vis[1], 0)
-        n = max(1, min(len(fs), round(dur / 1.3))) if len(fs) > 1 else 1
-        d = dur / n; out = []
+        n = max(1, round(dur / 1.3)); d = dur / n
+        # menos de 3 fotos: alterna foto / clipe do mesmo ator, para nunca repetir a mesma imagem
+        extra = []
+        if len(fs) < 3 and vis[1] in FOTO_CLIPE:
+            tr, tempos = FOTO_CLIPE[vis[1]]
+            extra = [("C", tr, t_) for t_ in tempos]
+        seq = []
+        fi = USO_FOTO.get(vis[1], 0); ci = USO_FOTO.get(vis[1] + "#c", 0)
+        # cada foto entra uma vez; o resto do tempo vai para clipes do ator; só repete foto se não houver clipe
+        ordem = []
         for k in range(n):
-            out.append({"src": fs[(k0 + k) % len(fs)], "ss": 0, "dur": d, "zoom": 0.07})
-        USO_FOTO[vis[1]] = k0 + n
-        return out
+            ordem.append("F" if (k < len(fs) or not extra) else "C")
+        if extra and len(fs) >= 1:  # intercala: F C F C ... em vez de F F C C
+            fotos = ordem.count("F"); clips = ordem.count("C"); ordem = []
+            while fotos or clips:
+                if fotos: ordem.append("F"); fotos -= 1
+                if clips: ordem.append("C"); clips -= 1
+        for o in ordem:
+            if o == "C":
+                _, tr, t_ = extra[ci % len(extra)]; ci += 1
+                seq.append({"src": TR + tr + ".mp4", "ss": t_, "dur": d, "vel": 1.0})
+            else:
+                seq.append({"src": fs[fi % len(fs)], "ss": 0, "dur": d, "zoom": 0.07}); fi += 1
+        USO_FOTO[vis[1]] = fi; USO_FOTO[vis[1] + "#c"] = ci
+        return seq
     if kind == "C":
         tr, lista = vis[1], vis[2]; vel = vis[3] if len(vis) > 3 else 1.0
         n = max(1, min(len(lista), round(dur / 1.8))); d = dur / n
