@@ -1,0 +1,92 @@
+[
+ {
+  "id": "c01",
+  "ini": 0.0,
+  "fim": 4.3,
+  "mov": "in",
+  "prompt": "Medical 3D render in glowing blue X-ray style of the thigh muscle of an elderly person, translucent skeleton and muscle fibers, some fibers fading into drifting particles, dark navy background, cinematic lighting, highly detailed, no text"
+ },
+ {
+  "id": "c02",
+  "ini": 4.3,
+  "fim": 8.8,
+  "mov": "right",
+  "prompt": "Cinematic photo of a calm 70-year-old man sitting at a sunny kitchen table in the morning holding a cup of coffee, relaxed, warm golden light, shallow depth of field, realistic, 35mm film look, no text"
+ },
+ {
+  "id": "c03",
+  "ini": 8.8,
+  "fim": 11.3,
+  "mov": "in",
+  "prompt": "Cinematic photo of an elderly man stopping halfway up a wooden staircase at home, hand gripping the railing, tired expression, warm interior light, view from below, realistic, shallow depth of field, no text"
+ },
+ {
+  "id": "c04",
+  "ini": 11.3,
+  "fim": 13.9,
+  "mov": "left",
+  "prompt": "Cinematic photo of an older woman around 70 pushing herself up from a low soft armchair with both hands on the armrests, effort on her face, cozy living room, warm window light, realistic, no text"
+ },
+ {
+  "id": "c05",
+  "ini": 13.9,
+  "fim": 16.8,
+  "mov": "in",
+  "prompt": "Close-up cinematic photo of an elderly person's hands carrying two heavy paper grocery bags on a sidewalk, strain visible in the hands, warm afternoon light, realistic, shallow depth of field, no text, no logos"
+ },
+ {
+  "id": "c06",
+  "ini": 16.8,
+  "fim": 20.7,
+  "mov": "right",
+  "prompt": "Cinematic wide photo of a supermarket refrigerated dairy aisle, glowing fridge shelves with yogurt and cheese containers without readable labels, soft cool light, empty aisle, shallow depth of field, realistic, no text, no brand logos"
+ },
+ {
+  "id": "c07",
+  "ini": 20.7,
+  "fim": 23.3,
+  "mov": "in",
+  "prompt": "Cinematic still life of generic supplement bottles and a large protein powder tub on a kitchen counter, plain unlabeled containers, moody side light, slightly desaturated, realistic, no text, no logos"
+ },
+ {
+  "id": "c08",
+  "ini": 23.3,
+  "fim": 26.1,
+  "mov": "left",
+  "prompt": "Cinematic photo of a single plain white tub of cottage cheese with the lid off on a supermarket fridge shelf, creamy white curds visible, a blurred shopping cart passing in the background, soft light, realistic, no text, no labels"
+ },
+ {
+  "id": "c09",
+  "ini": 26.1,
+  "fim": 29.9,
+  "mov": "in",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, detailed ink and watercolor drawing of a bowl of cottage cheese on the left and four brown eggs in a row on the right, empty space between them, hand-drawn sketch style, scientific journal aesthetic, no text, no letters, no numbers",
+  "textos": [
+   {
+    "t": "=",
+    "x": 0.415,
+    "y": 0.5,
+    "tam": 0.16
+   },
+   {
+    "t": "1 cup ≈ 24 g",
+    "x": 0.24,
+    "y": 0.66,
+    "tam": 0.075
+   },
+   {
+    "t": "4 eggs ≈ 25 g",
+    "x": 0.66,
+    "y": 0.66,
+    "tam": 0.075
+   },
+   {
+    "t": "protein",
+    "x": 0.5,
+    "y": 0.2,
+    "tam": 0.1,
+    "cor": "#7a4a22"
+   }
+  ]
+ }
+]
