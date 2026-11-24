@@ -22,10 +22,14 @@ def key():
 
 
 def req(method, path, body=None):
-    r = requests.request(method, API + path, json=body, timeout=120,
-                         headers={"xi-api-key": key(), "User-Agent": "clonador-de-canal/1.0"})
-    r.raise_for_status()
-    return r.json()
+    for tentativa in range(6):
+        r = requests.request(method, API + path, json=body, timeout=120,
+                             headers={"xi-api-key": key(), "User-Agent": "clonador-de-canal/1.0"})
+        if r.status_code == 429 and tentativa < 5:  # limite de pedidos: espera e tenta de novo
+            time.sleep(10 * (tentativa + 1))
+            continue
+        r.raise_for_status()
+        return r.json()
 
 
 def tts(voice_id, text, out, model="eleven_multilingual_v2", speed=1.0, stability=0.5, similarity=0.75):

@@ -29,7 +29,7 @@ Pero lo que más sorprendió a los investigadores no fue la falta de ejercicio. 
 
 ## 1:55 — La proteína que le falta a tu desayuno
 [CADERNO: tres platos — desayuno, almuerzo, cena — con los gramos escritos encima.]
-El músculo se construye y se repara con proteína. Y los adultos mayores necesitan más, no menos, que los jóvenes. Un grupo internacional de expertos, el PROT-AGE Study Group, recomienda que las personas mayores de sesenta y cinco años coman al menos entre 1,0 y 1,2 gramos de proteína por kilo de peso al día {F1}. Para alguien de setenta kilos, eso es entre setenta y ochenta y cuatro gramos al día.
+El músculo se construye y se repara con proteína. Y los adultos mayores necesitan más, no menos, que los jóvenes. Un grupo internacional de expertos en envejecimiento y nutrición recomienda que las personas mayores de sesenta y cinco años coman al menos entre 1,0 y 1,2 gramos de proteína por kilo de peso al día {F1}. Para alguien de setenta kilos, eso es entre setenta y ochenta y cuatro gramos al día.
 
 [CADERNO: "Desayuno: ~10–13 g".]
 Ahora mira cómo comen de verdad muchos adultos mayores. En el estudio Newcastle 85+, en Inglaterra, el desayuno fue la comida con menos proteína del día: unos diez gramos en las mujeres y trece en los hombres {F6}. La cena tenía dos o tres veces más.
@@ -79,7 +79,7 @@ Antes de las recetas, vamos a aclarar cuatro mitos que hacen que mucha gente no 
 Mito número uno: con la edad se necesita menos proteína. Es al revés. La recomendación general para adultos es de unos 0,8 gramos por kilo, pero los expertos en envejecimiento recomiendan al menos entre 1,0 y 1,2 para mayores de sesenta y cinco {F1}{F10}. Tu cuerpo necesita más, no menos, para conservar el músculo que tiene.
 
 [CADERNO: dibujo de un riñón con un signo de interrogación.]
-Mito número dos: la proteína daña los riñones sanos. Para adultos mayores con riñones sanos, los expertos del PROT-AGE consideran adecuado entre 1,0 y 1,2 gramos por kilo {F1}. La excepción son las personas con enfermedad renal importante, que pueden necesitar menos, y eso hay que conversarlo con el médico {F1}.
+Mito número dos: la proteína daña los riñones sanos. Para adultos mayores con riñones sanos, ese mismo grupo de expertos considera adecuado entre 1,0 y 1,2 gramos por kilo {F1}. La excepción son las personas con enfermedad renal importante, que pueden necesitar menos, y eso hay que conversarlo con el médico {F1}.
 
 [CADERNO: carne, huevo, queso y frijoles dibujados lado a lado.]
 Mito número tres: solo la carne tiene buena proteína. Los lácteos, los huevos, el pescado y los frijoles también son buenas fuentes. El queso cottage es de las más fáciles, porque es suave, está listo para comer y no hace falta masticar mucho ni prender la estufa.

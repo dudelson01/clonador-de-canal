@@ -29,7 +29,7 @@ Mas o que mais surpreendeu os pesquisadores não foi a falta de exercício. Foi 
 
 ## 1:55 — A proteína que falta no seu café da manhã
 [CADERNO: três pratos — café, almoço e jantar — com os gramas escritos em cima.]
-O músculo é construído e reparado com proteína. E quem tem mais de sessenta precisa de mais proteína, não de menos. Um grupo internacional de especialistas, o PROT-AGE Study Group, recomenda que pessoas acima de sessenta e cinco anos comam pelo menos de 1,0 a 1,2 grama de proteína por quilo de peso por dia {F1}. Para quem pesa setenta quilos, isso dá entre setenta e oitenta e quatro gramas por dia.
+O músculo é construído e reparado com proteína. E quem tem mais de sessenta precisa de mais proteína, não de menos. Um grupo internacional de especialistas em envelhecimento e nutrição recomenda que pessoas acima de sessenta e cinco anos comam pelo menos de 1,0 a 1,2 grama de proteína por quilo de peso por dia {F1}. Para quem pesa setenta quilos, isso dá entre setenta e oitenta e quatro gramas por dia.
 
 [CADERNO: "Café da manhã: ~10–13 g".]
 Agora veja como muitos idosos comem de verdade. No estudo Newcastle 85+, na Inglaterra, o café da manhã foi a refeição com menos proteína do dia: cerca de dez gramas nas mulheres e treze nos homens {F6}. O jantar tinha duas a três vezes mais.
@@ -79,7 +79,7 @@ Antes das receitas, vamos esclarecer quatro mitos que fazem muita gente não com
 Mito número um: com a idade a gente precisa de menos proteína. É o contrário. A recomendação geral para adultos é de uns 0,8 grama por quilo, mas os especialistas em envelhecimento recomendam pelo menos de 1,0 a 1,2 para quem tem mais de sessenta e cinco {F1}{F10}. O seu corpo precisa de mais, não de menos, para segurar o músculo que tem.
 
 [CADERNO: desenho de um rim com um ponto de interrogação.]
-Mito número dois: proteína estraga rim saudável. Para idosos com rins saudáveis, os especialistas do PROT-AGE consideram adequado de 1,0 a 1,2 grama por quilo {F1}. A exceção são as pessoas com doença renal importante, que podem precisar de menos, e isso é conversa para ter com o médico {F1}.
+Mito número dois: proteína estraga rim saudável. Para idosos com rins saudáveis, esse mesmo grupo de especialistas considera adequado de 1,0 a 1,2 grama por quilo {F1}. A exceção são as pessoas com doença renal importante, que podem precisar de menos, e isso é conversa para ter com o médico {F1}.
 
 [CADERNO: carne, ovo, queijo e feijão desenhados lado a lado.]
 Mito número três: só carne tem proteína boa. Leite e derivados, ovos, peixe e feijão também são boas fontes. O queijo cottage é uma das mais fáceis, porque é macio, já vem pronto e não precisa mastigar muito nem ligar o fogão.

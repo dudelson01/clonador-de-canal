@@ -29,7 +29,7 @@ But it wasn't the lack of exercise that surprised researchers the most. It was s
 
 ## 1:55 — The protein your breakfast is missing
 [CADERNO: three plates — breakfast, lunch, dinner — with grams written above each.]
-Muscle is built and repaired from protein. And older adults need more of it than younger people, not less. A group of international experts, called the PROT-AGE Study Group, recommends that people over sixty-five eat at least 1.0 to 1.2 grams of protein per kilogram of body weight every day {F1}. For someone who weighs seventy kilos, that's roughly seventy to eighty-four grams a day.
+Muscle is built and repaired from protein. And older adults need more of it than younger people, not less. A group of international experts on aging and nutrition recommends that people over sixty-five eat at least 1.0 to 1.2 grams of protein per kilogram of body weight every day {F1}. For someone who weighs seventy kilos, that's roughly seventy to eighty-four grams a day.
 
 [CADERNO: "Breakfast: ~10–13 g".]
 Now look at how many older adults actually eat. In the Newcastle 85+ Study in England, breakfast was the meal with the least protein of the whole day: around ten grams for women and thirteen for men {F6}. Dinner had two to three times more.
@@ -79,7 +79,7 @@ Before we get to the recipes, let's clear up four myths that keep a lot of peopl
 Myth number one: you need less protein as you get older. It's the opposite. The general recommendation for adults is about 0.8 grams per kilo, but experts on aging recommend at least 1.0 to 1.2 for people over sixty-five {F1}{F10}. Your body needs more, not less, to hold on to the muscle it has.
 
 [CADERNO: kidney sketch with a question mark.]
-Myth number two: protein damages healthy kidneys. For older adults with healthy kidneys, the PROT-AGE experts consider 1.0 to 1.2 grams per kilo appropriate {F1}. The exception is people with significant kidney disease, who may need less, and that's a conversation to have with your doctor {F1}.
+Myth number two: protein damages healthy kidneys. For older adults with healthy kidneys, that same group of experts considers 1.0 to 1.2 grams per kilo appropriate {F1}. The exception is people with significant kidney disease, who may need less, and that's a conversation to have with your doctor {F1}.
 
 [CADERNO: steak, egg, cheese, beans drawn side by side.]
 Myth number three: only meat has good protein. Dairy, eggs, fish and beans are all useful sources. Cottage cheese is one of the easiest, because it's soft, ready to eat and doesn't need much chewing or a stove.
