@@ -26,14 +26,18 @@ def prepara(img, textos, dest):
     im = im.crop((x0, y0, x0 + W * 2, y0 + H * 2))
     d = ImageDraw.Draw(im)
     for t in textos or []:  # coordenadas em fração da tela
-        f = ImageFont.truetype(os.path.join(FONTES, t.get("fonte", "Caveat.ttf")), int(t.get("tam", 0.08) * H * 2))
-        d.text((t["x"] * W * 2, t["y"] * H * 2), t["t"], font=f, fill=t.get("cor", "#3b2a1a"), anchor="mm")
+        claro0 = t.get("cor", "").lower() in ("#fff", "#ffffff", "white")
+        f = ImageFont.truetype(os.path.join(FONTES, t.get("fonte", "Anton-Regular.ttf" if claro0 else "Caveat.ttf")), int(t.get("tam", 0.08) * H * 2))
+        cor = t.get("cor", "#3b2a1a")
+        claro = cor.lower() in ("#fff", "#ffffff", "white")  # texto claro sobre foto: contorno escuro para ler
+        d.text((t["x"] * W * 2, t["y"] * H * 2), t["t"], font=f, fill=cor, anchor="mm",
+               stroke_width=int(H * 2 * 0.006) if claro else 0, stroke_fill="#000000")
     im.save(dest, quality=95)
 
 
 def clipe(png, dur, mov, dest):
     n = max(1, round(dur * FPS))
-    z = {"in": f"1+0.10*on/{n}", "out": f"1.10-0.10*on/{n}"}.get(mov, "1.08")
+    z = {"in": f"1+0.10*on/{n}", "out": f"1.10-0.10*on/{n}", "close": f"1.25+0.08*on/{n}"}.get(mov, "1.08")
     if mov == "left":
         x = f"(iw-iw/zoom)*(1-on/{n})"
     elif mov == "right":

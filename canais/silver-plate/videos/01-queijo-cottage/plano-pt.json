@@ -1,0 +1,1180 @@
+[
+ {
+  "id": "c01",
+  "img": "midia/img/c01.webp",
+  "ini": 0.0,
+  "fim": 5.1,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c02",
+  "img": "midia/img/c02.webp",
+  "ini": 5.1,
+  "fim": 7.89,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c03",
+  "img": "midia/img/c03.webp",
+  "ini": 7.89,
+  "fim": 13.46,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c04",
+  "img": "midia/img/c04.webp",
+  "ini": 13.46,
+  "fim": 17.17,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "c05",
+  "img": "midia/img/c05.webp",
+  "ini": 17.17,
+  "fim": 21.81,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c06",
+  "img": "midia/img/c06.webp",
+  "ini": 21.81,
+  "fim": 27.19,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c07",
+  "img": "midia/img/c07.webp",
+  "ini": 27.19,
+  "fim": 30.26,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c08",
+  "img": "midia/img/c08.webp",
+  "ini": 30.26,
+  "fim": 33.72,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "c09",
+  "img": "midia/img/c09.webp",
+  "ini": 33.72,
+  "fim": 38.33,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "=",
+    "x": 0.415,
+    "y": 0.5,
+    "tam": 0.16,
+    "cor": "#3b2a1a"
+   },
+   {
+    "t": "1 xícara ≈ 24 g",
+    "x": 0.24,
+    "y": 0.66,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   },
+   {
+    "t": "4 ovos ≈ 25 g",
+    "x": 0.66,
+    "y": 0.66,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   },
+   {
+    "t": "proteína",
+    "x": 0.5,
+    "y": 0.2,
+    "tam": 0.1,
+    "cor": "#7a4a22"
+   }
+  ]
+ },
+ {
+  "id": "c10",
+  "img": "midia/img/c10.webp",
+  "ini": 38.33,
+  "fim": 43.71,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c11",
+  "img": "midia/img/c11.webp",
+  "ini": 43.71,
+  "fim": 47.15,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "Prato Prateado",
+    "x": 0.5,
+    "y": 0.5,
+    "tam": 0.12,
+    "cor": "#ffffff"
+   }
+  ]
+ },
+ {
+  "id": "c12",
+  "img": "midia/img/c12.webp",
+  "ini": 47.15,
+  "fim": 54.02,
+  "mov": "right",
+  "textos": [
+   {
+    "t": "Fontes na descrição",
+    "x": 0.5,
+    "y": 0.15,
+    "tam": 0.08,
+    "cor": "#ffffff"
+   }
+  ]
+ },
+ {
+  "id": "c12_1",
+  "img": "midia/img/c12.webp",
+  "ini": 54.02,
+  "fim": 60.9,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c13",
+  "img": "midia/img/c13.webp",
+  "ini": 60.9,
+  "fim": 66.89,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c13_1",
+  "img": "midia/img/c13.webp",
+  "ini": 66.89,
+  "fim": 72.89,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c14",
+  "img": "midia/img/c14.webp",
+  "ini": 72.89,
+  "fim": 78.29,
+  "mov": "out",
+  "textos": [
+   {
+    "t": "−3 a 5% por década",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.09,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c14_1",
+  "img": "midia/img/c14.webp",
+  "ini": 78.29,
+  "fim": 83.69,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c15",
+  "img": "midia/img/c15.webp",
+  "ini": 83.69,
+  "fim": 92.1,
+  "mov": "right",
+  "textos": [
+   {
+    "t": "mais rápido depois dos 60",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.09,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c16",
+  "img": "midia/img/c16.webp",
+  "ini": 92.1,
+  "fim": 100.51,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c17",
+  "img": "midia/img/c17.webp",
+  "ini": 100.51,
+  "fim": 105.52,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "c18",
+  "img": "midia/img/c18.webp",
+  "ini": 105.52,
+  "fim": 112.53,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c19",
+  "img": "midia/img/c19.webp",
+  "ini": 112.53,
+  "fim": 121.13,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c20",
+  "img": "midia/img/c20.webp",
+  "ini": 121.13,
+  "fim": 130.67,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c21",
+  "img": "midia/img/c21.webp",
+  "ini": 130.67,
+  "fim": 137.49,
+  "mov": "out",
+  "textos": [
+   {
+    "t": "1,0–1,2 g de proteína por kg / dia",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c21_1",
+  "img": "midia/img/c21.webp",
+  "ini": 137.49,
+  "fim": 144.31,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c22",
+  "img": "midia/img/c22.webp",
+  "ini": 144.31,
+  "fim": 152.49,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "70 kg → 70–84 g por dia",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.09,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c23",
+  "img": "midia/img/c23.webp",
+  "ini": 152.49,
+  "fim": 159.07,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c24",
+  "img": "midia/img/c24.webp",
+  "ini": 159.07,
+  "fim": 164.55,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "café da manhã: só 10–13 g",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.09,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c24_1",
+  "img": "midia/img/c24.webp",
+  "ini": 164.55,
+  "fim": 170.03,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c25",
+  "img": "midia/img/c25.webp",
+  "ini": 170.03,
+  "fim": 175.48,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "25–30 g por refeição",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.09,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c25_1",
+  "img": "midia/img/c25.webp",
+  "ini": 175.48,
+  "fim": 180.93,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c26",
+  "img": "midia/img/c26.webp",
+  "ini": 180.93,
+  "fim": 189.4,
+  "mov": "out",
+  "textos": []
+ },
+ {
+  "id": "c27",
+  "img": "midia/img/c27.webp",
+  "ini": 189.4,
+  "fim": 199.09,
+  "mov": "right",
+  "textos": [
+   {
+    "t": "uma só chance: o jantar",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c28",
+  "img": "midia/img/c28.webp",
+  "ini": 199.09,
+  "fim": 208.67,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c29",
+  "img": "midia/img/c29.webp",
+  "ini": 208.67,
+  "fim": 213.51,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c30",
+  "img": "midia/img/c30.webp",
+  "ini": 213.51,
+  "fim": 219.1,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c30_1",
+  "img": "midia/img/c30.webp",
+  "ini": 219.1,
+  "fim": 224.69,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c31",
+  "img": "midia/img/c31.webp",
+  "ini": 224.69,
+  "fim": 230.28,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c31_1",
+  "img": "midia/img/c31.webp",
+  "ini": 230.28,
+  "fim": 235.87,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c32",
+  "img": "midia/img/c32.webp",
+  "ini": 235.87,
+  "fim": 241.36,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "c32_1",
+  "img": "midia/img/c32.webp",
+  "ini": 241.36,
+  "fim": 246.85,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c33",
+  "img": "midia/img/c33.webp",
+  "ini": 246.85,
+  "fim": 255.79,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c34",
+  "img": "midia/img/c34.webp",
+  "ini": 255.79,
+  "fim": 260.9,
+  "mov": "out",
+  "textos": []
+ },
+ {
+  "id": "c34_1",
+  "img": "midia/img/c34.webp",
+  "ini": 260.9,
+  "fim": 266.01,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c35",
+  "img": "midia/img/c35.webp",
+  "ini": 266.01,
+  "fim": 272.14,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "mais proteína por refeição  +  movimento",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c35_1",
+  "img": "midia/img/c35.webp",
+  "ini": 272.14,
+  "fim": 278.27,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c36",
+  "img": "midia/img/c36.webp",
+  "ini": 278.27,
+  "fim": 284.39,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c36_1",
+  "img": "midia/img/c36.webp",
+  "ini": 284.39,
+  "fim": 290.52,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c37",
+  "img": "midia/img/c37.webp",
+  "ini": 290.52,
+  "fim": 296.52,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c37_1",
+  "img": "midia/img/c37.webp",
+  "ini": 296.52,
+  "fim": 302.53,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c38",
+  "img": "midia/img/c38.webp",
+  "ini": 302.53,
+  "fim": 308.18,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "1 xícara (220 g) = 24 g de proteína",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c38_1",
+  "img": "midia/img/c38.webp",
+  "ini": 308.18,
+  "fim": 313.83,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c39",
+  "img": "midia/img/c39.webp",
+  "ini": 313.83,
+  "fim": 320.61,
+  "mov": "right",
+  "textos": [
+   {
+    "t": "1 ovo = 6,3 g",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.09,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c09b",
+  "img": "midia/img/c09.webp",
+  "ini": 320.61,
+  "fim": 327.39,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "=",
+    "x": 0.415,
+    "y": 0.5,
+    "tam": 0.16,
+    "cor": "#3b2a1a"
+   },
+   {
+    "t": "1 xícara ≈ 24 g",
+    "x": 0.24,
+    "y": 0.66,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   },
+   {
+    "t": "4 ovos ≈ 25 g",
+    "x": 0.66,
+    "y": 0.66,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   },
+   {
+    "t": "proteína",
+    "x": 0.5,
+    "y": 0.2,
+    "tam": 0.1,
+    "cor": "#7a4a22"
+   }
+  ]
+ },
+ {
+  "id": "c40",
+  "img": "midia/img/c40.webp",
+  "ini": 327.39,
+  "fim": 333.81,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "quase 25–30 g numa tigela",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c40_1",
+  "img": "midia/img/c40.webp",
+  "ini": 333.81,
+  "fim": 340.23,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c41",
+  "img": "midia/img/c41.webp",
+  "ini": 340.23,
+  "fim": 349.33,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c42",
+  "img": "midia/img/c42.webp",
+  "ini": 349.33,
+  "fim": 356.42,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c43",
+  "img": "midia/img/c43.webp",
+  "ini": 356.42,
+  "fim": 363.51,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "compare o preço por grama de proteína",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c44",
+  "img": "midia/img/c44.webp",
+  "ini": 363.51,
+  "fim": 372.5,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c45",
+  "img": "midia/img/c45.webp",
+  "ini": 372.5,
+  "fim": 381.5,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "c46",
+  "img": "midia/img/c46.webp",
+  "ini": 381.5,
+  "fim": 388.97,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "4 mitos",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.13,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c47",
+  "img": "midia/img/c47.webp",
+  "ini": 388.97,
+  "fim": 394.7,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "Mito 1: precisa de menos proteína",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c47_1",
+  "img": "midia/img/c47.webp",
+  "ini": 394.7,
+  "fim": 400.42,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c48",
+  "img": "midia/img/c48.webp",
+  "ini": 400.42,
+  "fim": 407.28,
+  "mov": "right",
+  "textos": [
+   {
+    "t": "0,8 → 1,0–1,2 g por kg",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.09,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c48_1",
+  "img": "midia/img/c48.webp",
+  "ini": 407.28,
+  "fim": 414.15,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c49",
+  "img": "midia/img/c49.webp",
+  "ini": 414.15,
+  "fim": 419.48,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "Mito 2: proteína estraga o rim",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c49_1",
+  "img": "midia/img/c49.webp",
+  "ini": 419.48,
+  "fim": 424.8,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c50",
+  "img": "midia/img/c50.webp",
+  "ini": 424.8,
+  "fim": 430.12,
+  "mov": "out",
+  "textos": []
+ },
+ {
+  "id": "c50_1",
+  "img": "midia/img/c50.webp",
+  "ini": 430.12,
+  "fim": 435.45,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c51",
+  "img": "midia/img/c51.webp",
+  "ini": 435.45,
+  "fim": 440.4,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "Mito 3: só carne serve",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c51_1",
+  "img": "midia/img/c51.webp",
+  "ini": 440.4,
+  "fim": 445.35,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c52",
+  "img": "midia/img/c52.webp",
+  "ini": 445.35,
+  "fim": 450.3,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c52_1",
+  "img": "midia/img/c52.webp",
+  "ini": 450.3,
+  "fim": 455.25,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c53",
+  "img": "midia/img/c53.webp",
+  "ini": 455.25,
+  "fim": 459.81,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "Mito 4: só a comida basta",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c54",
+  "img": "midia/img/c54.webp",
+  "ini": 459.81,
+  "fim": 465.12,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c54_1",
+  "img": "midia/img/c54.webp",
+  "ini": 465.12,
+  "fim": 470.44,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c55",
+  "img": "midia/img/c55.webp",
+  "ini": 470.44,
+  "fim": 478.03,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "c56",
+  "img": "midia/img/c56.webp",
+  "ini": 478.03,
+  "fim": 481.21,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c57",
+  "img": "midia/img/c57.webp",
+  "ini": 481.21,
+  "fim": 489.75,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c58",
+  "img": "midia/img/c58.webp",
+  "ini": 489.75,
+  "fim": 498.29,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c59",
+  "img": "midia/img/c59.webp",
+  "ini": 498.29,
+  "fim": 505.91,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c60",
+  "img": "midia/img/c60.webp",
+  "ini": 505.91,
+  "fim": 513.53,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "c61",
+  "img": "midia/img/c61.webp",
+  "ini": 513.53,
+  "fim": 520.13,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c62",
+  "img": "midia/img/c62.webp",
+  "ini": 520.13,
+  "fim": 526.73,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c63",
+  "img": "midia/img/c63.webp",
+  "ini": 526.73,
+  "fim": 534.11,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c64",
+  "img": "midia/img/c64.webp",
+  "ini": 534.11,
+  "fim": 541.49,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "c65",
+  "img": "midia/img/c65.webp",
+  "ini": 541.49,
+  "fim": 549.69,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "espalhe a proteína pelo dia",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c66",
+  "img": "midia/img/c66.webp",
+  "ini": 549.69,
+  "fim": 557.89,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c67",
+  "img": "midia/img/c67.webp",
+  "ini": 557.89,
+  "fim": 562.79,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c68",
+  "img": "midia/img/c68.webp",
+  "ini": 562.79,
+  "fim": 568.92,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "48 homens · 72 anos · 40 g antes de dormir",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c68_1",
+  "img": "midia/img/c68.webp",
+  "ini": 568.92,
+  "fim": 575.06,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c69",
+  "img": "midia/img/c69.webp",
+  "ini": 575.06,
+  "fim": 581.19,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c69_1",
+  "img": "midia/img/c69.webp",
+  "ini": 581.19,
+  "fim": 587.33,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c70",
+  "img": "midia/img/c70.webp",
+  "ini": 587.33,
+  "fim": 596.9,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "1 xícara ≈ 24 g   ·   estudo: 40 g",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c71",
+  "img": "midia/img/c71.webp",
+  "ini": 596.9,
+  "fim": 604.88,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c72",
+  "img": "midia/img/c72.webp",
+  "ini": 604.88,
+  "fim": 612.85,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c73",
+  "img": "midia/img/c73.webp",
+  "ini": 612.85,
+  "fim": 620.83,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "c74",
+  "img": "midia/img/c74.webp",
+  "ini": 620.83,
+  "fim": 626.57,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c75",
+  "img": "midia/img/c75.webp",
+  "ini": 626.57,
+  "fim": 632.56,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "≈ 700 mg de sódio por xícara",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.08,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c76",
+  "img": "midia/img/c76.webp",
+  "ini": 632.56,
+  "fim": 638.54,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c77",
+  "img": "midia/img/c77.webp",
+  "ini": 638.54,
+  "fim": 642.53,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c78",
+  "img": "midia/img/c78.webp",
+  "ini": 642.53,
+  "fim": 650.35,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c79",
+  "img": "midia/img/c79.webp",
+  "ini": 650.35,
+  "fim": 656.87,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "c80",
+  "img": "midia/img/c80.webp",
+  "ini": 656.87,
+  "fim": 662.77,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c80_1",
+  "img": "midia/img/c80.webp",
+  "ini": 662.77,
+  "fim": 668.68,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c13b",
+  "img": "midia/img/c13.webp",
+  "ini": 668.68,
+  "fim": 674.15,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c13b_1",
+  "img": "midia/img/c13.webp",
+  "ini": 674.15,
+  "fim": 679.63,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c24b",
+  "img": "midia/img/c24.webp",
+  "ini": 679.63,
+  "fim": 685.11,
+  "mov": "right",
+  "textos": [
+   {
+    "t": "café da manhã: só 10–13 g",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.09,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "c24b_1",
+  "img": "midia/img/c24.webp",
+  "ini": 685.11,
+  "fim": 690.58,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c37b",
+  "img": "midia/img/c37.webp",
+  "ini": 690.58,
+  "fim": 696.06,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c37b_1",
+  "img": "midia/img/c37.webp",
+  "ini": 696.06,
+  "fim": 701.53,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "c81",
+  "img": "midia/img/c81.webp",
+  "ini": 701.53,
+  "fim": 710.89,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c82",
+  "img": "midia/img/c82.webp",
+  "ini": 710.89,
+  "fim": 716.7,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "c82_1",
+  "img": "midia/img/c82.webp",
+  "ini": 716.7,
+  "fim": 722.51,
+  "mov": "close",
+  "textos": []
+ }
+]
