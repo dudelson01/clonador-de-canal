@@ -27,7 +27,7 @@ Confirmar se o nome está livre na hora de criar cada canal (o de EN não aparec
 ## Produção: 1 roteiro → 3 vídeos
 1. Roteiro mestre em **inglês**, com os fatos checados.
 2. Adaptação (não tradução literal) para **ES e PT**: trocar medidas, nomes de alimentos locais (cottage = "requesón/queso cottage" = "queijo cottage") e exemplos de preço e mercado.
-3. Narração na **ai33.pro**: 1 voz fixa por idioma, madura, calma e calorosa, ~140 palavras/min (o público é mais velho, então fala mais devagar).
+3. Narração na **ai33.pro**: 1 voz fixa por idioma, madura, calma e calorosa, ~165 palavras/min em EN e ~150 em ES/PT (medido nas referências).
 4. A mesma edição serve para os 3; só mudam narração, textos na tela e thumbnail.
 5. **Ritmo:** 5 vídeos/semana em cada idioma por 60 dias (~40 por canal).
 6. **Regra de corte:** se até o vídeo 40 nenhum vídeo de um idioma passar de 10 mil views, mudar o formato nesse idioma.
@@ -42,12 +42,17 @@ Confirmar se o nome está livre na hora de criar cada canal (o de EN não aparec
 7. **Resumo em 3 pontos + pergunta para comentar** ("Você já come isso no café da manhã?").
 - Microgancho a cada ~2 min ("Mas o mais importante é a hora em que você come…").
 
-## Edição
-- Imagens: comida real em close (Pexels/Pixabay), animação 3D simples de músculo/órgão (IA), pessoas 60+ em cenas do dia a dia (IA, marcar como sintético).
-- Corte a cada 4–6 s, zoom lento; ritmo mais calmo que o de canal jovem.
-- **Legenda grande sempre** (fonte 60–70 px, amarelo e branco com contorno): o público 60+ vê pelo celular e na TV.
-- Número-chave em tela cheia ("25 g de proteína").
-- Trilha suave de piano/ambiente a -26 dB.
+## Edição (medida nos vídeos de referência em 24/11/26; detalhes em `referencia/edicao-medida.md`)
+- **Sem música.** Só voz, como nos 3 vídeos de referência.
+- **Uma imagem a cada ~6 s** (4 s no gancho e em listas), sempre com zoom lento ou pan; corte seco.
+- Estilo visual em 3 camadas:
+  1. foto cinematográfica de IA (cozinha, mercado, idosos no dia a dia), luz quente;
+  2. **órgão/músculo 3D estilo raio-x azul** para explicar o que acontece no corpo;
+  3. **caderno antigo ilustrado** (papel envelhecido, desenho a nanquim) para números e estudos.
+- **Legenda:** 2–4 palavras por vez, MAIÚSCULA, branca com contorno preto, palavra-chave em **amarelo**, no terço inferior.
+- Número-chave em tela cheia no estilo caderno ("24 g").
+- Narração: ~165 palavras/min em EN, ~150 em ES/PT. Voz no volume padrão do YouTube (-14 LUFS).
+- **Duração-alvo:** 11–13 min (~1.900 palavras) para liberar anúncios no meio do vídeo.
 
 ## Thumbnail (padrão)
 - Alimento em **close, saturado**, ocupando 40% da imagem + 1 elemento de contraste (ovos, perna, músculo 3D com seta).
@@ -57,3 +62,4 @@ Confirmar se o nome está livre na hora de criar cada canal (o de EN não aparec
 
 ## Decisões deste canal
 - 24/11/2026: canal criado nos 3 idiomas, com regras de segurança acima (aprovado pelo aluno).
+- 24/11/2026: edição definida a partir da medição de 3 vídeos de referência enviados pelo aluno.
