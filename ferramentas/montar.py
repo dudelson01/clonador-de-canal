@@ -6,7 +6,7 @@ plano.json: [{"id","ini","fim","mov": in|out|left|right, "img": opcional, "texto
 - Legenda: 2–3 palavras por vez, MAIÚSCULA, Anton, branca com contorno; palavra-chave em amarelo.
 - Sem música (padrão medido nas referências).
 """
-import argparse, json, os, re, subprocess, tempfile
+import argparse, hashlib, json, os, re, shutil, subprocess, tempfile
 from PIL import Image, ImageDraw, ImageFont
 
 FERR = os.path.dirname(os.path.abspath(__file__))
@@ -51,7 +51,15 @@ def clipe(png, dur, mov, dest):
 
 
 def legenda_ass(timeline, ini, fim, dest):
-    ws = [w for w in timeline if ini <= w["i"] < fim]
+    ws = []
+    for w in timeline:
+        if not (ini <= w["i"] < fim):
+            continue
+        w = dict(w)
+        # a transcrição quebra "1.0" em "1" + ".0" e "protein-dense" em "protein" + "-dense": junta de volta
+        if ws and re.match(r"^[.,]\d|^-\w|^%", w["w"]) and not re.search(r"[.,!?;:]$", ws[-1]["w"]):
+            ws[-1] = dict(ws[-1], w=ws[-1]["w"] + w["w"], f=w["f"]); continue
+        ws.append(w)
     blocos, atual = [], []
     for w in ws:
         atual.append(w)
@@ -68,7 +76,7 @@ def legenda_ass(timeline, ini, fim, dest):
     for k, b in enumerate(blocos):
         a = b[0]["i"]; z = blocos[k + 1][0]["i"] if k + 1 < len(blocos) else b[-1]["f"] + 0.3
         z = min(z, b[-1]["f"] + 0.6)
-        limpa = [re.sub(r"[^\w'’.%-]", "", x["w"]).strip(".").upper() for x in b]
+        limpa = [re.sub(r"[^\w'’.,%-]", "", x["w"]).strip(".,").upper() for x in b]
         cand = [i for i, x in enumerate(limpa) if x and (any(c.isdigit() for c in x) or (len(x) >= 4 and x.lower() not in PARADAS))]
         chave = max(cand, key=lambda i: (any(c.isdigit() for c in limpa[i]), len(limpa[i]))) if cand else -1
         txt = " ".join(("{\\c&H00D7FF&}" + x + "{\\c&HFFFFFF&}") if i == chave else x for i, x in enumerate(limpa) if x)
@@ -103,10 +111,15 @@ def main():
             if c["fim"] <= a.ini or c["ini"] >= fim:
                 continue
             ci, cf = max(c["ini"], a.ini), min(c["fim"], fim)
-            png = os.path.join(tmp, c["id"] + ".jpg")
-            prepara(os.path.join(base, c.get("img", f"midia/img/{c['id']}.webp")), c.get("textos"), png)
-            mp4 = os.path.join(tmp, c["id"] + ".mp4")
-            clipe(png, cf - ci, c.get("mov", "in"), mp4)
+            img = os.path.join(base, c.get("img", f"midia/img/{c['id']}.webp"))
+            chave = hashlib.sha1(json.dumps([os.path.basename(img), os.path.getsize(img), c.get("textos"), round(cf - ci, 3),
+                                             c.get("mov", "in")], ensure_ascii=False).encode()).hexdigest()[:16]
+            cache = os.path.join(base, "build", "clipes"); os.makedirs(cache, exist_ok=True)
+            mp4 = os.path.join(cache, chave + ".mp4")  # cena já renderizada com os mesmos dados é reaproveitada
+            if not os.path.exists(mp4):
+                png = os.path.join(tmp, c["id"] + ".jpg")
+                prepara(img, c.get("textos"), png)
+                clipe(png, cf - ci, c.get("mov", "in"), mp4 + ".tmp.mp4"); shutil.move(mp4 + ".tmp.mp4", mp4)
             L.write(f"file '{mp4}'\n")
             print(f"  cena {c['id']} {ci:.1f}-{cf:.1f}s")
     video = os.path.join(tmp, "video.mp4")
