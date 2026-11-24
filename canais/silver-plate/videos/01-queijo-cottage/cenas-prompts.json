@@ -1,0 +1,367 @@
+[
+ {
+  "id": "c10",
+  "prompt": "A breakfast table at sunrise with an old wall clock in the background showing early morning, a cup of coffee and an empty plate, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c11",
+  "prompt": "Top view of an elegant antique silver plate on a dark wooden table surrounded by fresh foods: eggs, berries, oats, a bowl of cottage cheese, the center of the plate empty and shiny, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c12",
+  "prompt": "A pair of reading glasses resting on an open notebook with handwritten notes next to a cup of tea, soft morning light, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c13",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, the thigh muscle of an elderly person slowly thinning, muscle fibers dissolving into drifting particles",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c14",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of two cross-sections of a human thigh side by side, the right one with visibly less muscle",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c15",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a simple hand-drawn curve on a graph that stays flat then bends down more steeply toward the right, with small human figures from young to old along the bottom",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c16",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, front view of the legs of a standing elderly person with the large thigh muscles highlighted in brighter blue",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c17",
+  "prompt": "An older woman gripping a wooden stair railing at home, determined expression, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c18",
+  "prompt": "A grandmother kneeling with open arms as a small grandchild runs toward her in a sunny backyard, joyful, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c19",
+  "prompt": "Top-down view of a simple breakfast of one slice of toast and a cup of black coffee on a kitchen table, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c20",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, muscle fibers being repaired by small glowing building blocks attaching to them",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c21",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a balance scale with a small human figure on one side and a pile of protein foods (eggs, fish, beans, cheese) on the other",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c22",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a bathroom scale next to a small plate of protein foods",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c23",
+  "prompt": "An elderly man eating a small breakfast of toast and coffee alone at the kitchen table, morning light, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c24",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of three plates in a row: a small breakfast plate with toast, a medium lunch plate, and a large dinner plate with meat and vegetables",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c25",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a single plate with a generous portion of protein foods: eggs, a bowl of cottage cheese, beans",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c26",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, an aging muscle with dim, weak glowing signals, only a few fibers lighting up faintly",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c27",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of an old light switch that is off next to a breakfast plate and lunch plate, and switched on next to a dinner plate",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c28",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, close-up of aging muscle cells with a mysterious soft glow",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c29",
+  "prompt": "Extreme close-up of a spoon full of creamy cottage cheese lifted toward the camera, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c30",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, a human stomach with white milk protein forming soft clumps inside, glowing particles",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c31",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, tiny glowing particles slowly passing from the intestine into the bloodstream over time",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c32",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, glowing amino acid particles flowing through blood vessels toward a thigh muscle",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c33",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, a thigh muscle receiving faint, flickering signals, most of them fading before arriving",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c34",
+  "prompt": "An elderly hand holding an old mobile phone with a blank dark screen near a window, the phone looks like it has weak signal, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c35",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a muscle in the center with two arrows pointing to it, one arrow from a plate of food and one from a walking figure",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c36",
+  "prompt": "An older man doing a sit-to-stand exercise from a dining chair in a bright living room, focused and steady, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c37",
+  "prompt": "A white bowl of cottage cheese in close-up on a rustic wooden table with four brown eggs beside it, morning light, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c38",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a measuring cup filled with cottage cheese",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c39",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a single brown egg",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c40",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of one bowl of cottage cheese with a large check mark next to it",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c41",
+  "prompt": "Slow motion close-up of a spoon lifting creamy cottage cheese out of a bowl, soft side light, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c42",
+  "prompt": "A shopping basket in a supermarket containing a plain tub of cottage cheese, eggs and bread, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c43",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of four foods side by side with small price tags: a steak, a fish, a tub of protein powder and a tub of cottage cheese",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c44",
+  "prompt": "A single sunny-side-up egg on a white plate on a kitchen table, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c45",
+  "prompt": "A breakfast plate with two eggs and a bowl of cottage cheese with berries, top-down view, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c46",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of an open notebook with four numbered empty lines and a quill pen",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c47",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of an older person sketch with a small plate of food",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c48",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of two plates, a small one and a larger one with more protein foods, with an arrow pointing to the larger",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c49",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a pair of human kidneys with a question mark drawn beside them",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c50",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, a pair of healthy human kidneys glowing calmly",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c51",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a steak, an egg, a wedge of cheese, a bowl of beans and a fish side by side",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c52",
+  "prompt": "A bowl of cottage cheese with a spoon ready to eat on a kitchen counter, no cooking needed, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c53",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a plate of food and a resting armchair",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c54",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, a full human body standing up from a chair, the leg muscles lighting up brightly",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c55",
+  "prompt": "A smiling woman in her seventies walking briskly in a park in the morning, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c56",
+  "prompt": "Top-down view of a kitchen counter with ingredients: a tub of cottage cheese, bananas, berries, oats, bread, tomatoes, eggs and milk, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c57",
+  "prompt": "Top-down view of a bowl of cottage cheese topped with sliced banana, blueberries and oats, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c58",
+  "prompt": "Close-up of a spoon scooping cottage cheese with banana and berries, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c59",
+  "prompt": "Whole-grain toast spread with cottage cheese, sliced tomato, black pepper and a drizzle of olive oil on a wooden board, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c60",
+  "prompt": "Cottage cheese tomato toast with a halved boiled egg on the side on a plate, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c61",
+  "prompt": "Creamy scrambled eggs in a pan with spoonfuls of cottage cheese being stirred in, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c62",
+  "prompt": "A plate of fluffy creamy scrambled eggs on a breakfast table, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c63",
+  "prompt": "A blender with cottage cheese, a banana and milk on a kitchen counter, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c64",
+  "prompt": "Elderly hands holding a tall glass of thick creamy banana smoothie, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c65",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of three plates of similar size each with a portion of protein food",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c66",
+  "prompt": "A happy older man eating a bowl of cottage cheese with fruit at breakfast, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c67",
+  "prompt": "A dim kitchen at night with a small bowl on the table lit by a warm lamp, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c68",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a bedside table with a glass of milky drink and a clock showing night",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c69",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, leg muscle fibers glowing softly and rebuilding at night, a moon shape in the background",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c70",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a small bowl of cottage cheese next to a larger glass of milky drink",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c71",
+  "prompt": "A glass of milky drink on a bedside table next to a lamp at night, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c72",
+  "prompt": "An elderly man sleeping peacefully in bed at night, soft blue light, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c73",
+  "prompt": "A small bowl of cottage cheese next to a plate of cookies on a table in the evening, warm lamp light, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c74",
+  "prompt": "Close-up of a glass salt shaker spilling a little salt on a dark table, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c75",
+  "prompt": "Vintage illustrated notebook page, aged yellowed paper, hand-drawn ink and watercolor sketch, scientific journal aesthetic, the drawing placed in the lower two thirds of the page, large empty blank paper area at the top, no text, no letters, no numbers, drawing of a salt shaker next to a bowl of cottage cheese",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c76",
+  "prompt": "An older woman checking her blood pressure with a home monitor at the kitchen table, blank display, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c77",
+  "prompt": "A small half portion of cottage cheese in a little bowl, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c78",
+  "prompt": "Medical 3D render in glowing blue X-ray style, translucent anatomy, dark navy background, cinematic lighting, highly detailed, no text, a pair of human kidneys with a soft red warning glow",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c79",
+  "prompt": "An older man talking with his doctor in a bright clinic office, seen from behind the patient, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c80",
+  "prompt": "A glass of milk next to a bowl of cottage cheese on a kitchen counter, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c81",
+  "prompt": "An older couple having breakfast together at a sunny kitchen table, smiling and talking, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ },
+ {
+  "id": "c82",
+  "prompt": "An older man climbing a staircase at home with confidence and a smile, warm light, cinematic photo, warm natural light, shallow depth of field, realistic, 35mm film look, no text, no logos, no labels",
+  "ratio": "16:9"
+ }
+]

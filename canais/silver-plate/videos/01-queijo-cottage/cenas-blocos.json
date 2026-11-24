@@ -1,0 +1,1080 @@
+[
+ [
+  {
+   "id": "c01",
+   "img": "c01",
+   "peso": 11,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c02",
+   "img": "c02",
+   "peso": 6,
+   "mov": "right",
+   "textos": []
+  },
+  {
+   "id": "c03",
+   "img": "c03",
+   "peso": 12,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c04",
+   "img": "c04",
+   "peso": 8,
+   "mov": "left",
+   "textos": []
+  },
+  {
+   "id": "c05",
+   "img": "c05",
+   "peso": 10,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c06",
+   "img": "c06",
+   "peso": 14,
+   "mov": "right",
+   "textos": []
+  },
+  {
+   "id": "c07",
+   "img": "c07",
+   "peso": 8,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c08",
+   "img": "c08",
+   "peso": 9,
+   "mov": "left",
+   "textos": []
+  },
+  {
+   "id": "c09",
+   "img": "c09",
+   "peso": 12,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "=",
+      "es": "=",
+      "pt": "="
+     },
+     "x": 0.415,
+     "y": 0.5,
+     "tam": 0.16,
+     "cor": "#3b2a1a"
+    },
+    {
+     "t": {
+      "en": "1 cup ≈ 24 g",
+      "es": "1 taza ≈ 24 g",
+      "pt": "1 xícara ≈ 24 g"
+     },
+     "x": 0.24,
+     "y": 0.66,
+     "tam": 0.075,
+     "cor": "#3b2a1a"
+    },
+    {
+     "t": {
+      "en": "4 eggs ≈ 25 g",
+      "es": "4 huevos ≈ 25 g",
+      "pt": "4 ovos ≈ 25 g"
+     },
+     "x": 0.66,
+     "y": 0.66,
+     "tam": 0.075,
+     "cor": "#3b2a1a"
+    },
+    {
+     "t": {
+      "en": "protein",
+      "es": "proteína",
+      "pt": "proteína"
+     },
+     "x": 0.5,
+     "y": 0.2,
+     "tam": 0.1,
+     "cor": "#7a4a22"
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "img": "c10",
+   "peso": 14,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c11",
+   "img": "c11",
+   "peso": 6,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "Silver Plate Nutrition",
+      "es": "Plato Plateado",
+      "pt": "Prato Prateado"
+     },
+     "x": 0.5,
+     "y": 0.5,
+     "tam": 0.12,
+     "cor": "#ffffff"
+    }
+   ]
+  },
+  {
+   "id": "c12",
+   "img": "c12",
+   "peso": 24,
+   "mov": "right",
+   "textos": [
+    {
+     "t": {
+      "en": "Sources in the description",
+      "es": "Fuentes en la descripción",
+      "pt": "Fontes na descrição"
+     },
+     "x": 0.5,
+     "y": 0.15,
+     "tam": 0.08,
+     "cor": "#ffffff"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "c13",
+   "img": "c13",
+   "peso": 20,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c14",
+   "img": "c14",
+   "peso": 18,
+   "mov": "out",
+   "textos": [
+    {
+     "t": {
+      "en": "−3 to 5% per decade",
+      "es": "−3 a 5% por década",
+      "pt": "−3 a 5% por década"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.09,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "c15",
+   "img": "c15",
+   "peso": 20,
+   "mov": "right",
+   "textos": [
+    {
+     "t": {
+      "en": "faster after 60",
+      "es": "más rápido después de los 60",
+      "pt": "mais rápido depois dos 60"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.09,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c16",
+   "img": "c16",
+   "peso": 20,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c17",
+   "img": "c17",
+   "peso": 10,
+   "mov": "left",
+   "textos": []
+  },
+  {
+   "id": "c18",
+   "img": "c18",
+   "peso": 14,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c19",
+   "img": "c19",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c20",
+   "img": "c20",
+   "peso": 14,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c21",
+   "img": "c21",
+   "peso": 20,
+   "mov": "out",
+   "textos": [
+    {
+     "t": {
+      "en": "1.0–1.2 g protein per kg / day",
+      "es": "1,0–1,2 g de proteína por kg / día",
+      "pt": "1,0–1,2 g de proteína por kg / dia"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c22",
+   "img": "c22",
+   "peso": 12,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "70 kg → 70–84 g a day",
+      "es": "70 kg → 70–84 g al día",
+      "pt": "70 kg → 70–84 g por dia"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.09,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "c23",
+   "img": "c23",
+   "peso": 12,
+   "mov": "right",
+   "textos": []
+  },
+  {
+   "id": "c24",
+   "img": "c24",
+   "peso": 20,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "breakfast: only 10–13 g",
+      "es": "desayuno: solo 10–13 g",
+      "pt": "café da manhã: só 10–13 g"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.09,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "c25",
+   "img": "c25",
+   "peso": 18,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "25–30 g per meal",
+      "es": "25–30 g por comida",
+      "pt": "25–30 g por refeição"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.09,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c26",
+   "img": "c26",
+   "peso": 14,
+   "mov": "out",
+   "textos": []
+  },
+  {
+   "id": "c27",
+   "img": "c27",
+   "peso": 16,
+   "mov": "right",
+   "textos": [
+    {
+     "t": {
+      "en": "only one real chance: dinner",
+      "es": "una sola oportunidad: la cena",
+      "pt": "uma só chance: o jantar"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "c28",
+   "img": "c28",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c29",
+   "img": "c29",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c30",
+   "img": "c30",
+   "peso": 20,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c31",
+   "img": "c31",
+   "peso": 20,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c32",
+   "img": "c32",
+   "peso": 1,
+   "mov": "left",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c33",
+   "img": "c33",
+   "peso": 14,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c34",
+   "img": "c34",
+   "peso": 16,
+   "mov": "out",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c35",
+   "img": "c35",
+   "peso": 20,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "more protein per meal  +  movement",
+      "es": "más proteína por comida  +  movimiento",
+      "pt": "mais proteína por refeição  +  movimento"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.075,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c36",
+   "img": "c36",
+   "peso": 20,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c37",
+   "img": "c37",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c38",
+   "img": "c38",
+   "peso": 20,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "1 cup (220 g) = 24 g protein",
+      "es": "1 taza (220 g) = 24 g de proteína",
+      "pt": "1 xícara (220 g) = 24 g de proteína"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c39",
+   "img": "c39",
+   "peso": 12,
+   "mov": "right",
+   "textos": [
+    {
+     "t": {
+      "en": "1 egg = 6.3 g",
+      "es": "1 huevo = 6,3 g",
+      "pt": "1 ovo = 6,3 g"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.09,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c09b",
+   "img": "c09",
+   "peso": 12,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "=",
+      "es": "=",
+      "pt": "="
+     },
+     "x": 0.415,
+     "y": 0.5,
+     "tam": 0.16,
+     "cor": "#3b2a1a"
+    },
+    {
+     "t": {
+      "en": "1 cup ≈ 24 g",
+      "es": "1 taza ≈ 24 g",
+      "pt": "1 xícara ≈ 24 g"
+     },
+     "x": 0.24,
+     "y": 0.66,
+     "tam": 0.075,
+     "cor": "#3b2a1a"
+    },
+    {
+     "t": {
+      "en": "4 eggs ≈ 25 g",
+      "es": "4 huevos ≈ 25 g",
+      "pt": "4 ovos ≈ 25 g"
+     },
+     "x": 0.66,
+     "y": 0.66,
+     "tam": 0.075,
+     "cor": "#3b2a1a"
+    },
+    {
+     "t": {
+      "en": "protein",
+      "es": "proteína",
+      "pt": "proteína"
+     },
+     "x": 0.5,
+     "y": 0.2,
+     "tam": 0.1,
+     "cor": "#7a4a22"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "c40",
+   "img": "c40",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "almost 25–30 g in one bowl",
+      "es": "casi 25–30 g en un tazón",
+      "pt": "quase 25–30 g numa tigela"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "c41",
+   "img": "c41",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c42",
+   "img": "c42",
+   "peso": 12,
+   "mov": "right",
+   "textos": []
+  },
+  {
+   "id": "c43",
+   "img": "c43",
+   "peso": 12,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "compare price per gram of protein",
+      "es": "compara el precio por gramo de proteína",
+      "pt": "compare o preço por grama de proteína"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.075,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "c44",
+   "img": "c44",
+   "peso": 14,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c45",
+   "img": "c45",
+   "peso": 14,
+   "mov": "left",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c46",
+   "img": "c46",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "4 myths",
+      "es": "4 mitos",
+      "pt": "4 mitos"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.13,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "c47",
+   "img": "c47",
+   "peso": 10,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "Myth 1: you need less protein",
+      "es": "Mito 1: necesitas menos proteína",
+      "pt": "Mito 1: precisa de menos proteína"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c48",
+   "img": "c48",
+   "peso": 12,
+   "mov": "right",
+   "textos": [
+    {
+     "t": {
+      "en": "0.8 → 1.0–1.2 g per kg",
+      "es": "0,8 → 1,0–1,2 g por kg",
+      "pt": "0,8 → 1,0–1,2 g por kg"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.09,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "c49",
+   "img": "c49",
+   "peso": 10,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "Myth 2: protein hurts kidneys",
+      "es": "Mito 2: la proteína daña los riñones",
+      "pt": "Mito 2: proteína estraga o rim"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c50",
+   "img": "c50",
+   "peso": 10,
+   "mov": "out",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c51",
+   "img": "c51",
+   "peso": 8,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "Myth 3: only meat counts",
+      "es": "Mito 3: solo la carne sirve",
+      "pt": "Mito 3: só carne serve"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c52",
+   "img": "c52",
+   "peso": 8,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c53",
+   "img": "c53",
+   "peso": 6,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "Myth 4: food alone is enough",
+      "es": "Mito 4: la comida basta",
+      "pt": "Mito 4: só a comida basta"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c54",
+   "img": "c54",
+   "peso": 14,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c55",
+   "img": "c55",
+   "peso": 10,
+   "mov": "left",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c56",
+   "img": "c56",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c57",
+   "img": "c57",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c58",
+   "img": "c58",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c59",
+   "img": "c59",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c60",
+   "img": "c60",
+   "peso": 1,
+   "mov": "left",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c61",
+   "img": "c61",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c62",
+   "img": "c62",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c63",
+   "img": "c63",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c64",
+   "img": "c64",
+   "peso": 1,
+   "mov": "left",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c65",
+   "img": "c65",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "spread protein across the day",
+      "es": "reparte la proteína en el día",
+      "pt": "espalhe a proteína pelo dia"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c66",
+   "img": "c66",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c67",
+   "img": "c67",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c68",
+   "img": "c68",
+   "peso": 12,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "48 men · age 72 · 40 g before sleep",
+      "es": "48 hombres · 72 años · 40 g antes de dormir",
+      "pt": "48 homens · 72 anos · 40 g antes de dormir"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.075,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c69",
+   "img": "c69",
+   "peso": 12,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c70",
+   "img": "c70",
+   "peso": 12,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "1 cup ≈ 24 g   ·   study: 40 g",
+      "es": "1 taza ≈ 24 g   ·   estudio: 40 g",
+      "pt": "1 xícara ≈ 24 g   ·   estudo: 40 g"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c71",
+   "img": "c71",
+   "peso": 10,
+   "mov": "right",
+   "textos": []
+  },
+  {
+   "id": "c72",
+   "img": "c72",
+   "peso": 10,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c73",
+   "img": "c73",
+   "peso": 10,
+   "mov": "left",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c74",
+   "img": "c74",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c75",
+   "img": "c75",
+   "peso": 12,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "≈ 700 mg sodium per cup",
+      "es": "≈ 700 mg de sodio por taza",
+      "pt": "≈ 700 mg de sódio por xícara"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.08,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c76",
+   "img": "c76",
+   "peso": 12,
+   "mov": "right",
+   "textos": []
+  },
+  {
+   "id": "c77",
+   "img": "c77",
+   "peso": 8,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c78",
+   "img": "c78",
+   "peso": 12,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c79",
+   "img": "c79",
+   "peso": 10,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c80",
+   "img": "c80",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c13b",
+   "img": "c13",
+   "peso": 8,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "c24b",
+   "img": "c24",
+   "peso": 8,
+   "mov": "right",
+   "textos": [
+    {
+     "t": {
+      "en": "breakfast: only 10–13 g",
+      "es": "desayuno: solo 10–13 g",
+      "pt": "café da manhã: só 10–13 g"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.09,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "c37b",
+   "img": "c37",
+   "peso": 8,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c81",
+   "img": "c81",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "c82",
+   "img": "c82",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ]
+]
