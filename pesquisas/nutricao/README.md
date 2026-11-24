@@ -17,3 +17,10 @@ Busca pela YouTube Data API em PT, EN e ES, vídeos dos últimos 45 dias ordenad
 | Alimentos perigosos / vitaminas / glicose | 1–3 | — | fraco |
 
 Lista completa: `outliers.json` (155 vídeos). Grade das thumbs: `thumbs-outliers.jpg`.
+
+## Distribuição de views dos canais pequenos (28 canais novos do nicho)
+Arquivo: `canais-distribuicao.json`.
+- Mediana: **71% dos vídeos com menos de 1.000 views** e só 10% acima de 10 mil.
+- Em média, **1 vídeo responde por 77% de todas as views do canal**: o nicho funciona à base de hits.
+- Os temas que viram hit se repetem entre canais (amendoim × rins, fruta antes de dormir × rins, café da manhã para músculo depois dos 60).
+- Viés da amostra: só aparecem canais que tiveram pelo menos 1 hit. Canais que nunca estouraram não entram na busca.
