@@ -28,6 +28,11 @@ def prepara(img, textos, dest):
     for t in textos or []:  # coordenadas em fração da tela
         claro0 = t.get("cor", "").lower() in ("#fff", "#ffffff", "white")
         f = ImageFont.truetype(os.path.join(FONTES, t.get("fonte", "Anton-Regular.ttf" if claro0 else "Caveat.ttf")), int(t.get("tam", 0.08) * H * 2))
+        from fontTools.ttLib import TTFont
+        cmap = TTFont(f.path).getBestCmap()
+        falta = [ch for ch in t["t"] if not ch.isspace() and ord(ch) not in cmap]
+        if falta:  # a fonte não tem o caractere: sairia um quadrado no vídeo
+            raise SystemExit(f"fonte sem os caracteres {falta} no texto: {t['t']}")
         cor = t.get("cor", "#3b2a1a")
         claro = cor.lower() in ("#fff", "#ffffff", "white")  # texto claro sobre foto: contorno escuro para ler
         d.text((t["x"] * W * 2, t["y"] * H * 2), t["t"], font=f, fill=cor, anchor="mm",

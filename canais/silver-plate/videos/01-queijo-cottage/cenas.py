@@ -42,7 +42,7 @@ B = [
   ("c21", 20, "out", N + "a balance scale with a small human figure on one side and a pile of protein foods (eggs, fish, beans, cheese) on the other",
    [T("1.0–1.2 g protein per kg / day", "1,0–1,2 g de proteína por kg / día", "1,0–1,2 g de proteína por kg / dia", tam=0.08)]),
   ("c22", 12, "in", N + "a bathroom scale next to a small plate of protein foods",
-   [T("70 kg → 70–84 g a day", "70 kg → 70–84 g al día", "70 kg → 70–84 g por dia")])],
+   [T("70 kg = 70–84 g a day", "70 kg = 70–84 g al día", "70 kg = 70–84 g por dia")])],
  # 08
  [("c23", 12, "right", "An elderly man eating a small breakfast of toast and coffee alone at the kitchen table, morning light" + P, []),
   ("c24", 20, "in", N + "three plates in a row: a small breakfast plate with toast, a medium lunch plate, and a large dinner plate with meat and vegetables",
@@ -93,7 +93,7 @@ B = [
  # 23
  [("c47", 10, "in", N + "an older person sketch with a small plate of food", [T("Myth 1: you need less protein", "Mito 1: necesitas menos proteína", "Mito 1: precisa de menos proteína", tam=0.08)]),
   ("c48", 12, "right", N + "two plates, a small one and a larger one with more protein foods, with an arrow pointing to the larger",
-   [T("0.8 → 1.0–1.2 g per kg", "0,8 → 1,0–1,2 g por kg", "0,8 → 1,0–1,2 g por kg")])],
+   [T("from 0.8 to 1.0–1.2 g per kg", "de 0,8 a 1,0–1,2 g por kg", "de 0,8 para 1,0–1,2 g por kg", tam=0.08)])],
  # 24
  [("c49", 10, "in", N + "a pair of human kidneys with a question mark drawn beside them", [T("Myth 2: protein hurts kidneys", "Mito 2: la proteína daña los riñones", "Mito 2: proteína estraga o rim", tam=0.08)]),
   ("c50", 10, "out", X + "a pair of healthy human kidneys glowing calmly", [])],

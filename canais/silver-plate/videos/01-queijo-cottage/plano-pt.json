@@ -276,7 +276,7 @@
   "mov": "in",
   "textos": [
    {
-    "t": "70 kg → 70–84 g por dia",
+    "t": "70 kg = 70–84 g por dia",
     "x": 0.5,
     "y": 0.17,
     "tam": 0.09,
@@ -705,10 +705,10 @@
   "mov": "right",
   "textos": [
    {
-    "t": "0,8 → 1,0–1,2 g por kg",
+    "t": "de 0,8 para 1,0–1,2 g por kg",
     "x": 0.5,
     "y": 0.17,
-    "tam": 0.09,
+    "tam": 0.08,
     "cor": "#3b2a1a"
    }
   ]

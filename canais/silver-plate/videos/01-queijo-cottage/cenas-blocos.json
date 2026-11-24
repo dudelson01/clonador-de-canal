@@ -274,9 +274,9 @@
    "textos": [
     {
      "t": {
-      "en": "70 kg → 70–84 g a day",
-      "es": "70 kg → 70–84 g al día",
-      "pt": "70 kg → 70–84 g por dia"
+      "en": "70 kg = 70–84 g a day",
+      "es": "70 kg = 70–84 g al día",
+      "pt": "70 kg = 70–84 g por dia"
      },
      "x": 0.5,
      "y": 0.17,
@@ -672,13 +672,13 @@
    "textos": [
     {
      "t": {
-      "en": "0.8 → 1.0–1.2 g per kg",
-      "es": "0,8 → 1,0–1,2 g por kg",
-      "pt": "0,8 → 1,0–1,2 g por kg"
+      "en": "from 0.8 to 1.0–1.2 g per kg",
+      "es": "de 0,8 a 1,0–1,2 g por kg",
+      "pt": "de 0,8 para 1,0–1,2 g por kg"
      },
      "x": 0.5,
      "y": 0.17,
-     "tam": 0.09,
+     "tam": 0.08,
      "cor": "#3b2a1a"
     }
    ]
