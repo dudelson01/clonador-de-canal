@@ -11,6 +11,7 @@ dec = {"__file__": os.path.join(AQUI, "decupar.py")}; exec(compile(src, "decupar
 
 PAUSA_MAX = 0.22    # silencio maior que isso dentro do pedaco e cortado
 ANTES, DEPOIS = 0.06, 0.12   # folga mantida antes da voz que volta / depois da voz que acaba
+BORDA_INI, BORDA_FIM = 0.10, 0.14   # folga nas bordas do pedaco (consoante surda no comeco, fim de palavra soprado)
 FPS = 30
 
 plano = json.load(open(sys.argv[1])); D = json.load(open(os.path.join(sys.argv[2], "decupagem.json")))
@@ -31,11 +32,18 @@ for p in D:
             if ini > 0 and i < len(voz) and (i - ini) * Q > PAUSA_MAX:
                 cortes.append(((k0 + ini) * Q + DEPOIS, (k0 + i) * Q - ANTES))
             ini = None
-    s = p["s"]
+    s, e_fim = p["s"], p["e"]
+    # bordas: silencio no comeco/fim do pedaco tambem soma pausa na emenda
+    if any(voz):
+        v0 = voz.index(True); v1 = len(voz) - 1 - voz[::-1].index(True)
+        if v0 * Q > BORDA_INI: s = (k0 + v0) * Q - BORDA_INI
+        if (len(voz) - 1 - v1) * Q > BORDA_FIM: e_fim = (k0 + v1 + 1) * Q + BORDA_FIM
+    cortes = [(a, b) for a, b in cortes if a > s and b < e_fim]
+    cortado += (s - p["s"]) + (p["e"] - e_fim)
     for a, b in cortes:
         if b - a < 0.05: continue
         novos.append({**p, "s": round(s, 4), "e": round(a, 4)}); cortado += b - a; s = b
-    novos.append({**p, "s": round(s, 4), "e": p["e"]})
+    novos.append({**p, "s": round(s, 4), "e": round(e_fim, 4)})
 for p in novos:
     p["s"] = round(int(p["s"] * FPS + 1e-6) / FPS, 4); p["e"] = round(-(-p["e"] * FPS // 1) / FPS, 4)
 novos = [p for p in novos if p["e"] - p["s"] >= 1 / FPS]
