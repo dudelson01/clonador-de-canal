@@ -1,0 +1,238 @@
+{
+ "tomadas": {
+  "1": "gravacao/g1.mp4"
+ },
+ "render": {
+  "1": "build/cfr1.mov"
+ },
+ "transcricoes": {
+  "1": "build/g1_palavras.json"
+ },
+ "modo": "palavras",
+ "trechos": [
+  {
+   "t": "1",
+   "ini": 1.85,
+   "fim": 32.4,
+   "bloco": "gancho"
+  },
+  {
+   "t": "1",
+   "ini": 36.2,
+   "fim": 78.7,
+   "bloco": "bloco1"
+  },
+  {
+   "t": "1",
+   "ini": 82.5,
+   "fim": 87.5,
+   "bloco": "bloco1"
+  },
+  {
+   "t": "1",
+   "ini": 89.8,
+   "fim": 95.1,
+   "bloco": "bloco2"
+  },
+  {
+   "t": "1",
+   "ini": 118.45,
+   "fim": 169.2,
+   "bloco": "bloco2"
+  },
+  {
+   "t": "1",
+   "ini": 171.7,
+   "fim": 174.05,
+   "bloco": "bloco2"
+  },
+  {
+   "t": "1",
+   "ini": 178.95,
+   "fim": 184.9,
+   "bloco": "bloco2"
+  },
+  {
+   "t": "1",
+   "ini": 188.4,
+   "fim": 193.9,
+   "bloco": "bloco2"
+  },
+  {
+   "t": "1",
+   "ini": 199.0,
+   "fim": 206.85,
+   "bloco": "bloco2"
+  },
+  {
+   "t": "1",
+   "ini": 210.35,
+   "fim": 220.9,
+   "bloco": "bloco3"
+  },
+  {
+   "t": "1",
+   "ini": 236.4,
+   "fim": 241.8,
+   "bloco": "bloco3"
+  },
+  {
+   "t": "1",
+   "ini": 242.0,
+   "fim": 268.75,
+   "bloco": "bloco3"
+  },
+  {
+   "t": "1",
+   "ini": 272.8,
+   "fim": 280.0,
+   "bloco": "bloco3"
+  },
+  {
+   "t": "1",
+   "ini": 290.75,
+   "fim": 309.35,
+   "bloco": "bloco3"
+  },
+  {
+   "t": "1",
+   "ini": 311.5,
+   "fim": 326.4,
+   "bloco": "cta"
+  },
+  {
+   "t": "1",
+   "ini": 328.85,
+   "fim": 362.4,
+   "bloco": "bloco4"
+  },
+  {
+   "t": "1",
+   "ini": 365.35,
+   "fim": 392.2,
+   "bloco": "bloco5"
+  },
+  {
+   "t": "1",
+   "ini": 403.25,
+   "fim": 412.9,
+   "bloco": "bloco5"
+  },
+  {
+   "t": "1",
+   "ini": 428.35,
+   "fim": 434.8,
+   "bloco": "bloco5"
+  },
+  {
+   "t": "1",
+   "ini": 437.3,
+   "fim": 479.1,
+   "bloco": "bloco5"
+  },
+  {
+   "t": "1",
+   "ini": 485.75,
+   "fim": 499.6,
+   "bloco": "bloco6"
+  },
+  {
+   "t": "1",
+   "ini": 509.6,
+   "fim": 520.7,
+   "bloco": "bloco6"
+  },
+  {
+   "t": "1",
+   "ini": 522.9,
+   "fim": 540.35,
+   "bloco": "bloco7"
+  },
+  {
+   "t": "1",
+   "ini": 558.3,
+   "fim": 565.1,
+   "bloco": "bloco7"
+  },
+  {
+   "t": "1",
+   "ini": 570.3,
+   "fim": 579.1,
+   "bloco": "bloco7"
+  },
+  {
+   "t": "1",
+   "ini": 583.65,
+   "fim": 634.75,
+   "bloco": "bloco7"
+  },
+  {
+   "t": "1",
+   "ini": 639.6,
+   "fim": 670.7,
+   "bloco": "bloco8"
+  },
+  {
+   "t": "1",
+   "ini": 671.95,
+   "fim": 682.6,
+   "bloco": "bloco8"
+  },
+  {
+   "t": "1",
+   "ini": 683.55,
+   "fim": 684.97,
+   "bloco": "bloco8"
+  },
+  {
+   "t": "1",
+   "ini": 685.4,
+   "fim": 686.0,
+   "bloco": "bloco8"
+  },
+  {
+   "t": "1",
+   "ini": 686.55,
+   "fim": 702.4,
+   "bloco": "bloco8"
+  },
+  {
+   "t": "1",
+   "exato": true,
+   "ini": 708.6,
+   "fim": 714.6,
+   "bloco": "bloco8",
+   "obs": "E o Bryan, o entregador reclamão, agora o chefão final de Raccoon City, ruge para eles. (2a tomada)"
+  },
+  {
+   "t": "1",
+   "ini": 715.7,
+   "fim": 717.6,
+   "bloco": "final"
+  },
+  {
+   "t": "1",
+   "ini": 720.4,
+   "fim": 724.2,
+   "bloco": "final"
+  },
+  {
+   "t": "1",
+   "ini": 728.4,
+   "fim": 734.3,
+   "bloco": "final"
+  },
+  {
+   "t": "1",
+   "ini": 746.7,
+   "fim": 754.2,
+   "bloco": "final"
+  },
+  {
+   "t": "1",
+   "ini": 754.9,
+   "fim": 756.2,
+   "bloco": "final"
+  }
+ ]
+}
