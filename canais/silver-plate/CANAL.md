@@ -63,3 +63,5 @@ Confirmar se o nome está livre na hora de criar cada canal (o de EN não aparec
 ## Decisões deste canal
 - 24/11/2026: canal criado nos 3 idiomas, com regras de segurança acima (aprovado pelo aluno).
 - 24/11/2026: edição definida a partir da medição de 3 vídeos de referência enviados pelo aluno.
+- 26/11/2026: vídeo 2 produzido nos 3 idiomas. Erros pegos e corrigidos no processo: falha temporária (503) da ai33 → ferramentas agora tentam de novo; legenda com palavra ouvida errada pela transcrição ("mitratos", "cotade") → **sempre rodar `ferramentas/corrigir_timeline.py` depois da transcrição**, que usa a grafia do roteiro e mantém números em algarismo.
+- Fluxo por vídeo: roteiro EN → ES/PT → `narrar.py` → transcrição (timeline) → `corrigir_timeline.py` → `cenas.py` + `imagem_ai33.py` (1K) → `plano_idioma.py` → `montar.py` → conferir painel.
