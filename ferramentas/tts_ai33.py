@@ -25,7 +25,7 @@ def req(method, path, body=None):
     for tentativa in range(6):
         r = requests.request(method, API + path, json=body, timeout=120,
                              headers={"xi-api-key": key(), "User-Agent": "clonador-de-canal/1.0"})
-        if r.status_code == 429 and tentativa < 5:  # limite de pedidos: espera e tenta de novo
+        if r.status_code in (429, 500, 502, 503, 504) and tentativa < 5:  # limite ou instabilidade: espera e tenta de novo
             time.sleep(10 * (tentativa + 1))
             continue
         r.raise_for_status()

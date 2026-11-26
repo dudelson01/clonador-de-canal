@@ -15,7 +15,7 @@ H = {"xi-api-key": "dummy", "User-Agent": "clonador-de-canal/1.0"}  # no ambient
 def _post(form):
     for t in range(6):
         r = requests.post(API + "/v3/image", files={k: (None, str(v)) for k, v in form.items()}, headers=H, timeout=120)  # multipart
-        if r.status_code == 429 and t < 5:
+        if r.status_code in (429, 500, 502, 503, 504) and t < 5:
             time.sleep(10 * (t + 1)); continue
         if r.status_code >= 400:
             raise SystemExit(f"erro {r.status_code}: {r.text[:300]}")
@@ -31,7 +31,10 @@ def gera(cena, pasta, res):
         raise SystemExit(f"{cena['id']}: {r}")
     tid = r["task_id"]
     for _ in range(200):
-        d = requests.get(f"{API}/v3/task/{tid}", headers=H, timeout=60).json()["data"]
+        try:
+            d = requests.get(f"{API}/v3/task/{tid}", headers=H, timeout=60).json()["data"]
+        except Exception:  # instabilidade momentânea da ai33: tenta de novo no próximo ciclo
+            time.sleep(5); continue
         if d["status"] == "done":
             url = d["metadata"]["image_urls"][0]
             img = requests.get(url, headers=H, timeout=120); img.raise_for_status()
