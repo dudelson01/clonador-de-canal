@@ -1,4 +1,4 @@
-# Vídeo 04 – Resident Evil (2026) – ROTEIRO v2 (resumo comentado)
+# Vídeo 04 – Resident Evil (2026) – ROTEIRO v3 (resumo comentado)
 
 **Título (opções):**
 1. O PROTAGONISTA ERA O CHEFÃO FINAL
@@ -8,8 +8,8 @@
 **Thumb:** close do Bryan já transformado (olho no ombro) + "era ele o tempo todo" (sublinhado vermelho em "ele"). A cena está no último terço do vídeo.
 
 > Formato novo (CANAL.md, 26/11): resumo em ordem, furos dentro das cenas, gancho a cada 30–60 s, final no clímax.
-> Fatos conferidos pelo Luiz em 26/11. Ainda **[CONFERIR]**: só 2 pontos (marcados).
-> Estimativa: ~1.550 palavras ≈ 10–11 min de fala (fora clipes).
+> Fatos conferidos pelo Luiz em 26/11. Nenhum ponto pendente.
+> Estimativa: ~1.650 palavras ≈ 11–12 min de fala (fora clipes).
 
 ---
 
@@ -88,8 +88,18 @@ Não é um remédio. É o ingrediente que falta pra terminar o antídoto.
 Ou seja: a cura da cidade inteira dependia… de um entregador de app subindo a serra na neve.
 (Luiz) Umbrella, vocês têm laboratório secreto, arma biológica, agente armada… e terceirizaram a cura da humanidade pro motoboy reclamão?
 E o Bryan não conta pra ninguém da mordida.
-**[CONFERIR: o que acontece com Maxine e Paul na cidade — uma fonte diz que os dois morrem atacados]**
-No fim, o Bryan fica sozinho de novo. Com a caixa. Com a mordida.
+Os três vão de carro pro hospital. E caem numa rua tomada por infectados.
+A Maxine vê uma mulher sendo perseguida, sai do carro pra ajudar, dobra a esquina…
+e é partida ao meio.
+(Luiz) A única pessoa armada e treinada do filme durou o quê? Quatro minutos?
+E detalhe: a chave do carro tava com ela.
+Então o Bryan, com uma submetralhadora na mão, vai atrás do corpo pra pegar a chave… e o corpo é arrastado pra longe.
+Enquanto isso, o Paul é agarrado pelos tentáculos de uma criatura feita de vários corpos grudados.
+O Bryan atira nos tentáculos pra salvar ele…
+e acerta a perna do Paul.
+(Luiz) Bryan. Irmão. Você tinha UM trabalho.
+O Paul é arrastado e morto. E o Bryan foge pelo bueiro.
+Sozinho de novo. Com a caixa. Com a mordida.
 E com uma missão que agora é muito maior que um frete.
 
 [BLOCO 6 – A MUDANÇA · 7:30–8:20]
@@ -101,12 +111,22 @@ E ele quer chegar no hospital, porque lá tem o antídoto. Pra cidade… e pra e
 Guarda essa sensação, porque o filme vai usar ela contra você.
 
 [BLOCO 7 – O HOSPITAL · 8:20–9:40]
-E agora o Bryan tá melhor. Pegou escopeta, depois uma metralhadora. Igual upgrade de jogo.
-Ele até acerta um tiro de primeira, depois de errar o filme inteiro.
-(Luiz) Character development. O cara aprendeu a mirar.
-Ele vai subindo o prédio do hospital andar por andar. Até o 28º.
-**[CONFERIR: corredor com sangue e "barrigas" e a armadilha na beira do andar destruído — citados por uma crítica; manter só se estiverem no filme]**
-E chega no laboratório da Umbrella. Entrega a caixa.
+O Bryan chega no hospital e vai subindo andar por andar. Pistola, escopeta, submetralhadora. Igual upgrade de jogo.
+No 24º andar, pra chegar na passarela que liga as torres, ele precisa atravessar a maternidade.
+E a maternidade… é a pior coisa do filme.
+Sangue por todo lado. E pendurados no teto, uns sacos vermelhos enormes, parecendo úteros.
+De um deles sai um bebê mutante.
+(Luiz) Eu não sei o que o Zach Cregger viu na vida, mas ele precisa de terapia.
+E aí os sacos estouram. E de dentro saem dezenas de médicos e enfermeiras infectados.
+O Bryan corre pra passarela… abre a porta…
+e a passarela tá desabada. Ele fica preso na beirada, a não sei quantos andares do chão.
+Atrás da porta, a horda. E subindo pela parede do lado de fora… a criatura gigante de corpos grudados.
+Ele trava a porta com um esfregão entre as maçanetas.
+E ele tem uma bala. Uma.
+Lembra do cara que errava tiro em cadeado? Ele mira… e acerta o cabo do esfregão.
+A porta abre, e a horda inteira despenca do andar quebrado direto em cima do monstro que tava escalando. Derruba todo mundo.
+(Luiz) Esse é o tiro mais bonito do filme. O cara aprendeu a jogar.
+E aí ele chega no 28º andar. No laboratório da Umbrella. Entrega a caixa.
 Os cientistas começam a preparar o antídoto.
 Agora vai.
 
