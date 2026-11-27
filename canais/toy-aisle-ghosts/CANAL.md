@@ -26,16 +26,19 @@
 - Todo número e data conferido em fonte confiável antes de narrar.
 
 ## Narração
-- Voz de IA (ai33.pro), masculina ou feminina, grave, calma, tom de documentário, ~150 palavras/min.
+- Voz de IA (ai33.pro), masculina, grave, tom de documentário, ~165–170 palavras/min (Nerf: 187).
 - Nunca clonar voz de pessoa real.
 
-## Edição (provisória; vou medir nos vídeos de referência quando o YouTube liberar o download)
-- Corte a cada 3–5 s; zoom lento (Ken Burns) em toda imagem parada.
-- Imagens: produto e logo da época, fotos de lojas, comerciais antigos (trecho curto, com narração por cima), mapas e gráficos de números (receita, nº de lojas, dívida) feitos por nós.
-- Imagens de IA no estilo "foto de catálogo dos anos 90" para as cenas que não têm registro real.
-- Legenda: sem legenda queimada (o público é adulto); título de capítulo na tela a cada bloco.
-- Trilha: sintetizada, synth/lo-fi nostálgico baixinho (-24 dB sob a voz), sobe nas viradas.
-- Gráfico de "linha do tempo" recorrente: a identidade visual do canal.
+## Edição (medida em 27/11/26 nos 3 vídeos enviados pelo aluno; detalhes em `referencia/edicao-medida.md`)
+- **Corte a cada ~2,0 s na intro (60 s) e ~2,8 s no resto.** Referências: 1,7 a 3,6 s por plano.
+- **Base visual:** colagem sobre papel creme de catálogo antigo. Fotos de IA estilo "foto/catálogo dos anos 80–90" entram como cards com borda branca e sombra, 1 ou 2 por vez, sempre deslizando ou com zoom lento.
+- **Frase-chave da narração acima do card** (2–6 palavras, negrito itálico): datas, lugares, números.
+- **Palavra solta em tela preta** nas viradas de capítulo ("BUT…", "THE DEBT", "WAS IT AMAZON?").
+- Destaques: mapa dos EUA com pinos, contador de número e de ano, etiqueta de preço, carimbo ("CHAPTER 11"), placa "CLOSED".
+- **Sem material de terceiros** (vídeos de outros canais, comerciais), ao contrário de Nerf/Zombie Catchers: protege o canal de "conteúdo reutilizado".
+- Sem rosto realista de pessoa real gerado por IA (ex.: Charles Lazarus aparece só como silhueta).
+- Sem legenda contínua.
+- Trilha sintetizada, synth nostálgico baixinho sob a voz, troca a cada capítulo. -14 LUFS.
 
 ## Thumbnail (padrão do canal)
 - Escola "nostalgia + perda": o produto/logo icônico **grande e reconhecível**, dentro de um cenário abandonado, apagado ou rachado. Contraste quente (produto) contra frio (fundo).
@@ -44,3 +47,4 @@
 
 ## Decisões deste canal
 - 24/11/2026: nicho e subnicho escolhidos com base no raio-x (aguardando aprovação do aluno).
+- 27/11/2026: aluno enviou 3 vídeos de referência (Nerf, Zombie Catchers, Every Restaurant Chain) e pediu o vídeo 1. Edição medida e definida acima; roteiro do vídeo 1 (Toys"R"Us) escrito com gancho atual (120 lojas novas no Natal de 2026).
