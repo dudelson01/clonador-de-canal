@@ -50,3 +50,4 @@
 - 24/11/2026: nicho e subnicho escolhidos com base no raio-x (aguardando aprovação do aluno).
 - 27/11/2026: aluno enviou 3 vídeos de referência (Nerf, Zombie Catchers, Every Restaurant Chain) e pediu o vídeo 1. Edição medida e definida acima; roteiro do vídeo 1 (Toys"R"Us) escrito com gancho atual (120 lojas novas no Natal de 2026).
 - 27/11/2026: aluno escolheu a voz C (Daniel) entre 3 amostras.
+- 27/11/2026: aluno aprovou o formato da amostra do gancho (colagem em papel creme, cards, palavra em tela preta, mapa/números/carimbos, trilha synth). Ferramenta: `ferramentas/colagem.py` + `ferramentas/trilha.py`. Fluxo: roteiro → `narrar.py` → `timeline.py` (conferir trechos suspeitos com o modelo medium; o small trocou "Toys R Us" por "Lazarus") → `cenas.py` do vídeo → `imagem_ai33.py` (1K, 550 créditos/imagem) → `colagem.py --musica trilha.wav`.

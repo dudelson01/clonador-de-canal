@@ -1,0 +1,357 @@
+[
+ {
+  "id": "i14",
+  "prompt": "A young man in a 1940s US Army uniform seen from behind, standing on a city sidewalk in Washington DC after the war, face not visible, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i15",
+  "prompt": "A small 1940s bicycle repair shop on a city street, bicycles outside, with a tiny shop entrance on the lower level, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i16",
+  "prompt": "A 1940s wooden baby crib in a modest showroom, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i17",
+  "prompt": "A 1940s baby pram stroller on a sidewalk, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i18",
+  "prompt": "A small 1940s family store facade with an awning and baby furniture in the window, black and white photograph, no readable signs",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i19",
+  "prompt": "1945 soldiers returning home hugging their families at a crowded train station, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i20",
+  "prompt": "A 1950s city park full of young mothers pushing baby prams, baby boom era, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i21",
+  "prompt": "A 1950s child playing with tin toys and wooden blocks on a living room floor, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i22",
+  "prompt": "A broken vintage tin toy robot and a worn doll lying on an old wooden floor, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i23",
+  "prompt": "A 1950s kids birthday party around a cake with candles, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i24",
+  "prompt": "A 1950s Christmas morning, kids opening presents under a decorated tree, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i25",
+  "prompt": "A brand new 1950s American supermarket with wide aisles, shoppers and bright shelves, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i26",
+  "prompt": "A long row of 1950s metal shopping carts lined up at a supermarket entrance, vintage 1940s-1950s photograph, black and white or faded sepia, film grain, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i27",
+  "prompt": "Grand opening of a big 1950s toy store, crowd of families with children lined up outside, vintage color photograph, faded, no readable signs",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i28",
+  "prompt": "Close-up of a child's hand writing big crayon letters on paper, one letter R written backwards, playful, warm light, no other text",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i29",
+  "prompt": "A huge 1980s toy superstore interior, long aisles with shelves to the ceiling, shoppers with carts, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i30",
+  "prompt": "A 1980s big-box toy store exterior with a full parking lot on a sunny day, plain facade, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i31",
+  "prompt": "Towering shelves packed with colorful toy boxes stacked all the way to a warehouse ceiling, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i32",
+  "prompt": "Close-up of bright orange price stickers on toy boxes in a store, 1980s, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i33",
+  "prompt": "A friendly cartoon-style plush giraffe toy sitting on a toy store shelf, generic design, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i35",
+  "prompt": "A giant smiling giraffe mascot statue at the entrance of a 1980s toy store, kids posing next to it, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i36",
+  "prompt": "A small family-owned toy shop on a main street with empty windows and closed shutters, 1980s, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i37",
+  "prompt": "A 1980s family watching a commercial on a glowing CRT television in a cozy living room, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i38",
+  "prompt": "A 1990s kid pressing his face against a glass display case full of video games in a toy store, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i39",
+  "prompt": "Close-up of a child's hand holding a small paper ticket in front of a wall of video game boxes, 1990s, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i40",
+  "prompt": "Rows of colorful kids bicycles hanging from a toy store ceiling, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i41",
+  "prompt": "A kid lying on the carpet circling toys with a marker in a thick holiday toy catalog, 1990s, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i42",
+  "prompt": "A family Christmas shopping in a busy 1990s toy store, excited kids, festive decorations, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i43",
+  "prompt": "Times Square at night with a giant glowing multi-story toy store facade and crowds on the sidewalk, no readable signs, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i44",
+  "prompt": "A colorful ferris wheel inside a multi-story toy store atrium, kids riding it, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i45",
+  "prompt": "A giant animatronic T-rex dinosaur inside a toy store, kids looking up amazed, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i46",
+  "prompt": "A cracked glass storefront window of a toy store, crack lines spreading across the glass, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i47",
+  "prompt": "Toys on a discount store shelf with big red sale price tags, 1990s, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i48",
+  "prompt": "Parents with kids walking into a big discount superstore entrance through automatic doors, 1990s, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i49",
+  "prompt": "A shopping cart overflowing with groceries, clothes and a toy box on top, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i50",
+  "prompt": "A giant toy store with very few customers, a lonely employee standing in an empty aisle, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i51",
+  "prompt": "A beige late-1990s computer with a CRT monitor showing a web page loading, dial-up modem on the desk, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i52",
+  "prompt": "A frustrated parent at a home computer late at night in 1999, error window on the screen, blurred, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i53",
+  "prompt": "Two businessmen in suits shaking hands over a signed contract in a 2000s office, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i54",
+  "prompt": "Close-up of one hand passing a ring of keys to another hand, dramatic light, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i55",
+  "prompt": "A warehouse full of toy boxes being packed into shipping boxes by workers, early 2000s, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i56",
+  "prompt": "A laptop screen showing an online marketplace grid full of toy listings, blurred unreadable text, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i57",
+  "prompt": "A courtroom with a wooden judge's gavel and stacks of legal documents, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i58",
+  "prompt": "Calendar pages flying away in the wind, retro concept photo of time passing, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i59",
+  "prompt": "A huge modern fulfillment center with conveyor belts and robots moving packages, realistic photograph, 2020s, bright and clean, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i60",
+  "prompt": "A plush giraffe toy standing in a dark toy store aisle under a soft spotlight, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i61",
+  "prompt": "Three silhouettes of investors at a long dark boardroom table, dramatic side lighting, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i62",
+  "prompt": "Stacks of banknotes on bank loan documents with a pen, cold office light, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i63",
+  "prompt": "A heavy iron chain and weight attached to a red shopping cart, dramatic studio light, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i64",
+  "prompt": "A big-box toy store exterior at dusk under ominous dark storm clouds, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i65",
+  "prompt": "Banknotes burning in a metal bin in the dark, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i66",
+  "prompt": "A broken shelf and a flickering fluorescent light in a tired old toy store, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i67",
+  "prompt": "Store blueprints and a website wireframe sketch on a desk with a coffee cup, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i68",
+  "prompt": "Messy toy store shelves with toys fallen on the floor under dim light, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i69",
+  "prompt": "A dark empty multi-story toy store facade in Times Square with lights off and windows papered over, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i70",
+  "prompt": "A newspaper on a kitchen table next to a coffee cup, big bankruptcy headline blurred and unreadable, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i71",
+  "prompt": "Worried executives in a meeting room looking at falling charts on a screen, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i72",
+  "prompt": "A toy store at Christmas almost empty of shoppers, big sale signs without readable text, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i73",
+  "prompt": "An idle loading dock with parked delivery trucks and stacked boxes, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i74",
+  "prompt": "Completely empty toy store shelves with only price tags left, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i75",
+  "prompt": "Workers on a lift removing a large store sign from a building facade, letters unreadable, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i76",
+  "prompt": "A former retail employee walking alone across an empty parking lot carrying a cardboard box, realistic news photograph, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i77",
+  "prompt": "Busy big-box electronics and department stores with shoppers, still thriving, realistic photograph, 2020s, bright and clean, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i78",
+  "prompt": "A contract with signatures being slid across a desk between two people, close-up, realistic photograph, 2020s, bright and clean, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i79",
+  "prompt": "A colorful toy shop section inside a big department store, realistic photograph, 2020s, bright and clean, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i80",
+  "prompt": "A large modern two-story toy store inside a giant mall, bright and colorful, realistic photograph, 2020s, bright and clean, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i81",
+  "prompt": "A small toy shop in an airport terminal, travelers with suitcases walking by, realistic photograph, 2020s, bright and clean, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i82",
+  "prompt": "Adult collectors browsing collectible action figures in a modern toy store, realistic photograph, 2020s, bright and clean, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i83",
+  "prompt": "A parent and a young child shopping together in a modern toy store, both smiling, realistic photograph, 2020s, bright and clean, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i84",
+  "prompt": "A child seen from behind walking through automatic doors into a glowing toy store, magical warm light, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i85",
+  "prompt": "A pile of small generic plush bean-bag animals with heart-shaped tags, on a wooden table, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ }
+]

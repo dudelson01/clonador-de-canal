@@ -1,23 +1,1368 @@
 [
- {"id": "s01", "ancora": "On March", "tipo": "cards", "imgs": ["i01"], "legenda": "March 15, 2018"},
- {"id": "s02", "ancora": "Toys R Us announced", "tipo": "cards", "imgs": ["i02"], "legenda": "every single store", "placa": "CLOSING"},
- {"id": "s03", "ancora": "in America", "tipo": "mapa", "pinos": 735, "modo": "surge"},
- {"id": "s04", "ancora": "One week later", "tipo": "cards", "imgs": ["i03"], "legenda": "One week later..."},
- {"id": "s05", "ancora": "He was", "tipo": "numero", "valor": 94, "rotulo": "years old"},
- {"id": "s06", "ancora": "735 stores", "tipo": "mapa", "pinos": 735, "modo": "some", "rotulo": "735 stores"},
- {"id": "s07", "ancora": "around 30", "tipo": "cards", "imgs": ["i05"], "legenda": "~30,000 jobs"},
- {"id": "s08", "ancora": "The place every", "tipo": "cards", "imgs": ["i06"], "legenda": "every kid's favorite place"},
- {"id": "s09", "ancora": "gone in a", "tipo": "palavra", "texto": "GONE."},
- {"id": "s10", "ancora": "And now", "tipo": "cards", "imgs": ["i07"], "legenda": "8 years later"},
- {"id": "s11", "ancora": "something strange", "tipo": "palavra", "texto": "SOMETHING STRANGE..."},
- {"id": "s12", "ancora": "This Christmas", "tipo": "cards", "imgs": ["i08"], "legenda": "Christmas 2026"},
- {"id": "s13", "ancora": "opening 120", "tipo": "numero", "valor": 120, "rotulo": "new stores"},
- {"id": "s14", "ancora": "So what actually", "tipo": "cards", "imgs": ["i09"], "legenda": "So what killed it?"},
- {"id": "s15", "ancora": "It wasn't Amazon", "tipo": "cards", "imgs": ["i10"], "carimbo": "NOT AMAZON"},
- {"id": "s16", "ancora": "It wasn't Walmart", "tipo": "cards", "imgs": ["i11"], "carimbo": "NOT WALMART"},
- {"id": "s17", "ancora": "The real answer", "tipo": "cards", "imgs": ["i12"], "legenda": "a deal most people never heard of"},
- {"id": "s18", "ancora": "signed in a", "tipo": "ano", "valor": 2005},
- {"id": "s19", "ancora": "And by the end", "tipo": "cards", "imgs": ["i13", "i09"], "legenda": "doomed 13 years before the end"},
- {"id": "s20", "ancora": "doomed 13", "tipo": "palavra", "texto": "DOOMED.", "vermelho": true},
- {"id": "s21", "ancora": "The story starts", "tipo": "cards", "imgs": ["i04"], "legenda": "Washington, D.C. — 1948"}
+ {
+  "id": "s01",
+  "ancora": "On March",
+  "tipo": "cards",
+  "imgs": [
+   "i01"
+  ],
+  "legenda": "March 15, 2018"
+ },
+ {
+  "id": "s02",
+  "ancora": "Toys R Us announced",
+  "tipo": "cards",
+  "imgs": [
+   "i02"
+  ],
+  "legenda": "every single store",
+  "placa": "CLOSING"
+ },
+ {
+  "id": "s03",
+  "ancora": "in America",
+  "tipo": "mapa",
+  "pinos": 735,
+  "modo": "surge"
+ },
+ {
+  "id": "s04",
+  "ancora": "One week later",
+  "tipo": "cards",
+  "imgs": [
+   "i03"
+  ],
+  "legenda": "One week later..."
+ },
+ {
+  "id": "s05",
+  "ancora": "He was",
+  "tipo": "numero",
+  "valor": 94,
+  "rotulo": "years old"
+ },
+ {
+  "id": "s06",
+  "ancora": "735 stores",
+  "tipo": "mapa",
+  "pinos": 735,
+  "modo": "some",
+  "rotulo": "735 stores"
+ },
+ {
+  "id": "s07",
+  "ancora": "around 30",
+  "tipo": "cards",
+  "imgs": [
+   "i05"
+  ],
+  "legenda": "~30,000 jobs"
+ },
+ {
+  "id": "s08",
+  "ancora": "The place every",
+  "tipo": "cards",
+  "imgs": [
+   "i06"
+  ],
+  "legenda": "every kid's favorite place"
+ },
+ {
+  "id": "s09",
+  "ancora": "gone in a",
+  "tipo": "palavra",
+  "texto": "GONE."
+ },
+ {
+  "id": "s10",
+  "ancora": "And now",
+  "tipo": "cards",
+  "imgs": [
+   "i07"
+  ],
+  "legenda": "8 years later"
+ },
+ {
+  "id": "s11",
+  "ancora": "something strange",
+  "tipo": "palavra",
+  "texto": "SOMETHING STRANGE..."
+ },
+ {
+  "id": "s12",
+  "ancora": "This Christmas",
+  "tipo": "cards",
+  "imgs": [
+   "i08"
+  ],
+  "legenda": "Christmas 2026"
+ },
+ {
+  "id": "s13",
+  "ancora": "opening 120",
+  "tipo": "numero",
+  "valor": 120,
+  "rotulo": "new stores"
+ },
+ {
+  "id": "s14",
+  "ancora": "So what actually",
+  "tipo": "cards",
+  "imgs": [
+   "i09"
+  ],
+  "legenda": "So what killed it?"
+ },
+ {
+  "id": "s15",
+  "ancora": "It wasn't Amazon",
+  "tipo": "cards",
+  "imgs": [
+   "i10"
+  ],
+  "carimbo": "NOT AMAZON"
+ },
+ {
+  "id": "s16",
+  "ancora": "It wasn't Walmart",
+  "tipo": "cards",
+  "imgs": [
+   "i11"
+  ],
+  "carimbo": "NOT WALMART"
+ },
+ {
+  "id": "s17",
+  "ancora": "The real answer",
+  "tipo": "cards",
+  "imgs": [
+   "i12"
+  ],
+  "legenda": "a deal most people never heard of"
+ },
+ {
+  "id": "s18",
+  "ancora": "signed in a",
+  "tipo": "ano",
+  "valor": 2005
+ },
+ {
+  "id": "s19",
+  "ancora": "And by the end",
+  "tipo": "cards",
+  "imgs": [
+   "i13",
+   "i09"
+  ],
+  "legenda": "doomed 13 years before the end"
+ },
+ {
+  "id": "s20",
+  "ancora": "doomed 13",
+  "tipo": "palavra",
+  "texto": "DOOMED.",
+  "vermelho": true
+ },
+ {
+  "ancora": "The story starts",
+  "tipo": "cards",
+  "imgs": [
+   "i04"
+  ],
+  "legenda": "Washington, D.C. — 1948",
+  "id": "s021"
+ },
+ {
+  "ancora": "A 25 year",
+  "tipo": "cards",
+  "imgs": [
+   "i14"
+  ],
+  "legenda": "a 25-year-old war veteran",
+  "id": "s022"
+ },
+ {
+  "ancora": "opened a small",
+  "tipo": "cards",
+  "imgs": [
+   "i15"
+  ],
+  "legenda": "below his father's bike shop",
+  "id": "s023"
+ },
+ {
+  "ancora": "It wasn't a toy",
+  "tipo": "palavra",
+  "texto": "NOT A TOY STORE.",
+  "id": "s024"
+ },
+ {
+  "ancora": "It sold baby",
+  "tipo": "cards",
+  "imgs": [
+   "i16",
+   "i17"
+  ],
+  "legenda": "baby furniture",
+  "id": "s025"
+ },
+ {
+  "ancora": "He called it",
+  "tipo": "cards",
+  "imgs": [
+   "i18"
+  ],
+  "legenda": "Children's Bargain Town",
+  "id": "s026"
+ },
+ {
+  "ancora": "It was perfect",
+  "tipo": "cards",
+  "imgs": [
+   "i19"
+  ],
+  "legenda": "perfect timing",
+  "id": "s027"
+ },
+ {
+  "ancora": "Soldiers were coming",
+  "tipo": "cards",
+  "imgs": [
+   "i20"
+  ],
+  "legenda": "the baby boom",
+  "id": "s028"
+ },
+ {
+  "ancora": "But Lazarus noticed",
+  "tipo": "palavra",
+  "texto": "BUT...",
+  "id": "s029"
+ },
+ {
+  "ancora": "A family buys",
+  "tipo": "cards",
+  "imgs": [
+   "i16"
+  ],
+  "legenda": "a crib: bought once",
+  "id": "s030"
+ },
+ {
+  "ancora": "Then they never",
+  "tipo": "palavra",
+  "texto": "THEY NEVER COME BACK.",
+  "id": "s031"
+ },
+ {
+  "ancora": "Toys were different",
+  "tipo": "cards",
+  "imgs": [
+   "i21"
+  ],
+  "legenda": "toys were different",
+  "id": "s032"
+ },
+ {
+  "ancora": "Toys broke",
+  "tipo": "cards",
+  "imgs": [
+   "i22"
+  ],
+  "legenda": "they break. kids outgrow them.",
+  "id": "s033"
+ },
+ {
+  "ancora": "And every birthday",
+  "tipo": "cards",
+  "imgs": [
+   "i23",
+   "i24"
+  ],
+  "legenda": "every birthday, every Christmas",
+  "id": "s034"
+ },
+ {
+  "ancora": "So he did",
+  "tipo": "palavra",
+  "texto": "THE IDEA.",
+  "id": "s035"
+ },
+ {
+  "ancora": "He looked at",
+  "tipo": "cards",
+  "imgs": [
+   "i25"
+  ],
+  "legenda": "the new supermarkets",
+  "id": "s036"
+ },
+ {
+  "ancora": "with their giant",
+  "tipo": "cards",
+  "imgs": [
+   "i26"
+  ],
+  "legenda": "giant aisles. shopping carts.",
+  "id": "s037"
+ },
+ {
+  "ancora": "Why not a",
+  "tipo": "palavra",
+  "texto": "A SUPERMARKET... FOR TOYS?",
+  "id": "s038"
+ },
+ {
+  "ancora": "In 1957 he",
+  "tipo": "ano",
+  "valor": 1957,
+  "id": "s039"
+ },
+ {
+  "ancora": "he opened his first",
+  "tipo": "cards",
+  "imgs": [
+   "i27"
+  ],
+  "legenda": "the first toys-only store",
+  "id": "s040"
+ },
+ {
+  "ancora": "He gave it",
+  "tipo": "cards",
+  "imgs": [
+   "i28"
+  ],
+  "legenda": "a name a kid could have written",
+  "id": "s041"
+ },
+ {
+  "ancora": "Toys R Us The",
+  "tipo": "palavra",
+  "texto": "TOYS\"R\"US",
+  "id": "s042"
+ },
+ {
+  "ancora": "formula was simple",
+  "tipo": "cards",
+  "imgs": [
+   "i29"
+  ],
+  "legenda": "the formula",
+  "id": "s043"
+ },
+ {
+  "ancora": "Huge stores",
+  "tipo": "cards",
+  "imgs": [
+   "i30"
+  ],
+  "legenda": "huge stores",
+  "id": "s044"
+ },
+ {
+  "ancora": "Every toy you",
+  "tipo": "cards",
+  "imgs": [
+   "i31"
+  ],
+  "legenda": "stacked to the ceiling",
+  "id": "s045"
+ },
+ {
+  "ancora": "low prices",
+  "tipo": "cards",
+  "imgs": [
+   "i32"
+  ],
+  "legenda": "low prices",
+  "id": "s046"
+ },
+ {
+  "ancora": "and a giraffe",
+  "tipo": "cards",
+  "imgs": [
+   "i33"
+  ],
+  "legenda": "...and a giraffe",
+  "id": "s047"
+ },
+ {
+  "ancora": "the giraffe had started",
+  "tipo": "cards",
+  "imgs": [
+   "i18"
+  ],
+  "legenda": "Geoffrey the Giraffe",
+  "id": "s048"
+ },
+ {
+  "ancora": "Now he became",
+  "tipo": "cards",
+  "imgs": [
+   "i35"
+  ],
+  "legenda": "the face of an empire",
+  "id": "s049"
+ },
+ {
+  "ancora": "Through the 70s",
+  "tipo": "mapa",
+  "pinos": 420,
+  "modo": "surge",
+  "rotulo": "1970s → 1980s",
+  "id": "s050"
+ },
+ {
+  "ancora": "It became what",
+  "tipo": "palavra",
+  "texto": "CATEGORY KILLER.",
+  "vermelho": true,
+  "id": "s051"
+ },
+ {
+  "ancora": "Small toy shops",
+  "tipo": "cards",
+  "imgs": [
+   "i36"
+  ],
+  "legenda": "small shops couldn't compete",
+  "placa": "CLOSED",
+  "id": "s052"
+ },
+ {
+  "ancora": "For roughly 15",
+  "tipo": "numero",
+  "valor": 15,
+  "rotulo": "years at #1",
+  "id": "s053"
+ },
+ {
+  "ancora": "And it had",
+  "tipo": "cards",
+  "imgs": [
+   "i37"
+  ],
+  "legenda": "the jingle",
+  "id": "s054"
+ },
+ {
+  "ancora": "I don't want",
+  "tipo": "palavra",
+  "texto": "I DON'T WANNA GROW UP...",
+  "id": "s055"
+ },
+ {
+  "ancora": "If you were",
+  "tipo": "cards",
+  "imgs": [
+   "i38"
+  ],
+  "legenda": "the video game aisle",
+  "id": "s056"
+ },
+ {
+  "ancora": "where you grabbed",
+  "tipo": "cards",
+  "imgs": [
+   "i39"
+  ],
+  "legenda": "grab the paper ticket",
+  "id": "s057"
+ },
+ {
+  "ancora": "The bikes hanging",
+  "tipo": "cards",
+  "imgs": [
+   "i40"
+  ],
+  "legenda": "bikes on the ceiling",
+  "id": "s058"
+ },
+ {
+  "ancora": "The wish list",
+  "tipo": "cards",
+  "imgs": [
+   "i41"
+  ],
+  "legenda": "the wish list",
+  "id": "s059"
+ },
+ {
+  "ancora": "It wasn't just",
+  "tipo": "cards",
+  "imgs": [
+   "i06"
+  ],
+  "legenda": "not just a store",
+  "id": "s060"
+ },
+ {
+  "ancora": "It was the place",
+  "tipo": "cards",
+  "imgs": [
+   "i42"
+  ],
+  "legenda": "where Christmas started",
+  "id": "s061"
+ },
+ {
+  "ancora": "In 2001 the",
+  "tipo": "ano",
+  "valor": 2001,
+  "id": "s062"
+ },
+ {
+  "ancora": "opened its crown",
+  "tipo": "cards",
+  "imgs": [
+   "i43"
+  ],
+  "legenda": "the Times Square flagship",
+  "id": "s063"
+ },
+ {
+  "ancora": "with a 60",
+  "tipo": "cards",
+  "imgs": [
+   "i44"
+  ],
+  "legenda": "a 60-foot Ferris wheel inside",
+  "id": "s064"
+ },
+ {
+  "ancora": "and a giant animatronic",
+  "tipo": "cards",
+  "imgs": [
+   "i45"
+  ],
+  "legenda": "an animatronic T-Rex",
+  "id": "s065"
+ },
+ {
+  "ancora": "But by then",
+  "tipo": "palavra",
+  "texto": "BUT...",
+  "id": "s066"
+ },
+ {
+  "ancora": "And the first crack",
+  "tipo": "cards",
+  "imgs": [
+   "i46"
+  ],
+  "legenda": "the first crack",
+  "id": "s067"
+ },
+ {
+  "ancora": "In the 90s Walmart",
+  "tipo": "cards",
+  "imgs": [
+   "i11"
+  ],
+  "legenda": "Walmart & Target",
+  "id": "s068"
+ },
+ {
+  "ancora": "They didn't need",
+  "tipo": "cards",
+  "imgs": [
+   "i47"
+  ],
+  "legenda": "toys at cost... or at a loss",
+  "id": "s069"
+ },
+ {
+  "ancora": "just to get",
+  "tipo": "cards",
+  "imgs": [
+   "i48"
+  ],
+  "legenda": "just to get parents inside",
+  "id": "s070"
+ },
+ {
+  "ancora": "Once you were",
+  "tipo": "cards",
+  "imgs": [
+   "i49"
+  ],
+  "legenda": "groceries. clothes. everything.",
+  "id": "s071"
+ },
+ {
+  "ancora": "Toys R Us couldn't",
+  "tipo": "palavra",
+  "texto": "TOYS WERE ALL IT SOLD.",
+  "id": "s072"
+ },
+ {
+  "ancora": "In 1998 for",
+  "tipo": "ano",
+  "valor": 1998,
+  "id": "s073"
+ },
+ {
+  "ancora": "Walmart sold 17",
+  "tipo": "numero",
+  "valor": 174,
+  "rotulo": "Walmart",
+  "div": 10,
+  "sufixo": "%",
+  "id": "s074"
+ },
+ {
+  "ancora": "Toys R Us sold 16",
+  "tipo": "numero",
+  "valor": 168,
+  "rotulo": "Toys\"R\"Us",
+  "div": 10,
+  "sufixo": "%",
+  "id": "s075"
+ },
+ {
+  "ancora": "It was still",
+  "tipo": "cards",
+  "imgs": [
+   "i50"
+  ],
+  "legenda": "a giant with a problem",
+  "id": "s076"
+ },
+ {
+  "ancora": "And its solution",
+  "tipo": "palavra",
+  "texto": "IT GOT WORSE.",
+  "id": "s077"
+ },
+ {
+  "ancora": "In 1999 the",
+  "tipo": "ano",
+  "valor": 1999,
+  "id": "s078"
+ },
+ {
+  "ancora": "the internet was exploding",
+  "tipo": "cards",
+  "imgs": [
+   "i51"
+  ],
+  "legenda": "the internet boom",
+  "id": "s079"
+ },
+ {
+  "ancora": "That Christmas its",
+  "tipo": "cards",
+  "imgs": [
+   "i52"
+  ],
+  "legenda": "the website couldn't keep up",
+  "id": "s080"
+ },
+ {
+  "ancora": "So in 2000",
+  "tipo": "ano",
+  "valor": 2000,
+  "id": "s081"
+ },
+ {
+  "ancora": "It signed a 10",
+  "tipo": "cards",
+  "imgs": [
+   "i53"
+  ],
+  "carimbo": "10 YEARS",
+  "id": "s082"
+ },
+ {
+  "ancora": "would become the",
+  "tipo": "cards",
+  "imgs": [
+   "i10"
+  ],
+  "legenda": "the only toy seller on Amazon",
+  "id": "s083"
+ },
+ {
+  "ancora": "In plain English",
+  "tipo": "cards",
+  "imgs": [
+   "i54"
+  ],
+  "legenda": "handing over the keys",
+  "id": "s084"
+ },
+ {
+  "ancora": "that would one",
+  "tipo": "palavra",
+  "texto": "TO AMAZON.",
+  "vermelho": true,
+  "id": "s085"
+ },
+ {
+  "ancora": "For a few",
+  "tipo": "cards",
+  "imgs": [
+   "i55"
+  ],
+  "legenda": "for a few years, it worked",
+  "id": "s086"
+ },
+ {
+  "ancora": "Then Amazon started",
+  "tipo": "cards",
+  "imgs": [
+   "i56"
+  ],
+  "legenda": "other sellers, same toys",
+  "id": "s087"
+ },
+ {
+  "ancora": "felt betrayed",
+  "tipo": "cards",
+  "imgs": [
+   "i57"
+  ],
+  "carimbo": "LAWSUIT",
+  "id": "s088"
+ },
+ {
+  "ancora": "In 2006 a judge",
+  "tipo": "ano",
+  "valor": 2006,
+  "id": "s089"
+ },
+ {
+  "ancora": "It won in court",
+  "tipo": "palavra",
+  "texto": "IT WON IN COURT...",
+  "id": "s090"
+ },
+ {
+  "ancora": "Almost a decade",
+  "tipo": "cards",
+  "imgs": [
+   "i58"
+  ],
+  "legenda": "a lost decade online",
+  "id": "s091"
+ },
+ {
+  "ancora": "Years later Amazon",
+  "tipo": "numero",
+  "valor": 51,
+  "rotulo": "settlement",
+  "prefixo": "$",
+  "sufixo": "M",
+  "id": "s092"
+ },
+ {
+  "ancora": "By then Amazon",
+  "tipo": "cards",
+  "imgs": [
+   "i59"
+  ],
+  "legenda": "Amazon was the future",
+  "id": "s093"
+ },
+ {
+  "ancora": "was still figuring",
+  "tipo": "cards",
+  "imgs": [
+   "i52"
+  ],
+  "legenda": "still fixing its website",
+  "id": "s094"
+ },
+ {
+  "ancora": "If you grew up",
+  "tipo": "cards",
+  "imgs": [
+   "i60"
+  ],
+  "legenda": "subscribe for more",
+  "id": "s095"
+ },
+ {
+  "ancora": "the toys the stores",
+  "tipo": "cards",
+  "imgs": [
+   "i31"
+  ],
+  "legenda": "toys. stores. brands.",
+  "id": "s096"
+ },
+ {
+  "ancora": "Now we get",
+  "tipo": "palavra",
+  "texto": "THE REAL ANSWER.",
+  "id": "s097"
+ },
+ {
+  "ancora": "In March of 2005",
+  "tipo": "cards",
+  "imgs": [
+   "i12"
+  ],
+  "legenda": "March 2005",
+  "id": "s098"
+ },
+ {
+  "ancora": "three investment firms",
+  "tipo": "cards",
+  "imgs": [
+   "i61"
+  ],
+  "legenda": "Bain Capital · KKR · Vornado",
+  "id": "s099"
+ },
+ {
+  "ancora": "agreed to buy",
+  "tipo": "numero",
+  "valor": 66,
+  "rotulo": "buyout",
+  "div": 10,
+  "prefixo": "$",
+  "sufixo": "B",
+  "id": "s100"
+ },
+ {
+  "ancora": "But here's the",
+  "tipo": "palavra",
+  "texto": "THE CATCH.",
+  "id": "s101"
+ },
+ {
+  "ancora": "Most of that",
+  "tipo": "cards",
+  "imgs": [
+   "i62"
+  ],
+  "legenda": "most of it was borrowed",
+  "id": "s102"
+ },
+ {
+  "ancora": "It's called a",
+  "tipo": "palavra",
+  "texto": "LEVERAGED BUYOUT.",
+  "vermelho": true,
+  "id": "s103"
+ },
+ {
+  "ancora": "And in a",
+  "tipo": "cards",
+  "imgs": [
+   "i61"
+  ],
+  "legenda": "the debt doesn't stay with the buyers...",
+  "id": "s104"
+ },
+ {
+  "ancora": "It gets loaded",
+  "tipo": "cards",
+  "imgs": [
+   "i63"
+  ],
+  "legenda": "...it goes on the company",
+  "id": "s105"
+ },
+ {
+  "ancora": "Overnight",
+  "tipo": "cards",
+  "imgs": [
+   "i64"
+  ],
+  "legenda": "overnight",
+  "id": "s106"
+ },
+ {
+  "ancora": "carrying around",
+  "tipo": "numero",
+  "valor": 5,
+  "rotulo": "of debt",
+  "prefixo": "$",
+  "sufixo": "B",
+  "id": "s107"
+ },
+ {
+  "ancora": "Just the interest",
+  "tipo": "numero",
+  "valor": 400,
+  "rotulo": "interest every year",
+  "prefixo": "$",
+  "sufixo": "M",
+  "id": "s108"
+ },
+ {
+  "ancora": "Every single year",
+  "tipo": "cards",
+  "imgs": [
+   "i65"
+  ],
+  "legenda": "every single year",
+  "id": "s109"
+ },
+ {
+  "ancora": "before fixing a",
+  "tipo": "cards",
+  "imgs": [
+   "i66"
+  ],
+  "legenda": "before fixing a single store",
+  "id": "s110"
+ },
+ {
+  "ancora": "that's money that",
+  "tipo": "cards",
+  "imgs": [
+   "i67"
+  ],
+  "legenda": "better stores. better website.",
+  "id": "s111"
+ },
+ {
+  "ancora": "Instead it went",
+  "tipo": "cards",
+  "imgs": [
+   "i62"
+  ],
+  "carimbo": "TO THE LENDERS",
+  "id": "s112"
+ },
+ {
+  "ancora": "The stores started",
+  "tipo": "cards",
+  "imgs": [
+   "i68"
+  ],
+  "legenda": "tired stores",
+  "id": "s113"
+ },
+ {
+  "ancora": "The website stayed",
+  "tipo": "cards",
+  "imgs": [
+   "i52"
+  ],
+  "legenda": "a clunky website",
+  "id": "s114"
+ },
+ {
+  "ancora": "And customers noticed",
+  "tipo": "cards",
+  "imgs": [
+   "i50"
+  ],
+  "legenda": "customers noticed",
+  "id": "s115"
+ },
+ {
+  "ancora": "In December of",
+  "tipo": "cards",
+  "imgs": [
+   "i69"
+  ],
+  "legenda": "Dec 30, 2015",
+  "placa": "CLOSED",
+  "id": "s116"
+ },
+ {
+  "ancora": "The rent there",
+  "tipo": "numero",
+  "valor": 42,
+  "rotulo": "rent per year",
+  "prefixo": "$",
+  "sufixo": "M",
+  "id": "s117"
+ },
+ {
+  "ancora": "The company simply",
+  "tipo": "cards",
+  "imgs": [
+   "i44"
+  ],
+  "legenda": "goodbye, crown jewel",
+  "id": "s118"
+ },
+ {
+  "ancora": "Then came the",
+  "tipo": "palavra",
+  "texto": "THEN...",
+  "id": "s119"
+ },
+ {
+  "ancora": "In September of",
+  "tipo": "cards",
+  "imgs": [
+   "i70"
+  ],
+  "legenda": "September 2017",
+  "carimbo": "CHAPTER 11",
+  "id": "s120"
+ },
+ {
+  "ancora": "The plan was",
+  "tipo": "cards",
+  "imgs": [
+   "i71"
+  ],
+  "legenda": "the plan: survive Christmas",
+  "id": "s121"
+ },
+ {
+  "ancora": "But Christmas went",
+  "tipo": "cards",
+  "imgs": [
+   "i72"
+  ],
+  "legenda": "Christmas went badly",
+  "id": "s122"
+ },
+ {
+  "ancora": "Suppliers got nervous",
+  "tipo": "cards",
+  "imgs": [
+   "i73"
+  ],
+  "legenda": "suppliers got nervous",
+  "id": "s123"
+ },
+ {
+  "ancora": "And on March",
+  "tipo": "cards",
+  "imgs": [
+   "i01"
+  ],
+  "legenda": "March 15, 2018",
+  "id": "s124"
+ },
+ {
+  "ancora": "Every store in",
+  "tipo": "mapa",
+  "pinos": 735,
+  "modo": "some",
+  "rotulo": "every store",
+  "id": "s125"
+ },
+ {
+  "ancora": "Exactly one week",
+  "tipo": "cards",
+  "imgs": [
+   "i03"
+  ],
+  "legenda": "March 22, 2018",
+  "id": "s126"
+ },
+ {
+  "ancora": "The man who had",
+  "tipo": "cards",
+  "imgs": [
+   "i18",
+   "i29"
+  ],
+  "legenda": "from a crib shop to an empire",
+  "id": "s127"
+ },
+ {
+  "ancora": "The liquidation sales",
+  "tipo": "cards",
+  "imgs": [
+   "i02"
+  ],
+  "legenda": "liquidation",
+  "placa": "SALE",
+  "id": "s128"
+ },
+ {
+  "ancora": "Shelves emptied",
+  "tipo": "cards",
+  "imgs": [
+   "i74"
+  ],
+  "legenda": "shelves emptied",
+  "id": "s129"
+ },
+ {
+  "ancora": "Signs came down",
+  "tipo": "cards",
+  "imgs": [
+   "i75"
+  ],
+  "legenda": "signs came down",
+  "id": "s130"
+ },
+ {
+  "ancora": "By the end",
+  "tipo": "cards",
+  "imgs": [
+   "i13"
+  ],
+  "legenda": "June 2018",
+  "placa": "CLOSED",
+  "id": "s131"
+ },
+ {
+  "ancora": "Around 30",
+  "tipo": "numero",
+  "valor": 30000,
+  "rotulo": "jobs lost",
+  "id": "s132"
+ },
+ {
+  "ancora": "And because of",
+  "tipo": "cards",
+  "imgs": [
+   "i05"
+  ],
+  "carimbo": "NO SEVERANCE",
+  "id": "s133"
+ },
+ {
+  "ancora": "Later that year",
+  "tipo": "numero",
+  "valor": 20,
+  "rotulo": "hardship fund",
+  "prefixo": "$",
+  "sufixo": "M",
+  "id": "s134"
+ },
+ {
+  "ancora": "For many workers",
+  "tipo": "cards",
+  "imgs": [
+   "i76"
+  ],
+  "legenda": "far less than they lost",
+  "id": "s135"
+ },
+ {
+  "ancora": "So was it",
+  "tipo": "palavra",
+  "texto": "WAS IT AMAZON?",
+  "id": "s136"
+ },
+ {
+  "ancora": "Was it Walmart",
+  "tipo": "cards",
+  "imgs": [
+   "i11"
+  ],
+  "legenda": "Walmart?",
+  "id": "s137"
+ },
+ {
+  "ancora": "The honest answer",
+  "tipo": "cards",
+  "imgs": [
+   "i10",
+   "i11"
+  ],
+  "legenda": "all of them — but not equally",
+  "id": "s138"
+ },
+ {
+  "ancora": "Walmart took its",
+  "tipo": "cards",
+  "imgs": [
+   "i48"
+  ],
+  "legenda": "Walmart took the customers",
+  "id": "s139"
+ },
+ {
+  "ancora": "The Amazon deal",
+  "tipo": "cards",
+  "imgs": [
+   "i59"
+  ],
+  "legenda": "Amazon took the internet",
+  "id": "s140"
+ },
+ {
+  "ancora": "But plenty of",
+  "tipo": "cards",
+  "imgs": [
+   "i77"
+  ],
+  "legenda": "others survived",
+  "id": "s141"
+ },
+ {
+  "ancora": "couldn't survive was",
+  "tipo": "cards",
+  "imgs": [
+   "i63"
+  ],
+  "legenda": "$400M a year out the door",
+  "id": "s142"
+ },
+ {
+  "ancora": "walking out the",
+  "tipo": "cards",
+  "imgs": [
+   "i65"
+  ],
+  "id": "s143"
+ },
+ {
+  "ancora": "The debt didn't",
+  "tipo": "palavra",
+  "texto": "THE DEBT.",
+  "vermelho": true,
+  "id": "s144"
+ },
+ {
+  "ancora": "It took away",
+  "tipo": "cards",
+  "imgs": [
+   "i09"
+  ],
+  "legenda": "no chance to fight back",
+  "id": "s145"
+ },
+ {
+  "ancora": "And that's where",
+  "tipo": "cards",
+  "imgs": [
+   "i13"
+  ],
+  "legenda": "the end?",
+  "id": "s146"
+ },
+ {
+  "ancora": "But it didn't",
+  "tipo": "palavra",
+  "texto": "BUT IT DIDN'T.",
+  "id": "s147"
+ },
+ {
+  "ancora": "The brand was",
+  "tipo": "cards",
+  "imgs": [
+   "i78"
+  ],
+  "legenda": "sold, and sold again",
+  "id": "s148"
+ },
+ {
+  "ancora": "Its new owner",
+  "tipo": "cards",
+  "imgs": [
+   "i79"
+  ],
+  "legenda": "shops inside Macy's",
+  "id": "s149"
+ },
+ {
+  "ancora": "Then a flagship",
+  "tipo": "cards",
+  "imgs": [
+   "i80"
+  ],
+  "legenda": "a new flagship",
+  "id": "s150"
+ },
+ {
+  "ancora": "Then shops and",
+  "tipo": "cards",
+  "imgs": [
+   "i81"
+  ],
+  "legenda": "airports",
+  "id": "s151"
+ },
+ {
+  "ancora": "And this year",
+  "tipo": "numero",
+  "valor": 120,
+  "rotulo": "new stores in 2026",
+  "id": "s152"
+ },
+ {
+  "ancora": "stores bringing its",
+  "tipo": "mapa",
+  "pinos": 160,
+  "modo": "surge",
+  "rotulo": "~160 stores",
+  "id": "s153"
+ },
+ {
+  "ancora": "A lot of",
+  "tipo": "cards",
+  "imgs": [
+   "i82"
+  ],
+  "legenda": "the new shoppers: adults",
+  "id": "s154"
+ },
+ {
+  "ancora": "The same kids",
+  "tipo": "cards",
+  "imgs": [
+   "i83",
+   "i06"
+  ],
+  "legenda": "the kids who sang the jingle",
+  "id": "s155"
+ },
+ {
+  "ancora": "It's not the",
+  "tipo": "cards",
+  "imgs": [
+   "i08"
+  ],
+  "legenda": "not the same company",
+  "id": "s156"
+ },
+ {
+  "ancora": "What's coming back",
+  "tipo": "cards",
+  "imgs": [
+   "i33"
+  ],
+  "legenda": "the name. the giraffe. the memory.",
+  "id": "s157"
+ },
+ {
+  "ancora": "But maybe that's",
+  "tipo": "cards",
+  "imgs": [
+   "i39"
+  ],
+  "legenda": "what it really sold",
+  "id": "s158"
+ },
+ {
+  "ancora": "Not toys",
+  "tipo": "palavra",
+  "texto": "NOT TOYS.",
+  "id": "s159"
+ },
+ {
+  "ancora": "The feeling of",
+  "tipo": "cards",
+  "imgs": [
+   "i84"
+  ],
+  "legenda": "the feeling",
+  "id": "s160"
+ },
+ {
+  "ancora": "So tell me",
+  "tipo": "cards",
+  "imgs": [
+   "i41"
+  ],
+  "legenda": "your first toy? tell me below",
+  "id": "s161"
+ },
+ {
+  "ancora": "And if you",
+  "tipo": "cards",
+  "imgs": [
+   "i85"
+  ],
+  "legenda": "next: Beanie Babies",
+  "id": "s162"
+ }
 ]

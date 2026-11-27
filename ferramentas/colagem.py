@@ -142,7 +142,9 @@ def frames_cards(c, n, base):
     imgs = [os.path.join(base, "midia", "img", i + ".webp") for i in c["imgs"]]
     leg = c.get("legenda")
     topo = 250 if leg else 0
-    if len(imgs) == 1:
+    if c.get("close"):
+        caixas = [(W / 2, H / 2, 1560, 880, 1.0)]
+    elif len(imgs) == 1:
         caixas = [(W / 2, (H + topo) / 2 + (20 if leg else 0), 1300 if not leg else 1180, 700 if not leg else 650, -1.5)]
     else:
         caixas = [(W * 0.29, (H + topo) / 2 + 20, 840, 560, -2.5), (W * 0.71, (H + topo) / 2 + 30, 840, 560, 2.0)]
@@ -206,13 +208,15 @@ def frames_palavra(c, n, base):
 
 def frames_numero(c, n, base, ano=False):
     v1 = c["valor"]; v0 = c.get("de", v1 - 25 if ano else 0)
-    fmt = c.get("fmt", "{}" if ano else "{:,}")
+    fmt = c.get("fmt", "{}" if ano else ("{:.1f}" if c.get("div") else "{:,}"))
     rot = texto_img(c["rotulo"].upper(), "Montserrat-Black.ttf", 64, (255, 255, 255, 255)) if c.get("rotulo") else None
     dur_conta = min(1.0, n / FPS * 0.5)
     for k in range(n):
         t = k / FPS
         p = ease(t / dur_conta)
         v = round(v0 + (v1 - v0) * p)
+        if c.get("div"):  # valores com decimal: guarde valor×div (ex.: 17.4 → valor 174, div 10)
+            v = v / c["div"]
         s = c.get("prefixo", "") + fmt.format(v) + c.get("sufixo", "")
         f = fundo().convert("RGBA")
         num = texto_img(s, "ArchivoBlack.ttf", 300, TINTA + (255,))
@@ -379,6 +383,17 @@ def main():
     base = os.path.dirname(os.path.abspath(a.cenas))
     dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", a.narracao]))
     cenas = resolve_tempos(json.load(open(a.cenas, encoding="utf-8")), json.load(open(a.timeline, encoding="utf-8")), dur)
+    # cards longos (> 4,6 s) ganham um segundo plano: a mesma foto maior, sem texto (mantém o ritmo de ~2,8 s por corte)
+    div = []
+    for c in cenas:
+        d = c["fim"] - c["ini"]
+        if c["tipo"] == "cards" and d > 4.6:
+            m = c["ini"] + d * 0.5
+            div += [dict(c, fim=m), {"id": c["id"] + "b", "tipo": "cards", "imgs": c["imgs"][-1:], "close": True,
+                                       "ini": m, "fim": c["fim"], "ancora": c["ancora"]}]
+        else:
+            div.append(c)
+    cenas = div
     json.dump(cenas, open(os.path.join(base, "plano.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     fim = min(a.fim or dur, dur)
     sel = [dict(c) for c in cenas if c["fim"] > a.ini and c["ini"] < fim]
