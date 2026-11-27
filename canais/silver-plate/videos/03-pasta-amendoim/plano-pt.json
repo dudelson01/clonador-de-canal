@@ -1,0 +1,818 @@
+[
+ {
+  "id": "e01",
+  "img": "midia/img/e01.webp",
+  "ini": 0.0,
+  "fim": 6.58,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e02",
+  "img": "midia/img/e02.webp",
+  "ini": 6.58,
+  "fim": 13.15,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e03",
+  "img": "midia/img/e03.webp",
+  "ini": 13.15,
+  "fim": 22.0,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e04",
+  "img": "midia/img/e04.webp",
+  "ini": 22.0,
+  "fim": 30.85,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "e05",
+  "img": "midia/img/e05.webp",
+  "ini": 30.85,
+  "fim": 37.08,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "Pasta de amendoim depois dos 60",
+    "x": 0.5,
+    "y": 0.5,
+    "tam": 0.09,
+    "cor": "#ffffff"
+   }
+  ]
+ },
+ {
+  "id": "v1_c12",
+  "img": "midia/img/v1_c12.webp",
+  "ini": 37.08,
+  "fim": 46.42,
+  "mov": "right",
+  "textos": [
+   {
+    "t": "Fontes na descrição",
+    "x": 0.5,
+    "y": 0.15,
+    "tam": 0.08,
+    "cor": "#ffffff"
+   }
+  ]
+ },
+ {
+  "id": "e06",
+  "img": "midia/img/e06.webp",
+  "ini": 46.42,
+  "fim": 52.73,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "2 colheres: 190 kcal · 7 g proteína",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e06_1",
+  "img": "midia/img/e06.webp",
+  "ini": 52.73,
+  "fim": 59.04,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e06_2",
+  "img": "midia/img/e06.webp",
+  "ini": 59.04,
+  "fim": 65.35,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "2 colheres: 190 kcal · 7 g proteína",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e07",
+  "img": "midia/img/e07.webp",
+  "ini": 65.35,
+  "fim": 74.79,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e08",
+  "img": "midia/img/e08.webp",
+  "ini": 74.79,
+  "fim": 84.24,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e09",
+  "img": "midia/img/e09.webp",
+  "ini": 84.24,
+  "fim": 90.81,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e09_1",
+  "img": "midia/img/e09.webp",
+  "ini": 90.81,
+  "fim": 97.38,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e09_2",
+  "img": "midia/img/e09.webp",
+  "ini": 97.38,
+  "fim": 103.95,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e10",
+  "img": "midia/img/e10.webp",
+  "ini": 103.95,
+  "fim": 110.33,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "≈ 20 g de proteína",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.085,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e10_1",
+  "img": "midia/img/e10.webp",
+  "ini": 110.33,
+  "fim": 116.71,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "v2_d43",
+  "img": "midia/img/v2_d43.webp",
+  "ini": 116.71,
+  "fim": 123.09,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "v2_d43_1",
+  "img": "midia/img/v2_d43.webp",
+  "ini": 123.09,
+  "fim": 129.47,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e11",
+  "img": "midia/img/e11.webp",
+  "ini": 129.47,
+  "fim": 135.32,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "v1_c36",
+  "img": "midia/img/v1_c36.webp",
+  "ini": 135.32,
+  "fim": 141.17,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "e12",
+  "img": "midia/img/e12.webp",
+  "ini": 141.17,
+  "fim": 150.65,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e13",
+  "img": "midia/img/e13.webp",
+  "ini": 150.65,
+  "fim": 160.13,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e14",
+  "img": "midia/img/e14.webp",
+  "ini": 160.13,
+  "fim": 166.94,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "sobe menos depois do almoço",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.085,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e14_1",
+  "img": "midia/img/e14.webp",
+  "ini": 166.94,
+  "fim": 173.75,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e15",
+  "img": "midia/img/e15.webp",
+  "ini": 173.75,
+  "fim": 183.3,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "15 mulheres · estudo pequeno",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.085,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e16",
+  "img": "midia/img/e16.webp",
+  "ini": 183.3,
+  "fim": 192.85,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "e17",
+  "img": "midia/img/e17.webp",
+  "ini": 192.85,
+  "fim": 199.32,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e17_1",
+  "img": "midia/img/e17.webp",
+  "ini": 199.32,
+  "fim": 205.79,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e18",
+  "img": "midia/img/e18.webp",
+  "ini": 205.79,
+  "fim": 212.26,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e18_1",
+  "img": "midia/img/e18.webp",
+  "ini": 212.26,
+  "fim": 218.73,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e19",
+  "img": "midia/img/e19.webp",
+  "ini": 218.73,
+  "fim": 227.28,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "83.818 mulheres · 16 anos · −21% diabetes",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.07,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e20",
+  "img": "midia/img/e20.webp",
+  "ini": 227.28,
+  "fim": 235.83,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e21",
+  "img": "midia/img/e21.webp",
+  "ini": 235.83,
+  "fim": 241.81,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "ligação, não prova",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.085,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e21_1",
+  "img": "midia/img/e21.webp",
+  "ini": 241.81,
+  "fim": 247.8,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e21_2",
+  "img": "midia/img/e21.webp",
+  "ini": 247.8,
+  "fim": 253.78,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "ligação, não prova",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.085,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e22",
+  "img": "midia/img/e22.webp",
+  "ini": 253.78,
+  "fim": 259.96,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e22_1",
+  "img": "midia/img/e22.webp",
+  "ini": 259.96,
+  "fim": 266.15,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e22_2",
+  "img": "midia/img/e22.webp",
+  "ini": 266.15,
+  "fim": 272.33,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e23",
+  "img": "midia/img/e23.webp",
+  "ini": 272.33,
+  "fim": 280.22,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "troque manteiga por pasta de amendoim",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e23_1",
+  "img": "midia/img/e23.webp",
+  "ini": 280.22,
+  "fim": 288.1,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e24",
+  "img": "midia/img/e24.webp",
+  "ini": 288.1,
+  "fim": 295.99,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e24_1",
+  "img": "midia/img/e24.webp",
+  "ini": 295.99,
+  "fim": 303.87,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e25",
+  "img": "midia/img/e25.webp",
+  "ini": 303.87,
+  "fim": 310.12,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e25_1",
+  "img": "midia/img/e25.webp",
+  "ini": 310.12,
+  "fim": 316.37,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e26",
+  "img": "midia/img/e26.webp",
+  "ini": 316.37,
+  "fim": 325.44,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "2 colheres 190 kcal  ·  4 colheres ≈ 380 kcal",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.07,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e27",
+  "img": "midia/img/e27.webp",
+  "ini": 325.44,
+  "fim": 334.51,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e28",
+  "img": "midia/img/e28.webp",
+  "ini": 334.51,
+  "fim": 344.25,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e29",
+  "img": "midia/img/e29.webp",
+  "ini": 344.25,
+  "fim": 353.98,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "e30",
+  "img": "midia/img/e30.webp",
+  "ini": 353.98,
+  "fim": 359.06,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e30_1",
+  "img": "midia/img/e30.webp",
+  "ini": 359.06,
+  "fim": 364.15,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e31",
+  "img": "midia/img/e31.webp",
+  "ini": 364.15,
+  "fim": 371.21,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "só amendoim (+ sal)",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.09,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e31_1",
+  "img": "midia/img/e31.webp",
+  "ini": 371.21,
+  "fim": 378.27,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e32",
+  "img": "midia/img/e32.webp",
+  "ini": 378.27,
+  "fim": 385.19,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e32_1",
+  "img": "midia/img/e32.webp",
+  "ini": 385.19,
+  "fim": 392.11,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e33",
+  "img": "midia/img/e33.webp",
+  "ini": 392.11,
+  "fim": 397.66,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e33_1",
+  "img": "midia/img/e33.webp",
+  "ini": 397.66,
+  "fim": 403.22,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e33_2",
+  "img": "midia/img/e33.webp",
+  "ini": 403.22,
+  "fim": 408.77,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e34",
+  "img": "midia/img/e34.webp",
+  "ini": 408.77,
+  "fim": 414.39,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e34_1",
+  "img": "midia/img/e34.webp",
+  "ini": 414.39,
+  "fim": 420.01,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e34_2",
+  "img": "midia/img/e34.webp",
+  "ini": 420.01,
+  "fim": 425.63,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e35",
+  "img": "midia/img/e35.webp",
+  "ini": 425.63,
+  "fim": 431.13,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e35_1",
+  "img": "midia/img/e35.webp",
+  "ini": 431.13,
+  "fim": 436.63,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e36",
+  "img": "midia/img/e36.webp",
+  "ini": 436.63,
+  "fim": 444.5,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "1–2 colheres por dia",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.1,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e36_1",
+  "img": "midia/img/e36.webp",
+  "ini": 444.5,
+  "fim": 452.36,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e37",
+  "img": "midia/img/e37.webp",
+  "ini": 452.36,
+  "fim": 460.23,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e37_1",
+  "img": "midia/img/e37.webp",
+  "ini": 460.23,
+  "fim": 468.09,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "v2_d43",
+  "img": "midia/img/v2_d43.webp",
+  "ini": 468.09,
+  "fim": 474.12,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "v2_d44",
+  "img": "midia/img/v2_d44.webp",
+  "ini": 474.12,
+  "fim": 480.16,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e38",
+  "img": "midia/img/e38.webp",
+  "ini": 480.16,
+  "fim": 486.19,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e39",
+  "img": "midia/img/e39.webp",
+  "ini": 486.19,
+  "fim": 495.71,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e40",
+  "img": "midia/img/e40.webp",
+  "ini": 495.71,
+  "fim": 501.68,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e40_1",
+  "img": "midia/img/e40.webp",
+  "ini": 501.68,
+  "fim": 507.64,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e40_2",
+  "img": "midia/img/e40.webp",
+  "ini": 507.64,
+  "fim": 513.61,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e41",
+  "img": "midia/img/e41.webp",
+  "ini": 513.61,
+  "fim": 521.66,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e41_1",
+  "img": "midia/img/e41.webp",
+  "ini": 521.66,
+  "fim": 529.71,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "v1_c78",
+  "img": "midia/img/v1_c78.webp",
+  "ini": 529.71,
+  "fim": 537.15,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "v1_c78_1",
+  "img": "midia/img/v1_c78.webp",
+  "ini": 537.15,
+  "fim": 544.59,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e42",
+  "img": "midia/img/e42.webp",
+  "ini": 544.59,
+  "fim": 551.25,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e42_1",
+  "img": "midia/img/e42.webp",
+  "ini": 551.25,
+  "fim": 557.91,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e43",
+  "img": "midia/img/e43.webp",
+  "ini": 557.91,
+  "fim": 566.87,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e44",
+  "img": "midia/img/e44.webp",
+  "ini": 566.87,
+  "fim": 572.79,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e44_1",
+  "img": "midia/img/e44.webp",
+  "ini": 572.79,
+  "fim": 578.7,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e44_2",
+  "img": "midia/img/e44.webp",
+  "ini": 578.7,
+  "fim": 584.62,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e44_3",
+  "img": "midia/img/e44.webp",
+  "ini": 584.62,
+  "fim": 590.53,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e44_4",
+  "img": "midia/img/e44.webp",
+  "ini": 590.53,
+  "fim": 596.45,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e45",
+  "img": "midia/img/e45.webp",
+  "ini": 596.45,
+  "fim": 605.47,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "v1_c81",
+  "img": "midia/img/v1_c81.webp",
+  "ini": 605.47,
+  "fim": 611.23,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "v2_d61",
+  "img": "midia/img/v2_d61.webp",
+  "ini": 611.23,
+  "fim": 620.26,
+  "mov": "in",
+  "textos": []
+ }
+]

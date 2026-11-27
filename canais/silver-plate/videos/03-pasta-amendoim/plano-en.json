@@ -1,0 +1,666 @@
+[
+ {
+  "id": "e01",
+  "img": "midia/img/e01.webp",
+  "ini": 0.0,
+  "fim": 5.71,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e02",
+  "img": "midia/img/e02.webp",
+  "ini": 5.71,
+  "fim": 11.41,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e03",
+  "img": "midia/img/e03.webp",
+  "ini": 11.41,
+  "fim": 18.64,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e04",
+  "img": "midia/img/e04.webp",
+  "ini": 18.64,
+  "fim": 25.87,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "e05",
+  "img": "midia/img/e05.webp",
+  "ini": 25.87,
+  "fim": 31.37,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "Peanut butter after 60",
+    "x": 0.5,
+    "y": 0.5,
+    "tam": 0.09,
+    "cor": "#ffffff"
+   }
+  ]
+ },
+ {
+  "id": "v1_c12",
+  "img": "midia/img/v1_c12.webp",
+  "ini": 31.37,
+  "fim": 39.63,
+  "mov": "right",
+  "textos": [
+   {
+    "t": "Sources in the description",
+    "x": 0.5,
+    "y": 0.15,
+    "tam": 0.08,
+    "cor": "#ffffff"
+   }
+  ]
+ },
+ {
+  "id": "e06",
+  "img": "midia/img/e06.webp",
+  "ini": 39.63,
+  "fim": 47.53,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "2 tbsp: 190 kcal · 7 g protein",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e06_1",
+  "img": "midia/img/e06.webp",
+  "ini": 47.53,
+  "fim": 55.43,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e07",
+  "img": "midia/img/e07.webp",
+  "ini": 55.43,
+  "fim": 64.53,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e08",
+  "img": "midia/img/e08.webp",
+  "ini": 64.53,
+  "fim": 73.63,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e09",
+  "img": "midia/img/e09.webp",
+  "ini": 73.63,
+  "fim": 81.65,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e09_1",
+  "img": "midia/img/e09.webp",
+  "ini": 81.65,
+  "fim": 89.67,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e10",
+  "img": "midia/img/e10.webp",
+  "ini": 89.67,
+  "fim": 97.51,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "≈ 20 g protein",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.085,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "v2_d43",
+  "img": "midia/img/v2_d43.webp",
+  "ini": 97.51,
+  "fim": 105.35,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e11",
+  "img": "midia/img/e11.webp",
+  "ini": 105.35,
+  "fim": 110.79,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "v1_c36",
+  "img": "midia/img/v1_c36.webp",
+  "ini": 110.79,
+  "fim": 116.23,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "e12",
+  "img": "midia/img/e12.webp",
+  "ini": 116.23,
+  "fim": 123.66,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e13",
+  "img": "midia/img/e13.webp",
+  "ini": 123.66,
+  "fim": 131.09,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e14",
+  "img": "midia/img/e14.webp",
+  "ini": 131.09,
+  "fim": 136.42,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "smaller rise after lunch",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.085,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e14_1",
+  "img": "midia/img/e14.webp",
+  "ini": 136.42,
+  "fim": 141.75,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e15",
+  "img": "midia/img/e15.webp",
+  "ini": 141.75,
+  "fim": 150.08,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "15 women · small study",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.085,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e16",
+  "img": "midia/img/e16.webp",
+  "ini": 150.08,
+  "fim": 158.41,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "e17",
+  "img": "midia/img/e17.webp",
+  "ini": 158.41,
+  "fim": 167.43,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e18",
+  "img": "midia/img/e18.webp",
+  "ini": 167.43,
+  "fim": 176.45,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e19",
+  "img": "midia/img/e19.webp",
+  "ini": 176.45,
+  "fim": 183.02,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "83,818 women · 16 years · −21% diabetes",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.07,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e20",
+  "img": "midia/img/e20.webp",
+  "ini": 183.02,
+  "fim": 189.59,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e21",
+  "img": "midia/img/e21.webp",
+  "ini": 189.59,
+  "fim": 196.8,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "a link, not proof",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.085,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e21_1",
+  "img": "midia/img/e21.webp",
+  "ini": 196.8,
+  "fim": 204.01,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e22",
+  "img": "midia/img/e22.webp",
+  "ini": 204.01,
+  "fim": 211.74,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e22_1",
+  "img": "midia/img/e22.webp",
+  "ini": 211.74,
+  "fim": 219.47,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e23",
+  "img": "midia/img/e23.webp",
+  "ini": 219.47,
+  "fim": 225.55,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "swap butter for peanut butter",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.075,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e23_1",
+  "img": "midia/img/e23.webp",
+  "ini": 225.55,
+  "fim": 231.62,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e24",
+  "img": "midia/img/e24.webp",
+  "ini": 231.62,
+  "fim": 237.69,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e24_1",
+  "img": "midia/img/e24.webp",
+  "ini": 237.69,
+  "fim": 243.76,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e25",
+  "img": "midia/img/e25.webp",
+  "ini": 243.76,
+  "fim": 253.31,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e26",
+  "img": "midia/img/e26.webp",
+  "ini": 253.31,
+  "fim": 261.08,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "2 tbsp 190 kcal  ·  4 tbsp ≈ 380 kcal",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.07,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e27",
+  "img": "midia/img/e27.webp",
+  "ini": 261.08,
+  "fim": 268.85,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e28",
+  "img": "midia/img/e28.webp",
+  "ini": 268.85,
+  "fim": 277.19,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e29",
+  "img": "midia/img/e29.webp",
+  "ini": 277.19,
+  "fim": 285.52,
+  "mov": "left",
+  "textos": []
+ },
+ {
+  "id": "e30",
+  "img": "midia/img/e30.webp",
+  "ini": 285.52,
+  "fim": 293.11,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e31",
+  "img": "midia/img/e31.webp",
+  "ini": 293.11,
+  "fim": 298.99,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "just peanuts (+ salt)",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.09,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e31_1",
+  "img": "midia/img/e31.webp",
+  "ini": 298.99,
+  "fim": 304.87,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e32",
+  "img": "midia/img/e32.webp",
+  "ini": 304.87,
+  "fim": 310.78,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e32_1",
+  "img": "midia/img/e32.webp",
+  "ini": 310.78,
+  "fim": 316.7,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e33",
+  "img": "midia/img/e33.webp",
+  "ini": 316.7,
+  "fim": 322.38,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e33_1",
+  "img": "midia/img/e33.webp",
+  "ini": 322.38,
+  "fim": 328.07,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e34",
+  "img": "midia/img/e34.webp",
+  "ini": 328.07,
+  "fim": 335.38,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e34_1",
+  "img": "midia/img/e34.webp",
+  "ini": 335.38,
+  "fim": 342.69,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e35",
+  "img": "midia/img/e35.webp",
+  "ini": 342.69,
+  "fim": 351.54,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e36",
+  "img": "midia/img/e36.webp",
+  "ini": 351.54,
+  "fim": 357.53,
+  "mov": "in",
+  "textos": [
+   {
+    "t": "1–2 tbsp a day",
+    "x": 0.5,
+    "y": 0.17,
+    "tam": 0.1,
+    "cor": "#3b2a1a"
+   }
+  ]
+ },
+ {
+  "id": "e36_1",
+  "img": "midia/img/e36.webp",
+  "ini": 357.53,
+  "fim": 363.53,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e37",
+  "img": "midia/img/e37.webp",
+  "ini": 363.53,
+  "fim": 369.52,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e37_1",
+  "img": "midia/img/e37.webp",
+  "ini": 369.52,
+  "fim": 375.51,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "v2_d43",
+  "img": "midia/img/v2_d43.webp",
+  "ini": 375.51,
+  "fim": 379.81,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "v2_d44",
+  "img": "midia/img/v2_d44.webp",
+  "ini": 379.81,
+  "fim": 384.11,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e38",
+  "img": "midia/img/e38.webp",
+  "ini": 384.11,
+  "fim": 388.41,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e39",
+  "img": "midia/img/e39.webp",
+  "ini": 388.41,
+  "fim": 395.47,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e40",
+  "img": "midia/img/e40.webp",
+  "ini": 395.47,
+  "fim": 401.1,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e40_1",
+  "img": "midia/img/e40.webp",
+  "ini": 401.1,
+  "fim": 406.73,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e41",
+  "img": "midia/img/e41.webp",
+  "ini": 406.73,
+  "fim": 413.49,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "e41_1",
+  "img": "midia/img/e41.webp",
+  "ini": 413.49,
+  "fim": 420.25,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "v1_c78",
+  "img": "midia/img/v1_c78.webp",
+  "ini": 420.25,
+  "fim": 425.69,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "v1_c78_1",
+  "img": "midia/img/v1_c78.webp",
+  "ini": 425.69,
+  "fim": 431.13,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e42",
+  "img": "midia/img/e42.webp",
+  "ini": 431.13,
+  "fim": 440.31,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e43",
+  "img": "midia/img/e43.webp",
+  "ini": 440.31,
+  "fim": 448.66,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e44",
+  "img": "midia/img/e44.webp",
+  "ini": 448.66,
+  "fim": 455.64,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e44_1",
+  "img": "midia/img/e44.webp",
+  "ini": 455.64,
+  "fim": 462.63,
+  "mov": "close",
+  "textos": []
+ },
+ {
+  "id": "e44_2",
+  "img": "midia/img/e44.webp",
+  "ini": 462.63,
+  "fim": 469.61,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "e45",
+  "img": "midia/img/e45.webp",
+  "ini": 469.61,
+  "fim": 479.15,
+  "mov": "right",
+  "textos": []
+ },
+ {
+  "id": "v1_c81",
+  "img": "midia/img/v1_c81.webp",
+  "ini": 479.15,
+  "fim": 483.99,
+  "mov": "in",
+  "textos": []
+ },
+ {
+  "id": "v2_d61",
+  "img": "midia/img/v2_d61.webp",
+  "ini": 483.99,
+  "fim": 491.86,
+  "mov": "in",
+  "textos": []
+ }
+]

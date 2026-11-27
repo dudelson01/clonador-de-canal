@@ -1,0 +1,591 @@
+[
+ [
+  {
+   "id": "e01",
+   "img": "e01",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "e02",
+   "img": "e02",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e03",
+   "img": "e03",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "e04",
+   "img": "e04",
+   "peso": 1,
+   "mov": "left",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e05",
+   "img": "e05",
+   "peso": 4,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "Peanut butter after 60",
+      "es": "Crema de cacahuate después de los 60",
+      "pt": "Pasta de amendoim depois dos 60"
+     },
+     "x": 0.5,
+     "y": 0.5,
+     "tam": 0.09,
+     "cor": "#ffffff"
+    }
+   ]
+  },
+  {
+   "id": "v1_c12",
+   "img": "v1_c12",
+   "peso": 6,
+   "mov": "right",
+   "textos": [
+    {
+     "t": {
+      "en": "Sources in the description",
+      "es": "Fuentes en la descripción",
+      "pt": "Fontes na descrição"
+     },
+     "x": 0.5,
+     "y": 0.15,
+     "tam": 0.08,
+     "cor": "#ffffff"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "e06",
+   "img": "e06",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "2 tbsp: 190 kcal · 7 g protein",
+      "es": "2 cdas: 190 kcal · 7 g proteína",
+      "pt": "2 colheres: 190 kcal · 7 g proteína"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.075,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "e07",
+   "img": "e07",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "e08",
+   "img": "e08",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e09",
+   "img": "e09",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e10",
+   "img": "e10",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "≈ 20 g protein",
+      "es": "≈ 20 g de proteína",
+      "pt": "≈ 20 g de proteína"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.085,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "v2_d43",
+   "img": "v2_d43",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e11",
+   "img": "e11",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "v1_c36",
+   "img": "v1_c36",
+   "peso": 1,
+   "mov": "left",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e12",
+   "img": "e12",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "e13",
+   "img": "e13",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e14",
+   "img": "e14",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "smaller rise after lunch",
+      "es": "sube menos después del almuerzo",
+      "pt": "sobe menos depois do almoço"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.085,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "e15",
+   "img": "e15",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "15 women · small study",
+      "es": "15 mujeres · estudio pequeño",
+      "pt": "15 mulheres · estudo pequeno"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.085,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "e16",
+   "img": "e16",
+   "peso": 1,
+   "mov": "left",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e17",
+   "img": "e17",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "e18",
+   "img": "e18",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e19",
+   "img": "e19",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "83,818 women · 16 years · −21% diabetes",
+      "es": "83.818 mujeres · 16 años · −21% diabetes",
+      "pt": "83.818 mulheres · 16 anos · −21% diabetes"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.07,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "e20",
+   "img": "e20",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e21",
+   "img": "e21",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "a link, not proof",
+      "es": "relación, no prueba",
+      "pt": "ligação, não prova"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.085,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "e22",
+   "img": "e22",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e23",
+   "img": "e23",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "swap butter for peanut butter",
+      "es": "cambia mantequilla por crema de cacahuate",
+      "pt": "troque manteiga por pasta de amendoim"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.075,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "e24",
+   "img": "e24",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e25",
+   "img": "e25",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e26",
+   "img": "e26",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "2 tbsp 190 kcal  ·  4 tbsp ≈ 380 kcal",
+      "es": "2 cdas 190 kcal  ·  4 cdas ≈ 380 kcal",
+      "pt": "2 colheres 190 kcal  ·  4 colheres ≈ 380 kcal"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.07,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "e27",
+   "img": "e27",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e28",
+   "img": "e28",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "e29",
+   "img": "e29",
+   "peso": 1,
+   "mov": "left",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e30",
+   "img": "e30",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e31",
+   "img": "e31",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "just peanuts (+ salt)",
+      "es": "solo cacahuate (+ sal)",
+      "pt": "só amendoim (+ sal)"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.09,
+     "cor": "#3b2a1a"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "id": "e32",
+   "img": "e32",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e33",
+   "img": "e33",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e34",
+   "img": "e34",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e35",
+   "img": "e35",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e36",
+   "img": "e36",
+   "peso": 1,
+   "mov": "in",
+   "textos": [
+    {
+     "t": {
+      "en": "1–2 tbsp a day",
+      "es": "1–2 cdas al día",
+      "pt": "1–2 colheres por dia"
+     },
+     "x": 0.5,
+     "y": 0.17,
+     "tam": 0.1,
+     "cor": "#3b2a1a"
+    }
+   ]
+  },
+  {
+   "id": "e37",
+   "img": "e37",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "v2_d43",
+   "img": "v2_d43",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  },
+  {
+   "id": "v2_d44",
+   "img": "v2_d44",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  },
+  {
+   "id": "e38",
+   "img": "e38",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e39",
+   "img": "e39",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e40",
+   "img": "e40",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e41",
+   "img": "e41",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "v1_c78",
+   "img": "v1_c78",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e42",
+   "img": "e42",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e43",
+   "img": "e43",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e44",
+   "img": "e44",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "e45",
+   "img": "e45",
+   "peso": 1,
+   "mov": "right",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "v1_c81",
+   "img": "v1_c81",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ],
+ [
+  {
+   "id": "v2_d61",
+   "img": "v2_d61",
+   "peso": 1,
+   "mov": "in",
+   "textos": []
+  }
+ ]
+]
