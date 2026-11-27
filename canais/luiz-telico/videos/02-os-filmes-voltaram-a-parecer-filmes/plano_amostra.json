@@ -1,0 +1,311 @@
+{
+ "fala": "build/fala.mp4",
+ "fontes": {},
+ "inicio": 0.0,
+ "fim": 60.0,
+ "trilha": {
+  "arquivo": "midia/som/trilha.wav",
+  "volume_db": -21
+ },
+ "efeitos_dir": "midia/som/efeitos",
+ "cenas": [
+  {
+   "ini": 0.0,
+   "fim": 3.3,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.05
+   ]
+  },
+  {
+   "ini": 3.3,
+   "fim": 6.6,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 6.6,
+   "fim": 10.27,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 10.27,
+   "fim": 13.94,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 13.94,
+   "fim": 17.17,
+   "tipo": "rosto",
+   "zoom": [
+    1.06,
+    1.12
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 17.17,
+   "fim": 20.4,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 20.4,
+   "fim": 23.71,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 23.71,
+   "fim": 27.02,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ],
+   "efeito": "lavado"
+  },
+  {
+   "ini": 27.02,
+   "fim": 30.69,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.06
+   ]
+  },
+  {
+   "ini": 30.69,
+   "fim": 34.36,
+   "tipo": "rosto",
+   "zoom": [
+    1.12,
+    1.17
+   ]
+  },
+  {
+   "ini": 34.36,
+   "fim": 37.02,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 37.02,
+   "fim": 39.52,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "efeito": "lavado",
+   "sfx": [
+    [
+     "boing",
+     0.35
+    ]
+   ]
+  },
+  {
+   "ini": 39.52,
+   "fim": 45.1,
+   "tipo": "rosto",
+   "zoom": [
+    1.0,
+    1.08
+   ]
+  },
+  {
+   "ini": 45.1,
+   "fim": 48.7,
+   "tipo": "rosto",
+   "zoom": [
+    1.2,
+    1.24
+   ],
+   "sfx": [
+    [
+     "subida",
+     0
+    ]
+   ]
+  },
+  {
+   "ini": 48.7,
+   "fim": 54.44,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  },
+  {
+   "ini": 54.44,
+   "fim": 60.0,
+   "tipo": "rosto",
+   "zoom": [
+    1.1,
+    1.16
+   ]
+  }
+ ],
+ "artes": [
+  {
+   "id": "chave_000",
+   "ini": 4.06,
+   "dur": 2.6,
+   "tipo": "chave",
+   "texto": "Sem <b>cor</b>. Sem <b>vida</b>."
+  },
+  {
+   "id": "canto_001",
+   "ini": 7.1,
+   "dur": 6.5,
+   "tipo": "canto",
+   "texto": "OBJETO 1: MULETA"
+  },
+  {
+   "id": "canto_002",
+   "ini": 15.4,
+   "dur": 6.0,
+   "tipo": "canto",
+   "texto": "OBJETO 2: CORTINA"
+  },
+  {
+   "id": "canto_003",
+   "ini": 21.34,
+   "dur": 5.5,
+   "tipo": "canto",
+   "texto": "OBJETO 3: LAPTOP"
+  },
+  {
+   "id": "maquina_004",
+   "ini": 23.94,
+   "dur": 2.6,
+   "tipo": "maquina",
+   "x": 980,
+   "y": 760,
+   "texto": "“BOMBA ATÔMICA DE 2013”",
+   "sfx": "teclas"
+  },
+  {
+   "id": "dinheiro_005",
+   "ini": 35.64,
+   "dur": 1.8,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 200,
+   "fmt": "US$ {v} MI",
+   "rotulo": "de orçamento",
+   "sfx": "ding"
+  },
+  {
+   "id": "meme_006",
+   "ini": 37.02,
+   "dur": 2.2,
+   "tipo": "meme",
+   "texto": "…E ESTÃO IGUAIS À MULETA"
+  },
+  {
+   "id": "maquina_007",
+   "ini": 40.82,
+   "dur": 2.4,
+   "tipo": "maquina",
+   "x": 120,
+   "y": 110,
+   "texto": "“O CINEMA MORREU”",
+   "sfx": "teclas"
+  },
+  {
+   "id": "lista_008",
+   "ini": 42.38,
+   "dur": 3.2,
+   "tipo": "lista",
+   "x": 1180,
+   "y": 200,
+   "titulo": "Hollywood hoje",
+   "vel": 0.55,
+   "itens": [
+    {
+     "texto": "Continuação"
+    },
+    {
+     "texto": "Remake"
+    },
+    {
+     "texto": "Herói igual"
+    }
+   ]
+  },
+  {
+   "id": "carimbo_009",
+   "ini": 45.48,
+   "dur": 1.6,
+   "tipo": "carimbo",
+   "x": 1450,
+   "y": 300,
+   "texto": "2026"
+  },
+  {
+   "id": "cardfilme_010",
+   "ini": 48.7,
+   "dur": 3.4,
+   "tipo": "cardfilme",
+   "titulo": "Obsession",
+   "sub": "custou menos que um apartamento"
+  },
+  {
+   "id": "dinheiro_011",
+   "ini": 52.76,
+   "dur": 2.0,
+   "tipo": "dinheiro",
+   "de": 0,
+   "ate": 500,
+   "fmt": "US$ {v} MI",
+   "rotulo": "de bilheteria",
+   "sfx": "ding"
+  },
+  {
+   "id": "cardfilme_012",
+   "ini": 54.44,
+   "dur": 3.6,
+   "tipo": "cardfilme",
+   "titulo": "Backrooms",
+   "sub": "Kane Parsons, 20 anos, começou no YouTube",
+   "cor": "#e8c300"
+  },
+  {
+   "id": "carimbo_013",
+   "ini": 57.28,
+   "dur": 1.8,
+   "tipo": "carimbo",
+   "x": 1400,
+   "y": 420,
+   "texto": "RECORDE"
+  }
+ ]
+}
