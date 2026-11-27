@@ -4,3 +4,4 @@ build/
 *.log
 canais/*/videos/*/out/video*.mp4
 .env
+canais/*/videos/*/reais/candidatos/*_*.jpg

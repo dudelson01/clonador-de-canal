@@ -1,6 +1,9 @@
 {
  "i01": {
-  "q": "Toys R Us store night",
+  "q": [
+   "Toys R Us store night",
+   "Toys R Us sign"
+  ],
   "res": [
    {
     "titulo": "File:4.28.11ToysRUsTimesSquareByLuigiNovi.jpg",
@@ -11,6 +14,2178 @@
     "autor": "Nightscream",
     "pagina": "https://commons.wikimedia.org/wiki/File:4.28.11ToysRUsTimesSquareByLuigiNovi.jpg",
     "data": "2011-04-28"
+   },
+   {
+    "titulo": "File:Abandoned Toys R Us in Winston-Salem, NC.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Abandoned_Toys_R_Us_in_Winston-Salem%2C_NC.jpg/1280px-Abandoned_Toys_R_Us_in_Winston-Salem%2C_NC.jpg",
+    "w": 4032,
+    "h": 2268,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Breawycker",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Abandoned_Toys_R_Us_in_Winston-Salem,_NC.jpg",
+    "data": "2019-02-21 16:31:52"
+   },
+   {
+    "titulo": "File:Toys R Us Reserved Parking for Expectant Moms Sign (14635916057).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Toys_R_Us_Reserved_Parking_for_Expectant_Moms_Sign_%2814635916057%29.jpg/1280px-Toys_R_Us_Reserved_Parking_for_Expectant_Moms_Sign_%2814635916057%29.jpg",
+    "w": 1936,
+    "h": 2592,
+    "licenca": "CC BY 2.0",
+    "autor": "Mike Mozart from Funny YouTube, USA",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_Reserved_Parking_for_Expectant_Moms_Sign_(14635916057).jpg",
+    "data": "2014-07-30 08:47"
+   },
+   {
+    "titulo": "File:Toys r us closing.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Toys_r_us_closing.jpg/1280px-Toys_r_us_closing.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "3steph14",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_r_us_closing.jpg",
+    "data": "10 March 2020 (according to Ex"
+   },
+   {
+    "titulo": "File:Toys R us sign.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Toys_R_us_sign.jpg",
+    "w": 810,
+    "h": 1080,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Tyler de Noche",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_us_sign.jpg",
+    "data": "2018-07-27"
+   },
+   {
+    "titulo": "File:Toys R Us Modesto Closing.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Toys_R_Us_Modesto_Closing.jpg/1280px-Toys_R_Us_Modesto_Closing.jpg",
+    "w": 3264,
+    "h": 2448,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "TaurusEmerald",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_Modesto_Closing.jpg",
+    "data": "2018-04-11 16:22:32"
+   },
+   {
+    "titulo": "File:Toys R Us in Florida.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Toys_R_Us_in_Florida.JPG/1280px-Toys_R_Us_in_Florida.JPG",
+    "w": 4608,
+    "h": 3456,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Otisfrog",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_in_Florida.JPG",
+    "data": "Taken on 18 October 2013, 06:1"
+   }
+  ]
+ },
+ "i02": {
+  "q": [
+   "Toys R Us liquidation",
+   "Toys R Us closing 2018"
+  ],
+  "res": [
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 07.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Toys_%22R%22_Us_Store_Closing_07.jpg/1280px-Toys_%22R%22_Us_Store_Closing_07.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_07.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Toys_%22R%22_Us_Store_Closing_02.jpg/1280px-Toys_%22R%22_Us_Store_Closing_02.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_02.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 06.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Toys_%22R%22_Us_Store_Closing_06.jpg/1280px-Toys_%22R%22_Us_Store_Closing_06.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_06.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 08.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Toys_%22R%22_Us_Store_Closing_08.jpg/1280px-Toys_%22R%22_Us_Store_Closing_08.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_08.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Toys_%22R%22_Us_Store_Closing_01.jpg/1280px-Toys_%22R%22_Us_Store_Closing_01.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_01.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 05.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toys_%22R%22_Us_Store_Closing_05.jpg/1280px-Toys_%22R%22_Us_Store_Closing_05.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_05.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys R Us closing down sale, Kingston Retail Park, Hull - geograph.org.uk - 5717346.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Toys_R_Us_closing_down_sale%2C_Kingston_Retail_Park%2C_Hull_-_geograph.org.uk_-_5717346.jpg/1280px-Toys_R_Us_closing_down_sale%2C_Kingston_Retail_Park%2C_Hull_-_geograph.org.uk_-_5717346.jpg",
+    "w": 1600,
+    "h": 1065,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Ian S",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_closing_down_sale,_Kingston_Retail_Park,_Hull_-_geograph.org.uk_-_5717346.jpg",
+    "data": "2018-03-24"
+   },
+   {
+    "titulo": "File:Closing Toys R Us in Kingstowne.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Closing_Toys_R_Us_in_Kingstowne.jpg/1280px-Closing_Toys_R_Us_in_Kingstowne.jpg",
+    "w": 2150,
+    "h": 1046,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Ser_Amantio_di_Nicolao",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Closing_Toys_R_Us_in_Kingstowne.jpg",
+    "data": "31 March 2018 (according to Ex"
+   }
+  ]
+ },
+ "i03": {
+  "q": [
+   "Charles Lazarus",
+   "Toys R Us founder"
+  ],
+  "res": [
+   {
+    "titulo": "File:Lazarus 1950, bronze.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lazarus_1950%2C_bronze.jpg/1280px-Lazarus_1950%2C_bronze.jpg",
+    "w": 1800,
+    "h": 1200,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Dieterkaupp",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Lazarus_1950,_bronze.jpg",
+    "data": "2015-01-18 16:24:28"
+   },
+   {
+    "titulo": "File:The Raising of Lazarus MET DT3699.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/The_Raising_of_Lazarus_MET_DT3699.jpg/1280px-The_Raising_of_Lazarus_MET_DT3699.jpg",
+    "w": 4000,
+    "h": 2497,
+    "licenca": "CC0",
+    "autor": "Jacques Bellange",
+    "pagina": "https://commons.wikimedia.org/wiki/File:The_Raising_of_Lazarus_MET_DT3699.jpg",
+    "data": "circa 1606date QS:P571,+1606-0"
+   },
+   {
+    "titulo": "File:Lazarus clocktower.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Lazarus_clocktower.jpg",
+    "w": 905,
+    "h": 1837,
+    "licenca": "Public domain",
+    "autor": "Unknown authorUnknown author",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Lazarus_clocktower.jpg",
+    "data": "1895"
+   },
+   {
+    "titulo": "File:Opwekking van Lazarus Miracula Domini Nostri Jesu Christi (serietitel) Wonderen van Christus (serietitel), RP-P-OB-74.592.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Opwekking_van_Lazarus_Miracula_Domini_Nostri_Jesu_Christi_%28serietitel%29_Wonderen_van_Christus_%28serietitel%29%2C_RP-P-OB-74.592.jpg/1280px-Opwekking_van_Lazarus_Miracula_Domini_Nostri_Jesu_Christi_%28serietitel%29_Wonderen_van_Christus_%28serietitel%29%2C_RP-P-OB-74.592.jpg",
+    "w": 2448,
+    "h": 3378,
+    "licenca": "CC0",
+    "autor": "Rijksmuseum",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Opwekking_van_Lazarus_Miracula_Domini_Nostri_Jesu_Christi_(serietitel)_Wonderen_van_Christus_(serietitel),_RP-P-OB-74.592.jpg",
+    "data": "between 1638 and 1643date QS:P"
+   },
+   {
+    "titulo": "File:Charles Case to General Lazarus Noble, 1862-08-10 - DPLA - bd33e11d4fa8b4087af6055dbb8771ce.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Charles_Case_to_General_Lazarus_Noble%2C_1862-08-10_-_DPLA_-_bd33e11d4fa8b4087af6055dbb8771ce.jpg/1280px-Charles_Case_to_General_Lazarus_Noble%2C_1862-08-10_-_DPLA_-_bd33e11d4fa8b4087af6055dbb8771ce.jpg",
+    "w": 4886,
+    "h": 3175,
+    "licenca": "Public domain",
+    "autor": "Case, Charles",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Charles_Case_to_General_Lazarus_Noble,_1862-08-10_-_DPLA_-_bd33e11d4fa8b4087af6055dbb8771ce.jpg",
+    "data": ""
+   },
+   {
+    "titulo": "File:Charles Emery to General Lazarus Noble, 1862-06-02 - DPLA - 67980bc5ab30e7c6c7a6ca01f0c58dfe.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Charles_Emery_to_General_Lazarus_Noble%2C_1862-06-02_-_DPLA_-_67980bc5ab30e7c6c7a6ca01f0c58dfe.jpg/1280px-Charles_Emery_to_General_Lazarus_Noble%2C_1862-06-02_-_DPLA_-_67980bc5ab30e7c6c7a6ca01f0c58dfe.jpg",
+    "w": 4851,
+    "h": 3112,
+    "licenca": "Public domain",
+    "autor": "Emery, Charles",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Charles_Emery_to_General_Lazarus_Noble,_1862-06-02_-_DPLA_-_67980bc5ab30e7c6c7a6ca01f0c58dfe.jpg",
+    "data": ""
+   },
+   {
+    "titulo": "File:Tenn Toys & Comics Serious High-Speed Business - RUS (20180927-RD-LSC-0811).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_%2820180927-RD-LSC-0811%29.jpg/1280px-Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_%2820180927-RD-LSC-0811%29.jpg",
+    "w": 4188,
+    "h": 2792,
+    "licenca": "Public domain",
+    "autor": "USDAgov",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_(20180927-RD-LSC-0811).jpg",
+    "data": "Taken on 27 September 2018, 14"
+   },
+   {
+    "titulo": "File:Tenn Toys & Comics Serious High-Speed Business - RUS (20180927-RD-LSC-0718).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_%2820180927-RD-LSC-0718%29.jpg/1280px-Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_%2820180927-RD-LSC-0718%29.jpg",
+    "w": 5754,
+    "h": 3836,
+    "licenca": "Public domain",
+    "autor": "USDAgov",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_(20180927-RD-LSC-0718).jpg",
+    "data": "Taken on 27 September 2018, 14"
+   },
+   {
+    "titulo": "File:Tenn Toys & Comics Serious High-Speed Business - RUS (20180927-RD-LSC-0744).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_%2820180927-RD-LSC-0744%29.jpg/1280px-Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_%2820180927-RD-LSC-0744%29.jpg",
+    "w": 7177,
+    "h": 4785,
+    "licenca": "Public domain",
+    "autor": "USDAgov",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_(20180927-RD-LSC-0744).jpg",
+    "data": "Taken on 27 September 2018, 14"
+   },
+   {
+    "titulo": "File:Tenn Toys & Comics Serious High-Speed Business - RUS (20180927-RD-LSC-0663).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_%2820180927-RD-LSC-0663%29.jpg/1280px-Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_%2820180927-RD-LSC-0663%29.jpg",
+    "w": 6711,
+    "h": 4474,
+    "licenca": "Public domain",
+    "autor": "USDAgov",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Tenn_Toys_%26_Comics_Serious_High-Speed_Business_-_RUS_(20180927-RD-LSC-0663).jpg",
+    "data": "Taken on 27 September 2018, 13"
+   },
+   {
+    "titulo": "File:North Central Telephone Cooperative Rural Broadband keeps TN and KY High-Speed - RUS (20180927-RD-LSC-0743).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_%2820180927-RD-LSC-0743%29.jpg/1280px-North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_%2820180927-RD-LSC-0743%29.jpg",
+    "w": 7596,
+    "h": 4273,
+    "licenca": "Public domain",
+    "autor": "USDAgov",
+    "pagina": "https://commons.wikimedia.org/wiki/File:North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_(20180927-RD-LSC-0743).jpg",
+    "data": "Taken on 27 September 2018, 14"
+   },
+   {
+    "titulo": "File:North Central Telephone Cooperative Rural Broadband keeps TN and KY High-Speed - RUS (20180927-RD-LSC-0786).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_%2820180927-RD-LSC-0786%29.jpg/1280px-North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_%2820180927-RD-LSC-0786%29.jpg",
+    "w": 6119,
+    "h": 4079,
+    "licenca": "Public domain",
+    "autor": "USDAgov",
+    "pagina": "https://commons.wikimedia.org/wiki/File:North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_(20180927-RD-LSC-0786).jpg",
+    "data": "Taken on 27 September 2018, 14"
+   }
+  ]
+ },
+ "i04": {
+  "q": [
+   "Washington D.C. street 1940s",
+   "F Street Washington 1940s"
+  ],
+  "res": [
+   {
+    "titulo": "File:Children in street, Washington, D.C 1a34418v.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Children_in_street%2C_Washington%2C_D.C_1a34418v.jpg",
+    "w": 1024,
+    "h": 796,
+    "licenca": "Public domain",
+    "autor": "Rosskam, Louise, 1910-, photographer",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Children_in_street,_Washington,_D.C_1a34418v.jpg",
+    "data": "between 1941 and 1942date QS:P"
+   },
+   {
+    "titulo": "File:Washington, D.C. A bicycle rental shop on 22nd street 8c36441v.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Washington%2C_D.C._A_bicycle_rental_shop_on_22nd_street_8c36441v.jpg",
+    "w": 1024,
+    "h": 772,
+    "licenca": "Public domain",
+    "autor": "Marjory Collins",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Washington,_D.C._A_bicycle_rental_shop_on_22nd_street_8c36441v.jpg",
+    "data": "June 1942 or July 1942"
+   },
+   {
+    "titulo": "File:Shulman's market, on N at Union Street S.W., Washington, D.C. LCCN2017877966.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Shulman%27s_market%2C_on_N_at_Union_Street_S.W.%2C_Washington%2C_D.C._LCCN2017877966.jpg/1280px-Shulman%27s_market%2C_on_N_at_Union_Street_S.W.%2C_Washington%2C_D.C._LCCN2017877966.jpg",
+    "w": 6580,
+    "h": 5197,
+    "licenca": "Public domain",
+    "autor": "Louise Rosskam",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Shulman%27s_market,_on_N_at_Union_Street_S.W.,_Washington,_D.C._LCCN2017877966.jpg",
+    "data": "between 1941 and 1942date QS:P"
+   },
+   {
+    "titulo": "File:Washington, D.C. A bicycle rental shop on 22nd Street 8c36429v.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Washington%2C_D.C._A_bicycle_rental_shop_on_22nd_Street_8c36429v.jpg",
+    "w": 1024,
+    "h": 781,
+    "licenca": "Public domain",
+    "autor": "Marjory Collins",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Washington,_D.C._A_bicycle_rental_shop_on_22nd_Street_8c36429v.jpg",
+    "data": "1942 June-July"
+   },
+   {
+    "titulo": "File:Shulman's Market - Washington, D.C..jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Shulman%27s_Market_-_Washington%2C_D.C..jpg/1280px-Shulman%27s_Market_-_Washington%2C_D.C..jpg",
+    "w": 5898,
+    "h": 4383,
+    "licenca": "Public domain",
+    "autor": "Louise Rosskam",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Shulman%27s_Market_-_Washington,_D.C..jpg",
+    "data": "between 1941 and 1942date QS:P"
+   },
+   {
+    "titulo": "File:Shulman's Market at the southeast corner of N Street and Union Street S.W., Washington, D.C., with a 1931 Chevrolet car parked in front LCCN2017877969.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Shulman%27s_Market_at_the_southeast_corner_of_N_Street_and_Union_Street_S.W.%2C_Washington%2C_D.C.%2C_with_a_1931_Chevrolet_car_parked_in_front_LCCN2017877969.jpg/1280px-Shulman%27s_Market_at_the_southeast_corner_of_N_Street_and_Union_Street_S.W.%2C_Washington%2C_D.C.%2C_with_a_1931_Chevrolet_car_parked_in_front_LCCN2017877969.jpg",
+    "w": 7697,
+    "h": 6010,
+    "licenca": "Public domain",
+    "autor": "Louise Rosskam",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Shulman%27s_Market_at_the_southeast_corner_of_N_Street_and_Union_Street_S.W.,_Washington,_D.C.,_with_a_1931_Chevrolet_car_parked_in_front_LCCN2017877969.jpg",
+    "data": "between 1941 and 1942date QS:P"
+   },
+   {
+    "titulo": "File:Muni 1010 at Washington and The Embarcadero, July 2008.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Muni_1010_at_Washington_and_The_Embarcadero%2C_July_2008.jpg",
+    "w": 1027,
+    "h": 681,
+    "licenca": "CC BY 2.0",
+    "autor": "paulkimo9",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Muni_1010_at_Washington_and_The_Embarcadero,_July_2008.jpg",
+    "data": "2008-07-17 14:00"
+   },
+   {
+    "titulo": "File:Public Library, circa 1940s - Valparaiso, Indiana (4181361932).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Public_Library%2C_circa_1940s_-_Valparaiso%2C_Indiana_%284181361932%29.jpg/1280px-Public_Library%2C_circa_1940s_-_Valparaiso%2C_Indiana_%284181361932%29.jpg",
+    "w": 2206,
+    "h": 1378,
+    "licenca": "CC BY 2.0",
+    "autor": "Steve Shook from Moscow, Idaho, USA",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Public_Library,_circa_1940s_-_Valparaiso,_Indiana_(4181361932).jpg",
+    "data": "2009-12-13 03:24"
+   }
+  ]
+ },
+ "i05": {
+  "q": [
+   "Toys R Us employees",
+   "Toys R Us store closing last day"
+  ],
+  "res": [
+   {
+    "titulo": "File:Toys R Us Rows of carts 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Toys_R_Us_Rows_of_carts_2009.jpg/1280px-Toys_R_Us_Rows_of_carts_2009.jpg",
+    "w": 2832,
+    "h": 4256,
+    "licenca": "Public domain",
+    "autor": "U.S. Air Force Photo/ Staff Sgt. Joshua Garcia",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_Rows_of_carts_2009.jpg",
+    "data": "2009-11-07"
+   },
+   {
+    "titulo": "File:NEX Yokosuka Toys R Us Grand Opening (10031594).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/NEX_Yokosuka_Toys_R_Us_Grand_Opening_%2810031594%29.jpg/1280px-NEX_Yokosuka_Toys_R_Us_Grand_Opening_%2810031594%29.jpg",
+    "w": 5580,
+    "h": 3720,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Petty Officer 2nd Class Quinton Lee",
+    "pagina": "https://commons.wikimedia.org/wiki/File:NEX_Yokosuka_Toys_R_Us_Grand_Opening_(10031594).jpg",
+    "data": "Taken on 16 October 2026"
+   },
+   {
+    "titulo": "File:NEX Yokosuka Toys R Us Grand Opening (10031600).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/NEX_Yokosuka_Toys_R_Us_Grand_Opening_%2810031600%29.jpg/1280px-NEX_Yokosuka_Toys_R_Us_Grand_Opening_%2810031600%29.jpg",
+    "w": 5707,
+    "h": 3805,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Petty Officer 2nd Class Quinton Lee",
+    "pagina": "https://commons.wikimedia.org/wiki/File:NEX_Yokosuka_Toys_R_Us_Grand_Opening_(10031600).jpg",
+    "data": "Taken on 16 October 2026"
+   },
+   {
+    "titulo": "File:NEX Yokosuka Toys R Us Grand Opening (10031599).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NEX_Yokosuka_Toys_R_Us_Grand_Opening_%2810031599%29.jpg/1280px-NEX_Yokosuka_Toys_R_Us_Grand_Opening_%2810031599%29.jpg",
+    "w": 5758,
+    "h": 3839,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Petty Officer 2nd Class Quinton Lee",
+    "pagina": "https://commons.wikimedia.org/wiki/File:NEX_Yokosuka_Toys_R_Us_Grand_Opening_(10031599).jpg",
+    "data": "Taken on 16 October 2026"
+   },
+   {
+    "titulo": "File:NEX Yokosuka Toys R Us Grand Opening (10031595).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/NEX_Yokosuka_Toys_R_Us_Grand_Opening_%2810031595%29.jpg/1280px-NEX_Yokosuka_Toys_R_Us_Grand_Opening_%2810031595%29.jpg",
+    "w": 5888,
+    "h": 3925,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Petty Officer 2nd Class Quinton Lee",
+    "pagina": "https://commons.wikimedia.org/wiki/File:NEX_Yokosuka_Toys_R_Us_Grand_Opening_(10031595).jpg",
+    "data": "Taken on 16 October 2026"
+   },
+   {
+    "titulo": "File:US Navy 060611-N-8544C-037 Toys R' Us mascot Geoffrey the Giraffe entertains family and friends during the homecoming ceremony for the guided missile cruiser USS Vicksburg (CG 69).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/US_Navy_060611-N-8544C-037_Toys_R%27_Us_mascot_Geoffrey_the_Giraffe_entertains_family_and_friends_during_the_homecoming_ceremony_for_the_guided_missile_cruiser_USS_Vicksburg_%28CG_69%29.jpg/1280px-thumbnail.jpg",
+    "w": 2100,
+    "h": 1500,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Photographer's Mate 2nd Class Susan Cornell",
+    "pagina": "https://commons.wikimedia.org/wiki/File:US_Navy_060611-N-8544C-037_Toys_R%27_Us_mascot_Geoffrey_the_Giraffe_entertains_family_and_friends_during_the_homecoming_ceremony_for_the_guided_missile_cruiser_USS_Vicksburg_(CG_69).jpg",
+    "data": "2006-06-11"
+   }
+  ]
+ },
+ "i06": {
+  "q": [
+   "Toys R Us interior",
+   "Toys R Us aisle"
+  ],
+  "res": [
+   {
+    "titulo": "File:Toys R Us - December 2022 - Sarah Stierch.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Toys_R_Us_-_December_2022_-_Sarah_Stierch.jpg/1280px-Toys_R_Us_-_December_2022_-_Sarah_Stierch.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 4.0",
+    "autor": "Missvain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_-_December_2022_-_Sarah_Stierch.jpg",
+    "data": "Taken on 11 December 2022"
+   },
+   {
+    "titulo": "File:Toys r us closing.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Toys_r_us_closing.jpg/1280px-Toys_r_us_closing.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "3steph14",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_r_us_closing.jpg",
+    "data": "10 March 2020 (according to Ex"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 07.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Toys_%22R%22_Us_Store_Closing_07.jpg/1280px-Toys_%22R%22_Us_Store_Closing_07.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_07.jpg",
+    "data": "Taken on 17 June 2018"
+   }
+  ]
+ },
+ "i07": {
+  "q": [
+   "Toys R Us reopening 2024",
+   "Toys R Us new store 2025"
+  ],
+  "res": []
+ },
+ "i08": {
+  "q": "Toys R Us Christmas",
+  "res": [
+   {
+    "titulo": "File:First Lady Melania Trump Participates in a Toys for Tots Christmas Event (50723519866).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/First_Lady_Melania_Trump_Participates_in_a_Toys_for_Tots_Christmas_Event_%2850723519866%29.jpg",
+    "w": 2400,
+    "h": 3000,
+    "licenca": "Public domain",
+    "autor": "The Trump White House Archived",
+    "pagina": "https://commons.wikimedia.org/wiki/File:First_Lady_Melania_Trump_Participates_in_a_Toys_for_Tots_Christmas_Event_(50723519866).jpg",
+    "data": "Taken on 8 December 2020, 13:5"
+   },
+   {
+    "titulo": "File:Christmas Toys To Be Fixed By Firemen Oak Ridge 1947 (10691068526).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Christmas_Toys_To_Be_Fixed_By_Firemen_Oak_Ridge_1947_%2810691068526%29.jpg",
+    "w": 5592,
+    "h": 4395,
+    "licenca": "Public domain",
+    "autor": "doe-oakridge",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Christmas_Toys_To_Be_Fixed_By_Firemen_Oak_Ridge_1947_(10691068526).jpg",
+    "data": "2013-11-05 10:02"
+   },
+   {
+    "titulo": "File:First Lady Melania Trump Participates in a Toys for Tots Christmas Event (50722783723).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/First_Lady_Melania_Trump_Participates_in_a_Toys_for_Tots_Christmas_Event_%2850722783723%29.jpg",
+    "w": 3000,
+    "h": 2000,
+    "licenca": "Public domain",
+    "autor": "The Trump White House Archived",
+    "pagina": "https://commons.wikimedia.org/wiki/File:First_Lady_Melania_Trump_Participates_in_a_Toys_for_Tots_Christmas_Event_(50722783723).jpg",
+    "data": "Taken on 8 December 2020, 13:4"
+   },
+   {
+    "titulo": "File:First Lady Melania Trump Participates in a Toys for Tots Christmas Event (50722783773).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/First_Lady_Melania_Trump_Participates_in_a_Toys_for_Tots_Christmas_Event_%2850722783773%29.jpg",
+    "w": 3000,
+    "h": 2000,
+    "licenca": "Public domain",
+    "autor": "The Trump White House Archived",
+    "pagina": "https://commons.wikimedia.org/wiki/File:First_Lady_Melania_Trump_Participates_in_a_Toys_for_Tots_Christmas_Event_(50722783773).jpg",
+    "data": "Taken on 8 December 2020, 13:4"
+   },
+   {
+    "titulo": "File:US Navy 101221-N-8374E-851 Chief Aviation Electronics Technician Enrique Fraga selects toys for Christmas baskets.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/US_Navy_101221-N-8374E-851_Chief_Aviation_Electronics_Technician_Enrique_Fraga_selects_toys_for_Christmas_baskets.jpg",
+    "w": 3900,
+    "h": 2686,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Senior Chief Mass Communication Specialist Maria R. Escamilla",
+    "pagina": "https://commons.wikimedia.org/wiki/File:US_Navy_101221-N-8374E-851_Chief_Aviation_Electronics_Technician_Enrique_Fraga_selects_toys_for_Christmas_baskets.jpg",
+    "data": "Taken on 21 December 2010"
+   }
+  ]
+ },
+ "i13": {
+  "q": "abandoned Toys R Us",
+  "res": [
+   {
+    "titulo": "File:Abandoned Toys ‘R’ Us in Monroe LA 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Abandoned_Toys_%E2%80%98R%E2%80%99_Us_in_Monroe_LA_02.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Timothy Holdiness",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Abandoned_Toys_%E2%80%98R%E2%80%99_Us_in_Monroe_LA_02.jpg",
+    "data": "2023-08-25"
+   },
+   {
+    "titulo": "File:Abandoned Toys ‘R’ Us in Monroe LA 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Abandoned_Toys_%E2%80%98R%E2%80%99_Us_in_Monroe_LA_01.jpg",
+    "w": 4032,
+    "h": 2268,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Timothy Holdiness",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Abandoned_Toys_%E2%80%98R%E2%80%99_Us_in_Monroe_LA_01.jpg",
+    "data": "2023-08-25"
+   },
+   {
+    "titulo": "File:Abandoned Toys \"R\" Us, Monroe, LA 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Abandoned_Toys_%22R%22_Us%2C_Monroe%2C_LA_01.jpg",
+    "w": 3192,
+    "h": 1614,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Timothy Holdiness",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Abandoned_Toys_%22R%22_Us,_Monroe,_LA_01.jpg",
+    "data": "2023-08-25"
+   },
+   {
+    "titulo": "File:Abandoned Toys R Us in Winston-Salem, NC.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Abandoned_Toys_R_Us_in_Winston-Salem%2C_NC.jpg",
+    "w": 4032,
+    "h": 2268,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Breawycker",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Abandoned_Toys_R_Us_in_Winston-Salem,_NC.jpg",
+    "data": "2019-02-21 16:31:52"
+   },
+   {
+    "titulo": "File:Abandoned Toys \"R\" Us-Babies \"R\" Us, Bensonhurst, Brooklyn, NY.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Abandoned_Toys_%22R%22_Us-Babies_%22R%22_Us%2C_Bensonhurst%2C_Brooklyn%2C_NY.jpg",
+    "w": 2048,
+    "h": 1536,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "NewYorker1999",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Abandoned_Toys_%22R%22_Us-Babies_%22R%22_Us,_Bensonhurst,_Brooklyn,_NY.jpg",
+    "data": "Taken on 31 July 2018"
+   }
+  ]
+ },
+ "i29": {
+  "q": "Toys R Us store interior",
+  "res": [
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 07.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Toys_%22R%22_Us_Store_Closing_07.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_07.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 06.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Toys_%22R%22_Us_Store_Closing_06.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_06.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Toys_%22R%22_Us_Store_Closing_02.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_02.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 08.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Toys_%22R%22_Us_Store_Closing_08.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_08.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 05.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Toys_%22R%22_Us_Store_Closing_05.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_05.jpg",
+    "data": "Taken on 17 June 2018"
+   }
+  ]
+ },
+ "i30": {
+  "q": "Toys R Us store exterior",
+  "res": [
+   {
+    "titulo": "File:Toys R Us (13140771593).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Toys_R_Us_%2813140771593%29.jpg",
+    "w": 2592,
+    "h": 1936,
+    "licenca": "CC BY 2.0",
+    "autor": "Mike Mozart from Funny YouTube, USA",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_(13140771593).jpg",
+    "data": "2014-03-12 18:22"
+   },
+   {
+    "titulo": "File:Toys R Us (13140654405).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Toys_R_Us_%2813140654405%29.jpg",
+    "w": 2572,
+    "h": 1748,
+    "licenca": "CC BY 2.0",
+    "autor": "Mike Mozart from Funny YouTube, USA",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_(13140654405).jpg",
+    "data": "2014-03-12 17:41"
+   },
+   {
+    "titulo": "File:Spirit Halloween Whitby, October 17 2026 (01).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Spirit_Halloween_Whitby%2C_October_17_2026_%2801%29.jpg",
+    "w": 6785,
+    "h": 4523,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Dillan Payne",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Spirit_Halloween_Whitby,_October_17_2026_(01).jpg",
+    "data": "2026-10-17 15:16:42"
+   }
+  ]
+ },
+ "i33": {
+  "q": "Geoffrey the Giraffe",
+  "res": [
+   {
+    "titulo": "File:US Navy 060611-N-8544C-037 Toys R' Us mascot Geoffrey the Giraffe entertains family and friends during the homecoming ceremony for the guided missile cruiser USS Vicksburg (CG 69).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/US_Navy_060611-N-8544C-037_Toys_R%27_Us_mascot_Geoffrey_the_Giraffe_entertains_family_and_friends_during_the_homecoming_ceremony_for_the_guided_missile_cruiser_USS_Vicksburg_%28CG_69%29.jpg",
+    "w": 2100,
+    "h": 1500,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Photographer's Mate 2nd Class Susan Cornell",
+    "pagina": "https://commons.wikimedia.org/wiki/File:US_Navy_060611-N-8544C-037_Toys_R%27_Us_mascot_Geoffrey_the_Giraffe_entertains_family_and_friends_during_the_homecoming_ceremony_for_the_guided_missile_cruiser_USS_Vicksburg_(CG_69).jpg",
+    "data": "2006-06-11"
+   },
+   {
+    "titulo": "File:Geoffrey The Giraffe (Unsplash).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Geoffrey_The_Giraffe_%28Unsplash%29.jpg",
+    "w": 5184,
+    "h": 3456,
+    "licenca": "CC0",
+    "autor": "Judah Legge judahlegge",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Geoffrey_The_Giraffe_(Unsplash).jpg",
+    "data": "2017-04-18"
+   },
+   {
+    "titulo": "File:NEX Yokosuka Toys R Us Grand Opening (10031595).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/NEX_Yokosuka_Toys_R_Us_Grand_Opening_%2810031595%29.jpg",
+    "w": 5888,
+    "h": 3925,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Petty Officer 2nd Class Quinton Lee",
+    "pagina": "https://commons.wikimedia.org/wiki/File:NEX_Yokosuka_Toys_R_Us_Grand_Opening_(10031595).jpg",
+    "data": "Taken on 16 October 2026"
+   },
+   {
+    "titulo": "File:NEX Atsugi Toys R Us Grand Opening (10104226).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/NEX_Atsugi_Toys_R_Us_Grand_Opening_%2810104226%29.jpg",
+    "w": 2048,
+    "h": 1567,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Petty Officer 1st Class Elizabeth Thompson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:NEX_Atsugi_Toys_R_Us_Grand_Opening_(10104226).jpg",
+    "data": "Taken on 16 October 2026"
+   },
+   {
+    "titulo": "File:NEX Yokosuka Toys R Us Grand Opening (10031594).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/NEX_Yokosuka_Toys_R_Us_Grand_Opening_%2810031594%29.jpg",
+    "w": 5580,
+    "h": 3720,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Petty Officer 2nd Class Quinton Lee",
+    "pagina": "https://commons.wikimedia.org/wiki/File:NEX_Yokosuka_Toys_R_Us_Grand_Opening_(10031594).jpg",
+    "data": "Taken on 16 October 2026"
+   }
+  ]
+ },
+ "i43": {
+  "q": "Toys R Us Times Square",
+  "res": [
+   {
+    "titulo": "File:Toys \"R\" Us Times Square 2005 A.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Toys_%22R%22_Us_Times_Square_2005_A.jpg",
+    "w": 2048,
+    "h": 1536,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Joris van Rooden",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Times_Square_2005_A.jpg",
+    "data": "2005-01-10 01:33:09"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Times Square 2005 B.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Toys_%22R%22_Us_Times_Square_2005_B.jpg",
+    "w": 1536,
+    "h": 2048,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Joris van Rooden",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Times_Square_2005_B.jpg",
+    "data": "2005-01-10 01:37:41"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Times Square 2005 C.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Toys_%22R%22_Us_Times_Square_2005_C.jpg",
+    "w": 1536,
+    "h": 2048,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Joris van Rooden",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Times_Square_2005_C.jpg",
+    "data": "2005-01-10 01:35:53"
+   },
+   {
+    "titulo": "File:Times Square from outside Toys R Us 2.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Times_Square_from_outside_Toys_R_Us_2.JPG",
+    "w": 3488,
+    "h": 2616,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Andy C",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Times_Square_from_outside_Toys_R_Us_2.JPG",
+    "data": "2008-10-21"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us at Times Square-20210829.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Toys_%22R%22_Us_at_Times_Square-20210829.jpg",
+    "w": 7296,
+    "h": 5472,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Shwangtianyuan",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_at_Times_Square-20210829.jpg",
+    "data": "2021-08-29 14:04:40"
+   }
+  ]
+ },
+ "i44": {
+  "q": "Toys R Us Times Square Ferris wheel",
+  "res": [
+   {
+    "titulo": "File:Toys \"R\" Us Times Square 2005 A.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Toys_%22R%22_Us_Times_Square_2005_A.jpg",
+    "w": 2048,
+    "h": 1536,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Joris van Rooden",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Times_Square_2005_A.jpg",
+    "data": "2005-01-10 01:33:09"
+   },
+   {
+    "titulo": "File:Toys 'R' Us Ferris Wheel (2120024404).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Toys_%27R%27_Us_Ferris_Wheel_%282120024404%29.jpg",
+    "w": 3264,
+    "h": 2448,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Mack Male from Edmonton, AB, Canada",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%27R%27_Us_Ferris_Wheel_(2120024404).jpg",
+    "data": "2007-12-17 19:00"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Times Square 2005 B.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Toys_%22R%22_Us_Times_Square_2005_B.jpg",
+    "w": 1536,
+    "h": 2048,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Joris van Rooden",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Times_Square_2005_B.jpg",
+    "data": "2005-01-10 01:37:41"
+   },
+   {
+    "titulo": "File:Toys 'R Us at Times Square - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Toys_%27R_Us_at_Times_Square_-_panoramio.jpg",
+    "w": 5200,
+    "h": 3455,
+    "licenca": "CC BY 3.0",
+    "autor": "TomasEE",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%27R_Us_at_Times_Square_-_panoramio.jpg",
+    "data": "Taken on 11 March 2012"
+   }
+  ]
+ },
+ "i45": {
+  "q": "Toys R Us Times Square dinosaur",
+  "res": []
+ },
+ "i69": {
+  "q": "Toys R Us Times Square closed",
+  "res": [
+   {
+    "titulo": "File:DDR SuperNOVA at Toys R Us.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/DDR_SuperNOVA_at_Toys_R_Us.jpg",
+    "w": 810,
+    "h": 1080,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Jodi Brown  (jodola)",
+    "pagina": "https://commons.wikimedia.org/wiki/File:DDR_SuperNOVA_at_Toys_R_Us.jpg",
+    "data": "2009-05-24 17:51:34"
+   },
+   {
+    "titulo": "File:4.28.11ToysRUsTimesSquareByLuigiNovi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/4.28.11ToysRUsTimesSquareByLuigiNovi.jpg",
+    "w": 2048,
+    "h": 1536,
+    "licenca": "CC BY 3.0",
+    "autor": "Nightscream",
+    "pagina": "https://commons.wikimedia.org/wiki/File:4.28.11ToysRUsTimesSquareByLuigiNovi.jpg",
+    "data": "2011-04-28"
+   }
+  ]
+ },
+ "i72": {
+  "q": "Toys R Us closing sale",
+  "res": [
+   {
+    "titulo": "File:Toys R Us closing down sale, Kingston Retail Park, Hull - geograph.org.uk - 5717346.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Toys_R_Us_closing_down_sale%2C_Kingston_Retail_Park%2C_Hull_-_geograph.org.uk_-_5717346.jpg",
+    "w": 1600,
+    "h": 1065,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Ian S",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_closing_down_sale,_Kingston_Retail_Park,_Hull_-_geograph.org.uk_-_5717346.jpg",
+    "data": "2018-03-24"
+   },
+   {
+    "titulo": "File:Toys R Us Hialeah Florida Closing Sale (26581532387).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Toys_R_Us_Hialeah_Florida_Closing_Sale_%2826581532387%29.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Phillip Pessar from Miami, USA",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_Hialeah_Florida_Closing_Sale_(26581532387).jpg",
+    "data": "2018-04-14 10:59"
+   },
+   {
+    "titulo": "File:Toys r us closing.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Toys_r_us_closing.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "3steph14",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_r_us_closing.jpg",
+    "data": "10 March 2020 (according to Ex"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Toys_%22R%22_Us_Store_Closing_02.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_02.jpg",
+    "data": "Taken on 17 June 2018"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us Store Closing 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Toys_%22R%22_Us_Store_Closing_01.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Talor Berthelson",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_Store_Closing_01.jpg",
+    "data": "Taken on 17 June 2018"
+   }
+  ]
+ },
+ "i75": {
+  "q": "former Toys R Us sign",
+  "res": [
+   {
+    "titulo": "File:Flatbush Av South td (2020-08-02) 03 - Toys \"R\" Us.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flatbush_Av_South_td_%282020-08-02%29_03_-_Toys_%22R%22_Us.jpg",
+    "w": 5472,
+    "h": 3648,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Tdorante10",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Flatbush_Av_South_td_(2020-08-02)_03_-_Toys_%22R%22_Us.jpg",
+    "data": "2020-08-02 12:54:36"
+   },
+   {
+    "titulo": "File:US Navy 071213-N-5086M-029 Naval Medical Center San Diego (NMCSD) Sailors, Marines and staff meet with former U.S. Marine Corps drill instructor turned Golden Globe-nominated actor R. Lee Emery during his visit to the hospital.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/US_Navy_071213-N-5086M-029_Naval_Medical_Center_San_Diego_%28NMCSD%29_Sailors%2C_Marines_and_staff_meet_with_former_U.S._Marine_Corps_drill_instructor_turned_Golden_Globe-nominated_actor_R._Lee_Emery_during_his_visit_to_the_hospital.jpg",
+    "w": 2436,
+    "h": 1704,
+    "licenca": "Public domain",
+    "autor": "U.S. Navy photo by Mass Communication Specialist 2nd Class Greg Mitchell",
+    "pagina": "https://commons.wikimedia.org/wiki/File:US_Navy_071213-N-5086M-029_Naval_Medical_Center_San_Diego_(NMCSD)_Sailors,_Marines_and_staff_meet_with_former_U.S._Marine_Corps_drill_instructor_turned_Golden_Globe-nominated_actor_R._Lee_Emery_during_his_visit_to_the_hospital.jpg",
+    "data": "Taken on 13 December 2007"
+   },
+   {
+    "titulo": "File:Douglaston Plaza td (2021-06-20) 07.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Douglaston_Plaza_td_%282021-06-20%29_07.jpg",
+    "w": 5472,
+    "h": 3648,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Tdorante10",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Douglaston_Plaza_td_(2021-06-20)_07.jpg",
+    "data": "2021-06-20 18:45:11"
+   },
+   {
+    "titulo": "File:Lee Ermey San Diego 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Lee_Ermey_San_Diego_1.jpg",
+    "w": 2100,
+    "h": 1500,
+    "licenca": "Public domain",
+    "autor": "Petty Officer 2nd Class Greg Mitchell",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Lee_Ermey_San_Diego_1.jpg",
+    "data": "2008-12-17"
+   },
+   {
+    "titulo": "File:The tin gee-gee (NYPL Hades-454413-1698892).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/The_tin_gee-gee_%28NYPL_Hades-454413-1698892%29.jpg",
+    "w": 4474,
+    "h": 6211,
+    "licenca": "Public domain",
+    "autor": "Scan by NYPL",
+    "pagina": "https://commons.wikimedia.org/wiki/File:The_tin_gee-gee_(NYPL_Hades-454413-1698892).jpg",
+    "data": "1894"
+   }
+  ]
+ },
+ "i80": {
+  "q": "Toys R Us American Dream",
+  "res": []
+ },
+ "i81": {
+  "q": "Toys R Us airport",
+  "res": [
+   {
+    "titulo": "File:Toys \"R\" Us store at Dallas Fort Worth International Airport.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Toys_%22R%22_Us_store_at_Dallas_Fort_Worth_International_Airport.jpg",
+    "w": 3024,
+    "h": 4032,
+    "licenca": "CC0",
+    "autor": "Roc0ast3r",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_store_at_Dallas_Fort_Worth_International_Airport.jpg",
+    "data": "2024-07-02 20:26:03"
+   },
+   {
+    "titulo": "File:Toys for Tots, Blue Angels help save Christmas for Hurricane Sandy affected children 121203-M-KH795-712.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Toys_for_Tots%2C_Blue_Angels_help_save_Christmas_for_Hurricane_Sandy_affected_children_121203-M-KH795-712.jpg",
+    "w": 5616,
+    "h": 3744,
+    "licenca": "Public domain",
+    "autor": "Staff Sgt. Jeremy Vought",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_for_Tots,_Blue_Angels_help_save_Christmas_for_Hurricane_Sandy_affected_children_121203-M-KH795-712.jpg",
+    "data": "Taken on 3 December 2012"
+   }
+  ]
+ },
+ "i84": {
+  "q": "Toys R Us entrance",
+  "res": [
+   {
+    "titulo": "File:Entrance to Toys R Us, Peterborough - geograph.org.uk - 5204293.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Entrance_to_Toys_R_Us%2C_Peterborough_-_geograph.org.uk_-_5204293.jpg",
+    "w": 4685,
+    "h": 2844,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "J.Hannan-Briggs",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Entrance_to_Toys_R_Us,_Peterborough_-_geograph.org.uk_-_5204293.jpg",
+    "data": "2016-11-24"
+   },
+   {
+    "titulo": "File:Toys R Us 2018 Morley Western Australia.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Toys_R_Us_2018_Morley_Western_Australia.jpg",
+    "w": 5312,
+    "h": 2988,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Perth Jaywalker",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_2018_Morley_Western_Australia.jpg",
+    "data": "2018-09-06 09:46:23"
+   }
+  ]
+ },
+ "i14": {
+  "q": "soldier homecoming 1945",
+  "res": [
+   {
+    "titulo": "File:\"Homecoming - To No Home^ Help a Veteran and his Family Find a Place to Live^ - NARA - 514525.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/%22Homecoming_-_To_No_Home%5E_Help_a_Veteran_and_his_Family_Find_a_Place_to_Live%5E_-_NARA_-_514525.jpg",
+    "w": 2174,
+    "h": 3000,
+    "licenca": "Public domain",
+    "autor": "Unknown authorUnknown author or not provided",
+    "pagina": "https://commons.wikimedia.org/wiki/File:%22Homecoming_-_To_No_Home%5E_Help_a_Veteran_and_his_Family_Find_a_Place_to_Live%5E_-_NARA_-_514525.jpg",
+    "data": "between 1941 and 1945date QS:P"
+   },
+   {
+    "titulo": "File:US 10th Mountain Division guard of honor Avenida Rio Branco.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/US_10th_Mountain_Division_guard_of_honor_Avenida_Rio_Branco.jpg",
+    "w": 1054,
+    "h": 821,
+    "licenca": "Public domain",
+    "autor": "Phil Twombly Collection, MI888, 10th Mountain Division Resource Center, Denver Public Library (DPL).",
+    "pagina": "https://commons.wikimedia.org/wiki/File:US_10th_Mountain_Division_guard_of_honor_Avenida_Rio_Branco.jpg",
+    "data": "1945-09-18"
+   }
+  ]
+ },
+ "i16": {
+  "q": "crib 1940s",
+  "res": [
+   {
+    "titulo": "File:Crib board (AM 1997.39.1-1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Crib_board_%28AM_1997.39.1-1%29.jpg",
+    "w": 3065,
+    "h": 1632,
+    "licenca": "CC BY 4.0",
+    "autor": "Norman Leaf",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Crib_board_(AM_1997.39.1-1).jpg",
+    "data": "1942; World War 2-wars"
+   },
+   {
+    "titulo": "File:Crib board (AM 1997.39.1-2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Crib_board_%28AM_1997.39.1-2%29.jpg",
+    "w": 2991,
+    "h": 1786,
+    "licenca": "CC BY 4.0",
+    "autor": "Norman Leaf",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Crib_board_(AM_1997.39.1-2).jpg",
+    "data": "1942; World War 2-wars"
+   }
+  ]
+ },
+ "i17": {
+  "q": "baby carriage 1950s",
+  "res": [
+   {
+    "titulo": "File:Zolika, 1952 and baby carriage Fortepan 76410.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Zolika%2C_1952_and_baby_carriage_Fortepan_76410.jpg",
+    "w": 2484,
+    "h": 3605,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "FOTO:Fortepan — ID 76410: Adományozó/Donor: Vojnich Pál.",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Zolika,_1952_and_baby_carriage_Fortepan_76410.jpg",
+    "data": "1952"
+   },
+   {
+    "titulo": "File:Baby carriage Fortepan 53760.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Baby_carriage_Fortepan_53760.jpg",
+    "w": 6550,
+    "h": 6193,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "FOTO:Fortepan — ID 53760: Adományozó/Donor: Zsanda Zsolt.",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Baby_carriage_Fortepan_53760.jpg",
+    "data": "1959"
+   }
+  ]
+ },
+ "i18": {
+  "q": "store window 1940s Washington",
+  "res": [
+   {
+    "titulo": "File:Boy looking at store window display 1a34414v.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Boy_looking_at_store_window_display_1a34414v.jpg",
+    "w": 1024,
+    "h": 729,
+    "licenca": "Public domain",
+    "autor": "Unknown authorUnknown author",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Boy_looking_at_store_window_display_1a34414v.jpg",
+    "data": "between 1941 and 1942date QS:P"
+   },
+   {
+    "titulo": "File:Tudor Collins' store in Warkworth (AM 75897-1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Tudor_Collins%27_store_in_Warkworth_%28AM_75897-1%29.jpg",
+    "w": 1275,
+    "h": 944,
+    "licenca": "CC BY 4.0",
+    "autor": "Collins, Tudor Washington, 1898-1970, photographer",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Tudor_Collins%27_store_in_Warkworth_(AM_75897-1).jpg",
+    "data": "circa 1940date QS:P571,+1940-0"
+   }
+  ]
+ },
+ "i19": {
+  "q": "V-J Day 1945 crowd",
+  "res": [
+   {
+    "titulo": "File:V-J Day Times Square NYWTS.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/V-J_Day_Times_Square_NYWTS.jpg",
+    "w": 3687,
+    "h": 3001,
+    "licenca": "Public domain",
+    "autor": "New York World-Telegram and the Sun staff photographer: DeMarsico, Dick, photographer.",
+    "pagina": "https://commons.wikimedia.org/wiki/File:V-J_Day_Times_Square_NYWTS.jpg",
+    "data": "Taken on 14 August 1945"
+   }
+  ]
+ },
+ "i20": {
+  "q": "baby carriages 1950s mothers",
+  "res": [
+   {
+    "titulo": "File:Na Glavnem trgu v Mariboru 1959.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Na_Glavnem_trgu_v_Mariboru_1959.jpg",
+    "w": 1033,
+    "h": 1742,
+    "licenca": "Public domain",
+    "autor": "Unknown authorUnknown author",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Na_Glavnem_trgu_v_Mariboru_1959.jpg",
+    "data": "1959-06-04"
+   },
+   {
+    "titulo": "File:Beule (Wuppertal) Anfang 1953.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Beule_%28Wuppertal%29_Anfang_1953.jpg",
+    "w": 1323,
+    "h": 936,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Mein verstorbener Vater",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Beule_(Wuppertal)_Anfang_1953.jpg",
+    "data": "1953"
+   }
+  ]
+ },
+ "i21": {
+  "q": "children playing toys 1950s",
+  "res": [
+   {
+    "titulo": "File:Jongetje speelt met radiografisch bestuurde speelgoedbus Boy playing with a radio-controlled toy bus.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Jongetje_speelt_met_radiografisch_bestuurde_speelgoedbus_Boy_playing_with_a_radio-controlled_toy_bus.jpg",
+    "w": 2953,
+    "h": 2380,
+    "licenca": "Public domain",
+    "autor": "Nationaal Archief",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jongetje_speelt_met_radiografisch_bestuurde_speelgoedbus_Boy_playing_with_a_radio-controlled_toy_bus.jpg",
+    "data": "2011-12-01 19:46"
+   },
+   {
+    "titulo": "File:Barneleker, leketøy. NÅ nr. 24. - Fo30141603100017.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Barneleker%2C_leket%C3%B8y._N%C3%85_nr._24._-_Fo30141603100017.jpg",
+    "w": 7282,
+    "h": 7294,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Unknown authorUnknown author",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Barneleker,_leket%C3%B8y._N%C3%85_nr._24._-_Fo30141603100017.jpg",
+    "data": "1952"
+   }
+  ]
+ },
+ "i22": {
+  "q": "tin toy robot",
+  "res": [
+   {
+    "titulo": "File:Osaka Tin Toy Institute – The Tin Age Collection – Mechanized Robot – Robby the Robot – Side.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Osaka_Tin_Toy_Institute_%E2%80%93_The_Tin_Age_Collection_%E2%80%93_Mechanized_Robot_%E2%80%93_Robby_the_Robot_%E2%80%93_Side.jpg",
+    "w": 3000,
+    "h": 4000,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "D J Shin",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Osaka_Tin_Toy_Institute_%E2%80%93_The_Tin_Age_Collection_%E2%80%93_Mechanized_Robot_%E2%80%93_Robby_the_Robot_%E2%80%93_Side.jpg",
+    "data": "2012-06-23 10:54:20"
+   },
+   {
+    "titulo": "File:Osaka Tin Toy Institute – The Tin Age Collection – Mechanized Robot – Robby the Robot – Front.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Osaka_Tin_Toy_Institute_%E2%80%93_The_Tin_Age_Collection_%E2%80%93_Mechanized_Robot_%E2%80%93_Robby_the_Robot_%E2%80%93_Front.jpg",
+    "w": 3000,
+    "h": 4001,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "D J Shin",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Osaka_Tin_Toy_Institute_%E2%80%93_The_Tin_Age_Collection_%E2%80%93_Mechanized_Robot_%E2%80%93_Robby_the_Robot_%E2%80%93_Front.jpg",
+    "data": "2012-06-23 10:53:14"
+   }
+  ]
+ },
+ "i23": {
+  "q": "birthday party 1950s",
+  "res": [
+   {
+    "titulo": "File:Vic Fischer 95th birthday party (Fischer holds up old campaign ad).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Vic_Fischer_95th_birthday_party_%28Fischer_holds_up_old_campaign_ad%29.jpg",
+    "w": 5184,
+    "h": 3456,
+    "licenca": "Public domain",
+    "autor": "AKSenMajority",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Vic_Fischer_95th_birthday_party_(Fischer_holds_up_old_campaign_ad).jpg",
+    "data": "2019-05-07 16:50:40"
+   },
+   {
+    "titulo": "File:Jacob Truedson Demitz 9th birthday group 1957.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Jacob_Truedson_Demitz_9th_birthday_group_1957.jpg",
+    "w": 877,
+    "h": 878,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "C. Erik Ridderstedt for family",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jacob_Truedson_Demitz_9th_birthday_group_1957.jpg",
+    "data": "1957-08-13"
+   }
+  ]
+ },
+ "i24": {
+  "q": "Christmas morning 1950s",
+  "res": [
+   {
+    "titulo": "File:1956 - Pollard Tire Company - 22 Nov MC - Allentown PA.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/1956_-_Pollard_Tire_Company_-_22_Nov_MC_-_Allentown_PA.jpg",
+    "w": 1256,
+    "h": 3381,
+    "licenca": "Public domain",
+    "autor": "self scanned",
+    "pagina": "https://commons.wikimedia.org/wiki/File:1956_-_Pollard_Tire_Company_-_22_Nov_MC_-_Allentown_PA.jpg",
+    "data": "1956"
+   },
+   {
+    "titulo": "File:1954 - Pollard Tire Company - 25 Nov MC - Allentown PA.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/1954_-_Pollard_Tire_Company_-_25_Nov_MC_-_Allentown_PA.jpg",
+    "w": 873,
+    "h": 2733,
+    "licenca": "Public domain",
+    "autor": "self scanned",
+    "pagina": "https://commons.wikimedia.org/wiki/File:1954_-_Pollard_Tire_Company_-_25_Nov_MC_-_Allentown_PA.jpg",
+    "data": "1954"
+   }
+  ]
+ },
+ "i25": {
+  "q": "supermarket 1950s",
+  "res": [
+   {
+    "titulo": "File:Supermarket interior, 1955.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Supermarket_interior%2C_1955.jpg",
+    "w": 3020,
+    "h": 2405,
+    "licenca": "CC BY 2.0",
+    "autor": "Seattle Municipal Archives",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Supermarket_interior,_1955.jpg",
+    "data": "Taken on 21 February 1955"
+   },
+   {
+    "titulo": "File:1956 - A & P Supermarket - 8 Jun MC - Allentown PA.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/1956_-_A_%26_P_Supermarket_-_8_Jun_MC_-_Allentown_PA.jpg",
+    "w": 3442,
+    "h": 4088,
+    "licenca": "Public domain",
+    "autor": "Self Scanned",
+    "pagina": "https://commons.wikimedia.org/wiki/File:1956_-_A_%26_P_Supermarket_-_8_Jun_MC_-_Allentown_PA.jpg",
+    "data": "1956"
+   }
+  ]
+ },
+ "i26": {
+  "q": "shopping carts supermarket 1950s",
+  "res": [
+   {
+    "titulo": "File:Mjölcentralen 1914.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Mj%C3%B6lcentralen_1914.jpg",
+    "w": 3252,
+    "h": 2456,
+    "licenca": "CC BY 4.0",
+    "autor": "Unknown authorUnknown author",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Mj%C3%B6lcentralen_1914.jpg",
+    "data": "1914"
+   }
+  ]
+ },
+ "i27": {
+  "q": "toy store 1950s",
+  "res": [
+   {
+    "titulo": "File:Children Little Museum Toy Store at Aliwal Street Bugis in Singapore - Ypphotography.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Children_Little_Museum_Toy_Store_at_Aliwal_Street_Bugis_in_Singapore_-_Ypphotography.jpg",
+    "w": 1280,
+    "h": 792,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Phuan Yan Penh",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Children_Little_Museum_Toy_Store_at_Aliwal_Street_Bugis_in_Singapore_-_Ypphotography.jpg",
+    "data": "2023-07-14"
+   },
+   {
+    "titulo": "File:1955 - Bloch's Hobby Store - Catalog - Allentown PA.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/1955_-_Bloch%27s_Hobby_Store_-_Catalog_-_Allentown_PA.jpg",
+    "w": 1200,
+    "h": 1600,
+    "licenca": "Public domain",
+    "autor": "Self Scanned",
+    "pagina": "https://commons.wikimedia.org/wiki/File:1955_-_Bloch%27s_Hobby_Store_-_Catalog_-_Allentown_PA.jpg",
+    "data": "1955"
+   }
+  ]
+ },
+ "i10": {
+  "q": "Amazon boxes",
+  "res": [
+   {
+    "titulo": "File:Amazon Box.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Amazon_Box.JPG",
+    "w": 2048,
+    "h": 1536,
+    "licenca": "Public domain",
+    "autor": "David",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Amazon_Box.JPG",
+    "data": "2009-03-21"
+   },
+   {
+    "titulo": "File:Harry Potter OotP Amazon box.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Harry_Potter_OotP_Amazon_box.jpg",
+    "w": 1024,
+    "h": 768,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "The original uploader was Eurleif at English Wikipedia.",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Harry_Potter_OotP_Amazon_box.jpg",
+    "data": "2 June 2004 (original upload d"
+   }
+  ]
+ },
+ "i11": {
+  "q": "Walmart Supercenter",
+  "res": [
+   {
+    "titulo": "File:Walmart Supercenter - Quincy, FL.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Walmart_Supercenter_-_Quincy%2C_FL.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC0",
+    "autor": "Winnebaggo",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Walmart_Supercenter_-_Quincy,_FL.jpg",
+    "data": "Taken on 11 January 2025 15:42"
+   },
+   {
+    "titulo": "File:Walmart Supercenter - 488 - Quincy, FL.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Walmart_Supercenter_-_488_-_Quincy%2C_FL.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC0",
+    "autor": "FLGALine1999",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Walmart_Supercenter_-_488_-_Quincy,_FL.jpg",
+    "data": "2026-05-04 11:59:00"
+   }
+  ]
+ },
+ "i37": {
+  "q": "1980s television living room",
+  "res": [
+   {
+    "titulo": "File:26-12-091-living room.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/26-12-091-living_room.jpg",
+    "w": 3072,
+    "h": 1934,
+    "licenca": "CC0",
+    "autor": "Dsdugan",
+    "pagina": "https://commons.wikimedia.org/wiki/File:26-12-091-living_room.jpg",
+    "data": "2026-09-25 11:54:03"
+   }
+  ]
+ },
+ "i38": {
+  "q": "video game store",
+  "res": [
+   {
+    "titulo": "File:Fez (video game) cover art.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Fez_%28video_game%29_cover_art.png",
+    "w": 1800,
+    "h": 2399,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Bryan Lee O'Malley",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fez_(video_game)_cover_art.png",
+    "data": "2013-04-21"
+   },
+   {
+    "titulo": "File:Prune video game cover.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Prune_video_game_cover.png",
+    "w": 1125,
+    "h": 1500,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Joel McDonald (Polyculture)",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Prune_video_game_cover.png",
+    "data": "Unknown date"
+   }
+  ]
+ },
+ "i39": {
+  "q": "Nintendo Entertainment System cartridges",
+  "res": [
+   {
+    "titulo": "File:Super Mario World cassette on Super Nintendo Entertainment System 20080610.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Super_Mario_World_cassette_on_Super_Nintendo_Entertainment_System_20080610.jpg",
+    "w": 3456,
+    "h": 2304,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Dhscommtech",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Super_Mario_World_cassette_on_Super_Nintendo_Entertainment_System_20080610.jpg",
+    "data": "2008-06-10 03:08"
+   },
+   {
+    "titulo": "File:SNES-SFAM-Cartridges.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/SNES-SFAM-Cartridges.jpg",
+    "w": 3720,
+    "h": 1980,
+    "licenca": "Public domain",
+    "autor": "Evan-Amos",
+    "pagina": "https://commons.wikimedia.org/wiki/File:SNES-SFAM-Cartridges.jpg",
+    "data": "2011-10-13"
+   }
+  ]
+ },
+ "i40": {
+  "q": "bicycles store display",
+  "res": [
+   {
+    "titulo": "File:Geuken Rijwielen second-hand bicycles on display, Winschoten (2020) 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Geuken_Rijwielen_second-hand_bicycles_on_display%2C_Winschoten_%282020%29_02.jpg",
+    "w": 2736,
+    "h": 4864,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Origina",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Geuken_Rijwielen_second-hand_bicycles_on_display,_Winschoten_(2020)_02.jpg",
+    "data": "2020-07-15 10:50:06"
+   },
+   {
+    "titulo": "File:Geuken Rijwielen second-hand bicycles on display, Winschoten (2020) 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Geuken_Rijwielen_second-hand_bicycles_on_display%2C_Winschoten_%282020%29_01.jpg",
+    "w": 4864,
+    "h": 2736,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Origina",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Geuken_Rijwielen_second-hand_bicycles_on_display,_Winschoten_(2020)_01.jpg",
+    "data": "2020-07-15 10:50:01"
+   }
+  ]
+ },
+ "i41": {
+  "q": "Sears Wish Book",
+  "res": [
+   {
+    "titulo": "File:Photo of stamped lumber found in a Sears catalog house.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Photo_of_stamped_lumber_found_in_a_Sears_catalog_house.jpg",
+    "w": 2816,
+    "h": 2112,
+    "licenca": "Public domain",
+    "autor": "Rosemary Thornton",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Photo_of_stamped_lumber_found_in_a_Sears_catalog_house.jpg",
+    "data": "21 September 2013 (original up"
+   }
+  ]
+ },
+ "i47": {
+  "q": "Walmart toy aisle",
+  "res": []
+ },
+ "i48": {
+  "q": "Walmart store entrance",
+  "res": [
+   {
+    "titulo": "File:Walmart store entrance Belleville, ON 2001.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Walmart_store_entrance_Belleville%2C_ON_2001.jpg",
+    "w": 1141,
+    "h": 764,
+    "licenca": "CC0",
+    "autor": "Crombie McNeill",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Walmart_store_entrance_Belleville,_ON_2001.jpg",
+    "data": "2001"
+   },
+   {
+    "titulo": "File:China Shenzhen Walmart-entrance.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/China_Shenzhen_Walmart-entrance.jpg",
+    "w": 1152,
+    "h": 864,
+    "licenca": "Public domain",
+    "autor": "No machine-readable author provided. Chancelle assumed (based on copyright claims).",
+    "pagina": "https://commons.wikimedia.org/wiki/File:China_Shenzhen_Walmart-entrance.jpg",
+    "data": "25 July 2006 (original upload "
+   }
+  ]
+ },
+ "i51": {
+  "q": "1990s computer CRT monitor",
+  "res": [
+   {
+    "titulo": "File:SGI Indigo Workstation Computer (1990s) with large CRT monitor displaying a window of IRIX operating system.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/SGI_Indigo_Workstation_Computer_%281990s%29_with_large_CRT_monitor_displaying_a_window_of_IRIX_operating_system.jpg",
+    "w": 2266,
+    "h": 2220,
+    "licenca": "CC0",
+    "autor": "Wolfgang Stief from Tittmoning, Germany",
+    "pagina": "https://commons.wikimedia.org/wiki/File:SGI_Indigo_Workstation_Computer_(1990s)_with_large_CRT_monitor_displaying_a_window_of_IRIX_operating_system.jpg",
+    "data": "2016-10-02 12:03"
+   },
+   {
+    "titulo": "File:Gateway 2000.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Gateway_2000.jpg",
+    "w": 1307,
+    "h": 1425,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "MBlairMartin",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gateway_2000.jpg",
+    "data": "2006-01-14 01:43:11"
+   }
+  ]
+ },
+ "i56": {
+  "q": "Amazon.com website",
+  "res": [
+   {
+    "titulo": "File:134 Female Amazon kingfisher in Encontro das Águas State Park Photo by Giles Laurent.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/134_Female_Amazon_kingfisher_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+    "w": 7167,
+    "h": 4778,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Giles Laurent",
+    "pagina": "https://commons.wikimedia.org/wiki/File:134_Female_Amazon_kingfisher_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+    "data": "2024-08-11 21:14:55"
+   },
+   {
+    "titulo": "File:AMAZON warehouse - geograph.org.uk - 6437729.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/AMAZON_warehouse_-_geograph.org.uk_-_6437729.jpg",
+    "w": 2573,
+    "h": 1738,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Anthony O'Neil",
+    "pagina": "https://commons.wikimedia.org/wiki/File:AMAZON_warehouse_-_geograph.org.uk_-_6437729.jpg",
+    "data": "2020-03-31"
+   }
+  ]
+ },
+ "i59": {
+  "q": "Amazon fulfillment center",
+  "res": [
+   {
+    "titulo": "File:Amazon fulfillment center (14544646554).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Amazon_fulfillment_center_%2814544646554%29.jpg",
+    "w": 3264,
+    "h": 2448,
+    "licenca": "CC BY 2.0",
+    "autor": "Akos Kokai",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Amazon_fulfillment_center_(14544646554).jpg",
+    "data": "2014-06-19 12:36"
+   },
+   {
+    "titulo": "File:Amazon fulfillment center - Troutdale Oregon.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Amazon_fulfillment_center_-_Troutdale_Oregon.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Tedder",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Amazon_fulfillment_center_-_Troutdale_Oregon.jpg",
+    "data": "2020-07-31 11:21:47"
+   }
+  ]
+ },
+ "i61": {
+  "q": "Vornado Realty Trust",
+  "res": [
+   {
+    "titulo": "File:Bankers Trust Building 280 Park Avenue.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bankers_Trust_Building_280_Park_Avenue.jpg",
+    "w": 1633,
+    "h": 2304,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Beyond My Ken",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bankers_Trust_Building_280_Park_Avenue.jpg",
+    "data": "2012-08-04"
+   },
+   {
+    "titulo": "File:1999 K Street NW.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/1999_K_Street_NW.JPG",
+    "w": 2842,
+    "h": 2368,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "AgnosticPreachersKid",
+    "pagina": "https://commons.wikimedia.org/wiki/File:1999_K_Street_NW.JPG",
+    "data": "2009-07-28"
+   }
+  ]
+ },
+ "i85": {
+  "q": "Beanie Babies",
+  "res": [
+   {
+    "titulo": "File:Mom's Beanies (9120344523).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Mom%27s_Beanies_%289120344523%29.jpg",
+    "w": 1536,
+    "h": 2048,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "daryl_mitchell from Saskatoon, Saskatchewan, Canada",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Mom%27s_Beanies_(9120344523).jpg",
+    "data": "2013-06-16 16:46"
+   },
+   {
+    "titulo": "File:Beanies 20231230.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Beanies_20231230.jpg",
+    "w": 6000,
+    "h": 4000,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Tombus20032000",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Beanies_20231230.jpg",
+    "data": "2023-12-30 21:57:09"
+   }
+  ]
+ },
+ "i77": {
+  "q": "Best Buy store interior",
+  "res": [
+   {
+    "titulo": "File:Best buy 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Best_buy_2.jpg",
+    "w": 4128,
+    "h": 3096,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Hastengeims",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Best_buy_2.jpg",
+    "data": "2023-08-06 11:12:43"
+   },
+   {
+    "titulo": "File:The Best Specht, Finney, Skinner Company, 1911 - Valparaiso, Indiana (4177154794).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/The_Best_Specht%2C_Finney%2C_Skinner_Company%2C_1911_-_Valparaiso%2C_Indiana_%284177154794%29.jpg",
+    "w": 3461,
+    "h": 2501,
+    "licenca": "CC BY 2.0",
+    "autor": "Steve Shook from Moscow, Idaho, USA",
+    "pagina": "https://commons.wikimedia.org/wiki/File:The_Best_Specht,_Finney,_Skinner_Company,_1911_-_Valparaiso,_Indiana_(4177154794).jpg",
+    "data": "2009-12-11 09:54"
+   }
+  ]
+ },
+ "i73": {
+  "q": "loading dock trucks",
+  "res": [
+   {
+    "titulo": "File:Gate Gourmet loading dock.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Gate_Gourmet_loading_dock.jpg",
+    "w": 1816,
+    "h": 1815,
+    "licenca": "CC0",
+    "autor": "User:Aebion",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gate_Gourmet_loading_dock.jpg",
+    "data": "2024-04-11 08:00:00"
+   },
+   {
+    "titulo": "File:Truck backs up to loading dock (42111562102).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Truck_backs_up_to_loading_dock_%2842111562102%29.jpg",
+    "w": 4032,
+    "h": 3024,
+    "licenca": "CC BY 2.0",
+    "autor": "Eric Fischer",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Truck_backs_up_to_loading_dock_(42111562102).jpg",
+    "data": "2018-04-13 09:27"
+   }
+  ]
+ },
+ "i76": {
+  "q": "dead mall parking lot",
+  "res": [
+   {
+    "titulo": "File:West Side of JCPenney; Southern Park Mall; Boardman OH.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/West_Side_of_JCPenney%3B_Southern_Park_Mall%3B_Boardman_OH.jpg",
+    "w": 3024,
+    "h": 4032,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Larry Hachucka",
+    "pagina": "https://commons.wikimedia.org/wiki/File:West_Side_of_JCPenney;_Southern_Park_Mall;_Boardman_OH.jpg",
+    "data": "2023-07-14 20:43:58"
+   },
+   {
+    "titulo": "File:Tumbleweed (3935558079).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Tumbleweed_%283935558079%29.jpg",
+    "w": 2048,
+    "h": 1536,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Loozrboy from Toronto, Canada",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Tumbleweed_(3935558079).jpg",
+    "data": "2009-09-06 14:30"
+   }
+  ]
+ },
+ "i50": {
+  "q": "empty toy store",
+  "res": [
+   {
+    "titulo": "File:Kingsway West Retail Park Dundee 2014 I Panorama.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Kingsway_West_Retail_Park_Dundee_2014_I_Panorama.jpg",
+    "w": 14843,
+    "h": 1496,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Laerol",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Kingsway_West_Retail_Park_Dundee_2014_I_Panorama.jpg",
+    "data": "2014-06-01"
+   },
+   {
+    "titulo": "File:Kingsway West Retail Park Dundee 2014 Ia Panorama cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Kingsway_West_Retail_Park_Dundee_2014_Ia_Panorama_cropped.jpg",
+    "w": 14532,
+    "h": 665,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Laerol",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Kingsway_West_Retail_Park_Dundee_2014_Ia_Panorama_cropped.jpg",
+    "data": "2014-06-01"
+   }
+  ]
+ },
+ "i31": {
+  "q": "toy store shelves",
+  "res": [
+   {
+    "titulo": "File:Model Of Grocery Store (USA), ca. 1870 (CH 18563703).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Model_Of_Grocery_Store_%28USA%29%2C_ca._1870_%28CH_18563703%29.jpg",
+    "w": 4096,
+    "h": 4096,
+    "licenca": "Public domain",
+    "autor": "Unknown artistUnknown artist",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Model_Of_Grocery_Store_(USA),_ca._1870_(CH_18563703).jpg",
+    "data": "circa 1870date QS:P571,+1870-0"
+   },
+   {
+    "titulo": "File:Model Of Grocery Store (USA), ca. 1870 (CH 18563703-2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Model_Of_Grocery_Store_%28USA%29%2C_ca._1870_%28CH_18563703-2%29.jpg",
+    "w": 4096,
+    "h": 3606,
+    "licenca": "Public domain",
+    "autor": "Unknown artistUnknown artist",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Model_Of_Grocery_Store_(USA),_ca._1870_(CH_18563703-2).jpg",
+    "data": "circa 1870date QS:P571,+1870-0"
+   }
+  ]
+ },
+ "i32": {
+  "q": "toy price tags",
+  "res": [
+   {
+    "titulo": "File:Fisher-Price logo 2020.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Fisher-Price_logo_2020.png",
+    "w": 5554,
+    "h": 2203,
+    "licenca": "Public domain",
+    "autor": "Mattel, Inc.",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fisher-Price_logo_2020.png",
+    "data": "2020-01-07"
+   },
+   {
+    "titulo": "File:Ludiloj por knaboj en vendejo Kari Kids.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Ludiloj_por_knaboj_en_vendejo_Kari_Kids.jpg",
+    "w": 4000,
+    "h": 1800,
+    "licenca": "CC0",
+    "autor": "RG72",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ludiloj_por_knaboj_en_vendejo_Kari_Kids.jpg",
+    "data": "2023-12-13 14:38:35"
+   }
+  ]
+ },
+ "i36": {
+  "q": "closed toy shop",
+  "res": [
+   {
+    "titulo": "File:Toys Я Us closed - geograph.org.uk - 5791145.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Toys_%D0%AF_Us_closed_-_geograph.org.uk_-_5791145.jpg",
+    "w": 1600,
+    "h": 1200,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Hugh Venables",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%D0%AF_Us_closed_-_geograph.org.uk_-_5791145.jpg",
+    "data": "2018-05-15"
+   },
+   {
+    "titulo": "File:Toys R Us Babies R Us Closed Miami (42250163315).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Toys_R_Us_Babies_R_Us_Closed_Miami_%2842250163315%29.jpg",
+    "w": 3621,
+    "h": 2594,
+    "licenca": "CC BY 2.0",
+    "autor": "Phillip Pessar",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_Babies_R_Us_Closed_Miami_(42250163315).jpg",
+    "data": "2018-07-02 11:51"
+   }
+  ]
+ },
+ "i42": {
+  "q": "toy store Christmas shopping",
+  "res": [
+   {
+    "titulo": "File:Toy store in Colmar, France.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Toy_store_in_Colmar%2C_France.jpg",
+    "w": 3264,
+    "h": 2448,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Lightyearsawayfromnow",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toy_store_in_Colmar,_France.jpg",
+    "data": "2015-11-30"
+   },
+   {
+    "titulo": "File:Display. Christmas Display at Woolworth's BAnQ P48S1P06790.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Display._Christmas_Display_at_Woolworth%27s_BAnQ_P48S1P06790.jpg",
+    "w": 960,
+    "h": 620,
+    "licenca": "Public domain",
+    "autor": "Conrad Poirier",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Display._Christmas_Display_at_Woolworth%27s_BAnQ_P48S1P06790.jpg",
+    "data": "1 January 1941date QS:P571,+19"
+   }
+  ]
+ },
+ "i82": {
+  "q": "action figures store",
+  "res": [
+   {
+    "titulo": "File:Paul Stanley Action Figur3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Paul_Stanley_Action_Figur3.jpg",
+    "w": 1000,
+    "h": 1333,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Joshua06",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Paul_Stanley_Action_Figur3.jpg",
+    "data": "2006-06"
+   },
+   {
+    "titulo": "File:African figures in Adligat.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/African_figures_in_Adligat.jpg",
+    "w": 1564,
+    "h": 1564,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Viktor Lazić",
+    "pagina": "https://commons.wikimedia.org/wiki/File:African_figures_in_Adligat.jpg",
+    "data": "2017-10-01"
+   }
+  ]
+ },
+ "i83": {
+  "q": "family toy store",
+  "res": [
+   {
+    "titulo": "File:Shop Window of Sylvanian Families Store, London.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Shop_Window_of_Sylvanian_Families_Store%2C_London.jpg",
+    "w": 2048,
+    "h": 1536,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Saima from Flickr \n\nOriginal uploader was Dancingwombatsrule at en.wikipedia",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Shop_Window_of_Sylvanian_Families_Store,_London.jpg",
+    "data": "19 March 2008 (original upload"
+   },
+   {
+    "titulo": "File:FamilyMart Futai Store umbrella stand and capsule toys (54537324233).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/FamilyMart_Futai_Store_umbrella_stand_and_capsule_toys_%2854537324233%29.jpg",
+    "w": 2268,
+    "h": 4032,
+    "licenca": "CC0",
+    "autor": "玄史生",
+    "pagina": "https://commons.wikimedia.org/wiki/File:FamilyMart_Futai_Store_umbrella_stand_and_capsule_toys_(54537324233).jpg",
+    "data": "2025-05-22 17:52:36"
+   }
+  ]
+ },
+ "i09": {
+  "q": "shopping cart empty store",
+  "res": [
+   {
+    "titulo": "File:Empty shopping carts lined up in a grocery store waiting for customers to begin their shopping tasks.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Empty_shopping_carts_lined_up_in_a_grocery_store_waiting_for_customers_to_begin_their_shopping_tasks.jpg",
+    "w": 6016,
+    "h": 4016,
+    "licenca": "CC BY 2.0",
+    "autor": "Shixart1985",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Empty_shopping_carts_lined_up_in_a_grocery_store_waiting_for_customers_to_begin_their_shopping_tasks.jpg",
+    "data": "2022-11-19 14:22:14"
+   },
+   {
+    "titulo": "File:Woman shopping inside a store with a cart on a sunny day.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Woman_shopping_inside_a_store_with_a_cart_on_a_sunny_day.jpg",
+    "w": 4032,
+    "h": 6048,
+    "licenca": "CC BY 2.0",
+    "autor": "Shixart1985",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Woman_shopping_inside_a_store_with_a_cart_on_a_sunny_day.jpg",
+    "data": "2026-08-22 09:37:13"
+   }
+  ]
+ },
+ "i46": {
+  "q": "cracked shop window",
+  "res": [
+   {
+    "titulo": "File:Ukraine, Kyyivska, Prypyat, Prypiat, prospekt Lenina, 29а - Household goods store WMID7715656.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Ukraine%2C_Kyyivska%2C_Prypyat%2C_Prypiat%2C_prospekt_Lenina%2C_29%D0%B0_-_Household_goods_store_WMID7715656.jpg",
+    "w": 1728,
+    "h": 1296,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Chkalov",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ukraine,_Kyyivska,_Prypyat,_Prypiat,_prospekt_Lenina,_29%D0%B0_-_Household_goods_store_WMID7715656.jpg",
+    "data": "2020"
+   },
+   {
+    "titulo": "File:Survey of Earthquake Fault Trace map - Masterton Earthquake (June 24 1942) (18749413649).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Survey_of_Earthquake_Fault_Trace_map_-_Masterton_Earthquake_%28June_24_1942%29_%2818749413649%29.jpg",
+    "w": 5301,
+    "h": 8987,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Archives New Zealand from New Zealand",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Survey_of_Earthquake_Fault_Trace_map_-_Masterton_Earthquake_(June_24_1942)_(18749413649).jpg",
+    "data": "2015-06-16 12:39"
+   }
+  ]
+ },
+ "i68": {
+  "q": "messy store shelves",
+  "res": []
+ },
+ "i70": {
+  "q": "newspaper bankruptcy",
+  "res": [
+   {
+    "titulo": "File:Pic Nias 1813 Newspaper.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Pic_Nias_1813_Newspaper.png",
+    "w": 2530,
+    "h": 1172,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Sandrasdrost",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Pic_Nias_1813_Newspaper.png",
+    "data": "2015-05-01"
+   },
+   {
+    "titulo": "File:Birmingham Post Herald 1907-02-15 Mann Lumber Company.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Birmingham_Post_Herald_1907-02-15_Mann_Lumber_Company.jpg",
+    "w": 2714,
+    "h": 2633,
+    "licenca": "Public domain",
+    "autor": "Birmingham Post-Herald",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Birmingham_Post_Herald_1907-02-15_Mann_Lumber_Company.jpg",
+    "data": "1907-02-15"
+   }
+  ]
+ },
+ "i57": {
+  "q": "gavel",
+  "res": [
+   {
+    "titulo": "File:Legal Gavel (27571702173).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Legal_Gavel_%2827571702173%29.jpg",
+    "w": 5065,
+    "h": 3838,
+    "licenca": "CC BY 2.0",
+    "autor": "Blogtrepreneur",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Legal_Gavel_(27571702173).jpg",
+    "data": "2016-07-26 11:00"
+   },
+   {
+    "titulo": "File:Wooden gavel 20170417.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Wooden_gavel_20170417.jpg",
+    "w": 4592,
+    "h": 3448,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Santeri Viinamäki",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Wooden_gavel_20170417.jpg",
+    "data": "2017-04-17 15:58:51"
+   }
+  ]
+ },
+ "i62": {
+  "q": "stack of dollar bills",
+  "res": [
+   {
+    "titulo": "File:1000 United States two-dollar bills in shrink wrap.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/1000_United_States_two-dollar_bills_in_shrink_wrap.jpg",
+    "w": 3643,
+    "h": 2576,
+    "licenca": "CC BY-SA 3.0",
+    "autor": "Edward Betts",
+    "pagina": "https://commons.wikimedia.org/wiki/File:1000_United_States_two-dollar_bills_in_shrink_wrap.jpg",
+    "data": "2011-02-11 13:25:07"
+   },
+   {
+    "titulo": "File:80 1 dollar bills in a homemade banknote strap.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/80_1_dollar_bills_in_a_homemade_banknote_strap.jpg",
+    "w": 2666,
+    "h": 1772,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "BrayLockBoy",
+    "pagina": "https://commons.wikimedia.org/wiki/File:80_1_dollar_bills_in_a_homemade_banknote_strap.jpg",
+    "data": "2022-01-14"
+   }
+  ]
+ },
+ "i12": {
+  "q": "boardroom",
+  "res": [
+   {
+    "titulo": "File:HF USA first Board of Directors meeting in Houston, December 2007 (15).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/HF_USA_first_Board_of_Directors_meeting_in_Houston%2C_December_2007_%2815%29.jpg",
+    "w": 3072,
+    "h": 2048,
+    "licenca": "CC BY-SA 2.0",
+    "autor": "Hashoo Foundation USA",
+    "pagina": "https://commons.wikimedia.org/wiki/File:HF_USA_first_Board_of_Directors_meeting_in_Houston,_December_2007_(15).jpg",
+    "data": "2008-05-30 21:27:36"
+   },
+   {
+    "titulo": "File:V.l. Kristan Jorge Smith, ugur Özkeser - CONNAMIX Board of Directors.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/V.l._Kristan_Jorge_Smith%2C_ugur_%C3%96zkeser_-_CONNAMIX_Board_of_Directors.jpg",
+    "w": 1200,
+    "h": 782,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Lali Walter",
+    "pagina": "https://commons.wikimedia.org/wiki/File:V.l._Kristan_Jorge_Smith,_ugur_%C3%96zkeser_-_CONNAMIX_Board_of_Directors.jpg",
+    "data": "2020-10-28 12:19:50"
+   }
+  ]
+ },
+ "i53": {
+  "q": "handshake business",
+  "res": [
+   {
+    "titulo": "File:Business agreement handshake at coffee shop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Business_agreement_handshake_at_coffee_shop.jpg",
+    "w": 6000,
+    "h": 4015,
+    "licenca": "CC0",
+    "autor": "rawpixel.com",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Business_agreement_handshake_at_coffee_shop.jpg",
+    "data": "2017-03-31 14:03:30"
+   },
+   {
+    "titulo": "File:Business man and woman handshake in work office.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Business_man_and_woman_handshake_in_work_office.jpg",
+    "w": 4000,
+    "h": 2667,
+    "licenca": "CC BY 2.0",
+    "autor": "perzon seo",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Business_man_and_woman_handshake_in_work_office.jpg",
+    "data": "2017-02-19 18:12:05"
+   }
+  ]
+ },
+ "i55": {
+  "q": "warehouse workers packing",
+  "res": [
+   {
+    "titulo": "File:Warehouse workers prepare packages for shipment at Sharpe Army Depot - DPLA - 414220df83b823977c05c01a4b6b4106.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Warehouse_workers_prepare_packages_for_shipment_at_Sharpe_Army_Depot_-_DPLA_-_414220df83b823977c05c01a4b6b4106.jpeg",
+    "w": 2840,
+    "h": 1910,
+    "licenca": "Public domain",
+    "autor": "Department of Defense. American Forces Information Service. Defense Visual Information Center. 1994",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Warehouse_workers_prepare_packages_for_shipment_at_Sharpe_Army_Depot_-_DPLA_-_414220df83b823977c05c01a4b6b4106.jpeg",
+    "data": "3 November 1987date QS:P571,+1"
+   },
+   {
+    "titulo": "File:Packing oats at the Albers Bros Milling Company, 1910 (MOHAI 6197).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Packing_oats_at_the_Albers_Bros_Milling_Company%2C_1910_%28MOHAI_6197%29.jpg",
+    "w": 869,
+    "h": 700,
+    "licenca": "Public domain",
+    "autor": "Webster &amp; Stevens",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Packing_oats_at_the_Albers_Bros_Milling_Company,_1910_(MOHAI_6197).jpg",
+    "data": "1910date QS:P571,+1910-00-00T0"
+   }
+  ]
+ },
+ "i60": {
+  "q": "giraffe plush toy",
+  "res": []
+ },
+ "i66": {
+  "q": "run-down store interior",
+  "res": [
+   {
+    "titulo": "File:Bazalgette Lancaster FM-159 (51068582641).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Bazalgette_Lancaster_FM-159_%2851068582641%29.jpg",
+    "w": 2322,
+    "h": 4128,
+    "licenca": "CC BY 2.0",
+    "autor": "Eric Friedebach",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bazalgette_Lancaster_FM-159_(51068582641).jpg",
+    "data": "2014-10-04 12:40"
+   },
+   {
+    "titulo": "File:Bazalgette Lancaster FM-159 (51067877138).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bazalgette_Lancaster_FM-159_%2851067877138%29.jpg",
+    "w": 2322,
+    "h": 4128,
+    "licenca": "CC BY 2.0",
+    "autor": "Eric Friedebach",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bazalgette_Lancaster_FM-159_(51067877138).jpg",
+    "data": "2014-10-04 12:40"
+   }
+  ]
+ },
+ "i64": {
+  "q": "Toys R Us store",
+  "res": [
+   {
+    "titulo": "File:Toys \"R\" Us store at Dallas Fort Worth International Airport.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Toys_%22R%22_Us_store_at_Dallas_Fort_Worth_International_Airport.jpg",
+    "w": 3024,
+    "h": 4032,
+    "licenca": "CC0",
+    "autor": "Roc0ast3r",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_store_at_Dallas_Fort_Worth_International_Airport.jpg",
+    "data": "2024-07-02 20:26:03"
+   },
+   {
+    "titulo": "File:Toys \"R\" Us store at Denver Premium Outlets 2026-06-26.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Toys_%22R%22_Us_store_at_Denver_Premium_Outlets_2026-06-26.jpg",
+    "w": 4080,
+    "h": 3060,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Xnatedawgx",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toys_%22R%22_Us_store_at_Denver_Premium_Outlets_2026-06-26.jpg",
+    "data": "2026-06-26 12:31:38"
+   }
+  ]
+ },
+ "i74": {
+  "q": "empty shelves store closing",
+  "res": [
+   {
+    "titulo": "File:Empty shelves inside Borders.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Empty_shelves_inside_Borders.jpg",
+    "w": 3840,
+    "h": 2160,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Skyfaller",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Empty_shelves_inside_Borders.jpg",
+    "data": "Taken on 14 April 2011"
+   },
+   {
+    "titulo": "File:Covid-19 pandemic open corner store, Philip Lane, Tottenham, London, England 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Covid-19_pandemic_open_corner_store%2C_Philip_Lane%2C_Tottenham%2C_London%2C_England_1.jpg",
+    "w": 4372,
+    "h": 3279,
+    "licenca": "CC BY-SA 4.0",
+    "autor": "Acabashi",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Covid-19_pandemic_open_corner_store,_Philip_Lane,_Tottenham,_London,_England_1.jpg",
+    "data": "2020-04-12 13:16:53"
    }
   ]
  }
