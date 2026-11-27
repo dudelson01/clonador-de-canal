@@ -27,6 +27,7 @@
 
 ## Narração
 - Voz de IA (ai33.pro), masculina, grave, tom de documentário, ~165–170 palavras/min (Nerf: 187).
+- **Voz escolhida (27/11/26): "Daniel - Warm, Confident & Compelling"** (ai33/ElevenLabs, voice_id 8GmsjNWRZ3Rk8VmRpvBZ), atempo 1,05 para chegar perto de 168 palavras/min.
 - Nunca clonar voz de pessoa real.
 
 ## Edição (medida em 27/11/26 nos 3 vídeos enviados pelo aluno; detalhes em `referencia/edicao-medida.md`)
@@ -48,3 +49,4 @@
 ## Decisões deste canal
 - 24/11/2026: nicho e subnicho escolhidos com base no raio-x (aguardando aprovação do aluno).
 - 27/11/2026: aluno enviou 3 vídeos de referência (Nerf, Zombie Catchers, Every Restaurant Chain) e pediu o vídeo 1. Edição medida e definida acima; roteiro do vídeo 1 (Toys"R"Us) escrito com gancho atual (120 lojas novas no Natal de 2026).
+- 27/11/2026: aluno escolheu a voz C (Daniel) entre 3 amostras.

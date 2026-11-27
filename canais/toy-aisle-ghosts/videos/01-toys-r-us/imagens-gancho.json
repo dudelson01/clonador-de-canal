@@ -1,0 +1,72 @@
+[
+ {
+  "id": "i01",
+  "prompt": "A huge big-box toy store at night seen from the parking lot, the giant store sign half dark and flickering, a few cars, lonely atmosphere, realistic news photograph, 2018, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i02",
+  "prompt": "Inside a toy store during a liquidation sale, mostly empty metal shelves, big yellow and red going-out-of-business banners hanging from the ceiling without readable words, realistic news photograph, 2018, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "mapa",
+  "prompt": "Flat minimalist map of the contiguous United States as one solid dark navy blue silhouette, no state borders, plain pure white background, no text, vector style, centered",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i03",
+  "prompt": "Silhouette of an elderly man seen from behind sitting by a large window at dusk, soft backlight, face not visible, melancholic, a framed old photo of a store on the windowsill, realistic news photograph, 2018, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i04",
+  "prompt": "A 1950s toy store storefront on a city street in Washington DC, vintage sepia photograph, people in 1950s clothes looking at window displays full of toys, no readable signs",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i05",
+  "prompt": "Toy store employees wearing matching vests and name badges standing in a nearly empty store, hugging and looking sad on the last day, realistic news photograph, 2018, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i06",
+  "prompt": "Excited children running down a giant colorful toy store aisle stacked to the ceiling with toy boxes, bikes hanging above, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i07",
+  "prompt": "A brand new modern toy store being prepared for opening, construction workers installing shelves, bright lights, boxes of toys being unpacked, realistic photograph, 2026, bright and clean, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i08",
+  "prompt": "Families with kids and adults entering a bright new toy store decorated for Christmas with garlands and lights, festive opening day crowd, realistic photograph, 2026, bright and clean, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i09",
+  "prompt": "An empty red shopping cart alone in the middle of a dark toy store aisle at night, only emergency lights on, eerie and nostalgic, realistic news photograph, 2018, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i10",
+  "prompt": "Cardboard delivery boxes stacked on the front porch of a suburban house, plain brown boxes with no markings, realistic news photograph, 2018, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i11",
+  "prompt": "A giant discount superstore exterior with a huge parking lot full of cars, shoppers pushing carts, plain facade with no readable sign, authentic 1990s 35mm film photograph, slightly faded warm colors, film grain, candid documentary snapshot, realistic, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i12",
+  "prompt": "Three businessmen in dark suits seen as silhouettes in a glass-walled corporate boardroom high above a city, one signing a thick contract, cold blue light, 2005, realistic news photograph, 2005, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ },
+ {
+  "id": "i13",
+  "prompt": "A dark abandoned big-box toy store interior, empty shelves, one fluorescent light still flickering at the end of the aisle, a single forgotten plush toy on the floor, realistic news photograph, 2018, natural light, documentary style, no readable text, no logos",
+  "ratio": "16:9"
+ }
+]

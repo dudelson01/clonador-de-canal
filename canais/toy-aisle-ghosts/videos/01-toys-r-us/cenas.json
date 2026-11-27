@@ -1,0 +1,23 @@
+[
+ {"id": "s01", "ancora": "On March", "tipo": "cards", "imgs": ["i01"], "legenda": "March 15, 2018"},
+ {"id": "s02", "ancora": "Toys R Us announced", "tipo": "cards", "imgs": ["i02"], "legenda": "every single store", "placa": "CLOSING"},
+ {"id": "s03", "ancora": "in America", "tipo": "mapa", "pinos": 735, "modo": "surge"},
+ {"id": "s04", "ancora": "One week later", "tipo": "cards", "imgs": ["i03"], "legenda": "One week later..."},
+ {"id": "s05", "ancora": "He was", "tipo": "numero", "valor": 94, "rotulo": "years old"},
+ {"id": "s06", "ancora": "735 stores", "tipo": "mapa", "pinos": 735, "modo": "some", "rotulo": "735 stores"},
+ {"id": "s07", "ancora": "around 30", "tipo": "cards", "imgs": ["i05"], "legenda": "~30,000 jobs"},
+ {"id": "s08", "ancora": "The place every", "tipo": "cards", "imgs": ["i06"], "legenda": "every kid's favorite place"},
+ {"id": "s09", "ancora": "gone in a", "tipo": "palavra", "texto": "GONE."},
+ {"id": "s10", "ancora": "And now", "tipo": "cards", "imgs": ["i07"], "legenda": "8 years later"},
+ {"id": "s11", "ancora": "something strange", "tipo": "palavra", "texto": "SOMETHING STRANGE..."},
+ {"id": "s12", "ancora": "This Christmas", "tipo": "cards", "imgs": ["i08"], "legenda": "Christmas 2026"},
+ {"id": "s13", "ancora": "opening 120", "tipo": "numero", "valor": 120, "rotulo": "new stores"},
+ {"id": "s14", "ancora": "So what actually", "tipo": "cards", "imgs": ["i09"], "legenda": "So what killed it?"},
+ {"id": "s15", "ancora": "It wasn't Amazon", "tipo": "cards", "imgs": ["i10"], "carimbo": "NOT AMAZON"},
+ {"id": "s16", "ancora": "It wasn't Walmart", "tipo": "cards", "imgs": ["i11"], "carimbo": "NOT WALMART"},
+ {"id": "s17", "ancora": "The real answer", "tipo": "cards", "imgs": ["i12"], "legenda": "a deal most people never heard of"},
+ {"id": "s18", "ancora": "signed in a", "tipo": "ano", "valor": 2005},
+ {"id": "s19", "ancora": "And by the end", "tipo": "cards", "imgs": ["i13", "i09"], "legenda": "doomed 13 years before the end"},
+ {"id": "s20", "ancora": "doomed 13", "tipo": "palavra", "texto": "DOOMED.", "vermelho": true},
+ {"id": "s21", "ancora": "The story starts", "tipo": "cards", "imgs": ["i04"], "legenda": "Washington, D.C. — 1948"}
+]

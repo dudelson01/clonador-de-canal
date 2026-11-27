@@ -1,0 +1,217 @@
+[
+ {
+  "id": "s01",
+  "ancora": "On March",
+  "tipo": "cards",
+  "imgs": [
+   "i01"
+  ],
+  "legenda": "March 15, 2018",
+  "ini": 0.0,
+  "fim": 2.2199999999999998
+ },
+ {
+  "id": "s02",
+  "ancora": "Toys R Us announced",
+  "tipo": "cards",
+  "imgs": [
+   "i02"
+  ],
+  "legenda": "every single store",
+  "placa": "CLOSING",
+  "ini": 2.2199999999999998,
+  "fim": 5.0
+ },
+ {
+  "id": "s03",
+  "ancora": "in America",
+  "tipo": "mapa",
+  "pinos": 735,
+  "modo": "surge",
+  "ini": 5.0,
+  "fim": 6.3
+ },
+ {
+  "id": "s04",
+  "ancora": "One week later",
+  "tipo": "cards",
+  "imgs": [
+   "i03"
+  ],
+  "legenda": "One week later...",
+  "ini": 6.3,
+  "fim": 8.940000000000001
+ },
+ {
+  "id": "s05",
+  "ancora": "He was",
+  "tipo": "numero",
+  "valor": 94,
+  "rotulo": "years old",
+  "ini": 8.940000000000001,
+  "fim": 10.440000000000001
+ },
+ {
+  "id": "s06",
+  "ancora": "735 stores",
+  "tipo": "mapa",
+  "pinos": 735,
+  "modo": "some",
+  "rotulo": "735 stores",
+  "ini": 10.440000000000001,
+  "fim": 12.82
+ },
+ {
+  "id": "s07",
+  "ancora": "around 30",
+  "tipo": "cards",
+  "imgs": [
+   "i05"
+  ],
+  "legenda": "~30,000 jobs",
+  "ini": 12.82,
+  "fim": 15.040000000000001
+ },
+ {
+  "id": "s08",
+  "ancora": "The place every",
+  "tipo": "cards",
+  "imgs": [
+   "i06"
+  ],
+  "legenda": "every kid's favorite place",
+  "ini": 15.040000000000001,
+  "fim": 17.3
+ },
+ {
+  "id": "s09",
+  "ancora": "gone in a",
+  "tipo": "palavra",
+  "texto": "GONE.",
+  "ini": 17.3,
+  "fim": 19.18
+ },
+ {
+  "id": "s10",
+  "ancora": "And now",
+  "tipo": "cards",
+  "imgs": [
+   "i07"
+  ],
+  "legenda": "8 years later",
+  "ini": 19.18,
+  "fim": 21.22
+ },
+ {
+  "id": "s11",
+  "ancora": "something strange",
+  "tipo": "palavra",
+  "texto": "SOMETHING STRANGE...",
+  "ini": 21.22,
+  "fim": 23.14
+ },
+ {
+  "id": "s12",
+  "ancora": "This Christmas",
+  "tipo": "cards",
+  "imgs": [
+   "i08"
+  ],
+  "legenda": "Christmas 2026",
+  "ini": 23.14,
+  "fim": 25.08
+ },
+ {
+  "id": "s13",
+  "ancora": "opening 120",
+  "tipo": "numero",
+  "valor": 120,
+  "rotulo": "new stores",
+  "ini": 25.08,
+  "fim": 28.16
+ },
+ {
+  "id": "s14",
+  "ancora": "So what actually",
+  "tipo": "cards",
+  "imgs": [
+   "i09"
+  ],
+  "legenda": "So what killed it?",
+  "ini": 28.16,
+  "fim": 30.36
+ },
+ {
+  "id": "s15",
+  "ancora": "It wasn't Amazon",
+  "tipo": "cards",
+  "imgs": [
+   "i10"
+  ],
+  "carimbo": "NOT AMAZON",
+  "ini": 30.36,
+  "fim": 32.96
+ },
+ {
+  "id": "s16",
+  "ancora": "It wasn't Walmart",
+  "tipo": "cards",
+  "imgs": [
+   "i11"
+  ],
+  "carimbo": "NOT WALMART",
+  "ini": 32.96,
+  "fim": 34.6
+ },
+ {
+  "id": "s17",
+  "ancora": "The real answer",
+  "tipo": "cards",
+  "imgs": [
+   "i12"
+  ],
+  "legenda": "a deal most people never heard of",
+  "ini": 34.6,
+  "fim": 38.120000000000005
+ },
+ {
+  "id": "s18",
+  "ancora": "signed in a",
+  "tipo": "ano",
+  "valor": 2005,
+  "ini": 38.120000000000005,
+  "fim": 41.1
+ },
+ {
+  "id": "s19",
+  "ancora": "And by the end",
+  "tipo": "cards",
+  "imgs": [
+   "i13",
+   "i09"
+  ],
+  "legenda": "doomed 13 years before the end",
+  "ini": 41.1,
+  "fim": 43.86
+ },
+ {
+  "id": "s20",
+  "ancora": "doomed 13",
+  "tipo": "palavra",
+  "texto": "DOOMED.",
+  "vermelho": true,
+  "ini": 43.86,
+  "fim": 47.720000000000006
+ },
+ {
+  "id": "s21",
+  "ancora": "The story starts",
+  "tipo": "cards",
+  "imgs": [
+   "i04"
+  ],
+  "legenda": "Washington, D.C. — 1948",
+  "ini": 47.720000000000006,
+  "fim": 515.414467
+ }
+]
